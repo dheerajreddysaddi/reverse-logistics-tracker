@@ -779,10 +779,8 @@ elif view == "Anomaly Center & Metrics":
                 rule_name = item.get("rule_name", "Anomaly")
                 details = item.get("details", "No additional details.")
 
-                st.markdown(
-                    f"**{index}. {rule} — {rule_name}**  \\n"
-                    f"Severity: {severity} · Asset ID: {asset}"
-                )
+                st.markdown(f"**{index}. {rule} — {rule_name}**")
+                st.caption(f"Severity: {severity} · Asset ID: {asset}")
                 st.write(details)
                 if index < len(anomalies):
                     st.divider()
