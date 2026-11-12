@@ -36,7 +36,9 @@ data/processed/*.csv
 !.vscode/settings.json
 
 # Streamlit
-.streamlit/
+.streamlit/*
+!.streamlit/config.toml
+
 
 # Logs
 *.log

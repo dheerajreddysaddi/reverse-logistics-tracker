@@ -38,8 +38,31 @@ from src.services.validation_engine import ValidationEngine
 from src.services.lifecycle_engine import LifecycleEngine
 
 # --------------------------------------------------
+# CLOUD BOOTSTRAP: AUTO-SEED DATABASE IF FRESH
+# --------------------------------------------------
+
+def ensure_database_ready():
+    """Ensure database schema and starter data exist in fresh cloud environments."""
+    try:
+        from src.database.connection import Base, engine
+        Base.metadata.create_all(bind=engine)
+        db = SessionLocal()
+        try:
+            asset_count = db.query(ReusableAsset).count()
+            if asset_count == 0:
+                from scripts.reproduce_all import reproduce_all
+                reproduce_all(scale="starter", seed=20261022)
+        finally:
+            db.close()
+    except Exception:
+        pass
+
+ensure_database_ready()
+
+# --------------------------------------------------
 # PAGE CONFIGURATION & BRANDING
 # --------------------------------------------------
+
 
 st.set_page_config(
     page_title="Reverse Logistics Control Tower",
