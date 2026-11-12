@@ -33,6 +33,7 @@ from src.database.models import (
 from src.services.custody_service import CustodyService
 from src.services.anomaly_detector import AnomalyDetector
 from src.services.evaluation_metrics import EvaluationEngine
+from src.dashboard.theme import inject_theme
 
 
 # --------------------------------------------------
@@ -45,6 +46,8 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded",
 )
+
+inject_theme()
 
 st.title("📦 Reverse Logistics Control Tower")
 st.caption(
@@ -217,8 +220,7 @@ if view == "Executive Overview":
 
     col3.metric(
         "Total RMAs",
-        f"{stats['total_rmas']:,}",
-    )
+        f"{stats['total_rmas']:,}",    )
 
     col4.metric(
         "Repairs",
@@ -438,7 +440,6 @@ elif view == "Asset Trajectory Explorer":
                     location_name = event["to_location"]
 
                     location = location_lookup.get(location_name)
-
                     if location and location.city:
                         coordinates = city_coordinates.get(
                             location.city
@@ -658,205 +659,3 @@ elif view == "Reverse Logistics & RMAs":
         st.dataframe(
             inspection_df,
             use_container_width=True,
-            hide_index=True,
-        )
-    else:
-        st.info("No inspection records available.")
-
-    st.subheader("Repair Records")
-
-    if not repair_df.empty:
-        st.dataframe(
-            repair_df,
-            use_container_width=True,
-            hide_index=True,
-        )
-    else:
-        st.info("No repair records available.")
-
-    st.subheader("Return Authorizations")
-
-    rma_rows = [
-        {
-            "Return Code": rma.return_code,
-            "Asset ID": rma.asset_id,
-            "Requested By": rma.requested_by,
-            "Request Date": rma.request_date,
-            "Status": rma.return_status,
-        }
-        for rma in rmas
-    ]
-
-    if rma_rows:
-        st.dataframe(
-            pd.DataFrame(rma_rows),
-            use_container_width=True,
-            hide_index=True,
-        )
-    else:
-        st.info("No return authorizations available.")
-
-
-# --------------------------------------------------
-# VIEW 4: ANOMALY CENTER AND METRICS
-# --------------------------------------------------
-
-elif view == "Anomaly Center & Metrics":
-
-    st.header("🚨 Anomaly Center & Model Scorecard")
-
-    st.write(
-        "Monitor detected custody and financial anomalies "
-        "and evaluate detection performance against ground truth."
-    )
-
-    db = SessionLocal()
-
-    try:
-        anomalies = AnomalyDetector.scan_all(db)
-        report = EvaluationEngine.evaluate(db)
-
-    finally:
-        db.close()
-
-    st.subheader(
-        f"Active Anomaly Alerts: {len(anomalies)}"
-    )
-
-    if anomalies:
-
-        anomaly_df = pd.DataFrame(anomalies)
-
-        preferred_columns = [
-            column
-            for column in [
-                "rule_code",
-                "rule_name",
-                "asset_id",
-                "severity",
-                "details",
-            ]
-            if column in anomaly_df.columns
-        ]
-
-        st.dataframe(
-            anomaly_df[preferred_columns],
-            use_container_width=True,
-            hide_index=True,
-        )
-
-    else:
-        st.success("No anomalies detected.")
-
-    st.divider()
-
-    st.subheader("Empirical Model Performance Scorecard")
-
-    metrics = report["aggregate_metrics"]
-
-    col1, col2, col3, col4, col5 = st.columns(5)
-
-    col1.metric(
-        "Accuracy",
-        f"{metrics['accuracy'] * 100:.1f}%",
-    )
-
-    col2.metric(
-        "Precision",
-        f"{metrics['precision'] * 100:.1f}%",
-    )
-
-    col3.metric(
-        "Recall",
-        f"{metrics['recall'] * 100:.1f}%",
-    )
-
-    col4.metric(
-        "F1-Score",
-        f"{metrics['f1_score'] * 100:.1f}%",
-    )
-
-    col5.metric(
-        "Specificity",
-        f"{metrics['specificity'] * 100:.1f}%",
-    )
-
-    st.divider()
-
-    st.subheader("Confusion Matrix")
-
-    cm = report["confusion_matrix"]
-
-    confusion_df = pd.DataFrame(
-        [
-            [
-                cm["true_positives"],
-                cm["false_negatives"],
-            ],
-            [
-                cm["false_positives"],
-                cm["true_negatives"],
-            ],
-        ],
-        index=[
-            "Actual Anomaly",
-            "Actual Clean",
-        ],
-        columns=[
-            "Predicted Anomaly",
-            "Predicted Clean",
-        ],
-    )
-
-    st.table(confusion_df)
-
-    st.divider()
-
-    st.subheader("Per-Rule Detection Performance")
-
-    rule_rows = []
-
-    for rule_code, rule_data in report["rule_breakdown"].items():
-
-        rule_rows.append(
-            {
-                "Rule": rule_code,
-                "True Positives": rule_data["true_positives"],
-                "False Positives": rule_data["false_positives"],
-                "False Negatives": rule_data["false_negatives"],
-                "Precision": (
-                    f"{rule_data['precision'] * 100:.1f}%"
-                ),
-                "Recall": (
-                    f"{rule_data['recall'] * 100:.1f}%"
-                ),
-                "F1-Score": (
-                    f"{rule_data['f1_score'] * 100:.1f}%"
-                ),
-            }
-        )
-
-    if rule_rows:
-        st.dataframe(
-            pd.DataFrame(rule_rows),
-            use_container_width=True,
-            hide_index=True,
-        )
-
-    st.caption(
-        f"Evaluated assets: {report['dataset_summary']['total_evaluated_assets']} | "
-        f"Ground-truth anomalies: {report['dataset_summary']['ground_truth_anomalies']} | "
-        f"Detected anomalies: {report['dataset_summary']['total_detected_anomalies']}"
-    )
-
-
-# --------------------------------------------------
-# FOOTER
-# --------------------------------------------------
-
-st.divider()
-
-st.caption(
-    "Reverse Logistics & Asset Custody Tracking Platform | "
-    "Streamlit Dashboard | Stage 9"
-)
