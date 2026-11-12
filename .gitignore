@@ -1,0 +1,40 @@
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Generated datasets
+data/raw/*.csv
+data/processed/*.csv
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Environment variables and secrets
+.env
+*.env
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
+
+# Streamlit
+.streamlit/
+
+# Logs
+*.log
