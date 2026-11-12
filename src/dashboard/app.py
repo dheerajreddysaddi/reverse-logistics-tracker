@@ -30,8 +30,8 @@ from src.database.models import (
     Inspection,
     Repair,
     DepositLedger,
-    OperationalException,
 )
+
 from src.services.custody_service import CustodyService
 from src.services.anomaly_detector import AnomalyDetector
 from src.services.evaluation_metrics import EvaluationEngine
