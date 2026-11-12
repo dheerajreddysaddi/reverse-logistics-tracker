@@ -85,7 +85,20 @@ The following entities are implemented as SQLAlchemy models in `src/database/mod
 - `shipment_id`, `notes`: optional.
 - Reference code is unique; amount must be greater than zero; transaction type is `charge`, `refund` or `adjustment`.
 
+### Operational exceptions
+- `exception_id`: primary key (e.g., `EXC-2026-000001`).
+- `issue_type`: required (`MULTIPLE_ACTIVE_LOCATIONS`, `RETURN_BEFORE_DISPATCH`, `DUPLICATE_REFUND`, `REPAIR_WITHOUT_INSPECTION`, `MISSING_CUSTODY_ACTOR`).
+- `affected_entity`: required (table name of affected record).
+- `affected_record_id`: required business identifier of affected record.
+- `severity`: required (`CRITICAL`, `HIGH`, `MEDIUM`).
+- `detected_at`: timestamp of anomaly detection.
+- `detection_result`: required detection result (`FLAGGED`).
+- `resolution_status`: required (`Open`, `Under Review`, `Resolved`).
+- `resolution_notes`: optional operator resolution notes.
+- `updated_at`: optional audit timestamp.
+
 ## Entity relationship diagram
+
 
 ```mermaid
 erDiagram

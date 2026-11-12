@@ -465,3 +465,31 @@ class DepositLedger(Base):
         "Shipment",
         back_populates="deposit_entries",
     )
+
+
+# --------------------------------------------------
+# 11. OPERATIONAL EXCEPTIONS (AUDIT & RESOLUTION)
+# --------------------------------------------------
+
+class OperationalException(Base):
+    __tablename__ = "operational_exceptions"
+
+    exception_id = Column(String(50), primary_key=True, index=True)
+    issue_type = Column(String(50), nullable=False, index=True)
+    affected_entity = Column(String(50), nullable=False)
+    affected_record_id = Column(String(50), nullable=False, index=True)
+    severity = Column(String(20), nullable=False)
+    detected_at = Column(DateTime, nullable=False)
+    detection_result = Column(Text, nullable=False)
+    resolution_status = Column(String(30), nullable=False, default="Open")
+    resolution_notes = Column(Text, nullable=True)
+    updated_at = Column(DateTime, nullable=True)
+
+    __table_args__ = (
+        CheckConstraint(
+            "resolution_status IN ('Open', 'Under Review', 'Resolved')",
+            name="ck_exception_resolution_status",
+        ),
+        Index("ix_exception_issue_status", "issue_type", "resolution_status"),
+    )
+

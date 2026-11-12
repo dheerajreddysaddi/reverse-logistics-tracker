@@ -22,8 +22,10 @@ env/
 # Generated datasets
 data/raw/*.csv
 data/processed/*.csv
+!data/processed/ground_truth.csv
 !data/raw/.gitkeep
 !data/processed/.gitkeep
+
 
 # Environment variables and secrets
 .env

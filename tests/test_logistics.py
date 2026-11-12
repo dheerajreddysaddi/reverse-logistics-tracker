@@ -238,3 +238,60 @@ def test_api_anomaly_endpoint():
         assert "rule_code" in anomalies[0]
         assert "asset_id" in anomalies[0]
         assert "severity" in anomalies[0]
+
+
+# 10. Automated Data Validation Engine (12 Checks)
+def test_validation_engine_all_checks(db):
+    from src.services.validation_engine import ValidationEngine
+    report = ValidationEngine.run_all_checks(db)
+
+    assert report["total_checks"] == 12
+    assert report["passed_checks"] >= 10
+    assert report["data_quality_percentage"] >= 90.0
+    assert "checks" in report
+    assert len(report["checks"]) == 12
+
+
+# 11. Lifecycle Engine Transition Rules
+def test_lifecycle_engine_rules():
+    from src.services.lifecycle_engine import LifecycleEngine
+
+    # Valid transitions
+    ok_avail, _ = LifecycleEngine.validate_transition("available", "dispatched")
+    assert ok_avail is True
+
+    ok_transit, _ = LifecycleEngine.validate_transition("in_transit", "delivered")
+    assert ok_transit is True
+
+    # Invalid: lost asset cannot be dispatched
+    ok_lost, reason_lost = LifecycleEngine.validate_transition("lost", "dispatched")
+    assert ok_lost is False
+    assert "Lost assets cannot be dispatched" in reason_lost
+
+    # Invalid: retired asset cannot be dispatched
+    ok_ret, reason_ret = LifecycleEngine.validate_transition("retired", "in_transit")
+    assert ok_ret is False
+
+    # Outstanding days formula test
+    from datetime import datetime, timedelta
+    ref = datetime(2026, 10, 22)
+    exp = datetime(2026, 10, 15)
+    days = LifecycleEngine.calculate_days_outstanding(ref, exp)
+    assert days == 7
+
+
+# 12. Operational Exception Resolution
+def test_exception_resolution(db):
+    from src.services.anomaly_detector import AnomalyDetector
+    anomalies = AnomalyDetector.scan_all(db, sync_exceptions_table=True)
+    assert len(anomalies) >= 5
+
+    first_exc = anomalies[0]["exception_id"]
+    updated = AnomalyDetector.resolve_exception(
+        db,
+        first_exc,
+        "Under Review",
+        "Assigned to compliance officer",
+    )
+    assert updated is True
+

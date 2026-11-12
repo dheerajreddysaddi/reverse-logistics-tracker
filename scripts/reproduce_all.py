@@ -116,12 +116,22 @@ def reproduce_all(scale: str, seed: int) -> None:
     print("\n[5/6] Injecting and detecting anomalies...")
     run_anomalies.run()
 
-    print("\n[6/6] Evaluating anomaly detection...")
+    print("\n[6/7] Evaluating anomaly detection against ground truth...")
     run_evaluation.run()
+
+    print("\n[7/7] Running 12 automated data validation checks...")
+    from src.services.validation_engine import ValidationEngine
+    v_db = SessionLocal()
+    try:
+        val_rep = ValidationEngine.run_all_checks(v_db)
+        print(f"[VALIDATION] Data Quality Score: {val_rep['data_quality_percentage']:.1f}% ({val_rep['passed_checks']}/{val_rep['total_checks']} checks passed)")
+    finally:
+        v_db.close()
 
     print_database_summary()
 
     print("REPRODUCTION PIPELINE COMPLETED SUCCESSFULLY.")
+
 
 
 def main() -> None:
