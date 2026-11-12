@@ -1,7 +1,6 @@
 """
-RELOOP 360 – Intelligent Reverse Logistics & Reusable Asset Management Platform.
-Tagline: Track. Recover. Reuse. Reconcile.
-Three-Tier Presentation Layer: Modern Enterprise SaaS Dashboard.
+Reverse Logistics & Asset Custody Control Tower.
+Enterprise Reusable Asset Management & Operational Visibility Platform.
 """
 
 import sys
@@ -43,23 +42,24 @@ from src.services.lifecycle_engine import LifecycleEngine
 # --------------------------------------------------
 
 st.set_page_config(
-    page_title="ReLoop 360 | Reverse Logistics Intelligence",
-    page_icon="🔄",
+    page_title="Reverse Logistics Control Tower",
+    page_icon="📦",
     layout="wide",
     initial_sidebar_state="expanded",
 )
 
 inject_theme()
 
-st.title("🔄 RELOOP 360")
-st.caption("**Track. Recover. Reuse. Reconcile.** | Enterprise Reverse Logistics & Asset Management Intelligence")
+st.title("📦 Reverse Logistics Control Tower")
+st.caption("Enterprise Asset Custody | Reverse Logistics | Anomaly Monitoring")
 
 # --------------------------------------------------
 # SIDEBAR NAVIGATION & FILTERS
 # --------------------------------------------------
 
-st.sidebar.markdown("## 🔄 **RELOOP 360**")
-st.sidebar.caption("Reverse Logistics Intelligence Platform")
+st.sidebar.title("📦 Logistics Hub")
+st.sidebar.caption("Reverse Logistics & Asset Custody Platform")
+
 
 view = st.sidebar.radio(
     "Control Tower Navigation",
@@ -606,6 +606,7 @@ elif view == "Reports & Data Exports":
 
 st.markdown("---")
 st.caption(
-    "**RELOOP 360** · Enterprise Reverse Logistics & Reusable Asset Management Intelligence · "
-    "Designed for Hackathon Excellence · Python 3.11 · SQLite · FastAPI · Streamlit"
+    "**Reverse Logistics & Asset Custody Tracking Platform** | Enterprise Operations Control Tower | "
+    "Python 3.11 · SQLite · SQLAlchemy · FastAPI · Streamlit"
 )
+

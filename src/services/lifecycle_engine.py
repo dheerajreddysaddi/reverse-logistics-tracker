@@ -1,8 +1,7 @@
 """
-Lifecycle Engine for ReLoop 360 Reusable Asset Management.
+Lifecycle Engine for Reusable Asset Management.
+Enforces state machine transitions, validation rules, and audit logging.
 
-Implements the state machine for asset transitions, enforces validation
-rules, and records state changes.
 
 Lifecycle states:
 - available: Asset is ready for dispatch in inventory.

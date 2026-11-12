@@ -1,5 +1,6 @@
 """
-ReLoop 360 Ground Truth Registry.
+Ground Truth Benchmark Registry for Reverse Logistics Control Tower.
+
 
 Maintains an authoritative benchmark distinguishing clean operations from
 intentionally injected synthetic anomalies for empirical model evaluation.

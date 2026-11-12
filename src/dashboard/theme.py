@@ -1,7 +1,8 @@
 """
-ReLoop 360 Visual System & Enterprise SaaS Theme.
-Applies the professional navy-blue, white, and teal color palette.
+Visual System for the Reverse Logistics Control Tower.
+Applies the professional navy-blue, white, and teal enterprise palette.
 """
+
 import streamlit as st
 
 

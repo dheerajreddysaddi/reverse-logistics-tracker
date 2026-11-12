@@ -1,15 +1,15 @@
-# RELOOP 360 – Intelligent Reverse Logistics & Reusable Asset Management Platform
+# Reverse Logistics & Asset Custody Control Tower
 
-> **Tagline:** Track. Recover. Reuse. Reconcile.  
-> **Mission:** Transform fragmented reverse logistics into an auditable, intelligent, closed-loop network. Eliminate lost assets, resolve handoff disputes, automate diagnostic triage, and reconcile financial deposit ledgers across suppliers, carriers, distribution hubs, and customers.
+> **Enterprise Operations Platform for Reusable Asset Custody, Reverse Logistics & Financial Reconciliation.**  
+> An end-to-end operational visibility platform to coordinate return merchandise, reusable containers, pallets, and equipment across multi-facility custody transitions.
 
 ---
 
 ## 🌟 Executive Overview & Capabilities
 
-ReLoop 360 is a three-tier operations platform and control tower engineered specifically for reusable assets (pallets, smart containers, specialized totes, server hardware, and return merchandise).
+The Reverse Logistics Control Tower is an enterprise three-tier operations platform engineered specifically for reusable assets (pallets, smart containers, specialized totes, server hardware, and return merchandise).
 
-| Domain | What ReLoop 360 Delivers |
+| Domain | What the Platform Delivers |
 |---|---|
 | **Executive Control Tower** | 10 real-time operational KPIs, asset lifecycle distribution, condition breakdown, and deposit settlement trends. |
 | **Asset Custody & Trajectory** | Reconstructs point-in-time custody from append-only events, pinpoints current custodian, and plots interactive GIS transit routes. |
@@ -21,7 +21,7 @@ ReLoop 360 is a three-tier operations platform and control tower engineered spec
 
 ---
 
-## 🏛️ Mandatory Three-Tier Architecture
+## 🏛️ Three-Tier Architecture
 
 ```mermaid
 flowchart TB
@@ -59,7 +59,7 @@ flowchart TB
 
 ## 🗄️ Database Entities & Relational Schema
 
-ReLoop 360 models the complete circular economy lifecycle across 10 core relational tables plus operational exceptions:
+The platform models the complete circular economy lifecycle across 10 core relational tables plus operational exceptions:
 
 1. **`owners`**: Internal operators, suppliers, and commercial customers.
 2. **`locations`**: Warehouses, distribution centers, transit hubs, and supplier docks.
@@ -77,7 +77,7 @@ ReLoop 360 models the complete circular economy lifecycle across 10 core relatio
 
 ## 🚨 The Five Mandatory Anomaly Scenarios
 
-ReLoop 360 implements strict anomaly detection algorithms to catch high-impact logistics and financial discrepancies:
+The platform implements strict anomaly detection algorithms to catch high-impact logistics and financial discrepancies:
 
 | Scenario | Issue Type | Detection Logic | Expected Decision |
 |---|---|---|---|
@@ -153,11 +153,11 @@ streamlit run src/dashboard/app.py
 
 ---
 
-## 🎙️ Two-Minute Hackathon Demonstration Script
+## 🎙️ Two-Minute Demonstration Script
 
-1. **Problem (15s):** Enterprises lose billions annually in circular supply chains due to misplaced pallets, ghost inventory, unauthorized returns, and duplicate deposit refunds.
-2. **Solution (20s):** ReLoop 360 delivers an intelligent reverse logistics platform that coordinates assets, shipments, custody handoffs, inspections, and deposit accounting in a unified three-tier architecture.
-3. **Custody & Trajectory (25s):** Using event-sourcing principles, ReLoop 360 never overwrites location history. Instead, our Custody Reconstruction Service reconstructs the point-in-time journey, current custodian, and geographical route across transit hubs.
+1. **Problem (15s):** Enterprises lose billions annually in circular supply chains due to misplaced packaging, ghost inventory, unauthorized returns, and duplicate deposit refunds.
+2. **Solution (20s):** The Reverse Logistics Control Tower delivers an intelligent platform that coordinates assets, shipments, custody handoffs, inspections, and deposit accounting in a unified three-tier architecture.
+3. **Custody & Trajectory (25s):** Using event-sourcing principles, the platform never overwrites location history. Instead, our Custody Reconstruction Service reconstructs the point-in-time journey, current custodian, and geographical route across transit hubs.
 4. **Triage & Finance (25s):** Intake inspections grade assets from Grade A to F, automatically dispatching damaged units to repairs and settling security deposits into an immutable double-entry ledger.
 5. **Anomaly Engine (25s):** Our rule engine catches all 5 mandatory supply chain edge cases—teleportation, return before dispatch, duplicate refunds, repairs without inspection, and missing actors—scoring 100% Precision and Recall against ground truth.
-6. **Impact (10s):** ReLoop 360 increases asset recovery by 35%, eliminates deposit leakage, and provides complete audit compliance.
+6. **Impact (10s):** The platform increases asset recovery by 35%, eliminates deposit leakage, and provides complete audit compliance.

@@ -1,5 +1,6 @@
 """
-ReLoop 360 Business Rules & Anomaly Detection Engine.
+Business Rules & Anomaly Detection Engine for Reverse Logistics Control Tower.
+
 
 Implements the 5 mandatory hackathon reverse-logistics exception detection scenarios:
 1. MULTIPLE_ACTIVE_LOCATIONS: Conflicting active locations or concurrent active shipments.
