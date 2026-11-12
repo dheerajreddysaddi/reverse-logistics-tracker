@@ -723,12 +723,23 @@ elif view == "Anomaly Center & Metrics":
     finally:
         db.close()
 
-    st.subheader(
-        f"Active Anomaly Alerts: {len(anomalies)}"
+    critical_count = sum(
+        str(item.get("severity", "")).upper() == "CRITICAL"
+        for item in anomalies
     )
+    high_count = sum(
+        str(item.get("severity", "")).upper() == "HIGH"
+        for item in anomalies
+    )
+    other_count = len(anomalies) - critical_count - high_count
+
+    alert_col1, alert_col2, alert_col3, alert_col4 = st.columns(4)
+    alert_col1.metric("Total Active Alerts", len(anomalies))
+    alert_col2.metric("Critical", critical_count)
+    alert_col3.metric("High", high_count)
+    alert_col4.metric("Other", other_count)
 
     if anomalies:
-
         anomaly_df = pd.DataFrame(anomalies)
 
         preferred_columns = [
@@ -743,14 +754,41 @@ elif view == "Anomaly Center & Metrics":
             if column in anomaly_df.columns
         ]
 
-        st.dataframe(
-            anomaly_df[preferred_columns],
-            use_container_width=True,
-            hide_index=True,
+        display_df = anomaly_df[preferred_columns].rename(
+            columns={
+                "rule_code": "Rule",
+                "rule_name": "Detection Rule",
+                "asset_id": "Asset ID",
+                "severity": "Severity",
+                "details": "Summary",
+            }
         )
 
+        st.dataframe(
+            display_df,
+            use_container_width=True,
+            hide_index=True,
+            height=min(460, 38 + 36 * len(display_df)),
+        )
+
+        with st.expander("Read full anomaly descriptions"):
+            for index, item in enumerate(anomalies, start=1):
+                severity = str(item.get("severity", "UNKNOWN")).upper()
+                rule = item.get("rule_code", "Unknown rule")
+                asset = item.get("asset_id", "N/A")
+                rule_name = item.get("rule_name", "Anomaly")
+                details = item.get("details", "No additional details.")
+
+                st.markdown(
+                    f"**{index}. {rule} — {rule_name}**  \\n"
+                    f"Severity: {severity} · Asset ID: {asset}"
+                )
+                st.write(details)
+                if index < len(anomalies):
+                    st.divider()
+
     else:
-        st.success("No anomalies detected.")
+        st.success("No anomalies detected. All monitored records look healthy.")
 
     st.divider()
 
