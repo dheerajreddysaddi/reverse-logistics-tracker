@@ -41,7 +41,7 @@ from src.services.lifecycle_engine import LifecycleEngine
 # CLOUD BOOTSTRAP: AUTO-SEED DATABASE IF FRESH
 # --------------------------------------------------
 
-def ensure_database_ready():
+def ensure_database_ready() -> tuple[bool, str]:
     """Ensure database schema and starter data exist in fresh cloud environments."""
     try:
         from src.database.connection import Base, engine
@@ -54,10 +54,11 @@ def ensure_database_ready():
                 reproduce_all(scale="starter", seed=20261022)
         finally:
             db.close()
+        return True, ""
     except Exception as err:
-        st.error(f"Database initialization warning or error: {err}")
+        return False, str(err)
 
-ensure_database_ready()
+db_ready, db_error = ensure_database_ready()
 
 # --------------------------------------------------
 # PAGE CONFIGURATION & BRANDING
@@ -99,14 +100,26 @@ view = st.sidebar.radio(
 st.sidebar.markdown("---")
 st.sidebar.markdown("### 🎛️ Global Data Filters")
 
-db = SessionLocal()
+if not db_ready:
+    st.sidebar.error("System Status: **OFFLINE**")
+    st.sidebar.warning("Database unavailable.")
+    st.error(f"🚨 **Database Service Unavailable**: Failed to initialize or connect to database:\n\n`{db_error}`")
+    st.info("Please verify the database connection and operational environment.")
+    st.stop()
+
 try:
-    all_owners = ["All"] + [o.owner_name for o in db.query(Owner).all()]
-    all_types = ["All"] + [t.type_name for t in db.query(AssetType).all()]
-    all_locations = ["All"] + [loc.location_name for loc in db.query(Location).all()]
-    all_statuses = ["All", "available", "in_transit", "in_use", "under_repair", "lost", "retired"]
-finally:
-    db.close()
+    db = SessionLocal()
+    try:
+        all_owners = ["All"] + [o.owner_name for o in db.query(Owner).all()]
+        all_types = ["All"] + [t.type_name for t in db.query(AssetType).all()]
+        all_locations = ["All"] + [loc.location_name for loc in db.query(Location).all()]
+        all_statuses = ["All", "available", "in_transit", "in_use", "under_repair", "lost", "retired"]
+    finally:
+        db.close()
+except Exception as err:
+    st.sidebar.error("System Status: **OFFLINE**")
+    st.error(f"🚨 **Database Connection Error**: {err}")
+    st.stop()
 
 selected_owner = st.sidebar.selectbox("Owner", all_owners, index=0)
 selected_type = st.sidebar.selectbox("Asset Category", all_types, index=0)

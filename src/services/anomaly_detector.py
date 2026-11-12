@@ -198,13 +198,24 @@ class AnomalyDetector:
     def detect_duplicate_refunds(db: Session) -> List[Dict[str, Any]]:
         """
         Scenario 3: DUPLICATE_REFUND.
-        The same deposit transaction is refunded more than once, or refunds exceed deposit balance.
+        Validates refunds against actual deposit amounts. Flags multiple refunds against the same
+        deposit transaction or refunds exceeding the original deposit charge, avoiding false positives.
         Expected Decision: FREEZE_LEDGER_TRANSACTION.
         """
         anomalies = []
         assets = db.query(ReusableAsset).all()
 
         for asset in assets:
+            charges = (
+                db.query(DepositLedger)
+                .filter(
+                    DepositLedger.asset_id == asset.asset_id,
+                    DepositLedger.transaction_type == "charge",
+                )
+                .all()
+            )
+            total_charged = sum(float(c.amount) for c in charges)
+
             refund_records = (
                 db.query(DepositLedger)
                 .filter(
@@ -214,25 +225,28 @@ class AnomalyDetector:
                 .order_by(DepositLedger.transaction_date.asc())
                 .all()
             )
+            total_refunded = sum(float(r.amount) for r in refund_records)
 
-            # Business rule: Multiple refund transactions issued against the same asset deposit
-            if len(refund_records) > 1:
-                duplicate_refund = refund_records[1]
-                anomalies.append({
-                    "rule_code": "ANOM-03",
-                    "issue_type": "DUPLICATE_REFUND",
-                    "rule_name": "Duplicate Security Deposit Refund",
-                    "asset_id": asset.asset_id,
-                    "affected_entity": "DepositLedger",
-                    "affected_record_id": duplicate_refund.reference_code,
-                    "severity": "CRITICAL",
-                    "expected_decision": "FREEZE_LEDGER_TRANSACTION",
-                    "timestamp": duplicate_refund.transaction_date,
-                    "details": (
-                        f"Duplicate refund transaction of ₹{float(duplicate_refund.amount):.2f} (Ref: {duplicate_refund.reference_code}) "
-                        f"issued against same security deposit for asset {asset.asset_code}."
-                    ),
-                })
+            # Business rule: Refunds exceed deposit charged or multiple refunds against single charge
+            if len(refund_records) > 0 and total_charged > 0:
+                if total_refunded > total_charged or len(refund_records) > len(charges):
+                    duplicate_refund = refund_records[-1]
+                    anomalies.append({
+                        "rule_code": "ANOM-03",
+                        "issue_type": "DUPLICATE_REFUND",
+                        "rule_name": "Duplicate Security Deposit Refund",
+                        "asset_id": asset.asset_id,
+                        "affected_entity": "DepositLedger",
+                        "affected_record_id": duplicate_refund.reference_code,
+                        "severity": "CRITICAL",
+                        "expected_decision": "FREEZE_LEDGER_TRANSACTION",
+                        "timestamp": duplicate_refund.transaction_date,
+                        "details": (
+                            f"Duplicate or excessive refund transaction of ₹{float(duplicate_refund.amount):.2f} "
+                            f"(Ref: {duplicate_refund.reference_code}) against security deposit charge of ₹{total_charged:.2f} "
+                            f"(Total refunded: ₹{total_refunded:.2f}) for asset {asset.asset_code}."
+                        ),
+                    })
 
         return anomalies
 
@@ -240,7 +254,7 @@ class AnomalyDetector:
     def detect_repairs_without_inspection(db: Session) -> List[Dict[str, Any]]:
         """
         Scenario 4: REPAIR_WITHOUT_INSPECTION.
-        A repair is completed or closed without a valid preceding diagnostic inspection record.
+        Verifies that a diagnostic inspection exists AND occurred chronologically before the repair.
         Expected Decision: REOPEN_INSPECTION_WORKFLOW.
         """
         anomalies = []
@@ -251,9 +265,21 @@ class AnomalyDetector:
             if repair.inspection_id:
                 inspection = db.query(Inspection).filter(Inspection.inspection_id == repair.inspection_id).first()
 
-            if inspection is None:
+            is_missing = inspection is None
+            is_post_repair = False
+            if inspection and repair.opened_at and inspection.inspection_date:
+                if inspection.inspection_date > repair.opened_at:
+                    is_post_repair = True
+
+            if is_missing or is_post_repair:
                 asset = db.query(ReusableAsset).filter(ReusableAsset.asset_id == repair.asset_id).first()
                 asset_code = asset.asset_code if asset else f"ASSET-{repair.asset_id:07d}"
+                detail_msg = (
+                    f"Repair work order {repair.repair_code or repair.repair_id} for asset {asset_code} "
+                    f"occurred prior to its diagnostic inspection ({inspection.inspection_date} > {repair.opened_at})."
+                    if is_post_repair
+                    else f"Repair work order {repair.repair_code or repair.repair_id} for asset {asset_code} was closed without a verified diagnostic intake inspection."
+                )
                 anomalies.append({
                     "rule_code": "ANOM-04",
                     "issue_type": "REPAIR_WITHOUT_INSPECTION",
@@ -264,10 +290,7 @@ class AnomalyDetector:
                     "severity": "CRITICAL",
                     "expected_decision": "REOPEN_INSPECTION_WORKFLOW",
                     "timestamp": repair.opened_at,
-                    "details": (
-                        f"Repair work order {repair.repair_code or repair.repair_id} for asset {asset_code} "
-                        "was closed without a verified diagnostic intake inspection."
-                    ),
+                    "details": detail_msg,
                 })
 
         return anomalies
