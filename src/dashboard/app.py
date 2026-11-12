@@ -485,6 +485,9 @@ elif view == "Exception Management Hub":
                         st.rerun()
                     else:
                         st.error(f"Failed to update exception {chosen_exc}.")
+                except Exception as err:
+                    db_action.rollback()
+                    st.error(f"Database error while updating exception: {err}")
                 finally:
                     db_action.close()
 

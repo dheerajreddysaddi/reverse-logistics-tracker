@@ -23,11 +23,13 @@ engine = create_engine(
 )
 
 
-# Enable foreign-key constraints for every SQLite connection
+# Configure SQLite connection: foreign keys, WAL journal mode, and busy timeout
 @event.listens_for(engine, "connect")
-def enable_foreign_keys(dbapi_connection, connection_record):
+def configure_sqlite_connection(dbapi_connection, connection_record):
     cursor = dbapi_connection.cursor()
     cursor.execute("PRAGMA foreign_keys=ON")
+    cursor.execute("PRAGMA journal_mode=WAL")
+    cursor.execute("PRAGMA busy_timeout=5000")
     cursor.close()
 
 
