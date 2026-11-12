@@ -2,7 +2,7 @@
 
 ## Requirements
 
-- Python 3.11
+- Python 3.12 (or 3.11+)
 - Git
 - macOS, Linux or Windows terminal
 

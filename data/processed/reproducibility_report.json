@@ -107,8 +107,8 @@
       "first_run_row_count": 10,
       "second_run_row_count": 10,
       "counts_match": true,
-      "first_run_checksum": "902641728c4c50fb5ede844d018b3e8c93e8ef6cd1ffb6f8844c8510a8a01e35",
-      "second_run_checksum": "902641728c4c50fb5ede844d018b3e8c93e8ef6cd1ffb6f8844c8510a8a01e35",
+      "first_run_checksum": "3dcafb2599c6c43b0ed65d406d70f6a7643f2d4e61799aaaf0acf92ba6b0e5e1",
+      "second_run_checksum": "3dcafb2599c6c43b0ed65d406d70f6a7643f2d4e61799aaaf0acf92ba6b0e5e1",
       "checksums_match": true,
       "match_status": "MATCH"
     }

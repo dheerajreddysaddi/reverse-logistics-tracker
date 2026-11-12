@@ -106,7 +106,7 @@ class AnomalyDetector:
 
                 if 0 < time_hours < 1.0:
                     speed = distance / time_hours
-                    if speed > max_speed_mph or "ANOM-01" in (second.notes or ""):
+                    if speed > max_speed_mph:
                         asset = db.query(ReusableAsset).filter(ReusableAsset.asset_id == asset_id).first()
                         asset_code = asset.asset_code if asset else f"ASSET-{asset_id:07d}"
                         anomalies.append({
@@ -142,7 +142,7 @@ class AnomalyDetector:
         for rma in rmas:
             shipment = db.query(Shipment).filter(Shipment.shipment_id == rma.shipment_id).first()
             if shipment and shipment.dispatch_date:
-                if rma.request_date < shipment.dispatch_date or "STAGE6" in (rma.return_code or ""):
+                if rma.request_date < shipment.dispatch_date:
                     asset = db.query(ReusableAsset).filter(ReusableAsset.asset_id == rma.asset_id).first()
                     asset_code = asset.asset_code if asset else f"ASSET-{rma.asset_id:07d}"
                     anomalies.append({
@@ -161,31 +161,36 @@ class AnomalyDetector:
                         ),
                     })
 
-        # 2B: Check custody return/receipt events that precede shipment dispatch or lack shipment
+        # 2B: Check custody return/receipt events that precede shipment dispatch
         return_events = (
             db.query(CustodyEvent)
-            .filter(CustodyEvent.notes.like("%ANOM-02%"))
+            .filter(
+                CustodyEvent.event_type.in_(["return", "return_intake", "receipt"]),
+                CustodyEvent.shipment_id.isnot(None),
+            )
             .all()
         )
         for ev in return_events:
-            if not any(a["asset_id"] == ev.asset_id and a["issue_type"] == "RETURN_BEFORE_DISPATCH" for a in anomalies):
-                asset = db.query(ReusableAsset).filter(ReusableAsset.asset_id == ev.asset_id).first()
-                asset_code = asset.asset_code if asset else f"ASSET-{ev.asset_id:07d}"
-                anomalies.append({
-                    "rule_code": "ANOM-02",
-                    "issue_type": "RETURN_BEFORE_DISPATCH",
-                    "rule_name": "Return Intake Precedes Outbound Dispatch",
-                    "asset_id": ev.asset_id,
-                    "affected_entity": "CustodyEvent",
-                    "affected_record_id": ev.event_code or f"EVT-2026-{ev.event_id:06d}",
-                    "severity": "HIGH",
-                    "expected_decision": "HOLD_RETURN_INTAKE",
-                    "timestamp": ev.event_timestamp,
-                    "details": (
-                        f"Custody return intake event for asset {asset_code} occurred "
-                        "prior to or without a verified outbound dispatch record."
-                    ),
-                })
+            shipment = db.query(Shipment).filter(Shipment.shipment_id == ev.shipment_id).first()
+            if shipment and shipment.dispatch_date and ev.event_timestamp < shipment.dispatch_date:
+                if not any(a["asset_id"] == ev.asset_id and a["issue_type"] == "RETURN_BEFORE_DISPATCH" for a in anomalies):
+                    asset = db.query(ReusableAsset).filter(ReusableAsset.asset_id == ev.asset_id).first()
+                    asset_code = asset.asset_code if asset else f"ASSET-{ev.asset_id:07d}"
+                    anomalies.append({
+                        "rule_code": "ANOM-02",
+                        "issue_type": "RETURN_BEFORE_DISPATCH",
+                        "rule_name": "Return Intake Precedes Outbound Dispatch",
+                        "asset_id": ev.asset_id,
+                        "affected_entity": "CustodyEvent",
+                        "affected_record_id": ev.event_code or f"EVT-2026-{ev.event_id:06d}",
+                        "severity": "HIGH",
+                        "expected_decision": "HOLD_RETURN_INTAKE",
+                        "timestamp": ev.event_timestamp,
+                        "details": (
+                            f"Custody return intake event for asset {asset_code} at {ev.event_timestamp} "
+                            f"occurred prior to shipment dispatch date ({shipment.dispatch_date})."
+                        ),
+                    })
 
         return anomalies
 
@@ -197,7 +202,6 @@ class AnomalyDetector:
         Expected Decision: FREEZE_LEDGER_TRANSACTION.
         """
         anomalies = []
-        asset_types = {item.asset_type_id: item for item in db.query(AssetType).all()}
         assets = db.query(ReusableAsset).all()
 
         for asset in assets:
@@ -211,28 +215,24 @@ class AnomalyDetector:
                 .all()
             )
 
+            # Business rule: Multiple refund transactions issued against the same asset deposit
             if len(refund_records) > 1:
-                # Check for duplicate amounts or tagged anomalies
-                seen_amounts = set()
-                for r in refund_records:
-                    if float(r.amount) in seen_amounts or "ANOM-03" in (r.notes or ""):
-                        anomalies.append({
-                            "rule_code": "ANOM-03",
-                            "issue_type": "DUPLICATE_REFUND",
-                            "rule_name": "Duplicate Security Deposit Refund",
-                            "asset_id": asset.asset_id,
-                            "affected_entity": "DepositLedger",
-                            "affected_record_id": r.reference_code,
-                            "severity": "CRITICAL",
-                            "expected_decision": "FREEZE_LEDGER_TRANSACTION",
-                            "timestamp": r.transaction_date,
-                            "details": (
-                                f"Duplicate refund transaction of ₹{float(r.amount):.2f} (Ref: {r.reference_code}) "
-                                f"issued against same security deposit for asset {asset.asset_code}."
-                            ),
-                        })
-                        break
-                    seen_amounts.add(float(r.amount))
+                duplicate_refund = refund_records[1]
+                anomalies.append({
+                    "rule_code": "ANOM-03",
+                    "issue_type": "DUPLICATE_REFUND",
+                    "rule_name": "Duplicate Security Deposit Refund",
+                    "asset_id": asset.asset_id,
+                    "affected_entity": "DepositLedger",
+                    "affected_record_id": duplicate_refund.reference_code,
+                    "severity": "CRITICAL",
+                    "expected_decision": "FREEZE_LEDGER_TRANSACTION",
+                    "timestamp": duplicate_refund.transaction_date,
+                    "details": (
+                        f"Duplicate refund transaction of ₹{float(duplicate_refund.amount):.2f} (Ref: {duplicate_refund.reference_code}) "
+                        f"issued against same security deposit for asset {asset.asset_code}."
+                    ),
+                })
 
         return anomalies
 
@@ -251,7 +251,7 @@ class AnomalyDetector:
             if repair.inspection_id:
                 inspection = db.query(Inspection).filter(Inspection.inspection_id == repair.inspection_id).first()
 
-            if inspection is None or "ANOM-04" in (repair.repair_description or ""):
+            if inspection is None:
                 asset = db.query(ReusableAsset).filter(ReusableAsset.asset_id == repair.asset_id).first()
                 asset_code = asset.asset_code if asset else f"ASSET-{repair.asset_id:07d}"
                 anomalies.append({
@@ -284,7 +284,7 @@ class AnomalyDetector:
 
         for event in events:
             actor = (event.actor_name or "").strip()
-            if not actor or actor.upper() in ["UNKNOWN", "N/A", "MISSING", "UNKNOWN_ACTOR"] or "ANOM-05" in (event.notes or ""):
+            if not actor or actor.upper() in ["UNKNOWN", "N/A", "MISSING", "UNKNOWN_ACTOR", "NONE", "UNASSIGNED"]:
                 asset = db.query(ReusableAsset).filter(ReusableAsset.asset_id == event.asset_id).first()
                 asset_code = asset.asset_code if asset else f"ASSET-{event.asset_id:07d}"
                 anomalies.append({

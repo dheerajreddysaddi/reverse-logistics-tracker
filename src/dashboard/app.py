@@ -54,8 +54,8 @@ def ensure_database_ready():
                 reproduce_all(scale="starter", seed=20261022)
         finally:
             db.close()
-    except Exception:
-        pass
+    except Exception as err:
+        st.error(f"Database initialization warning or error: {err}")
 
 ensure_database_ready()
 
@@ -371,11 +371,13 @@ elif view == "Return & Repair Management":
     with t1:
         st.markdown("#### Active Return Authorizations (RMAs)")
         rma_data = []
-        now = datetime(2026, 10, 22)
+        # Dynamic operational reference date from latest system activity or current time
+        latest_evt = db.query(func.max(CustodyEvent.event_timestamp)).scalar()
+        operational_ref_date = latest_evt if latest_evt else datetime.utcnow()
         for r in rmas:
             # Calculate outstanding days formula: max(0, reference_date - expected_return_date)
             exp_date = r.request_date + pd.Timedelta(days=14)
-            days_out = LifecycleEngine.calculate_days_outstanding(now, exp_date)
+            days_out = LifecycleEngine.calculate_days_outstanding(operational_ref_date, exp_date)
             rma_data.append({
                 "RMA Code": r.return_code,
                 "Asset ID": r.asset_id,

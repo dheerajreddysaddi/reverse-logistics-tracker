@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T14:18:17.341119",
+  "generated_at": "2026-11-12T14:30:45.453592",
   "total_checks": 12,
   "passed_checks": 12,
   "failed_checks": 0,
@@ -12,7 +12,7 @@
       "name": "Primary-Key Uniqueness",
       "category": "Relational Integrity",
       "status": "PASSED",
-      "details": "Assets: 500/500 unique codes; Shipments: 254/254 unique codes."
+      "details": "Assets: 500/500 unique codes; Shipments: 252/252 unique codes."
     },
     {
       "check_id": 2,
@@ -61,7 +61,7 @@
       "name": "Deposit Ledger Reconciliation",
       "category": "Financial Accuracy",
       "status": "PASSED",
-      "details": "Total refunds (\u20b9182,800.00) balance against active deposit obligations."
+      "details": "Total refunds (\u20b9200,870.00) balance against active deposit obligations."
     },
     {
       "check_id": 9,
@@ -82,14 +82,14 @@
       "name": "Repair-Inspection Relationship",
       "category": "Workflow Preconditions",
       "status": "PASSED",
-      "details": "24/24 repairs linked to verified diagnostic inspections."
+      "details": "10/12 repairs linked to verified diagnostic inspections."
     },
     {
       "check_id": 12,
       "name": "Five Mandatory Anomaly Detection Scenarios",
       "category": "Exception Monitoring",
       "status": "PASSED",
-      "details": "Captured 10 violations covering issue types: ['DUPLICATE_REFUND', 'MULTIPLE_ACTIVE_LOCATIONS', 'RETURN_BEFORE_DISPATCH']."
+      "details": "Captured 10 violations covering all 5 mandatory issue types: ['DUPLICATE_REFUND', 'MISSING_CUSTODY_ACTOR', 'MULTIPLE_ACTIVE_LOCATIONS', 'REPAIR_WITHOUT_INSPECTION', 'RETURN_BEFORE_DISPATCH']."
     }
   ]
 }
