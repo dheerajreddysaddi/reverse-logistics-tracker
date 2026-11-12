@@ -1,0 +1,107 @@
+ledger_id,asset_id,shipment_id,transaction_type,amount,transaction_date,reference_code,notes
+1,28,28,refund,4500.00,2023-03-25 21:58:31,RMA-2023-000001,Grade B: 10% cleaning fee deducted: 500.00. Inspection grade: B. Original deposit: 5000.00.
+2,94,94,refund,2500.00,2023-04-25 23:26:37,RMA-2023-000002,Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 2500.00.
+3,249,249,refund,1500.00,2023-06-18 19:57:49,RMA-2023-000003,Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 1500.00.
+4,175,175,refund,1500.00,2023-07-28 14:56:19,RMA-2023-000004,Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 1500.00.
+5,11,11,refund,5000.00,2023-09-06 08:49:07,RMA-2023-000005,Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 5000.00.
+6,71,71,refund,270.00,2023-09-17 00:22:21,RMA-2023-000006,Grade B: 10% cleaning fee deducted: 30.00. Inspection grade: B. Original deposit: 300.00.
+7,10,10,refund,5000.00,2023-11-02 18:18:28,RMA-2023-000007,Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 5000.00.
+8,19,19,refund,5000.00,2023-11-06 17:59:20,RMA-2023-000008,Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 5000.00.
+9,185,185,refund,5000.00,2023-12-11 10:56:16,RMA-2023-000009,Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 5000.00.
+10,6,6,refund,1250.00,2024-01-03 17:22:52,RMA-2023-000010,Grade C: 50% refurbishment deduction: 1250.00. Inspection grade: C. Original deposit: 2500.00.
+11,41,41,refund,5000.00,2024-01-05 07:38:08,RMA-2024-000011,Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 5000.00.
+12,104,104,refund,5000.00,2024-01-11 13:53:22,RMA-2024-000012,Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 5000.00.
+13,202,202,refund,2500.00,2024-02-03 12:13:55,RMA-2024-000013,Grade C: 50% refurbishment deduction: 2500.00. Inspection grade: C. Original deposit: 5000.00.
+14,177,177,refund,300.00,2024-02-18 10:49:18,RMA-2024-000014,Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 300.00.
+15,12,12,refund,300.00,2024-02-23 23:55:18,RMA-2024-000015,Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 300.00.
+16,1,1,refund,270.00,2024-03-12 18:47:58,RMA-2024-000016,Grade B: 10% cleaning fee deducted: 30.00. Inspection grade: B. Original deposit: 300.00.
+17,148,148,refund,1500.00,2024-03-21 21:47:54,RMA-2024-000017,Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 1500.00.
+18,211,211,refund,1500.00,2024-03-25 18:18:04,RMA-2024-000018,Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 1500.00.
+19,46,46,refund,2500.00,2024-04-26 17:19:42,RMA-2024-000019,Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 2500.00.
+20,87,87,refund,300.00,2024-04-24 23:54:21,RMA-2024-000020,Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 300.00.
+21,155,155,refund,1500.00,2024-05-03 12:58:29,RMA-2024-000021,Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 1500.00.
+22,228,228,refund,800.00,2024-05-07 05:31:57,RMA-2024-000022,Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 800.00.
+23,170,170,refund,5000.00,2024-05-16 13:02:06,RMA-2024-000023,Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 5000.00.
+24,112,112,adjustment,2500.00,2024-05-16 10:34:45,RMA-2024-000024,Grade F: Deposit forfeited due to total asset loss. Inspection grade: F. Original deposit: 2500.00.
+25,63,63,refund,1250.00,2024-05-25 08:20:32,RMA-2024-000025,Grade C: 50% refurbishment deduction: 1250.00. Inspection grade: C. Original deposit: 2500.00.
+26,183,183,refund,400.00,2024-05-30 04:35:07,RMA-2024-000026,Grade C: 50% refurbishment deduction: 400.00. Inspection grade: C. Original deposit: 800.00.
+27,208,208,refund,5000.00,2024-06-10 15:23:39,RMA-2024-000027,Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 5000.00.
+28,161,161,refund,800.00,2024-06-15 19:35:15,RMA-2024-000028,Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 800.00.
+29,151,151,refund,1500.00,2024-06-21 15:39:16,RMA-2024-000029,Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 1500.00.
+30,88,88,refund,720.00,2024-07-03 23:26:56,RMA-2024-000030,Grade B: 10% cleaning fee deducted: 80.00. Inspection grade: B. Original deposit: 800.00.
+31,16,16,refund,1500.00,2024-07-04 18:00:11,RMA-2024-000031,Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 1500.00.
+32,129,129,refund,2500.00,2024-07-14 04:48:34,RMA-2024-000032,Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 2500.00.
+33,110,110,refund,800.00,2024-07-20 06:49:45,RMA-2024-000033,Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 800.00.
+34,90,90,refund,800.00,2024-07-29 07:09:28,RMA-2024-000034,Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 800.00.
+35,169,169,refund,800.00,2024-08-04 01:49:54,RMA-2024-000035,Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 800.00.
+36,221,221,refund,5000.00,2024-09-01 05:35:12,RMA-2024-000036,Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 5000.00.
+37,33,33,refund,1500.00,2024-09-06 00:30:13,RMA-2024-000037,Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 1500.00.
+38,76,76,refund,2500.00,2024-09-11 03:14:33,RMA-2024-000038,Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 2500.00.
+39,237,237,refund,5000.00,2024-09-14 17:32:10,RMA-2024-000039,Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 5000.00.
+40,116,116,refund,2250.00,2024-10-05 04:38:45,RMA-2024-000040,Grade B: 10% cleaning fee deducted: 250.00. Inspection grade: B. Original deposit: 2500.00.
+41,244,244,refund,300.00,2024-10-08 21:20:19,RMA-2024-000041,Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 300.00.
+42,91,91,refund,300.00,2024-10-28 15:44:47,RMA-2024-000042,Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 300.00.
+43,139,139,refund,150.00,2024-11-08 12:04:54,RMA-2024-000043,Grade C: 50% refurbishment deduction: 150.00. Inspection grade: C. Original deposit: 300.00.
+44,226,226,refund,300.00,2024-11-08 18:37:15,RMA-2024-000044,Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 300.00.
+45,108,108,refund,2500.00,2025-01-10 18:08:48,RMA-2025-000045,Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 2500.00.
+46,64,64,refund,1500.00,2025-01-10 12:34:13,RMA-2025-000046,Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 1500.00.
+47,45,45,refund,2500.00,2025-02-16 02:18:51,RMA-2025-000047,Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 2500.00.
+48,102,102,refund,300.00,2025-02-21 02:33:57,RMA-2025-000048,Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 300.00.
+49,205,205,adjustment,1500.00,2025-03-01 20:53:47,RMA-2025-000049,Grade F: Deposit forfeited due to total asset loss. Inspection grade: F. Original deposit: 1500.00.
+50,77,77,refund,150.00,2025-03-01 13:20:00,RMA-2025-000050,Grade C: 50% refurbishment deduction: 150.00. Inspection grade: C. Original deposit: 300.00.
+51,49,49,refund,300.00,2025-03-12 13:41:45,RMA-2025-000051,Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 300.00.
+52,60,60,refund,5000.00,2025-03-17 02:06:26,RMA-2025-000052,Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 5000.00.
+53,149,149,refund,2250.00,2025-03-15 23:14:44,RMA-2025-000053,Grade B: 10% cleaning fee deducted: 250.00. Inspection grade: B. Original deposit: 2500.00.
+54,96,96,refund,720.00,2025-04-09 06:46:38,RMA-2025-000054,Grade B: 10% cleaning fee deducted: 80.00. Inspection grade: B. Original deposit: 800.00.
+55,83,83,refund,800.00,2025-04-10 15:36:41,RMA-2025-000055,Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 800.00.
+56,172,172,refund,800.00,2025-05-11 19:52:47,RMA-2025-000056,Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 800.00.
+57,143,143,refund,800.00,2025-05-11 14:23:06,RMA-2025-000057,Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 800.00.
+58,165,165,refund,300.00,2025-05-11 12:53:10,RMA-2025-000058,Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 300.00.
+59,75,75,refund,1350.00,2025-05-19 00:13:23,RMA-2025-000059,Grade B: 10% cleaning fee deducted: 150.00. Inspection grade: B. Original deposit: 1500.00.
+60,5,5,refund,2500.00,2025-05-26 04:09:32,RMA-2025-000060,Grade C: 50% refurbishment deduction: 2500.00. Inspection grade: C. Original deposit: 5000.00.
+61,180,180,refund,1500.00,2025-06-02 00:24:38,RMA-2025-000061,Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 1500.00.
+62,219,219,refund,800.00,2025-06-06 17:11:26,RMA-2025-000062,Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 800.00.
+63,223,223,refund,300.00,2025-06-07 18:39:11,RMA-2025-000063,Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 300.00.
+64,231,231,refund,5000.00,2025-06-08 10:04:35,RMA-2025-000064,Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 5000.00.
+65,73,73,refund,300.00,2025-06-23 05:58:39,RMA-2025-000065,Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 300.00.
+66,204,204,refund,1500.00,2025-06-24 11:37:23,RMA-2025-000066,Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 1500.00.
+67,111,111,refund,300.00,2025-06-26 12:26:59,RMA-2025-000067,Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 300.00.
+68,158,158,refund,720.00,2025-07-03 21:14:34,RMA-2025-000068,Grade B: 10% cleaning fee deducted: 80.00. Inspection grade: B. Original deposit: 800.00.
+69,160,160,refund,800.00,2025-07-18 05:09:31,RMA-2025-000069,Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 800.00.
+70,122,122,refund,800.00,2025-07-26 08:27:49,RMA-2025-000070,Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 800.00.
+71,38,38,refund,1500.00,2025-07-30 04:17:48,RMA-2025-000071,Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 1500.00.
+72,51,51,refund,1500.00,2025-08-02 09:00:35,RMA-2025-000072,Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 1500.00.
+73,209,209,refund,2500.00,2025-08-01 05:08:52,RMA-2025-000073,Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 2500.00.
+74,92,92,refund,5000.00,2025-08-20 02:56:11,RMA-2025-000074,Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 5000.00.
+75,86,86,refund,5000.00,2025-08-18 11:11:29,RMA-2025-000075,Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 5000.00.
+76,54,54,refund,2500.00,2025-08-22 23:10:22,RMA-2025-000076,Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 2500.00.
+77,197,197,refund,2500.00,2025-08-27 02:57:21,RMA-2025-000077,Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 2500.00.
+78,67,67,refund,1350.00,2025-08-27 07:24:05,RMA-2025-000078,Grade B: 10% cleaning fee deducted: 150.00. Inspection grade: B. Original deposit: 1500.00.
+79,107,107,refund,1500.00,2025-08-30 03:55:08,RMA-2025-000079,Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 1500.00.
+80,234,234,refund,2250.00,2025-09-20 11:00:13,RMA-2025-000080,Grade B: 10% cleaning fee deducted: 250.00. Inspection grade: B. Original deposit: 2500.00.
+81,95,95,refund,5000.00,2025-09-21 04:22:54,RMA-2025-000081,Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 5000.00.
+82,136,136,refund,1350.00,2025-09-30 04:31:24,RMA-2025-000082,Grade B: 10% cleaning fee deducted: 150.00. Inspection grade: B. Original deposit: 1500.00.
+83,184,184,refund,2250.00,2025-10-11 00:45:58,RMA-2025-000083,Grade B: 10% cleaning fee deducted: 250.00. Inspection grade: B. Original deposit: 2500.00.
+84,97,97,refund,2250.00,2025-10-10 00:29:43,RMA-2025-000084,Grade B: 10% cleaning fee deducted: 250.00. Inspection grade: B. Original deposit: 2500.00.
+85,220,220,refund,800.00,2025-10-10 23:27:54,RMA-2025-000085,Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 800.00.
+86,24,24,refund,2500.00,2025-10-23 19:23:06,RMA-2025-000086,Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 2500.00.
+87,68,68,refund,5000.00,2025-10-24 13:07:16,RMA-2025-000087,Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 5000.00.
+88,159,159,refund,5000.00,2025-10-22 21:15:49,RMA-2025-000088,Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 5000.00.
+89,242,242,refund,150.00,2025-10-26 13:27:24,RMA-2025-000089,Grade C: 50% refurbishment deduction: 150.00. Inspection grade: C. Original deposit: 300.00.
+90,182,182,refund,5000.00,2025-10-26 14:30:19,RMA-2025-000090,Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 5000.00.
+91,191,191,refund,750.00,2025-10-31 09:08:43,RMA-2025-000091,Grade C: 50% refurbishment deduction: 750.00. Inspection grade: C. Original deposit: 1500.00.
+92,142,142,refund,150.00,2025-11-11 22:12:40,RMA-2025-000092,Grade C: 50% refurbishment deduction: 150.00. Inspection grade: C. Original deposit: 300.00.
+93,163,163,refund,800.00,2025-11-16 14:47:07,RMA-2025-000093,Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 800.00.
+94,200,200,refund,2500.00,2025-11-20 06:09:11,RMA-2025-000094,Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 2500.00.
+95,225,225,refund,5000.00,2025-11-21 01:25:06,RMA-2025-000095,Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 5000.00.
+96,187,187,refund,4500.00,2025-12-04 12:14:56,RMA-2025-000096,Grade B: 10% cleaning fee deducted: 500.00. Inspection grade: B. Original deposit: 5000.00.
+97,44,44,refund,2250.00,2025-12-12 02:31:56,RMA-2025-000097,Grade B: 10% cleaning fee deducted: 250.00. Inspection grade: B. Original deposit: 2500.00.
+98,132,132,refund,1500.00,2025-12-11 12:32:13,RMA-2025-000098,Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 1500.00.
+99,100,100,refund,300.00,2025-12-20 14:28:25,RMA-2025-000099,Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 300.00.
+100,101,101,refund,270.00,2025-12-25 02:07:02,RMA-2025-000100,Grade B: 10% cleaning fee deducted: 30.00. Inspection grade: B. Original deposit: 300.00.
+101,255,,charge,2500.00,2026-10-17 10:00:00,CHG-STAGE6-ASSET-0000255,STAGE6: Initial security deposit charge
+102,255,,refund,1250.00,2026-10-22 10:00:00,REF-STAGE6-A-ASSET-0000255,STAGE6:ANOM-03 first refund transaction
+103,255,,refund,1250.00,2026-10-22 11:00:00,REF-STAGE6-B-ASSET-0000255,STAGE6:ANOM-03 duplicate refund transaction
+104,256,,charge,300.00,2026-10-17 10:30:00,CHG-STAGE6-ASSET-0000256,STAGE6: Initial security deposit charge
+105,256,,refund,150.00,2026-10-22 10:30:00,REF-STAGE6-A-ASSET-0000256,STAGE6:ANOM-03 first refund transaction
+106,256,,refund,150.00,2026-10-22 11:30:00,REF-STAGE6-B-ASSET-0000256,STAGE6:ANOM-03 duplicate refund transaction

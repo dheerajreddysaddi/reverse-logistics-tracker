@@ -10,6 +10,7 @@ from src.database.models import (
     Repair,
 )
 from src.generator.asset_generator import SIMULATION_DATE
+from src.generator.id_generator import generate_repair_code
 
 
 PROJECT_SEED = 20261022
@@ -52,7 +53,7 @@ def generate_repairs_batch(
 
     repair_records = []
 
-    for inspection in inspections:
+    for idx, inspection in enumerate(inspections, start=len(existing_inspection_ids) + 1):
 
         if inspection.inspection_id in existing_inspection_ids:
             continue
@@ -76,6 +77,7 @@ def generate_repairs_batch(
                 closed_at = SIMULATION_DATE
 
         repair_records.append({
+            "repair_code": generate_repair_code(idx),
             "asset_id": inspection.asset_id,
             "inspection_id": inspection.inspection_id,
             "repair_description": description,

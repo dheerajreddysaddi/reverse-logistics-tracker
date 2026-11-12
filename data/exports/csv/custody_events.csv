@@ -1,0 +1,645 @@
+event_id,event_code,asset_id,shipment_id,from_location_id,to_location_id,actor_name,event_type,event_timestamp,notes
+1,CUST-ASSET-0000028-000001,28,28,3,1,Dispatch Clerk T. Jenkins,dispatch,2023-03-19 22:58:31,Dispatched through Delhivery. Shipment: SHP-2026-000028
+2,CUST-ASSET-0000028-000002,28,28,1,2,Carrier Hub Operator A. Davis,transfer,2023-03-20 15:58:31,Transferred through Delhivery.
+3,CUST-ASSET-0000028-000003,28,28,2,2,Warehouse Receiving Agent R. Vance,receipt,2023-03-20 19:58:31,Asset received and checked into warehouse.
+4,CUST-ASSET-0000094-000001,94,94,1,4,Dispatch Clerk T. Jenkins,dispatch,2023-04-20 18:26:37,Dispatched through FedEx Freight. Shipment: SHP-2026-000094
+5,CUST-ASSET-0000094-000002,94,94,4,2,Carrier Hub Operator A. Davis,transfer,2023-04-21 16:26:37,Transferred through FedEx Freight.
+6,CUST-ASSET-0000094-000003,94,94,2,2,Warehouse Receiving Agent R. Vance,receipt,2023-04-21 21:26:37,Asset received and checked into warehouse.
+7,CUST-ASSET-0000249-000001,249,249,2,3,Dispatch Clerk T. Jenkins,dispatch,2023-06-14 10:57:49,Dispatched through Blue Dart. Shipment: SHP-2026-000249
+8,CUST-ASSET-0000249-000002,249,249,3,1,Carrier Hub Operator A. Davis,transfer,2023-06-15 13:57:49,Transferred through Blue Dart.
+9,CUST-ASSET-0000249-000003,249,249,1,1,Warehouse Receiving Agent R. Vance,receipt,2023-06-15 17:57:49,Asset received and checked into warehouse.
+10,CUST-ASSET-0000175-000001,175,175,4,2,Dispatch Clerk T. Jenkins,dispatch,2023-07-24 08:56:19,Dispatched through FedEx Freight. Shipment: SHP-2026-000175
+11,CUST-ASSET-0000175-000002,175,175,2,3,Carrier Hub Operator A. Davis,transfer,2023-07-25 08:56:19,Transferred through FedEx Freight.
+12,CUST-ASSET-0000175-000003,175,175,3,3,Warehouse Receiving Agent R. Vance,receipt,2023-07-25 12:56:19,Asset received and checked into warehouse.
+13,CUST-ASSET-0000011-000001,11,11,4,3,Dispatch Clerk T. Jenkins,dispatch,2023-08-31 17:49:07,Dispatched through FedEx Freight. Shipment: SHP-2026-000011
+14,CUST-ASSET-0000011-000002,11,11,3,2,Carrier Hub Operator A. Davis,transfer,2023-09-01 23:49:07,Transferred through FedEx Freight.
+15,CUST-ASSET-0000011-000003,11,11,2,2,Warehouse Receiving Agent R. Vance,receipt,2023-09-02 06:49:07,Asset received and checked into warehouse.
+16,CUST-ASSET-0000071-000001,71,71,2,1,Dispatch Clerk T. Jenkins,dispatch,2023-09-09 20:22:21,Dispatched through FedEx Freight. Shipment: SHP-2026-000071
+17,CUST-ASSET-0000071-000002,71,71,1,3,Carrier Hub Operator A. Davis,transfer,2023-09-10 19:22:21,Transferred through FedEx Freight.
+18,CUST-ASSET-0000071-000003,71,71,3,3,Warehouse Receiving Agent R. Vance,receipt,2023-09-10 22:22:21,Asset received and checked into warehouse.
+19,CUST-ASSET-0000040-000001,40,40,4,1,Dispatch Clerk T. Jenkins,dispatch,2023-09-12 11:52:23,Dispatched through Blue Dart. Shipment: SHP-2026-000040
+20,CUST-ASSET-0000036-000001,36,36,4,2,Dispatch Clerk T. Jenkins,dispatch,2023-10-21 07:24:21,Dispatched through DTDC. Shipment: SHP-2026-000036
+21,CUST-ASSET-0000010-000001,10,10,1,2,Dispatch Clerk T. Jenkins,dispatch,2023-10-29 10:18:28,Dispatched through DHL Supply Chain. Shipment: SHP-2026-000010
+22,CUST-ASSET-0000010-000002,10,10,2,4,Carrier Hub Operator A. Davis,transfer,2023-10-30 12:18:28,Transferred through DHL Supply Chain.
+23,CUST-ASSET-0000010-000003,10,10,4,4,Warehouse Receiving Agent R. Vance,receipt,2023-10-30 16:18:28,Asset received and checked into warehouse.
+24,CUST-ASSET-0000019-000001,19,19,3,1,Dispatch Clerk T. Jenkins,dispatch,2023-11-01 01:59:20,Dispatched through Blue Dart. Shipment: SHP-2026-000019
+25,CUST-ASSET-0000019-000002,19,19,1,2,Carrier Hub Operator A. Davis,transfer,2023-11-01 13:59:20,Transferred through Blue Dart.
+26,CUST-ASSET-0000019-000003,19,19,2,2,Warehouse Receiving Agent R. Vance,receipt,2023-11-01 15:59:20,Asset received and checked into warehouse.
+27,CUST-ASSET-0000185-000001,185,185,4,3,Dispatch Clerk T. Jenkins,dispatch,2023-12-07 03:56:16,Dispatched through Delhivery. Shipment: SHP-2026-000185
+28,CUST-ASSET-0000185-000002,185,185,3,2,Carrier Hub Operator A. Davis,transfer,2023-12-08 01:56:16,Transferred through Delhivery.
+29,CUST-ASSET-0000185-000003,185,185,2,2,Warehouse Receiving Agent R. Vance,receipt,2023-12-08 08:56:16,Asset received and checked into warehouse.
+30,CUST-ASSET-0000006-000001,6,6,1,4,Dispatch Clerk T. Jenkins,dispatch,2023-12-27 19:22:52,Dispatched through DTDC. Shipment: SHP-2026-000006
+31,CUST-ASSET-0000006-000002,6,6,4,2,Carrier Hub Operator A. Davis,transfer,2023-12-28 13:22:52,Transferred through DTDC.
+32,CUST-ASSET-0000006-000003,6,6,2,2,Warehouse Receiving Agent R. Vance,receipt,2023-12-28 15:22:52,Asset received and checked into warehouse.
+33,CUST-ASSET-0000041-000001,41,41,2,3,Dispatch Clerk T. Jenkins,dispatch,2023-12-29 05:38:08,Dispatched through FedEx Freight. Shipment: SHP-2026-000041
+34,CUST-ASSET-0000041-000002,41,41,3,4,Carrier Hub Operator A. Davis,transfer,2023-12-30 01:38:08,Transferred through FedEx Freight.
+35,CUST-ASSET-0000041-000003,41,41,4,4,Warehouse Receiving Agent R. Vance,receipt,2023-12-30 05:38:08,Asset received and checked into warehouse.
+36,CUST-ASSET-0000104-000001,104,104,1,4,Dispatch Clerk T. Jenkins,dispatch,2024-01-03 08:53:22,Dispatched through FedEx Freight. Shipment: SHP-2026-000104
+37,CUST-ASSET-0000104-000002,104,104,4,2,Carrier Hub Operator A. Davis,transfer,2024-01-04 04:53:22,Transferred through FedEx Freight.
+38,CUST-ASSET-0000104-000003,104,104,2,2,Warehouse Receiving Agent R. Vance,receipt,2024-01-04 11:53:22,Asset received and checked into warehouse.
+39,CUST-ASSET-0000055-000001,55,55,2,3,Dispatch Clerk T. Jenkins,dispatch,2024-01-18 12:49:30,Dispatched through Delhivery. Shipment: SHP-2026-000055
+40,CUST-ASSET-0000202-000001,202,202,4,1,Dispatch Clerk T. Jenkins,dispatch,2024-01-29 12:13:55,Dispatched through DTDC. Shipment: SHP-2026-000202
+41,CUST-ASSET-0000202-000002,202,202,1,2,Carrier Hub Operator A. Davis,transfer,2024-01-30 04:13:55,Transferred through DTDC.
+42,CUST-ASSET-0000202-000003,202,202,2,2,Warehouse Receiving Agent R. Vance,receipt,2024-01-30 10:13:55,Asset received and checked into warehouse.
+43,CUST-ASSET-0000177-000001,177,177,1,4,Dispatch Clerk T. Jenkins,dispatch,2024-02-12 02:49:18,Dispatched through Blue Dart. Shipment: SHP-2026-000177
+44,CUST-ASSET-0000177-000002,177,177,4,3,Carrier Hub Operator A. Davis,transfer,2024-02-13 06:49:18,Transferred through Blue Dart.
+45,CUST-ASSET-0000177-000003,177,177,3,3,Warehouse Receiving Agent R. Vance,receipt,2024-02-13 08:49:18,Asset received and checked into warehouse.
+46,CUST-ASSET-0000012-000001,12,12,4,2,Dispatch Clerk T. Jenkins,dispatch,2024-02-15 13:55:18,Dispatched through Blue Dart. Shipment: SHP-2026-000012
+47,CUST-ASSET-0000012-000002,12,12,2,3,Carrier Hub Operator A. Davis,transfer,2024-02-16 14:55:18,Transferred through Blue Dart.
+48,CUST-ASSET-0000012-000003,12,12,3,3,Warehouse Receiving Agent R. Vance,receipt,2024-02-16 21:55:18,Asset received and checked into warehouse.
+49,CUST-ASSET-0000001-000001,1,1,3,4,Dispatch Clerk T. Jenkins,dispatch,2024-03-05 20:47:58,Dispatched through FedEx Freight. Shipment: SHP-2026-000001
+50,CUST-ASSET-0000001-000002,1,1,4,2,Carrier Hub Operator A. Davis,transfer,2024-03-06 14:47:58,Transferred through FedEx Freight.
+51,CUST-ASSET-0000001-000003,1,1,2,2,Warehouse Receiving Agent R. Vance,receipt,2024-03-06 16:47:58,Asset received and checked into warehouse.
+52,CUST-ASSET-0000148-000001,148,148,2,3,Dispatch Clerk T. Jenkins,dispatch,2024-03-15 13:47:54,Dispatched through Blue Dart. Shipment: SHP-2026-000148
+53,CUST-ASSET-0000148-000002,148,148,3,1,Carrier Hub Operator A. Davis,transfer,2024-03-16 14:47:54,Transferred through Blue Dart.
+54,CUST-ASSET-0000148-000003,148,148,1,1,Warehouse Receiving Agent R. Vance,receipt,2024-03-16 19:47:54,Asset received and checked into warehouse.
+55,CUST-ASSET-0000211-000001,211,211,4,3,Dispatch Clerk T. Jenkins,dispatch,2024-03-18 10:18:04,Dispatched through Blue Dart. Shipment: SHP-2026-000211
+56,CUST-ASSET-0000211-000002,211,211,3,2,Carrier Hub Operator A. Davis,transfer,2024-03-19 12:18:04,Transferred through Blue Dart.
+57,CUST-ASSET-0000211-000003,211,211,2,2,Warehouse Receiving Agent R. Vance,receipt,2024-03-19 16:18:04,Asset received and checked into warehouse.
+58,CUST-ASSET-0000218-000001,218,218,3,2,Dispatch Clerk T. Jenkins,dispatch,2024-04-05 18:01:32,Dispatched through FedEx Freight. Shipment: SHP-2026-000218
+59,CUST-ASSET-0000046-000001,46,46,2,4,Dispatch Clerk T. Jenkins,dispatch,2024-04-17 15:19:42,Dispatched through Blue Dart. Shipment: SHP-2026-000046
+60,CUST-ASSET-0000087-000001,87,87,1,2,Dispatch Clerk T. Jenkins,dispatch,2024-04-18 12:54:21,Dispatched through Delhivery. Shipment: SHP-2026-000087
+61,CUST-ASSET-0000046-000002,46,46,4,1,Carrier Hub Operator A. Davis,transfer,2024-04-18 13:19:42,Transferred through Blue Dart.
+62,CUST-ASSET-0000046-000003,46,46,1,1,Warehouse Receiving Agent R. Vance,receipt,2024-04-18 15:19:42,Asset received and checked into warehouse.
+63,CUST-ASSET-0000087-000002,87,87,2,3,Carrier Hub Operator A. Davis,transfer,2024-04-19 13:54:21,Transferred through Delhivery.
+64,CUST-ASSET-0000087-000003,87,87,3,3,Warehouse Receiving Agent R. Vance,receipt,2024-04-19 21:54:21,Asset received and checked into warehouse.
+65,CUST-ASSET-0000155-000001,155,155,4,1,Dispatch Clerk T. Jenkins,dispatch,2024-04-27 11:58:29,Dispatched through DHL Supply Chain. Shipment: SHP-2026-000155
+66,CUST-ASSET-0000155-000002,155,155,1,2,Carrier Hub Operator A. Davis,transfer,2024-04-28 08:58:29,Transferred through DHL Supply Chain.
+67,CUST-ASSET-0000155-000003,155,155,2,2,Warehouse Receiving Agent R. Vance,receipt,2024-04-28 10:58:29,Asset received and checked into warehouse.
+68,CUST-ASSET-0000228-000001,228,228,2,3,Dispatch Clerk T. Jenkins,dispatch,2024-04-30 18:31:57,Dispatched through DTDC. Shipment: SHP-2026-000228
+69,CUST-ASSET-0000228-000002,228,228,3,4,Carrier Hub Operator A. Davis,transfer,2024-05-01 22:31:57,Transferred through DTDC.
+70,CUST-ASSET-0000228-000003,228,228,4,4,Warehouse Receiving Agent R. Vance,receipt,2024-05-02 03:31:57,Asset received and checked into warehouse.
+71,CUST-ASSET-0000146-000001,146,146,1,3,Dispatch Clerk T. Jenkins,dispatch,2024-05-09 01:47:35,Dispatched through Delhivery. Shipment: SHP-2026-000146
+72,CUST-ASSET-0000170-000001,170,170,1,4,Dispatch Clerk T. Jenkins,dispatch,2024-05-09 04:02:06,Dispatched through DHL Supply Chain. Shipment: SHP-2026-000170
+73,CUST-ASSET-0000170-000002,170,170,4,2,Carrier Hub Operator A. Davis,transfer,2024-05-10 06:02:06,Transferred through DHL Supply Chain.
+74,CUST-ASSET-0000170-000003,170,170,2,2,Warehouse Receiving Agent R. Vance,receipt,2024-05-10 11:02:06,Asset received and checked into warehouse.
+75,CUST-ASSET-0000112-000001,112,112,2,1,Dispatch Clerk T. Jenkins,dispatch,2024-05-11 01:34:45,Dispatched through DHL Supply Chain. Shipment: SHP-2026-000112
+76,CUST-ASSET-0000112-000002,112,112,1,4,Carrier Hub Operator A. Davis,transfer,2024-05-12 02:34:45,Transferred through DHL Supply Chain.
+77,CUST-ASSET-0000112-000003,112,112,4,4,Warehouse Receiving Agent R. Vance,receipt,2024-05-12 08:34:45,Asset received and checked into warehouse.
+78,CUST-ASSET-0000063-000001,63,63,3,1,Dispatch Clerk T. Jenkins,dispatch,2024-05-17 08:20:32,Dispatched through DHL Supply Chain. Shipment: SHP-2026-000063
+79,CUST-ASSET-0000063-000002,63,63,1,4,Carrier Hub Operator A. Davis,transfer,2024-05-18 04:20:32,Transferred through DHL Supply Chain.
+80,CUST-ASSET-0000063-000003,63,63,4,4,Warehouse Receiving Agent R. Vance,receipt,2024-05-18 06:20:32,Asset received and checked into warehouse.
+81,CUST-ASSET-0000137-000001,137,137,3,4,Dispatch Clerk T. Jenkins,dispatch,2024-05-22 23:29:26,Dispatched through FedEx Freight. Shipment: SHP-2026-000137
+82,CUST-ASSET-0000183-000001,183,183,2,4,Dispatch Clerk T. Jenkins,dispatch,2024-05-24 01:35:07,Dispatched through Blue Dart. Shipment: SHP-2026-000183
+83,CUST-ASSET-0000183-000002,183,183,4,3,Carrier Hub Operator A. Davis,transfer,2024-05-24 19:35:07,Transferred through Blue Dart.
+84,CUST-ASSET-0000183-000003,183,183,3,3,Warehouse Receiving Agent R. Vance,receipt,2024-05-25 02:35:07,Asset received and checked into warehouse.
+85,CUST-ASSET-0000208-000001,208,208,2,3,Dispatch Clerk T. Jenkins,dispatch,2024-06-04 13:23:39,Dispatched through FedEx Freight. Shipment: SHP-2026-000208
+86,CUST-ASSET-0000208-000002,208,208,3,1,Carrier Hub Operator A. Davis,transfer,2024-06-05 06:23:39,Transferred through FedEx Freight.
+87,CUST-ASSET-0000208-000003,208,208,1,1,Warehouse Receiving Agent R. Vance,receipt,2024-06-05 13:23:39,Asset received and checked into warehouse.
+88,CUST-ASSET-0000161-000001,161,161,4,2,Dispatch Clerk T. Jenkins,dispatch,2024-06-09 14:35:15,Dispatched through Blue Dart. Shipment: SHP-2026-000161
+89,CUST-ASSET-0000161-000002,161,161,2,1,Carrier Hub Operator A. Davis,transfer,2024-06-10 13:35:15,Transferred through Blue Dart.
+90,CUST-ASSET-0000161-000003,161,161,1,1,Warehouse Receiving Agent R. Vance,receipt,2024-06-10 17:35:15,Asset received and checked into warehouse.
+91,CUST-ASSET-0000151-000001,151,151,1,4,Dispatch Clerk T. Jenkins,dispatch,2024-06-15 14:39:16,Dispatched through Delhivery. Shipment: SHP-2026-000151
+92,CUST-ASSET-0000074-000001,74,74,4,1,Dispatch Clerk T. Jenkins,dispatch,2024-06-15 16:02:02,Dispatched through DHL Supply Chain. Shipment: SHP-2026-000074
+93,CUST-ASSET-0000151-000002,151,151,4,3,Carrier Hub Operator A. Davis,transfer,2024-06-16 09:39:16,Transferred through Delhivery.
+94,CUST-ASSET-0000151-000003,151,151,3,3,Warehouse Receiving Agent R. Vance,receipt,2024-06-16 13:39:16,Asset received and checked into warehouse.
+95,CUST-ASSET-0000088-000001,88,88,4,3,Dispatch Clerk T. Jenkins,dispatch,2024-06-27 23:26:56,Dispatched through DHL Supply Chain. Shipment: SHP-2026-000088
+96,CUST-ASSET-0000088-000002,88,88,3,1,Carrier Hub Operator A. Davis,transfer,2024-06-28 14:26:56,Transferred through DHL Supply Chain.
+97,CUST-ASSET-0000016-000001,16,16,1,4,Dispatch Clerk T. Jenkins,dispatch,2024-06-28 16:00:11,Dispatched through Blue Dart. Shipment: SHP-2026-000016
+98,CUST-ASSET-0000088-000003,88,88,1,1,Warehouse Receiving Agent R. Vance,receipt,2024-06-28 21:26:56,Asset received and checked into warehouse.
+99,CUST-ASSET-0000016-000002,16,16,4,2,Carrier Hub Operator A. Davis,transfer,2024-06-29 10:00:11,Transferred through Blue Dart.
+100,CUST-ASSET-0000016-000003,16,16,2,2,Warehouse Receiving Agent R. Vance,receipt,2024-06-29 16:00:11,Asset received and checked into warehouse.
+101,CUST-ASSET-0000129-000001,129,129,2,3,Dispatch Clerk T. Jenkins,dispatch,2024-07-05 23:48:34,Dispatched through FedEx Freight. Shipment: SHP-2026-000129
+102,CUST-ASSET-0000129-000002,129,129,3,1,Carrier Hub Operator A. Davis,transfer,2024-07-06 19:48:34,Transferred through FedEx Freight.
+103,CUST-ASSET-0000129-000003,129,129,1,1,Warehouse Receiving Agent R. Vance,receipt,2024-07-07 02:48:34,Asset received and checked into warehouse.
+104,CUST-ASSET-0000110-000001,110,110,2,1,Dispatch Clerk T. Jenkins,dispatch,2024-07-14 05:49:45,Dispatched through FedEx Freight. Shipment: SHP-2026-000110
+105,CUST-ASSET-0000110-000002,110,110,1,4,Carrier Hub Operator A. Davis,transfer,2024-07-15 01:49:45,Transferred through FedEx Freight.
+106,CUST-ASSET-0000110-000003,110,110,4,4,Warehouse Receiving Agent R. Vance,receipt,2024-07-15 04:49:45,Asset received and checked into warehouse.
+107,CUST-ASSET-0000072-000001,72,72,4,3,Dispatch Clerk T. Jenkins,dispatch,2024-07-20 16:01:43,Dispatched through FedEx Freight. Shipment: SHP-2026-000072
+108,CUST-ASSET-0000018-000001,18,18,2,4,Dispatch Clerk T. Jenkins,dispatch,2024-07-23 08:38:03,Dispatched through DHL Supply Chain. Shipment: SHP-2026-000018
+109,CUST-ASSET-0000090-000001,90,90,4,1,Dispatch Clerk T. Jenkins,dispatch,2024-07-23 09:09:28,Dispatched through Delhivery. Shipment: SHP-2026-000090
+110,CUST-ASSET-0000090-000002,90,90,1,2,Carrier Hub Operator A. Davis,transfer,2024-07-23 23:09:28,Transferred through Delhivery.
+111,CUST-ASSET-0000090-000003,90,90,2,2,Warehouse Receiving Agent R. Vance,receipt,2024-07-24 05:09:28,Asset received and checked into warehouse.
+112,CUST-ASSET-0000169-000001,169,169,1,2,Dispatch Clerk T. Jenkins,dispatch,2024-07-28 00:49:54,Dispatched through Blue Dart. Shipment: SHP-2026-000169
+113,CUST-ASSET-0000169-000002,169,169,2,3,Carrier Hub Operator A. Davis,transfer,2024-07-28 20:49:54,Transferred through Blue Dart.
+114,CUST-ASSET-0000169-000003,169,169,3,3,Warehouse Receiving Agent R. Vance,receipt,2024-07-28 23:49:54,Asset received and checked into warehouse.
+115,CUST-ASSET-0000066-000001,66,66,3,4,Dispatch Clerk T. Jenkins,dispatch,2024-08-26 14:46:46,Dispatched through DHL Supply Chain. Shipment: SHP-2026-000066
+116,CUST-ASSET-0000221-000001,221,221,2,1,Dispatch Clerk T. Jenkins,dispatch,2024-08-28 00:35:12,Dispatched through Delhivery. Shipment: SHP-2026-000221
+117,CUST-ASSET-0000221-000002,221,221,1,3,Carrier Hub Operator A. Davis,transfer,2024-08-28 21:35:12,Transferred through Delhivery.
+118,CUST-ASSET-0000221-000003,221,221,3,3,Warehouse Receiving Agent R. Vance,receipt,2024-08-29 03:35:12,Asset received and checked into warehouse.
+119,CUST-ASSET-0000033-000001,33,33,3,2,Dispatch Clerk T. Jenkins,dispatch,2024-08-30 21:30:13,Dispatched through DHL Supply Chain. Shipment: SHP-2026-000033
+120,CUST-ASSET-0000033-000002,33,33,2,1,Carrier Hub Operator A. Davis,transfer,2024-08-31 18:30:13,Transferred through DHL Supply Chain.
+121,CUST-ASSET-0000033-000003,33,33,1,1,Warehouse Receiving Agent R. Vance,receipt,2024-08-31 22:30:13,Asset received and checked into warehouse.
+122,CUST-ASSET-0000076-000001,76,76,1,3,Dispatch Clerk T. Jenkins,dispatch,2024-09-03 09:14:33,Dispatched through DHL Supply Chain. Shipment: SHP-2026-000076
+123,CUST-ASSET-0000076-000002,76,76,3,4,Carrier Hub Operator A. Davis,transfer,2024-09-03 23:14:33,Transferred through DHL Supply Chain.
+124,CUST-ASSET-0000076-000003,76,76,4,4,Warehouse Receiving Agent R. Vance,receipt,2024-09-04 01:14:33,Asset received and checked into warehouse.
+125,CUST-ASSET-0000237-000001,237,237,4,1,Dispatch Clerk T. Jenkins,dispatch,2024-09-06 07:32:10,Dispatched through DHL Supply Chain. Shipment: SHP-2026-000237
+126,CUST-ASSET-0000237-000002,237,237,1,3,Carrier Hub Operator A. Davis,transfer,2024-09-07 11:32:10,Transferred through DHL Supply Chain.
+127,CUST-ASSET-0000237-000003,237,237,3,3,Warehouse Receiving Agent R. Vance,receipt,2024-09-07 15:32:10,Asset received and checked into warehouse.
+128,CUST-ASSET-0000116-000001,116,116,2,4,Dispatch Clerk T. Jenkins,dispatch,2024-09-26 23:38:45,Dispatched through DHL Supply Chain. Shipment: SHP-2026-000116
+129,CUST-ASSET-0000116-000002,116,116,4,3,Carrier Hub Operator A. Davis,transfer,2024-09-27 21:38:45,Transferred through DHL Supply Chain.
+130,CUST-ASSET-0000116-000003,116,116,3,3,Warehouse Receiving Agent R. Vance,receipt,2024-09-28 02:38:45,Asset received and checked into warehouse.
+131,CUST-ASSET-0000130-000001,130,130,3,4,Dispatch Clerk T. Jenkins,dispatch,2024-10-03 05:39:31,Dispatched through DHL Supply Chain. Shipment: SHP-2026-000130
+132,CUST-ASSET-0000244-000001,244,244,2,3,Dispatch Clerk T. Jenkins,dispatch,2024-10-03 15:20:19,Dispatched through Delhivery. Shipment: SHP-2026-000244
+133,CUST-ASSET-0000244-000002,244,244,3,1,Carrier Hub Operator A. Davis,transfer,2024-10-04 13:20:19,Transferred through Delhivery.
+134,CUST-ASSET-0000244-000003,244,244,1,1,Warehouse Receiving Agent R. Vance,receipt,2024-10-04 19:20:19,Asset received and checked into warehouse.
+135,CUST-ASSET-0000091-000001,91,91,4,2,Dispatch Clerk T. Jenkins,dispatch,2024-10-22 08:44:47,Dispatched through FedEx Freight. Shipment: SHP-2026-000091
+136,CUST-ASSET-0000091-000002,91,91,2,1,Carrier Hub Operator A. Davis,transfer,2024-10-23 06:44:47,Transferred through FedEx Freight.
+137,CUST-ASSET-0000091-000003,91,91,1,1,Warehouse Receiving Agent R. Vance,receipt,2024-10-23 13:44:47,Asset received and checked into warehouse.
+138,CUST-ASSET-0000139-000001,139,139,3,2,Dispatch Clerk T. Jenkins,dispatch,2024-11-01 23:04:54,Dispatched through FedEx Freight. Shipment: SHP-2026-000139
+139,CUST-ASSET-0000226-000001,226,226,1,3,Dispatch Clerk T. Jenkins,dispatch,2024-11-02 18:37:15,Dispatched through DHL Supply Chain. Shipment: SHP-2026-000226
+140,CUST-ASSET-0000139-000002,139,139,2,1,Carrier Hub Operator A. Davis,transfer,2024-11-03 03:04:54,Transferred through FedEx Freight.
+141,CUST-ASSET-0000139-000003,139,139,1,1,Warehouse Receiving Agent R. Vance,receipt,2024-11-03 10:04:54,Asset received and checked into warehouse.
+142,CUST-ASSET-0000226-000002,226,226,3,4,Carrier Hub Operator A. Davis,transfer,2024-11-03 14:37:15,Transferred through DHL Supply Chain.
+143,CUST-ASSET-0000226-000003,226,226,4,4,Warehouse Receiving Agent R. Vance,receipt,2024-11-03 16:37:15,Asset received and checked into warehouse.
+144,CUST-ASSET-0000236-000001,236,236,3,4,Dispatch Clerk T. Jenkins,dispatch,2024-11-08 09:04:29,Dispatched through Blue Dart. Shipment: SHP-2026-000236
+145,CUST-ASSET-0000125-000001,125,125,4,3,Dispatch Clerk T. Jenkins,dispatch,2024-11-18 01:52:43,Dispatched through FedEx Freight. Shipment: SHP-2026-000125
+146,CUST-ASSET-0000108-000001,108,108,3,4,Dispatch Clerk T. Jenkins,dispatch,2025-01-03 17:08:48,Dispatched through FedEx Freight. Shipment: SHP-2026-000108
+147,CUST-ASSET-0000064-000001,64,64,1,3,Dispatch Clerk T. Jenkins,dispatch,2025-01-04 02:34:13,Dispatched through Blue Dart. Shipment: SHP-2026-000064
+148,CUST-ASSET-0000108-000002,108,108,4,2,Carrier Hub Operator A. Davis,transfer,2025-01-04 12:08:48,Transferred through FedEx Freight.
+149,CUST-ASSET-0000108-000003,108,108,2,2,Warehouse Receiving Agent R. Vance,receipt,2025-01-04 16:08:48,Asset received and checked into warehouse.
+150,CUST-ASSET-0000064-000002,64,64,3,4,Carrier Hub Operator A. Davis,transfer,2025-01-05 02:34:13,Transferred through Blue Dart.
+151,CUST-ASSET-0000064-000003,64,64,4,4,Warehouse Receiving Agent R. Vance,receipt,2025-01-05 10:34:13,Asset received and checked into warehouse.
+152,CUST-ASSET-0000173-000001,173,173,3,4,Dispatch Clerk T. Jenkins,dispatch,2025-01-14 08:34:14,Dispatched through Delhivery. Shipment: SHP-2026-000173
+153,CUST-ASSET-0000117-000001,117,117,2,4,Dispatch Clerk T. Jenkins,dispatch,2025-01-21 05:29:39,Dispatched through FedEx Freight. Shipment: SHP-2026-000117
+154,CUST-ASSET-0000008-000001,8,8,1,2,Dispatch Clerk T. Jenkins,dispatch,2025-02-03 03:10:47,Dispatched through DTDC. Shipment: SHP-2026-000008
+155,CUST-ASSET-0000140-000001,140,140,3,4,Dispatch Clerk T. Jenkins,dispatch,2025-02-07 02:35:20,Dispatched through Delhivery. Shipment: SHP-2026-000140
+156,CUST-ASSET-0000045-000001,45,45,2,3,Dispatch Clerk T. Jenkins,dispatch,2025-02-09 23:18:51,Dispatched through FedEx Freight. Shipment: SHP-2026-000045
+157,CUST-ASSET-0000045-000002,45,45,3,1,Carrier Hub Operator A. Davis,transfer,2025-02-10 17:18:51,Transferred through FedEx Freight.
+158,CUST-ASSET-0000045-000003,45,45,1,1,Warehouse Receiving Agent R. Vance,receipt,2025-02-11 00:18:51,Asset received and checked into warehouse.
+159,CUST-ASSET-0000102-000001,102,102,3,1,Dispatch Clerk T. Jenkins,dispatch,2025-02-17 03:33:57,Dispatched through DHL Supply Chain. Shipment: SHP-2026-000102
+160,CUST-ASSET-0000102-000002,102,102,1,4,Carrier Hub Operator A. Davis,transfer,2025-02-17 17:33:57,Transferred through DHL Supply Chain.
+161,CUST-ASSET-0000102-000003,102,102,4,4,Warehouse Receiving Agent R. Vance,receipt,2025-02-18 00:33:57,Asset received and checked into warehouse.
+162,CUST-ASSET-0000205-000001,205,205,2,4,Dispatch Clerk T. Jenkins,dispatch,2025-02-24 11:53:47,Dispatched through DHL Supply Chain. Shipment: SHP-2026-000205
+163,CUST-ASSET-0000205-000002,205,205,4,3,Carrier Hub Operator A. Davis,transfer,2025-02-25 12:53:47,Transferred through DHL Supply Chain.
+164,CUST-ASSET-0000077-000001,77,77,1,2,Dispatch Clerk T. Jenkins,dispatch,2025-02-25 13:20:00,Dispatched through FedEx Freight. Shipment: SHP-2026-000077
+165,CUST-ASSET-0000205-000003,205,205,3,3,Warehouse Receiving Agent R. Vance,receipt,2025-02-25 18:53:47,Asset received and checked into warehouse.
+166,CUST-ASSET-0000077-000002,77,77,2,3,Carrier Hub Operator A. Davis,transfer,2025-02-26 07:20:00,Transferred through FedEx Freight.
+167,CUST-ASSET-0000077-000003,77,77,3,3,Warehouse Receiving Agent R. Vance,receipt,2025-02-26 11:20:00,Asset received and checked into warehouse.
+168,CUST-ASSET-0000145-000001,145,145,3,1,Dispatch Clerk T. Jenkins,dispatch,2025-03-05 03:39:05,Dispatched through Blue Dart. Shipment: SHP-2026-000145
+169,CUST-ASSET-0000049-000001,49,49,3,4,Dispatch Clerk T. Jenkins,dispatch,2025-03-06 03:41:45,Dispatched through Blue Dart. Shipment: SHP-2026-000049
+170,CUST-ASSET-0000049-000002,49,49,4,1,Carrier Hub Operator A. Davis,transfer,2025-03-07 08:41:45,Transferred through Blue Dart.
+171,CUST-ASSET-0000049-000003,49,49,1,1,Warehouse Receiving Agent R. Vance,receipt,2025-03-07 11:41:45,Asset received and checked into warehouse.
+172,CUST-ASSET-0000060-000001,60,60,2,3,Dispatch Clerk T. Jenkins,dispatch,2025-03-10 01:06:26,Dispatched through DTDC. Shipment: SHP-2026-000060
+173,CUST-ASSET-0000060-000002,60,60,3,1,Carrier Hub Operator A. Davis,transfer,2025-03-10 18:06:26,Transferred through DTDC.
+174,CUST-ASSET-0000149-000001,149,149,4,3,Dispatch Clerk T. Jenkins,dispatch,2025-03-10 18:14:44,Dispatched through Delhivery. Shipment: SHP-2026-000149
+175,CUST-ASSET-0000060-000003,60,60,1,1,Warehouse Receiving Agent R. Vance,receipt,2025-03-11 00:06:26,Asset received and checked into warehouse.
+176,CUST-ASSET-0000149-000002,149,149,3,1,Carrier Hub Operator A. Davis,transfer,2025-03-11 17:14:44,Transferred through Delhivery.
+177,CUST-ASSET-0000149-000003,149,149,1,1,Warehouse Receiving Agent R. Vance,receipt,2025-03-11 21:14:44,Asset received and checked into warehouse.
+178,CUST-ASSET-0000096-000001,96,96,3,2,Dispatch Clerk T. Jenkins,dispatch,2025-04-02 02:46:38,Dispatched through DTDC. Shipment: SHP-2026-000096
+179,CUST-ASSET-0000096-000002,96,96,2,4,Carrier Hub Operator A. Davis,transfer,2025-04-02 23:46:38,Transferred through DTDC.
+180,CUST-ASSET-0000096-000003,96,96,4,4,Warehouse Receiving Agent R. Vance,receipt,2025-04-03 04:46:38,Asset received and checked into warehouse.
+181,CUST-ASSET-0000083-000001,83,83,2,3,Dispatch Clerk T. Jenkins,dispatch,2025-04-04 10:36:41,Dispatched through DHL Supply Chain. Shipment: SHP-2026-000083
+182,CUST-ASSET-0000083-000002,83,83,3,1,Carrier Hub Operator A. Davis,transfer,2025-04-05 05:36:41,Transferred through DHL Supply Chain.
+183,CUST-ASSET-0000083-000003,83,83,1,1,Warehouse Receiving Agent R. Vance,receipt,2025-04-05 13:36:41,Asset received and checked into warehouse.
+184,CUST-ASSET-0000172-000001,172,172,2,3,Dispatch Clerk T. Jenkins,dispatch,2025-05-04 12:52:47,Dispatched through DHL Supply Chain. Shipment: SHP-2026-000172
+185,CUST-ASSET-0000172-000002,172,172,3,1,Carrier Hub Operator A. Davis,transfer,2025-05-05 14:52:47,Transferred through DHL Supply Chain.
+186,CUST-ASSET-0000172-000003,172,172,1,1,Warehouse Receiving Agent R. Vance,receipt,2025-05-05 17:52:47,Asset received and checked into warehouse.
+187,CUST-ASSET-0000143-000001,143,143,1,2,Dispatch Clerk T. Jenkins,dispatch,2025-05-06 09:23:06,Dispatched through Delhivery. Shipment: SHP-2026-000143
+188,CUST-ASSET-0000165-000001,165,165,2,1,Dispatch Clerk T. Jenkins,dispatch,2025-05-07 05:53:10,Dispatched through Delhivery. Shipment: SHP-2026-000165
+189,CUST-ASSET-0000143-000002,143,143,2,4,Carrier Hub Operator A. Davis,transfer,2025-05-07 07:23:06,Transferred through Delhivery.
+190,CUST-ASSET-0000143-000003,143,143,4,4,Warehouse Receiving Agent R. Vance,receipt,2025-05-07 12:23:06,Asset received and checked into warehouse.
+191,CUST-ASSET-0000165-000002,165,165,1,4,Carrier Hub Operator A. Davis,transfer,2025-05-08 04:53:10,Transferred through Delhivery.
+192,CUST-ASSET-0000165-000003,165,165,4,4,Warehouse Receiving Agent R. Vance,receipt,2025-05-08 10:53:10,Asset received and checked into warehouse.
+193,CUST-ASSET-0000075-000001,75,75,1,4,Dispatch Clerk T. Jenkins,dispatch,2025-05-13 18:13:23,Dispatched through DTDC. Shipment: SHP-2026-000075
+194,CUST-ASSET-0000075-000002,75,75,4,3,Carrier Hub Operator A. Davis,transfer,2025-05-14 14:13:23,Transferred through DTDC.
+195,CUST-ASSET-0000075-000003,75,75,3,3,Warehouse Receiving Agent R. Vance,receipt,2025-05-14 22:13:23,Asset received and checked into warehouse.
+196,CUST-ASSET-0000243-000001,243,243,4,1,Dispatch Clerk T. Jenkins,dispatch,2025-05-15 12:16:11,Dispatched through Delhivery. Shipment: SHP-2026-000243
+197,CUST-ASSET-0000005-000001,5,5,3,1,Dispatch Clerk T. Jenkins,dispatch,2025-05-22 02:09:32,Dispatched through Delhivery. Shipment: SHP-2026-000005
+198,CUST-ASSET-0000005-000002,5,5,1,4,Carrier Hub Operator A. Davis,transfer,2025-05-22 21:09:32,Transferred through Delhivery.
+199,CUST-ASSET-0000005-000003,5,5,4,4,Warehouse Receiving Agent R. Vance,receipt,2025-05-23 02:09:32,Asset received and checked into warehouse.
+200,CUST-ASSET-0000180-000001,180,180,1,4,Dispatch Clerk T. Jenkins,dispatch,2025-05-26 11:24:38,Dispatched through FedEx Freight. Shipment: SHP-2026-000180
+201,CUST-ASSET-0000180-000002,180,180,4,3,Carrier Hub Operator A. Davis,transfer,2025-05-27 16:24:38,Transferred through FedEx Freight.
+202,CUST-ASSET-0000180-000003,180,180,3,3,Warehouse Receiving Agent R. Vance,receipt,2025-05-27 22:24:38,Asset received and checked into warehouse.
+203,CUST-ASSET-0000138-000001,138,138,2,1,Dispatch Clerk T. Jenkins,dispatch,2025-05-28 09:52:36,Dispatched through Blue Dart. Shipment: SHP-2026-000138
+204,CUST-ASSET-0000219-000001,219,219,3,2,Dispatch Clerk T. Jenkins,dispatch,2025-05-30 11:11:26,Dispatched through DTDC. Shipment: SHP-2026-000219
+205,CUST-ASSET-0000219-000002,219,219,2,1,Carrier Hub Operator A. Davis,transfer,2025-05-31 12:11:26,Transferred through DTDC.
+206,CUST-ASSET-0000219-000003,219,219,1,1,Warehouse Receiving Agent R. Vance,receipt,2025-05-31 15:11:26,Asset received and checked into warehouse.
+207,CUST-ASSET-0000223-000001,223,223,4,3,Dispatch Clerk T. Jenkins,dispatch,2025-06-01 18:39:11,Dispatched through FedEx Freight. Shipment: SHP-2026-000223
+208,CUST-ASSET-0000223-000002,223,223,3,1,Carrier Hub Operator A. Davis,transfer,2025-06-02 13:39:11,Transferred through FedEx Freight.
+209,CUST-ASSET-0000223-000003,223,223,1,1,Warehouse Receiving Agent R. Vance,receipt,2025-06-02 16:39:11,Asset received and checked into warehouse.
+210,CUST-ASSET-0000231-000001,231,231,3,1,Dispatch Clerk T. Jenkins,dispatch,2025-06-03 01:04:35,Dispatched through Delhivery. Shipment: SHP-2026-000231
+211,CUST-ASSET-0000026-000001,26,26,3,2,Dispatch Clerk T. Jenkins,dispatch,2025-06-03 20:32:00,Dispatched through DTDC. Shipment: SHP-2026-000026
+212,CUST-ASSET-0000231-000002,231,231,1,2,Carrier Hub Operator A. Davis,transfer,2025-06-04 03:04:35,Transferred through Delhivery.
+213,CUST-ASSET-0000231-000003,231,231,2,2,Warehouse Receiving Agent R. Vance,receipt,2025-06-04 08:04:35,Asset received and checked into warehouse.
+214,CUST-ASSET-0000133-000001,133,133,1,2,Dispatch Clerk T. Jenkins,dispatch,2025-06-07 15:23:07,Dispatched through Delhivery. Shipment: SHP-2026-000133
+215,CUST-ASSET-0000037-000001,37,37,4,2,Dispatch Clerk T. Jenkins,dispatch,2025-06-10 09:12:36,Dispatched through Blue Dart. Shipment: SHP-2026-000037
+216,CUST-ASSET-0000073-000001,73,73,1,2,Dispatch Clerk T. Jenkins,dispatch,2025-06-15 00:58:39,Dispatched through FedEx Freight. Shipment: SHP-2026-000073
+217,CUST-ASSET-0000204-000001,204,204,1,2,Dispatch Clerk T. Jenkins,dispatch,2025-06-15 15:37:23,Dispatched through FedEx Freight. Shipment: SHP-2026-000204
+218,CUST-ASSET-0000073-000002,73,73,2,4,Carrier Hub Operator A. Davis,transfer,2025-06-15 20:58:39,Transferred through FedEx Freight.
+219,CUST-ASSET-0000073-000003,73,73,4,4,Warehouse Receiving Agent R. Vance,receipt,2025-06-16 03:58:39,Asset received and checked into warehouse.
+220,CUST-ASSET-0000204-000002,204,204,2,4,Carrier Hub Operator A. Davis,transfer,2025-06-16 05:37:23,Transferred through FedEx Freight.
+221,CUST-ASSET-0000204-000003,204,204,4,4,Warehouse Receiving Agent R. Vance,receipt,2025-06-16 09:37:23,Asset received and checked into warehouse.
+222,CUST-ASSET-0000111-000001,111,111,4,1,Dispatch Clerk T. Jenkins,dispatch,2025-06-17 09:26:59,Dispatched through Blue Dart. Shipment: SHP-2026-000111
+223,CUST-ASSET-0000111-000002,111,111,1,3,Carrier Hub Operator A. Davis,transfer,2025-06-18 07:26:59,Transferred through Blue Dart.
+224,CUST-ASSET-0000111-000003,111,111,3,3,Warehouse Receiving Agent R. Vance,receipt,2025-06-18 10:26:59,Asset received and checked into warehouse.
+225,CUST-ASSET-0000128-000001,128,128,3,1,Dispatch Clerk T. Jenkins,dispatch,2025-06-25 23:00:11,Dispatched through Delhivery. Shipment: SHP-2026-000128
+226,CUST-ASSET-0000158-000001,158,158,4,2,Dispatch Clerk T. Jenkins,dispatch,2025-06-27 12:14:34,Dispatched through Delhivery. Shipment: SHP-2026-000158
+227,CUST-ASSET-0000158-000002,158,158,2,1,Carrier Hub Operator A. Davis,transfer,2025-06-28 14:14:34,Transferred through Delhivery.
+228,CUST-ASSET-0000022-000001,22,22,2,4,Dispatch Clerk T. Jenkins,dispatch,2025-06-28 17:01:29,Dispatched through DHL Supply Chain. Shipment: SHP-2026-000022
+229,CUST-ASSET-0000158-000003,158,158,1,1,Warehouse Receiving Agent R. Vance,receipt,2025-06-28 19:14:34,Asset received and checked into warehouse.
+230,CUST-ASSET-0000160-000001,160,160,3,4,Dispatch Clerk T. Jenkins,dispatch,2025-07-09 17:09:31,Dispatched through FedEx Freight. Shipment: SHP-2026-000160
+231,CUST-ASSET-0000160-000002,160,160,4,2,Carrier Hub Operator A. Davis,transfer,2025-07-10 20:09:31,Transferred through FedEx Freight.
+232,CUST-ASSET-0000160-000003,160,160,2,2,Warehouse Receiving Agent R. Vance,receipt,2025-07-11 03:09:31,Asset received and checked into warehouse.
+233,CUST-ASSET-0000122-000001,122,122,1,2,Dispatch Clerk T. Jenkins,dispatch,2025-07-19 13:27:49,Dispatched through FedEx Freight. Shipment: SHP-2026-000122
+234,CUST-ASSET-0000122-000002,122,122,2,4,Carrier Hub Operator A. Davis,transfer,2025-07-20 03:27:49,Transferred through FedEx Freight.
+235,CUST-ASSET-0000122-000003,122,122,4,4,Warehouse Receiving Agent R. Vance,receipt,2025-07-20 06:27:49,Asset received and checked into warehouse.
+236,CUST-ASSET-0000038-000001,38,38,4,3,Dispatch Clerk T. Jenkins,dispatch,2025-07-23 23:17:48,Dispatched through FedEx Freight. Shipment: SHP-2026-000038
+237,CUST-ASSET-0000009-000001,9,9,2,4,Dispatch Clerk T. Jenkins,dispatch,2025-07-24 14:16:50,Dispatched through DHL Supply Chain. Shipment: SHP-2026-000009
+238,CUST-ASSET-0000038-000002,38,38,3,2,Carrier Hub Operator A. Davis,transfer,2025-07-24 18:17:48,Transferred through FedEx Freight.
+239,CUST-ASSET-0000038-000003,38,38,2,2,Warehouse Receiving Agent R. Vance,receipt,2025-07-25 02:17:48,Asset received and checked into warehouse.
+240,CUST-ASSET-0000051-000001,51,51,2,4,Dispatch Clerk T. Jenkins,dispatch,2025-07-26 12:00:35,Dispatched through DTDC. Shipment: SHP-2026-000051
+241,CUST-ASSET-0000232-000001,232,232,1,2,Dispatch Clerk T. Jenkins,dispatch,2025-07-26 22:00:41,Dispatched through DTDC. Shipment: SHP-2026-000232
+242,CUST-ASSET-0000209-000001,209,209,1,4,Dispatch Clerk T. Jenkins,dispatch,2025-07-27 01:08:52,Dispatched through DTDC. Shipment: SHP-2026-000209
+243,CUST-ASSET-0000051-000002,51,51,4,1,Carrier Hub Operator A. Davis,transfer,2025-07-27 03:00:35,Transferred through DTDC.
+244,CUST-ASSET-0000051-000003,51,51,1,1,Warehouse Receiving Agent R. Vance,receipt,2025-07-27 07:00:35,Asset received and checked into warehouse.
+245,CUST-ASSET-0000209-000002,209,209,4,3,Carrier Hub Operator A. Davis,transfer,2025-07-28 01:08:52,Transferred through DTDC.
+246,CUST-ASSET-0000209-000003,209,209,3,3,Warehouse Receiving Agent R. Vance,receipt,2025-07-28 03:08:52,Asset received and checked into warehouse.
+247,CUST-ASSET-0000084-000001,84,84,1,3,Dispatch Clerk T. Jenkins,dispatch,2025-08-03 06:46:14,Dispatched through FedEx Freight. Shipment: SHP-2026-000084
+248,CUST-ASSET-0000092-000001,92,92,4,3,Dispatch Clerk T. Jenkins,dispatch,2025-08-10 15:56:11,Dispatched through Delhivery. Shipment: SHP-2026-000092
+249,CUST-ASSET-0000092-000002,92,92,3,1,Carrier Hub Operator A. Davis,transfer,2025-08-11 19:56:11,Transferred through Delhivery.
+250,CUST-ASSET-0000092-000003,92,92,1,1,Warehouse Receiving Agent R. Vance,receipt,2025-08-12 00:56:11,Asset received and checked into warehouse.
+251,CUST-ASSET-0000086-000001,86,86,1,3,Dispatch Clerk T. Jenkins,dispatch,2025-08-12 11:11:29,Dispatched through Blue Dart. Shipment: SHP-2026-000086
+252,CUST-ASSET-0000086-000002,86,86,3,2,Carrier Hub Operator A. Davis,transfer,2025-08-13 06:11:29,Transferred through Blue Dart.
+253,CUST-ASSET-0000086-000003,86,86,2,2,Warehouse Receiving Agent R. Vance,receipt,2025-08-13 09:11:29,Asset received and checked into warehouse.
+254,CUST-ASSET-0000054-000001,54,54,3,4,Dispatch Clerk T. Jenkins,dispatch,2025-08-14 19:10:22,Dispatched through Delhivery. Shipment: SHP-2026-000054
+255,CUST-ASSET-0000054-000002,54,54,4,2,Carrier Hub Operator A. Davis,transfer,2025-08-15 16:10:22,Transferred through Delhivery.
+256,CUST-ASSET-0000054-000003,54,54,2,2,Warehouse Receiving Agent R. Vance,receipt,2025-08-15 21:10:22,Asset received and checked into warehouse.
+257,CUST-ASSET-0000197-000001,197,197,1,2,Dispatch Clerk T. Jenkins,dispatch,2025-08-20 23:57:21,Dispatched through Delhivery. Shipment: SHP-2026-000197
+258,CUST-ASSET-0000067-000001,67,67,4,1,Dispatch Clerk T. Jenkins,dispatch,2025-08-21 02:24:05,Dispatched through DHL Supply Chain. Shipment: SHP-2026-000067
+259,CUST-ASSET-0000197-000002,197,197,2,4,Carrier Hub Operator A. Davis,transfer,2025-08-21 19:57:21,Transferred through Delhivery.
+260,CUST-ASSET-0000197-000003,197,197,4,4,Warehouse Receiving Agent R. Vance,receipt,2025-08-22 00:57:21,Asset received and checked into warehouse.
+261,CUST-ASSET-0000067-000002,67,67,1,3,Carrier Hub Operator A. Davis,transfer,2025-08-22 03:24:05,Transferred through DHL Supply Chain.
+262,CUST-ASSET-0000067-000003,67,67,3,3,Warehouse Receiving Agent R. Vance,receipt,2025-08-22 05:24:05,Asset received and checked into warehouse.
+263,CUST-ASSET-0000107-000001,107,107,3,2,Dispatch Clerk T. Jenkins,dispatch,2025-08-24 20:55:08,Dispatched through FedEx Freight. Shipment: SHP-2026-000107
+264,CUST-ASSET-0000107-000002,107,107,2,1,Carrier Hub Operator A. Davis,transfer,2025-08-25 18:55:08,Transferred through FedEx Freight.
+265,CUST-ASSET-0000107-000003,107,107,1,1,Warehouse Receiving Agent R. Vance,receipt,2025-08-26 01:55:08,Asset received and checked into warehouse.
+266,CUST-ASSET-0000234-000001,234,234,3,1,Dispatch Clerk T. Jenkins,dispatch,2025-09-14 00:00:13,Dispatched through DTDC. Shipment: SHP-2026-000234
+267,CUST-ASSET-0000234-000002,234,234,1,2,Carrier Hub Operator A. Davis,transfer,2025-09-15 04:00:13,Transferred through DTDC.
+268,CUST-ASSET-0000095-000001,95,95,4,3,Dispatch Clerk T. Jenkins,dispatch,2025-09-15 05:22:54,Dispatched through Blue Dart. Shipment: SHP-2026-000095
+269,CUST-ASSET-0000234-000003,234,234,2,2,Warehouse Receiving Agent R. Vance,receipt,2025-09-15 09:00:13,Asset received and checked into warehouse.
+270,CUST-ASSET-0000095-000002,95,95,3,1,Carrier Hub Operator A. Davis,transfer,2025-09-16 00:22:54,Transferred through Blue Dart.
+271,CUST-ASSET-0000095-000003,95,95,1,1,Warehouse Receiving Agent R. Vance,receipt,2025-09-16 02:22:54,Asset received and checked into warehouse.
+272,CUST-ASSET-0000053-000001,53,53,1,3,Dispatch Clerk T. Jenkins,dispatch,2025-09-22 04:31:10,Dispatched through FedEx Freight. Shipment: SHP-2026-000053
+273,CUST-ASSET-0000136-000001,136,136,1,2,Dispatch Clerk T. Jenkins,dispatch,2025-09-23 05:31:24,Dispatched through FedEx Freight. Shipment: SHP-2026-000136
+274,CUST-ASSET-0000136-000002,136,136,2,3,Carrier Hub Operator A. Davis,transfer,2025-09-23 22:31:24,Transferred through FedEx Freight.
+275,CUST-ASSET-0000136-000003,136,136,3,3,Warehouse Receiving Agent R. Vance,receipt,2025-09-24 02:31:24,Asset received and checked into warehouse.
+276,CUST-ASSET-0000184-000001,184,184,3,2,Dispatch Clerk T. Jenkins,dispatch,2025-10-02 19:45:58,Dispatched through DHL Supply Chain. Shipment: SHP-2026-000184
+277,CUST-ASSET-0000184-000002,184,184,2,1,Carrier Hub Operator A. Davis,transfer,2025-10-03 16:45:58,Transferred through DHL Supply Chain.
+278,CUST-ASSET-0000184-000003,184,184,1,1,Warehouse Receiving Agent R. Vance,receipt,2025-10-03 22:45:58,Asset received and checked into warehouse.
+279,CUST-ASSET-0000097-000001,97,97,4,3,Dispatch Clerk T. Jenkins,dispatch,2025-10-04 02:29:43,Dispatched through DHL Supply Chain. Shipment: SHP-2026-000097
+280,CUST-ASSET-0000097-000002,97,97,3,2,Carrier Hub Operator A. Davis,transfer,2025-10-04 17:29:43,Transferred through DHL Supply Chain.
+281,CUST-ASSET-0000220-000001,220,220,3,1,Dispatch Clerk T. Jenkins,dispatch,2025-10-04 21:27:54,Dispatched through Delhivery. Shipment: SHP-2026-000220
+282,CUST-ASSET-0000097-000003,97,97,2,2,Warehouse Receiving Agent R. Vance,receipt,2025-10-04 22:29:43,Asset received and checked into warehouse.
+283,CUST-ASSET-0000220-000002,220,220,1,4,Carrier Hub Operator A. Davis,transfer,2025-10-05 15:27:54,Transferred through Delhivery.
+284,CUST-ASSET-0000220-000003,220,220,4,4,Warehouse Receiving Agent R. Vance,receipt,2025-10-05 21:27:54,Asset received and checked into warehouse.
+285,CUST-ASSET-0000024-000001,24,24,3,4,Dispatch Clerk T. Jenkins,dispatch,2025-10-15 19:23:06,Dispatched through DHL Supply Chain. Shipment: SHP-2026-000024
+286,CUST-ASSET-0000024-000002,24,24,4,2,Carrier Hub Operator A. Davis,transfer,2025-10-16 14:23:06,Transferred through DHL Supply Chain.
+287,CUST-ASSET-0000024-000003,24,24,2,2,Warehouse Receiving Agent R. Vance,receipt,2025-10-16 17:23:06,Asset received and checked into warehouse.
+288,CUST-ASSET-0000159-000001,159,159,2,1,Dispatch Clerk T. Jenkins,dispatch,2025-10-17 09:15:49,Dispatched through DTDC. Shipment: SHP-2026-000159
+289,CUST-ASSET-0000068-000001,68,68,3,2,Dispatch Clerk T. Jenkins,dispatch,2025-10-17 10:07:16,Dispatched through FedEx Freight. Shipment: SHP-2026-000068
+290,CUST-ASSET-0000068-000002,68,68,2,1,Carrier Hub Operator A. Davis,transfer,2025-10-18 09:07:16,Transferred through FedEx Freight.
+291,CUST-ASSET-0000068-000003,68,68,1,1,Warehouse Receiving Agent R. Vance,receipt,2025-10-18 11:07:16,Asset received and checked into warehouse.
+292,CUST-ASSET-0000159-000002,159,159,1,4,Carrier Hub Operator A. Davis,transfer,2025-10-18 11:15:49,Transferred through DTDC.
+293,CUST-ASSET-0000159-000003,159,159,4,4,Warehouse Receiving Agent R. Vance,receipt,2025-10-18 19:15:49,Asset received and checked into warehouse.
+294,CUST-ASSET-0000242-000001,242,242,1,4,Dispatch Clerk T. Jenkins,dispatch,2025-10-20 14:27:24,Dispatched through DHL Supply Chain. Shipment: SHP-2026-000242
+295,CUST-ASSET-0000242-000002,242,242,4,3,Carrier Hub Operator A. Davis,transfer,2025-10-21 08:27:24,Transferred through DHL Supply Chain.
+296,CUST-ASSET-0000242-000003,242,242,3,3,Warehouse Receiving Agent R. Vance,receipt,2025-10-21 11:27:24,Asset received and checked into warehouse.
+297,CUST-ASSET-0000182-000001,182,182,3,2,Dispatch Clerk T. Jenkins,dispatch,2025-10-22 12:30:19,Dispatched through Blue Dart. Shipment: SHP-2026-000182
+298,CUST-ASSET-0000182-000002,182,182,2,4,Carrier Hub Operator A. Davis,transfer,2025-10-23 10:30:19,Transferred through Blue Dart.
+299,CUST-ASSET-0000182-000003,182,182,4,4,Warehouse Receiving Agent R. Vance,receipt,2025-10-23 12:30:19,Asset received and checked into warehouse.
+300,CUST-ASSET-0000191-000001,191,191,4,1,Dispatch Clerk T. Jenkins,dispatch,2025-10-27 07:08:43,Dispatched through FedEx Freight. Shipment: SHP-2026-000191
+301,CUST-ASSET-0000191-000002,191,191,1,3,Carrier Hub Operator A. Davis,transfer,2025-10-28 02:08:43,Transferred through FedEx Freight.
+302,CUST-ASSET-0000191-000003,191,191,3,3,Warehouse Receiving Agent R. Vance,receipt,2025-10-28 07:08:43,Asset received and checked into warehouse.
+303,CUST-ASSET-0000142-000001,142,142,3,1,Dispatch Clerk T. Jenkins,dispatch,2025-11-05 18:12:40,Dispatched through Blue Dart. Shipment: SHP-2026-000142
+304,CUST-ASSET-0000142-000002,142,142,1,2,Carrier Hub Operator A. Davis,transfer,2025-11-06 18:12:40,Transferred through Blue Dart.
+305,CUST-ASSET-0000142-000003,142,142,2,2,Warehouse Receiving Agent R. Vance,receipt,2025-11-06 20:12:40,Asset received and checked into warehouse.
+306,CUST-ASSET-0000163-000001,163,163,1,2,Dispatch Clerk T. Jenkins,dispatch,2025-11-08 05:47:07,Dispatched through Delhivery. Shipment: SHP-2026-000163
+307,CUST-ASSET-0000163-000002,163,163,2,3,Carrier Hub Operator A. Davis,transfer,2025-11-09 06:47:07,Transferred through Delhivery.
+308,CUST-ASSET-0000163-000003,163,163,3,3,Warehouse Receiving Agent R. Vance,receipt,2025-11-09 12:47:07,Asset received and checked into warehouse.
+309,CUST-ASSET-0000200-000001,200,200,2,1,Dispatch Clerk T. Jenkins,dispatch,2025-11-14 00:09:11,Dispatched through Delhivery. Shipment: SHP-2026-000200
+310,CUST-ASSET-0000200-000002,200,200,1,4,Carrier Hub Operator A. Davis,transfer,2025-11-15 01:09:11,Transferred through Delhivery.
+311,CUST-ASSET-0000200-000003,200,200,4,4,Warehouse Receiving Agent R. Vance,receipt,2025-11-15 04:09:11,Asset received and checked into warehouse.
+312,CUST-ASSET-0000225-000001,225,225,3,1,Dispatch Clerk T. Jenkins,dispatch,2025-11-17 03:25:06,Dispatched through DHL Supply Chain. Shipment: SHP-2026-000225
+313,CUST-ASSET-0000225-000002,225,225,1,4,Carrier Hub Operator A. Davis,transfer,2025-11-17 21:25:06,Transferred through DHL Supply Chain.
+314,CUST-ASSET-0000225-000003,225,225,4,4,Warehouse Receiving Agent R. Vance,receipt,2025-11-17 23:25:06,Asset received and checked into warehouse.
+315,CUST-ASSET-0000150-000001,150,150,4,2,Dispatch Clerk T. Jenkins,dispatch,2025-11-20 20:31:11,Dispatched through Blue Dart. Shipment: SHP-2026-000150
+316,CUST-ASSET-0000187-000001,187,187,1,2,Dispatch Clerk T. Jenkins,dispatch,2025-11-28 04:14:56,Dispatched through FedEx Freight. Shipment: SHP-2026-000187
+317,CUST-ASSET-0000121-000001,121,121,4,3,Dispatch Clerk T. Jenkins,dispatch,2025-11-28 20:16:42,Dispatched through FedEx Freight. Shipment: SHP-2026-000121
+318,CUST-ASSET-0000187-000002,187,187,2,4,Carrier Hub Operator A. Davis,transfer,2025-11-29 07:14:56,Transferred through FedEx Freight.
+319,CUST-ASSET-0000187-000003,187,187,4,4,Warehouse Receiving Agent R. Vance,receipt,2025-11-29 10:14:56,Asset received and checked into warehouse.
+320,CUST-ASSET-0000044-000001,44,44,1,4,Dispatch Clerk T. Jenkins,dispatch,2025-12-02 18:31:56,Dispatched through FedEx Freight. Shipment: SHP-2026-000044
+321,CUST-ASSET-0000044-000002,44,44,4,3,Carrier Hub Operator A. Davis,transfer,2025-12-03 21:31:56,Transferred through FedEx Freight.
+322,CUST-ASSET-0000044-000003,44,44,3,3,Warehouse Receiving Agent R. Vance,receipt,2025-12-04 00:31:56,Asset received and checked into warehouse.
+323,CUST-ASSET-0000132-000001,132,132,1,2,Dispatch Clerk T. Jenkins,dispatch,2025-12-06 07:32:13,Dispatched through DTDC. Shipment: SHP-2026-000132
+324,CUST-ASSET-0000132-000002,132,132,2,3,Carrier Hub Operator A. Davis,transfer,2025-12-07 05:32:13,Transferred through DTDC.
+325,CUST-ASSET-0000132-000003,132,132,3,3,Warehouse Receiving Agent R. Vance,receipt,2025-12-07 10:32:13,Asset received and checked into warehouse.
+326,CUST-ASSET-0000039-000001,39,39,1,4,Dispatch Clerk T. Jenkins,dispatch,2025-12-08 14:33:19,Dispatched through DHL Supply Chain. Shipment: SHP-2026-000039
+327,CUST-ASSET-0000100-000001,100,100,2,4,Dispatch Clerk T. Jenkins,dispatch,2025-12-15 08:28:25,Dispatched through FedEx Freight. Shipment: SHP-2026-000100
+328,CUST-ASSET-0000100-000002,100,100,4,1,Carrier Hub Operator A. Davis,transfer,2025-12-16 04:28:25,Transferred through FedEx Freight.
+329,CUST-ASSET-0000100-000003,100,100,1,1,Warehouse Receiving Agent R. Vance,receipt,2025-12-16 12:28:25,Asset received and checked into warehouse.
+330,CUST-ASSET-0000101-000001,101,101,3,4,Dispatch Clerk T. Jenkins,dispatch,2025-12-18 00:07:02,Dispatched through DTDC. Shipment: SHP-2026-000101
+331,CUST-ASSET-0000101-000002,101,101,4,2,Carrier Hub Operator A. Davis,transfer,2025-12-18 17:07:02,Transferred through DTDC.
+332,CUST-ASSET-0000101-000003,101,101,2,2,Warehouse Receiving Agent R. Vance,receipt,2025-12-19 00:07:02,Asset received and checked into warehouse.
+333,CUST-ASSET-0000152-000001,152,152,1,3,Dispatch Clerk T. Jenkins,dispatch,2025-12-19 04:54:50,Dispatched through FedEx Freight. Shipment: SHP-2026-000152
+334,CUST-ASSET-0000152-000002,152,152,3,4,Carrier Hub Operator A. Davis,transfer,2025-12-19 21:54:50,Transferred through FedEx Freight.
+335,CUST-ASSET-0000152-000003,152,152,4,4,Warehouse Receiving Agent R. Vance,receipt,2025-12-20 02:54:50,Asset received and checked into warehouse.
+336,CUST-ASSET-0000157-000001,157,157,3,1,Dispatch Clerk T. Jenkins,dispatch,2025-12-23 00:23:50,Dispatched through DHL Supply Chain. Shipment: SHP-2026-000157
+337,CUST-ASSET-0000176-000001,176,176,4,1,Dispatch Clerk T. Jenkins,dispatch,2025-12-27 19:03:34,Dispatched through Delhivery. Shipment: SHP-2026-000176
+338,CUST-ASSET-0000176-000002,176,176,1,2,Carrier Hub Operator A. Davis,transfer,2025-12-28 13:03:34,Transferred through Delhivery.
+339,CUST-ASSET-0000176-000003,176,176,2,2,Warehouse Receiving Agent R. Vance,receipt,2025-12-28 21:03:34,Asset received and checked into warehouse.
+340,CUST-ASSET-0000162-000001,162,162,3,1,Dispatch Clerk T. Jenkins,dispatch,2026-01-04 06:53:12,Dispatched through Blue Dart. Shipment: SHP-2026-000162
+341,CUST-ASSET-0000162-000002,162,162,1,2,Carrier Hub Operator A. Davis,transfer,2026-01-04 23:53:12,Transferred through Blue Dart.
+342,CUST-ASSET-0000162-000003,162,162,2,2,Warehouse Receiving Agent R. Vance,receipt,2026-01-05 07:53:12,Asset received and checked into warehouse.
+343,CUST-ASSET-0000070-000001,70,70,2,1,Dispatch Clerk T. Jenkins,dispatch,2026-01-06 23:56:58,Dispatched through DHL Supply Chain. Shipment: SHP-2026-000070
+344,CUST-ASSET-0000070-000002,70,70,1,3,Carrier Hub Operator A. Davis,transfer,2026-01-07 17:56:58,Transferred through DHL Supply Chain.
+345,CUST-ASSET-0000007-000001,7,7,2,1,Dispatch Clerk T. Jenkins,dispatch,2026-01-07 22:30:34,Dispatched through DHL Supply Chain. Shipment: SHP-2026-000007
+346,CUST-ASSET-0000070-000003,70,70,3,3,Warehouse Receiving Agent R. Vance,receipt,2026-01-08 01:56:58,Asset received and checked into warehouse.
+347,CUST-ASSET-0000007-000002,7,7,1,3,Carrier Hub Operator A. Davis,transfer,2026-01-09 02:30:34,Transferred through DHL Supply Chain.
+348,CUST-ASSET-0000007-000003,7,7,3,3,Warehouse Receiving Agent R. Vance,receipt,2026-01-09 07:30:34,Asset received and checked into warehouse.
+349,CUST-ASSET-0000099-000001,99,99,3,1,Dispatch Clerk T. Jenkins,dispatch,2026-01-11 02:14:28,Dispatched through Delhivery. Shipment: SHP-2026-000099
+350,CUST-ASSET-0000099-000002,99,99,1,4,Carrier Hub Operator A. Davis,transfer,2026-01-12 02:14:28,Transferred through Delhivery.
+351,CUST-ASSET-0000099-000003,99,99,4,4,Warehouse Receiving Agent R. Vance,receipt,2026-01-12 05:14:28,Asset received and checked into warehouse.
+352,CUST-ASSET-0000056-000001,56,56,4,3,Dispatch Clerk T. Jenkins,dispatch,2026-01-14 16:11:10,Dispatched through Delhivery. Shipment: SHP-2026-000056
+353,CUST-ASSET-0000056-000002,56,56,3,2,Carrier Hub Operator A. Davis,transfer,2026-01-15 12:11:10,Transferred through Delhivery.
+354,CUST-ASSET-0000056-000003,56,56,2,2,Warehouse Receiving Agent R. Vance,receipt,2026-01-15 14:11:10,Asset received and checked into warehouse.
+355,CUST-ASSET-0000062-000001,62,62,4,3,Dispatch Clerk T. Jenkins,dispatch,2026-01-22 01:04:16,Dispatched through DTDC. Shipment: SHP-2026-000062
+356,CUST-ASSET-0000062-000002,62,62,3,1,Carrier Hub Operator A. Davis,transfer,2026-01-22 14:04:16,Transferred through DTDC.
+357,CUST-ASSET-0000062-000003,62,62,1,1,Warehouse Receiving Agent R. Vance,receipt,2026-01-22 18:04:16,Asset received and checked into warehouse.
+358,CUST-ASSET-0000233-000001,233,233,3,1,Dispatch Clerk T. Jenkins,dispatch,2026-01-31 13:56:05,Dispatched through DTDC. Shipment: SHP-2026-000233
+359,CUST-ASSET-0000069-000001,69,69,3,1,Dispatch Clerk T. Jenkins,dispatch,2026-01-31 21:26:39,Dispatched through DHL Supply Chain. Shipment: SHP-2026-000069
+360,CUST-ASSET-0000210-000001,210,210,1,2,Dispatch Clerk T. Jenkins,dispatch,2026-01-31 22:36:26,Dispatched through DHL Supply Chain. Shipment: SHP-2026-000210
+361,CUST-ASSET-0000233-000002,233,233,1,4,Carrier Hub Operator A. Davis,transfer,2026-02-01 12:56:05,Transferred through DTDC.
+362,CUST-ASSET-0000233-000003,233,233,4,4,Warehouse Receiving Agent R. Vance,receipt,2026-02-01 15:56:05,Asset received and checked into warehouse.
+363,CUST-ASSET-0000210-000002,210,210,2,4,Carrier Hub Operator A. Davis,transfer,2026-02-02 02:36:26,Transferred through DHL Supply Chain.
+364,CUST-ASSET-0000210-000003,210,210,4,4,Warehouse Receiving Agent R. Vance,receipt,2026-02-02 09:36:26,Asset received and checked into warehouse.
+365,CUST-ASSET-0000216-000001,216,216,1,3,Dispatch Clerk T. Jenkins,dispatch,2026-02-04 04:27:23,Dispatched through DTDC. Shipment: SHP-2026-000216
+366,CUST-ASSET-0000216-000002,216,216,3,4,Carrier Hub Operator A. Davis,transfer,2026-02-05 00:27:23,Transferred through DTDC.
+367,CUST-ASSET-0000216-000003,216,216,4,4,Warehouse Receiving Agent R. Vance,receipt,2026-02-05 02:27:23,Asset received and checked into warehouse.
+368,CUST-ASSET-0000195-000001,195,195,4,3,Dispatch Clerk T. Jenkins,dispatch,2026-02-05 20:52:08,Dispatched through DTDC. Shipment: SHP-2026-000195
+369,CUST-ASSET-0000195-000002,195,195,3,1,Carrier Hub Operator A. Davis,transfer,2026-02-06 15:52:08,Transferred through DTDC.
+370,CUST-ASSET-0000195-000003,195,195,1,1,Warehouse Receiving Agent R. Vance,receipt,2026-02-06 17:52:08,Asset received and checked into warehouse.
+371,CUST-ASSET-0000203-000001,203,203,2,1,Dispatch Clerk T. Jenkins,dispatch,2026-02-11 07:30:05,Dispatched through DHL Supply Chain. Shipment: SHP-2026-000203
+372,CUST-ASSET-0000203-000002,203,203,1,4,Carrier Hub Operator A. Davis,transfer,2026-02-12 09:30:05,Transferred through DHL Supply Chain.
+373,CUST-ASSET-0000203-000003,203,203,4,4,Warehouse Receiving Agent R. Vance,receipt,2026-02-12 17:30:05,Asset received and checked into warehouse.
+374,CUST-ASSET-0000147-000001,147,147,3,4,Dispatch Clerk T. Jenkins,dispatch,2026-02-13 23:32:39,Dispatched through DHL Supply Chain. Shipment: SHP-2026-000147
+375,CUST-ASSET-0000127-000001,127,127,1,3,Dispatch Clerk T. Jenkins,dispatch,2026-02-14 14:26:49,Dispatched through FedEx Freight. Shipment: SHP-2026-000127
+376,CUST-ASSET-0000147-000002,147,147,4,1,Carrier Hub Operator A. Davis,transfer,2026-02-14 19:32:39,Transferred through DHL Supply Chain.
+377,CUST-ASSET-0000147-000003,147,147,1,1,Warehouse Receiving Agent R. Vance,receipt,2026-02-15 03:32:39,Asset received and checked into warehouse.
+378,CUST-ASSET-0000127-000002,127,127,3,2,Carrier Hub Operator A. Davis,transfer,2026-02-15 09:26:49,Transferred through FedEx Freight.
+379,CUST-ASSET-0000245-000001,245,245,2,4,Dispatch Clerk T. Jenkins,dispatch,2026-02-15 11:03:12,Dispatched through DTDC. Shipment: SHP-2026-000245
+380,CUST-ASSET-0000127-000003,127,127,2,2,Warehouse Receiving Agent R. Vance,receipt,2026-02-15 13:26:49,Asset received and checked into warehouse.
+381,CUST-ASSET-0000245-000002,245,245,4,1,Carrier Hub Operator A. Davis,transfer,2026-02-16 07:03:12,Transferred through DTDC.
+382,CUST-ASSET-0000245-000003,245,245,1,1,Warehouse Receiving Agent R. Vance,receipt,2026-02-16 09:03:12,Asset received and checked into warehouse.
+383,CUST-ASSET-0000115-000001,115,115,4,2,Dispatch Clerk T. Jenkins,dispatch,2026-02-21 20:50:41,Dispatched through Delhivery. Shipment: SHP-2026-000115
+384,CUST-ASSET-0000115-000002,115,115,2,1,Carrier Hub Operator A. Davis,transfer,2026-02-22 21:50:41,Transferred through Delhivery.
+385,CUST-ASSET-0000115-000003,115,115,1,1,Warehouse Receiving Agent R. Vance,receipt,2026-02-23 05:50:41,Asset received and checked into warehouse.
+386,CUST-ASSET-0000119-000001,119,119,4,2,Dispatch Clerk T. Jenkins,dispatch,2026-03-03 00:33:20,Dispatched through Delhivery. Shipment: SHP-2026-000119
+387,CUST-ASSET-0000119-000002,119,119,2,1,Carrier Hub Operator A. Davis,transfer,2026-03-03 20:33:20,Transferred through Delhivery.
+388,CUST-ASSET-0000119-000003,119,119,1,1,Warehouse Receiving Agent R. Vance,receipt,2026-03-04 00:33:20,Asset received and checked into warehouse.
+389,CUST-ASSET-0000034-000001,34,34,3,4,Dispatch Clerk T. Jenkins,dispatch,2026-03-11 10:07:01,Dispatched through DHL Supply Chain. Shipment: SHP-2026-000034
+390,CUST-ASSET-0000188-000001,188,188,3,2,Dispatch Clerk T. Jenkins,dispatch,2026-03-13 14:48:43,Dispatched through DTDC. Shipment: SHP-2026-000188
+391,CUST-ASSET-0000168-000001,168,168,3,2,Dispatch Clerk T. Jenkins,dispatch,2026-03-15 15:40:13,Dispatched through FedEx Freight. Shipment: SHP-2026-000168
+392,CUST-ASSET-0000194-000001,194,194,3,1,Dispatch Clerk T. Jenkins,dispatch,2026-03-15 16:32:02,Dispatched through Delhivery. Shipment: SHP-2026-000194
+393,CUST-ASSET-0000057-000001,57,57,1,2,Dispatch Clerk T. Jenkins,dispatch,2026-03-16 04:28:37,Dispatched through Delhivery. Shipment: SHP-2026-000057
+394,CUST-ASSET-0000168-000002,168,168,2,4,Carrier Hub Operator A. Davis,transfer,2026-03-16 05:40:13,Transferred through FedEx Freight.
+395,CUST-ASSET-0000168-000003,168,168,4,4,Warehouse Receiving Agent R. Vance,receipt,2026-03-16 11:40:13,Asset received and checked into warehouse.
+396,CUST-ASSET-0000105-000001,105,105,2,1,Dispatch Clerk T. Jenkins,dispatch,2026-03-20 03:15:48,Dispatched through FedEx Freight. Shipment: SHP-2026-000105
+397,CUST-ASSET-0000113-000001,113,113,3,2,Dispatch Clerk T. Jenkins,dispatch,2026-03-20 13:32:13,Dispatched through DTDC. Shipment: SHP-2026-000113
+398,CUST-ASSET-0000027-000001,27,27,3,2,Dispatch Clerk T. Jenkins,dispatch,2026-03-20 19:47:49,Dispatched through Delhivery. Shipment: SHP-2026-000027
+399,CUST-ASSET-0000105-000002,105,105,1,3,Carrier Hub Operator A. Davis,transfer,2026-03-20 21:15:48,Transferred through FedEx Freight.
+400,CUST-ASSET-0000105-000003,105,105,3,3,Warehouse Receiving Agent R. Vance,receipt,2026-03-20 23:15:48,Asset received and checked into warehouse.
+401,CUST-ASSET-0000113-000002,113,113,2,4,Carrier Hub Operator A. Davis,transfer,2026-03-21 11:32:13,Transferred through DTDC.
+402,CUST-ASSET-0000002-000001,2,2,2,1,Dispatch Clerk T. Jenkins,dispatch,2026-03-21 13:15:13,Dispatched through FedEx Freight. Shipment: SHP-2026-000002
+403,CUST-ASSET-0000027-000002,27,27,2,4,Carrier Hub Operator A. Davis,transfer,2026-03-21 15:47:49,Transferred through Delhivery.
+404,CUST-ASSET-0000113-000003,113,113,4,4,Warehouse Receiving Agent R. Vance,receipt,2026-03-21 19:32:13,Asset received and checked into warehouse.
+405,CUST-ASSET-0000027-000003,27,27,4,4,Warehouse Receiving Agent R. Vance,receipt,2026-03-21 19:47:49,Asset received and checked into warehouse.
+406,CUST-ASSET-0000002-000002,2,2,1,3,Carrier Hub Operator A. Davis,transfer,2026-03-22 06:15:13,Transferred through FedEx Freight.
+407,CUST-ASSET-0000002-000003,2,2,3,3,Warehouse Receiving Agent R. Vance,receipt,2026-03-22 12:15:13,Asset received and checked into warehouse.
+408,CUST-ASSET-0000213-000001,213,213,3,2,Dispatch Clerk T. Jenkins,dispatch,2026-03-28 18:58:05,Dispatched through DTDC. Shipment: SHP-2026-000213
+409,CUST-ASSET-0000213-000002,213,213,2,4,Carrier Hub Operator A. Davis,transfer,2026-03-29 17:58:05,Transferred through DTDC.
+410,CUST-ASSET-0000213-000003,213,213,4,4,Warehouse Receiving Agent R. Vance,receipt,2026-03-30 00:58:05,Asset received and checked into warehouse.
+411,CUST-ASSET-0000154-000001,154,154,2,4,Dispatch Clerk T. Jenkins,dispatch,2026-04-04 08:41:57,Dispatched through DTDC. Shipment: SHP-2026-000154
+412,CUST-ASSET-0000154-000002,154,154,4,3,Carrier Hub Operator A. Davis,transfer,2026-04-05 06:41:57,Transferred through DTDC.
+413,CUST-ASSET-0000154-000003,154,154,3,3,Warehouse Receiving Agent R. Vance,receipt,2026-04-05 14:41:57,Asset received and checked into warehouse.
+414,CUST-ASSET-0000153-000001,153,153,4,2,Dispatch Clerk T. Jenkins,dispatch,2026-04-08 12:11:35,Dispatched through Delhivery. Shipment: SHP-2026-000153
+415,CUST-ASSET-0000153-000002,153,153,2,1,Carrier Hub Operator A. Davis,transfer,2026-04-09 15:11:35,Transferred through Delhivery.
+416,CUST-ASSET-0000153-000003,153,153,1,1,Warehouse Receiving Agent R. Vance,receipt,2026-04-09 23:11:35,Asset received and checked into warehouse.
+417,CUST-ASSET-0000238-000001,238,238,4,1,Dispatch Clerk T. Jenkins,dispatch,2026-04-10 14:21:31,Dispatched through DTDC. Shipment: SHP-2026-000238
+418,CUST-ASSET-0000238-000002,238,238,1,2,Carrier Hub Operator A. Davis,transfer,2026-04-11 18:21:31,Transferred through DTDC.
+419,CUST-ASSET-0000238-000003,238,238,2,2,Warehouse Receiving Agent R. Vance,receipt,2026-04-11 20:21:31,Asset received and checked into warehouse.
+420,CUST-ASSET-0000207-000001,207,207,2,1,Dispatch Clerk T. Jenkins,dispatch,2026-04-14 03:28:23,Dispatched through Blue Dart. Shipment: SHP-2026-000207
+421,CUST-ASSET-0000061-000001,61,61,3,1,Dispatch Clerk T. Jenkins,dispatch,2026-04-14 07:28:00,Dispatched through DTDC. Shipment: SHP-2026-000061
+422,CUST-ASSET-0000207-000002,207,207,1,3,Carrier Hub Operator A. Davis,transfer,2026-04-14 20:28:23,Transferred through Blue Dart.
+423,CUST-ASSET-0000207-000003,207,207,3,3,Warehouse Receiving Agent R. Vance,receipt,2026-04-15 02:28:23,Asset received and checked into warehouse.
+424,CUST-ASSET-0000061-000002,61,61,1,4,Carrier Hub Operator A. Davis,transfer,2026-04-15 03:28:00,Transferred through DTDC.
+425,CUST-ASSET-0000061-000003,61,61,4,4,Warehouse Receiving Agent R. Vance,receipt,2026-04-15 05:28:00,Asset received and checked into warehouse.
+426,CUST-ASSET-0000241-000001,241,241,2,1,Dispatch Clerk T. Jenkins,dispatch,2026-04-18 02:05:06,Dispatched through FedEx Freight. Shipment: SHP-2026-000241
+427,CUST-ASSET-0000241-000002,241,241,1,4,Carrier Hub Operator A. Davis,transfer,2026-04-18 18:05:06,Transferred through FedEx Freight.
+428,CUST-ASSET-0000241-000003,241,241,4,4,Warehouse Receiving Agent R. Vance,receipt,2026-04-18 22:05:06,Asset received and checked into warehouse.
+429,CUST-ASSET-0000166-000001,166,166,3,1,Dispatch Clerk T. Jenkins,dispatch,2026-04-21 07:26:37,Dispatched through DTDC. Shipment: SHP-2026-000166
+430,CUST-ASSET-0000166-000002,166,166,1,4,Carrier Hub Operator A. Davis,transfer,2026-04-22 03:26:37,Transferred through DTDC.
+431,CUST-ASSET-0000166-000003,166,166,4,4,Warehouse Receiving Agent R. Vance,receipt,2026-04-22 10:26:37,Asset received and checked into warehouse.
+432,CUST-ASSET-0000134-000001,134,134,3,2,Dispatch Clerk T. Jenkins,dispatch,2026-04-23 01:33:58,Dispatched through FedEx Freight. Shipment: SHP-2026-000134
+433,CUST-ASSET-0000134-000002,134,134,2,1,Carrier Hub Operator A. Davis,transfer,2026-04-23 17:33:58,Transferred through FedEx Freight.
+434,CUST-ASSET-0000134-000003,134,134,1,1,Warehouse Receiving Agent R. Vance,receipt,2026-04-23 23:33:58,Asset received and checked into warehouse.
+435,CUST-ASSET-0000081-000001,81,81,3,1,Dispatch Clerk T. Jenkins,dispatch,2026-04-26 01:58:09,Dispatched through Blue Dart. Shipment: SHP-2026-000081
+436,CUST-ASSET-0000141-000001,141,141,1,4,Dispatch Clerk T. Jenkins,dispatch,2026-04-26 21:21:54,Dispatched through Blue Dart. Shipment: SHP-2026-000141
+437,CUST-ASSET-0000081-000002,81,81,1,4,Carrier Hub Operator A. Davis,transfer,2026-04-27 05:58:09,Transferred through Blue Dart.
+438,CUST-ASSET-0000141-000002,141,141,4,3,Carrier Hub Operator A. Davis,transfer,2026-04-27 13:21:54,Transferred through Blue Dart.
+439,CUST-ASSET-0000081-000003,81,81,4,4,Warehouse Receiving Agent R. Vance,receipt,2026-04-27 13:58:09,Asset received and checked into warehouse.
+440,CUST-ASSET-0000141-000003,141,141,3,3,Warehouse Receiving Agent R. Vance,receipt,2026-04-27 20:21:54,Asset received and checked into warehouse.
+441,CUST-ASSET-0000178-000001,178,178,2,4,Dispatch Clerk T. Jenkins,dispatch,2026-05-02 13:40:53,Dispatched through DHL Supply Chain. Shipment: SHP-2026-000178
+442,CUST-ASSET-0000178-000002,178,178,4,3,Carrier Hub Operator A. Davis,transfer,2026-05-03 06:40:53,Transferred through DHL Supply Chain.
+443,CUST-ASSET-0000178-000003,178,178,3,3,Warehouse Receiving Agent R. Vance,receipt,2026-05-03 10:40:53,Asset received and checked into warehouse.
+444,CUST-ASSET-0000179-000001,179,179,4,1,Dispatch Clerk T. Jenkins,dispatch,2026-05-09 19:05:27,Dispatched through DHL Supply Chain. Shipment: SHP-2026-000179
+445,CUST-ASSET-0000179-000002,179,179,1,2,Carrier Hub Operator A. Davis,transfer,2026-05-10 14:05:27,Transferred through DHL Supply Chain.
+446,CUST-ASSET-0000179-000003,179,179,2,2,Warehouse Receiving Agent R. Vance,receipt,2026-05-10 22:05:27,Asset received and checked into warehouse.
+447,CUST-ASSET-0000020-000001,20,20,4,3,Dispatch Clerk T. Jenkins,dispatch,2026-05-13 13:33:20,Dispatched through Delhivery. Shipment: SHP-2026-000020
+448,CUST-ASSET-0000020-000002,20,20,3,1,Carrier Hub Operator A. Davis,transfer,2026-05-14 07:33:20,Transferred through Delhivery.
+449,CUST-ASSET-0000020-000003,20,20,1,1,Warehouse Receiving Agent R. Vance,receipt,2026-05-14 14:33:20,Asset received and checked into warehouse.
+450,CUST-ASSET-0000118-000001,118,118,2,1,Dispatch Clerk T. Jenkins,dispatch,2026-05-15 21:35:52,Dispatched through DTDC. Shipment: SHP-2026-000118
+451,CUST-ASSET-0000118-000002,118,118,1,4,Carrier Hub Operator A. Davis,transfer,2026-05-16 16:35:52,Transferred through DTDC.
+452,CUST-ASSET-0000118-000003,118,118,4,4,Warehouse Receiving Agent R. Vance,receipt,2026-05-16 19:35:52,Asset received and checked into warehouse.
+453,CUST-ASSET-0000193-000001,193,193,4,2,Dispatch Clerk T. Jenkins,dispatch,2026-05-17 06:20:28,Dispatched through DTDC. Shipment: SHP-2026-000193
+454,CUST-ASSET-0000193-000002,193,193,2,3,Carrier Hub Operator A. Davis,transfer,2026-05-18 12:20:28,Transferred through DTDC.
+455,CUST-ASSET-0000193-000003,193,193,3,3,Warehouse Receiving Agent R. Vance,receipt,2026-05-18 17:20:28,Asset received and checked into warehouse.
+456,CUST-ASSET-0000135-000001,135,135,4,1,Dispatch Clerk T. Jenkins,dispatch,2026-05-20 16:09:16,Dispatched through DTDC. Shipment: SHP-2026-000135
+457,CUST-ASSET-0000135-000002,135,135,1,3,Carrier Hub Operator A. Davis,transfer,2026-05-21 06:09:16,Transferred through DTDC.
+458,CUST-ASSET-0000135-000003,135,135,3,3,Warehouse Receiving Agent R. Vance,receipt,2026-05-21 10:09:16,Asset received and checked into warehouse.
+459,CUST-ASSET-0000156-000001,156,156,4,1,Dispatch Clerk T. Jenkins,dispatch,2026-05-26 08:39:18,Dispatched through Delhivery. Shipment: SHP-2026-000156
+460,CUST-ASSET-0000052-000001,52,52,3,2,Dispatch Clerk T. Jenkins,dispatch,2026-05-29 20:02:52,Dispatched through FedEx Freight. Shipment: SHP-2026-000052
+461,CUST-ASSET-0000120-000001,120,120,1,4,Dispatch Clerk T. Jenkins,dispatch,2026-05-30 18:54:59,Dispatched through DHL Supply Chain. Shipment: SHP-2026-000120
+462,CUST-ASSET-0000052-000002,52,52,2,1,Carrier Hub Operator A. Davis,transfer,2026-05-30 22:02:52,Transferred through FedEx Freight.
+463,CUST-ASSET-0000052-000003,52,52,1,1,Warehouse Receiving Agent R. Vance,receipt,2026-05-31 03:02:52,Asset received and checked into warehouse.
+464,CUST-ASSET-0000065-000001,65,65,1,2,Dispatch Clerk T. Jenkins,dispatch,2026-05-31 12:23:37,Dispatched through Blue Dart. Shipment: SHP-2026-000065
+465,CUST-ASSET-0000021-000001,21,21,4,2,Dispatch Clerk T. Jenkins,dispatch,2026-06-01 03:34:44,Dispatched through Blue Dart. Shipment: SHP-2026-000021
+466,CUST-ASSET-0000065-000002,65,65,2,4,Carrier Hub Operator A. Davis,transfer,2026-06-01 09:23:37,Transferred through Blue Dart.
+467,CUST-ASSET-0000065-000003,65,65,4,4,Warehouse Receiving Agent R. Vance,receipt,2026-06-01 17:23:37,Asset received and checked into warehouse.
+468,CUST-ASSET-0000224-000001,224,224,3,2,Dispatch Clerk T. Jenkins,dispatch,2026-06-02 09:35:09,Dispatched through Blue Dart. Shipment: SHP-2026-000224
+469,CUST-ASSET-0000224-000002,224,224,2,1,Carrier Hub Operator A. Davis,transfer,2026-06-03 00:35:09,Transferred through Blue Dart.
+470,CUST-ASSET-0000224-000003,224,224,1,1,Warehouse Receiving Agent R. Vance,receipt,2026-06-03 07:35:09,Asset received and checked into warehouse.
+471,CUST-ASSET-0000199-000001,199,199,3,1,Dispatch Clerk T. Jenkins,dispatch,2026-06-06 13:05:26,Dispatched through FedEx Freight. Shipment: SHP-2026-000199
+472,CUST-ASSET-0000199-000002,199,199,1,4,Carrier Hub Operator A. Davis,transfer,2026-06-07 08:05:26,Transferred through FedEx Freight.
+473,CUST-ASSET-0000199-000003,199,199,4,4,Warehouse Receiving Agent R. Vance,receipt,2026-06-07 14:05:26,Asset received and checked into warehouse.
+474,CUST-ASSET-0000247-000001,247,247,1,4,Dispatch Clerk T. Jenkins,dispatch,2026-06-09 03:55:00,Dispatched through Blue Dart. Shipment: SHP-2026-000247
+475,CUST-ASSET-0000247-000002,247,247,4,2,Carrier Hub Operator A. Davis,transfer,2026-06-10 07:55:00,Transferred through Blue Dart.
+476,CUST-ASSET-0000247-000003,247,247,2,2,Warehouse Receiving Agent R. Vance,receipt,2026-06-10 13:55:00,Asset received and checked into warehouse.
+477,CUST-ASSET-0000214-000001,214,214,2,4,Dispatch Clerk T. Jenkins,dispatch,2026-06-12 18:59:15,Dispatched through DHL Supply Chain. Shipment: SHP-2026-000214
+478,CUST-ASSET-0000214-000002,214,214,4,1,Carrier Hub Operator A. Davis,transfer,2026-06-13 23:59:15,Transferred through DHL Supply Chain.
+479,CUST-ASSET-0000214-000003,214,214,1,1,Warehouse Receiving Agent R. Vance,receipt,2026-06-14 02:59:15,Asset received and checked into warehouse.
+480,CUST-ASSET-0000079-000001,79,79,1,4,Dispatch Clerk T. Jenkins,dispatch,2026-06-14 08:04:15,Dispatched through FedEx Freight. Shipment: SHP-2026-000079
+481,CUST-ASSET-0000079-000002,79,79,4,2,Carrier Hub Operator A. Davis,transfer,2026-06-14 22:04:15,Transferred through FedEx Freight.
+482,CUST-ASSET-0000079-000003,79,79,2,2,Warehouse Receiving Agent R. Vance,receipt,2026-06-15 00:04:15,Asset received and checked into warehouse.
+483,CUST-ASSET-0000106-000001,106,106,4,1,Dispatch Clerk T. Jenkins,dispatch,2026-06-17 18:26:30,Dispatched through Delhivery. Shipment: SHP-2026-000106
+484,CUST-ASSET-0000106-000002,106,106,1,2,Carrier Hub Operator A. Davis,transfer,2026-06-18 08:26:30,Transferred through Delhivery.
+485,CUST-ASSET-0000106-000003,106,106,2,2,Warehouse Receiving Agent R. Vance,receipt,2026-06-18 13:26:30,Asset received and checked into warehouse.
+486,CUST-ASSET-0000109-000001,109,109,3,1,Dispatch Clerk T. Jenkins,dispatch,2026-06-20 09:52:04,Dispatched through FedEx Freight. Shipment: SHP-2026-000109
+487,CUST-ASSET-0000043-000001,43,43,1,2,Dispatch Clerk T. Jenkins,dispatch,2026-06-21 19:41:41,Dispatched through FedEx Freight. Shipment: SHP-2026-000043
+488,CUST-ASSET-0000144-000001,144,144,2,4,Dispatch Clerk T. Jenkins,dispatch,2026-06-22 17:30:04,Dispatched through Delhivery. Shipment: SHP-2026-000144
+489,CUST-ASSET-0000144-000002,144,144,4,3,Carrier Hub Operator A. Davis,transfer,2026-06-23 10:30:04,Transferred through Delhivery.
+490,CUST-ASSET-0000144-000003,144,144,3,3,Warehouse Receiving Agent R. Vance,receipt,2026-06-23 12:30:04,Asset received and checked into warehouse.
+491,CUST-ASSET-0000085-000001,85,85,2,4,Dispatch Clerk T. Jenkins,dispatch,2026-06-28 04:08:41,Dispatched through FedEx Freight. Shipment: SHP-2026-000085
+492,CUST-ASSET-0000085-000002,85,85,4,1,Carrier Hub Operator A. Davis,transfer,2026-06-28 23:08:41,Transferred through FedEx Freight.
+493,CUST-ASSET-0000085-000003,85,85,1,1,Warehouse Receiving Agent R. Vance,receipt,2026-06-29 04:08:41,Asset received and checked into warehouse.
+494,CUST-ASSET-0000126-000001,126,126,4,1,Dispatch Clerk T. Jenkins,dispatch,2026-06-29 23:56:49,Dispatched through Blue Dart. Shipment: SHP-2026-000126
+495,CUST-ASSET-0000192-000001,192,192,1,4,Dispatch Clerk T. Jenkins,dispatch,2026-06-30 09:55:10,Dispatched through Delhivery. Shipment: SHP-2026-000192
+496,CUST-ASSET-0000126-000002,126,126,1,3,Carrier Hub Operator A. Davis,transfer,2026-06-30 20:56:49,Transferred through Blue Dart.
+497,CUST-ASSET-0000126-000003,126,126,3,3,Warehouse Receiving Agent R. Vance,receipt,2026-07-01 01:56:49,Asset received and checked into warehouse.
+498,CUST-ASSET-0000192-000002,192,192,4,2,Carrier Hub Operator A. Davis,transfer,2026-07-01 02:55:10,Transferred through Delhivery.
+499,CUST-ASSET-0000192-000003,192,192,2,2,Warehouse Receiving Agent R. Vance,receipt,2026-07-01 06:55:10,Asset received and checked into warehouse.
+500,CUST-ASSET-0000080-000001,80,80,2,4,Dispatch Clerk T. Jenkins,dispatch,2026-07-03 00:29:54,Dispatched through FedEx Freight. Shipment: SHP-2026-000080
+501,CUST-ASSET-0000246-000001,246,246,4,3,Dispatch Clerk T. Jenkins,dispatch,2026-07-03 02:05:27,Dispatched through DHL Supply Chain. Shipment: SHP-2026-000246
+502,CUST-ASSET-0000080-000002,80,80,4,1,Carrier Hub Operator A. Davis,transfer,2026-07-03 17:29:54,Transferred through FedEx Freight.
+503,CUST-ASSET-0000246-000002,246,246,3,1,Carrier Hub Operator A. Davis,transfer,2026-07-03 22:05:27,Transferred through DHL Supply Chain.
+504,CUST-ASSET-0000080-000003,80,80,1,1,Warehouse Receiving Agent R. Vance,receipt,2026-07-04 01:29:54,Asset received and checked into warehouse.
+505,CUST-ASSET-0000246-000003,246,246,1,1,Warehouse Receiving Agent R. Vance,receipt,2026-07-04 04:05:27,Asset received and checked into warehouse.
+506,CUST-ASSET-0000227-000001,227,227,2,1,Dispatch Clerk T. Jenkins,dispatch,2026-07-04 06:54:22,Dispatched through DHL Supply Chain. Shipment: SHP-2026-000227
+507,CUST-ASSET-0000217-000001,217,217,3,4,Dispatch Clerk T. Jenkins,dispatch,2026-07-04 09:58:57,Dispatched through Blue Dart. Shipment: SHP-2026-000217
+508,CUST-ASSET-0000239-000001,239,239,2,1,Dispatch Clerk T. Jenkins,dispatch,2026-07-05 02:29:28,Dispatched through FedEx Freight. Shipment: SHP-2026-000239
+509,CUST-ASSET-0000227-000002,227,227,1,3,Carrier Hub Operator A. Davis,transfer,2026-07-05 10:54:22,Transferred through DHL Supply Chain.
+510,CUST-ASSET-0000217-000002,217,217,4,2,Carrier Hub Operator A. Davis,transfer,2026-07-05 13:58:57,Transferred through Blue Dart.
+511,CUST-ASSET-0000217-000003,217,217,2,2,Warehouse Receiving Agent R. Vance,receipt,2026-07-05 17:58:57,Asset received and checked into warehouse.
+512,CUST-ASSET-0000227-000003,227,227,3,3,Warehouse Receiving Agent R. Vance,receipt,2026-07-05 18:54:22,Asset received and checked into warehouse.
+513,CUST-ASSET-0000239-000002,239,239,1,4,Carrier Hub Operator A. Davis,transfer,2026-07-06 04:29:28,Transferred through FedEx Freight.
+514,CUST-ASSET-0000239-000003,239,239,4,4,Warehouse Receiving Agent R. Vance,receipt,2026-07-06 09:29:28,Asset received and checked into warehouse.
+515,CUST-ASSET-0000240-000001,240,240,2,1,Dispatch Clerk T. Jenkins,dispatch,2026-07-07 08:24:40,Dispatched through Blue Dart. Shipment: SHP-2026-000240
+516,CUST-ASSET-0000240-000002,240,240,1,4,Carrier Hub Operator A. Davis,transfer,2026-07-08 06:24:40,Transferred through Blue Dart.
+517,CUST-ASSET-0000240-000003,240,240,4,4,Warehouse Receiving Agent R. Vance,receipt,2026-07-08 13:24:40,Asset received and checked into warehouse.
+518,CUST-ASSET-0000103-000001,103,103,1,4,Dispatch Clerk T. Jenkins,dispatch,2026-07-15 16:33:11,Dispatched through Delhivery. Shipment: SHP-2026-000103
+519,CUST-ASSET-0000103-000002,103,103,4,2,Carrier Hub Operator A. Davis,transfer,2026-07-16 09:33:11,Transferred through Delhivery.
+520,CUST-ASSET-0000103-000003,103,103,2,2,Warehouse Receiving Agent R. Vance,receipt,2026-07-16 17:33:11,Asset received and checked into warehouse.
+521,CUST-ASSET-0000222-000001,222,222,2,4,Dispatch Clerk T. Jenkins,dispatch,2026-07-17 09:42:31,Dispatched through Delhivery. Shipment: SHP-2026-000222
+522,CUST-ASSET-0000015-000001,15,15,2,1,Dispatch Clerk T. Jenkins,dispatch,2026-07-21 21:48:26,Dispatched through FedEx Freight. Shipment: SHP-2026-000015
+523,CUST-ASSET-0000015-000002,15,15,1,4,Carrier Hub Operator A. Davis,transfer,2026-07-23 00:48:26,Transferred through FedEx Freight.
+524,CUST-ASSET-0000003-000001,3,3,4,1,Dispatch Clerk T. Jenkins,dispatch,2026-07-23 06:47:13,Dispatched through Blue Dart. Shipment: SHP-2026-000003
+525,CUST-ASSET-0000015-000003,15,15,4,4,Warehouse Receiving Agent R. Vance,receipt,2026-07-23 06:48:26,Asset received and checked into warehouse.
+526,CUST-ASSET-0000212-000001,212,212,3,4,Dispatch Clerk T. Jenkins,dispatch,2026-07-24 09:18:38,Dispatched through Delhivery. Shipment: SHP-2026-000212
+527,CUST-ASSET-0000123-000001,123,123,4,3,Dispatch Clerk T. Jenkins,dispatch,2026-07-25 08:09:02,Dispatched through FedEx Freight. Shipment: SHP-2026-000123
+528,CUST-ASSET-0000212-000002,212,212,4,1,Carrier Hub Operator A. Davis,transfer,2026-07-25 09:18:38,Transferred through Delhivery.
+529,CUST-ASSET-0000212-000003,212,212,1,1,Warehouse Receiving Agent R. Vance,receipt,2026-07-25 17:18:38,Asset received and checked into warehouse.
+530,CUST-ASSET-0000029-000001,29,29,1,2,Dispatch Clerk T. Jenkins,dispatch,2026-07-26 02:00:04,Dispatched through Blue Dart. Shipment: SHP-2026-000029
+531,CUST-ASSET-0000123-000002,123,123,3,1,Carrier Hub Operator A. Davis,transfer,2026-07-26 13:09:02,Transferred through FedEx Freight.
+532,CUST-ASSET-0000123-000003,123,123,1,1,Warehouse Receiving Agent R. Vance,receipt,2026-07-26 15:09:02,Asset received and checked into warehouse.
+533,CUST-ASSET-0000029-000002,29,29,2,3,Carrier Hub Operator A. Davis,transfer,2026-07-26 17:00:04,Transferred through Blue Dart.
+534,CUST-ASSET-0000124-000001,124,124,2,3,Dispatch Clerk T. Jenkins,dispatch,2026-07-26 19:44:39,Dispatched through FedEx Freight. Shipment: SHP-2026-000124
+535,CUST-ASSET-0000050-000001,50,50,4,2,Dispatch Clerk T. Jenkins,dispatch,2026-07-26 19:54:48,Dispatched through DHL Supply Chain. Shipment: SHP-2026-000050
+536,CUST-ASSET-0000029-000003,29,29,3,3,Warehouse Receiving Agent R. Vance,receipt,2026-07-26 23:00:04,Asset received and checked into warehouse.
+537,CUST-ASSET-0000124-000002,124,124,3,4,Carrier Hub Operator A. Davis,transfer,2026-07-27 15:44:39,Transferred through FedEx Freight.
+538,CUST-ASSET-0000124-000003,124,124,4,4,Warehouse Receiving Agent R. Vance,receipt,2026-07-27 18:44:39,Asset received and checked into warehouse.
+539,CUST-ASSET-0000050-000002,50,50,2,1,Carrier Hub Operator A. Davis,transfer,2026-07-27 18:54:48,Transferred through DHL Supply Chain.
+540,CUST-ASSET-0000050-000003,50,50,1,1,Warehouse Receiving Agent R. Vance,receipt,2026-07-28 00:54:48,Asset received and checked into warehouse.
+541,CUST-ASSET-0000189-000001,189,189,1,4,Dispatch Clerk T. Jenkins,dispatch,2026-07-31 18:29:08,Dispatched through FedEx Freight. Shipment: SHP-2026-000189
+542,CUST-ASSET-0000189-000002,189,189,4,3,Carrier Hub Operator A. Davis,transfer,2026-08-01 18:29:08,Transferred through FedEx Freight.
+543,CUST-ASSET-0000189-000003,189,189,3,3,Warehouse Receiving Agent R. Vance,receipt,2026-08-02 02:29:08,Asset received and checked into warehouse.
+544,CUST-ASSET-0000167-000001,167,167,2,1,Dispatch Clerk T. Jenkins,dispatch,2026-08-05 01:36:04,Dispatched through Delhivery. Shipment: SHP-2026-000167
+545,CUST-ASSET-0000164-000001,164,164,3,1,Dispatch Clerk T. Jenkins,dispatch,2026-08-05 05:43:36,Dispatched through Delhivery. Shipment: SHP-2026-000164
+546,CUST-ASSET-0000042-000001,42,42,2,1,Dispatch Clerk T. Jenkins,dispatch,2026-08-05 18:43:45,Dispatched through DTDC. Shipment: SHP-2026-000042
+547,CUST-ASSET-0000059-000001,59,59,3,2,Dispatch Clerk T. Jenkins,dispatch,2026-08-06 04:23:19,Dispatched through FedEx Freight. Shipment: SHP-2026-000059
+548,CUST-ASSET-0000164-000002,164,164,1,2,Carrier Hub Operator A. Davis,transfer,2026-08-06 09:43:36,Transferred through Delhivery.
+549,CUST-ASSET-0000164-000003,164,164,2,2,Warehouse Receiving Agent R. Vance,receipt,2026-08-06 14:43:36,Asset received and checked into warehouse.
+550,CUST-ASSET-0000042-000002,42,42,1,3,Carrier Hub Operator A. Davis,transfer,2026-08-06 19:43:45,Transferred through DTDC.
+551,CUST-ASSET-0000059-000002,59,59,2,4,Carrier Hub Operator A. Davis,transfer,2026-08-07 00:23:19,Transferred through FedEx Freight.
+552,CUST-ASSET-0000042-000003,42,42,3,3,Warehouse Receiving Agent R. Vance,receipt,2026-08-07 03:43:45,Asset received and checked into warehouse.
+553,CUST-ASSET-0000059-000003,59,59,4,4,Warehouse Receiving Agent R. Vance,receipt,2026-08-07 04:23:19,Asset received and checked into warehouse.
+554,CUST-ASSET-0000093-000001,93,93,3,2,Dispatch Clerk T. Jenkins,dispatch,2026-08-11 20:24:58,Dispatched through Delhivery. Shipment: SHP-2026-000093
+555,CUST-ASSET-0000093-000002,93,93,2,1,Carrier Hub Operator A. Davis,transfer,2026-08-12 18:24:58,Transferred through Delhivery.
+556,CUST-ASSET-0000093-000003,93,93,1,1,Warehouse Receiving Agent R. Vance,receipt,2026-08-12 22:24:58,Asset received and checked into warehouse.
+557,CUST-ASSET-0000017-000001,17,17,1,3,Dispatch Clerk T. Jenkins,dispatch,2026-08-15 09:00:25,Dispatched through Blue Dart. Shipment: SHP-2026-000017
+558,CUST-ASSET-0000017-000002,17,17,3,2,Carrier Hub Operator A. Davis,transfer,2026-08-15 22:00:25,Transferred through Blue Dart.
+559,CUST-ASSET-0000017-000003,17,17,2,2,Warehouse Receiving Agent R. Vance,receipt,2026-08-16 01:00:25,Asset received and checked into warehouse.
+560,CUST-ASSET-0000058-000001,58,58,3,2,Dispatch Clerk T. Jenkins,dispatch,2026-08-16 20:13:08,Dispatched through DTDC. Shipment: SHP-2026-000058
+561,CUST-ASSET-0000032-000001,32,32,1,3,Dispatch Clerk T. Jenkins,dispatch,2026-08-22 21:00:19,Dispatched through Blue Dart. Shipment: SHP-2026-000032
+562,CUST-ASSET-0000206-000001,206,206,1,3,Dispatch Clerk T. Jenkins,dispatch,2026-08-23 12:01:47,Dispatched through DHL Supply Chain. Shipment: SHP-2026-000206
+563,CUST-ASSET-0000032-000002,32,32,3,2,Carrier Hub Operator A. Davis,transfer,2026-08-23 19:00:19,Transferred through Blue Dart.
+564,CUST-ASSET-0000229-000001,229,229,4,1,Dispatch Clerk T. Jenkins,dispatch,2026-08-23 21:25:30,Dispatched through Blue Dart. Shipment: SHP-2026-000229
+565,CUST-ASSET-0000032-000003,32,32,2,2,Warehouse Receiving Agent R. Vance,receipt,2026-08-24 01:00:19,Asset received and checked into warehouse.
+566,CUST-ASSET-0000206-000002,206,206,3,2,Carrier Hub Operator A. Davis,transfer,2026-08-24 03:01:47,Transferred through DHL Supply Chain.
+567,CUST-ASSET-0000206-000003,206,206,2,2,Warehouse Receiving Agent R. Vance,receipt,2026-08-24 07:01:47,Asset received and checked into warehouse.
+568,CUST-ASSET-0000201-000001,201,201,2,1,Dispatch Clerk T. Jenkins,dispatch,2026-08-29 12:34:30,Dispatched through Blue Dart. Shipment: SHP-2026-000201
+569,CUST-ASSET-0000201-000002,201,201,1,3,Carrier Hub Operator A. Davis,transfer,2026-08-30 10:34:30,Transferred through Blue Dart.
+570,CUST-ASSET-0000201-000003,201,201,3,3,Warehouse Receiving Agent R. Vance,receipt,2026-08-30 16:34:30,Asset received and checked into warehouse.
+571,CUST-ASSET-0000030-000001,30,30,2,1,Dispatch Clerk T. Jenkins,dispatch,2026-09-01 23:58:49,Dispatched through DHL Supply Chain. Shipment: SHP-2026-000030
+572,CUST-ASSET-0000023-000001,23,23,4,1,Dispatch Clerk T. Jenkins,dispatch,2026-09-02 03:14:21,Dispatched through DTDC. Shipment: SHP-2026-000023
+573,CUST-ASSET-0000030-000002,30,30,1,3,Carrier Hub Operator A. Davis,transfer,2026-09-02 16:58:49,Transferred through DHL Supply Chain.
+574,CUST-ASSET-0000035-000001,35,35,1,4,Dispatch Clerk T. Jenkins,dispatch,2026-09-02 18:27:05,Dispatched through DHL Supply Chain. Shipment: SHP-2026-000035
+575,CUST-ASSET-0000030-000003,30,30,3,3,Warehouse Receiving Agent R. Vance,receipt,2026-09-02 20:58:49,Asset received and checked into warehouse.
+576,CUST-ASSET-0000035-000002,35,35,4,2,Carrier Hub Operator A. Davis,transfer,2026-09-03 09:27:05,Transferred through DHL Supply Chain.
+577,CUST-ASSET-0000035-000003,35,35,2,2,Warehouse Receiving Agent R. Vance,receipt,2026-09-03 16:27:05,Asset received and checked into warehouse.
+578,CUST-ASSET-0000114-000001,114,114,4,1,Dispatch Clerk T. Jenkins,dispatch,2026-09-13 09:32:18,Dispatched through Blue Dart. Shipment: SHP-2026-000114
+579,CUST-ASSET-0000114-000002,114,114,1,3,Carrier Hub Operator A. Davis,transfer,2026-09-14 03:32:18,Transferred through Blue Dart.
+580,CUST-ASSET-0000114-000003,114,114,3,3,Warehouse Receiving Agent R. Vance,receipt,2026-09-14 11:32:18,Asset received and checked into warehouse.
+581,CUST-ASSET-0000048-000001,48,48,2,4,Dispatch Clerk T. Jenkins,dispatch,2026-09-18 05:58:55,Dispatched through Delhivery. Shipment: SHP-2026-000048
+582,CUST-ASSET-0000048-000002,48,48,4,1,Carrier Hub Operator A. Davis,transfer,2026-09-19 05:58:55,Transferred through Delhivery.
+583,CUST-ASSET-0000048-000003,48,48,1,1,Warehouse Receiving Agent R. Vance,receipt,2026-09-19 12:58:55,Asset received and checked into warehouse.
+584,CUST-ASSET-0000013-000001,13,13,3,1,Dispatch Clerk T. Jenkins,dispatch,2026-09-19 14:34:34,Dispatched through DTDC. Shipment: SHP-2026-000013
+585,CUST-ASSET-0000198-000001,198,198,1,2,Dispatch Clerk T. Jenkins,dispatch,2026-09-19 15:04:47,Dispatched through FedEx Freight. Shipment: SHP-2026-000198
+586,CUST-ASSET-0000013-000002,13,13,1,4,Carrier Hub Operator A. Davis,transfer,2026-09-20 14:34:34,Transferred through DTDC.
+587,CUST-ASSET-0000013-000003,13,13,4,4,Warehouse Receiving Agent R. Vance,receipt,2026-09-20 19:34:34,Asset received and checked into warehouse.
+588,CUST-ASSET-0000171-000001,171,171,2,3,Dispatch Clerk T. Jenkins,dispatch,2026-09-21 01:15:25,Dispatched through DTDC. Shipment: SHP-2026-000171
+589,CUST-ASSET-0000047-000001,47,47,1,3,Dispatch Clerk T. Jenkins,dispatch,2026-09-22 00:55:01,Dispatched through Blue Dart. Shipment: SHP-2026-000047
+590,CUST-ASSET-0000171-000002,171,171,3,4,Carrier Hub Operator A. Davis,transfer,2026-09-22 01:15:25,Transferred through DTDC.
+591,CUST-ASSET-0000190-000001,190,190,1,2,Dispatch Clerk T. Jenkins,dispatch,2026-09-22 04:46:48,Dispatched through DHL Supply Chain. Shipment: SHP-2026-000190
+592,CUST-ASSET-0000235-000001,235,235,3,2,Dispatch Clerk T. Jenkins,dispatch,2026-09-22 06:11:50,Dispatched through DHL Supply Chain. Shipment: SHP-2026-000235
+593,CUST-ASSET-0000171-000003,171,171,4,4,Warehouse Receiving Agent R. Vance,receipt,2026-09-22 09:15:25,Asset received and checked into warehouse.
+594,CUST-ASSET-0000235-000002,235,235,2,1,Carrier Hub Operator A. Davis,transfer,2026-09-22 21:11:50,Transferred through DHL Supply Chain.
+595,CUST-ASSET-0000047-000002,47,47,3,2,Carrier Hub Operator A. Davis,transfer,2026-09-22 21:55:01,Transferred through Blue Dart.
+596,CUST-ASSET-0000190-000002,190,190,2,3,Carrier Hub Operator A. Davis,transfer,2026-09-22 23:46:48,Transferred through DHL Supply Chain.
+597,CUST-ASSET-0000190-000003,190,190,3,3,Warehouse Receiving Agent R. Vance,receipt,2026-09-23 02:46:48,Asset received and checked into warehouse.
+598,CUST-ASSET-0000047-000003,47,47,2,2,Warehouse Receiving Agent R. Vance,receipt,2026-09-23 04:55:01,Asset received and checked into warehouse.
+599,CUST-ASSET-0000235-000003,235,235,1,1,Warehouse Receiving Agent R. Vance,receipt,2026-09-23 05:11:50,Asset received and checked into warehouse.
+600,CUST-ASSET-0000131-000001,131,131,1,2,Dispatch Clerk T. Jenkins,dispatch,2026-09-26 02:50:31,Dispatched through DTDC. Shipment: SHP-2026-000131
+601,CUST-ASSET-0000230-000001,230,230,4,2,Dispatch Clerk T. Jenkins,dispatch,2026-09-26 07:41:43,Dispatched through Delhivery. Shipment: SHP-2026-000230
+602,CUST-ASSET-0000230-000002,230,230,2,1,Carrier Hub Operator A. Davis,transfer,2026-09-27 07:41:43,Transferred through Delhivery.
+603,CUST-ASSET-0000230-000003,230,230,1,1,Warehouse Receiving Agent R. Vance,receipt,2026-09-27 13:41:43,Asset received and checked into warehouse.
+604,CUST-ASSET-0000215-000001,215,215,3,1,Dispatch Clerk T. Jenkins,dispatch,2026-09-28 02:32:32,Dispatched through DTDC. Shipment: SHP-2026-000215
+605,CUST-ASSET-0000250-000001,250,250,3,4,Dispatch Clerk T. Jenkins,dispatch,2026-09-30 04:49:17,Dispatched through Delhivery. Shipment: SHP-2026-000250
+606,CUST-ASSET-0000250-000002,250,250,4,2,Carrier Hub Operator A. Davis,transfer,2026-10-01 02:49:17,Transferred through Delhivery.
+607,CUST-ASSET-0000250-000003,250,250,2,2,Warehouse Receiving Agent R. Vance,receipt,2026-10-01 07:49:17,Asset received and checked into warehouse.
+608,CUST-ASSET-0000025-000001,25,25,3,4,Dispatch Clerk T. Jenkins,dispatch,2026-10-01 14:38:32,Dispatched through FedEx Freight. Shipment: SHP-2026-000025
+609,CUST-ASSET-0000025-000002,25,25,4,1,Carrier Hub Operator A. Davis,transfer,2026-10-02 10:38:32,Transferred through FedEx Freight.
+610,CUST-ASSET-0000025-000003,25,25,1,1,Warehouse Receiving Agent R. Vance,receipt,2026-10-02 14:38:32,Asset received and checked into warehouse.
+611,CUST-ASSET-0000082-000001,82,82,1,4,Dispatch Clerk T. Jenkins,dispatch,2026-10-07 01:59:54,Dispatched through FedEx Freight. Shipment: SHP-2026-000082
+612,CUST-ASSET-0000004-000001,4,4,2,1,Dispatch Clerk T. Jenkins,dispatch,2026-10-07 07:44:53,Dispatched through DHL Supply Chain. Shipment: SHP-2026-000004
+613,CUST-ASSET-0000082-000002,82,82,4,3,Carrier Hub Operator A. Davis,transfer,2026-10-07 18:59:54,Transferred through FedEx Freight.
+614,CUST-ASSET-0000082-000003,82,82,3,3,Warehouse Receiving Agent R. Vance,receipt,2026-10-08 01:59:54,Asset received and checked into warehouse.
+615,CUST-ASSET-0000181-000001,181,181,3,2,Dispatch Clerk T. Jenkins,dispatch,2026-10-10 04:27:52,Dispatched through DHL Supply Chain. Shipment: SHP-2026-000181
+616,CUST-ASSET-0000181-000002,181,181,2,1,Carrier Hub Operator A. Davis,transfer,2026-10-11 04:27:52,Transferred through DHL Supply Chain.
+617,CUST-ASSET-0000181-000003,181,181,1,1,Warehouse Receiving Agent R. Vance,receipt,2026-10-11 07:27:52,Asset received and checked into warehouse.
+618,CUST-ASSET-0000248-000001,248,248,2,4,Dispatch Clerk T. Jenkins,dispatch,2026-10-14 14:38:42,Dispatched through Delhivery. Shipment: SHP-2026-000248
+619,CUST-ASSET-0000098-000001,98,98,4,1,Dispatch Clerk T. Jenkins,dispatch,2026-10-18 13:28:44,Dispatched through Blue Dart. Shipment: SHP-2026-000098
+620,CUST-ASSET-0000098-000002,98,98,1,3,Carrier Hub Operator A. Davis,transfer,2026-10-19 08:28:44,Transferred through Blue Dart.
+621,CUST-ASSET-0000098-000003,98,98,3,3,Warehouse Receiving Agent R. Vance,receipt,2026-10-19 15:28:44,Asset received and checked into warehouse.
+622,CUST-ASSET-0000196-000001,196,196,3,2,Dispatch Clerk T. Jenkins,dispatch,2026-10-20 18:56:47,Dispatched through Delhivery. Shipment: SHP-2026-000196
+623,CUST-ASSET-0000196-000002,196,196,2,4,Carrier Hub Operator A. Davis,transfer,2026-10-21 11:56:47,Transferred through Delhivery.
+624,CUST-ASSET-0000196-000003,196,196,4,4,Warehouse Receiving Agent R. Vance,receipt,2026-10-21 18:56:47,Asset received and checked into warehouse.
+625,CUST-ASSET-0000014-000001,14,14,1,4,Dispatch Clerk T. Jenkins,dispatch,2026-10-23 05:55:17,Dispatched through DTDC. Shipment: SHP-2026-000014
+626,CUST-ASSET-0000014-000002,14,14,4,2,Carrier Hub Operator A. Davis,transfer,2026-10-24 01:55:17,Transferred through DTDC.
+627,CUST-ASSET-0000014-000003,14,14,2,2,Warehouse Receiving Agent R. Vance,receipt,2026-10-24 06:55:17,Asset received and checked into warehouse.
+628,CUST-ASSET-0000174-000001,174,174,1,3,Dispatch Clerk T. Jenkins,dispatch,2026-10-26 18:50:58,Dispatched through DHL Supply Chain. Shipment: SHP-2026-000174
+629,CUST-ASSET-0000078-000001,78,78,3,4,Dispatch Clerk T. Jenkins,dispatch,2026-10-27 00:56:58,Dispatched through Delhivery. Shipment: SHP-2026-000078
+630,CUST-ASSET-0000078-000002,78,78,4,1,Carrier Hub Operator A. Davis,transfer,2026-10-27 19:56:58,Transferred through Delhivery.
+631,CUST-ASSET-0000078-000003,78,78,1,1,Warehouse Receiving Agent R. Vance,receipt,2026-10-28 00:56:58,Asset received and checked into warehouse.
+632,CUST-ASSET-0000031-000001,31,31,2,3,Dispatch Clerk T. Jenkins,dispatch,2026-10-28 17:18:41,Dispatched through Delhivery. Shipment: SHP-2026-000031
+633,CUST-ASSET-0000089-000001,89,89,4,1,Dispatch Clerk T. Jenkins,dispatch,2026-10-31 12:44:12,Dispatched through FedEx Freight. Shipment: SHP-2026-000089
+634,CUST-ASSET-0000186-000001,186,186,4,2,Dispatch Clerk T. Jenkins,dispatch,2026-11-01 07:17:39,Dispatched through DTDC. Shipment: SHP-2026-000186
+635,CUST-ASSET-0000089-000002,89,89,1,3,Carrier Hub Operator A. Davis,transfer,2026-11-01 10:44:12,Transferred through FedEx Freight.
+636,CUST-ASSET-0000089-000003,89,89,3,3,Warehouse Receiving Agent R. Vance,receipt,2026-11-01 14:44:12,Asset received and checked into warehouse.
+637,CUST-ASSET-0000251-000001,251,,1,4,Stage 6 Scanner Chennai,transfer,2026-10-20 10:00:00,STAGE6:ANOM-01 first location scan
+638,CUST-ASSET-0000251-000002,251,,4,3,Stage 6 Scanner Mumbai,transfer,2026-10-20 10:20:00,STAGE6:ANOM-01 impossible travel scan
+639,CUST-ASSET-0000252-000001,252,,1,4,Stage 6 Scanner Chennai,transfer,2026-10-20 11:00:00,STAGE6:ANOM-01 first location scan
+640,CUST-ASSET-0000252-000002,252,,4,3,Stage 6 Scanner Mumbai,transfer,2026-10-20 11:20:00,STAGE6:ANOM-01 impossible travel scan
+641,CUST-ASSET-0000253-000001,253,251,4,1,Stage 6 Dock Receiver,return,2026-10-21 15:00:00,STAGE6:ANOM-02 return before dispatch
+642,CUST-ASSET-0000254-000001,254,252,4,1,Stage 6 Dock Receiver,return,2026-10-21 15:00:00,STAGE6:ANOM-02 return before dispatch
+643,CUST-ASSET-0000259-000001,259,,1,4,UNKNOWN_ACTOR,transfer,2026-10-24 10:00:00,STAGE6:ANOM-05 missing custody actor
+644,CUST-ASSET-0000260-000001,260,,1,4,UNKNOWN_ACTOR,transfer,2026-10-24 10:45:00,STAGE6:ANOM-05 missing custody actor

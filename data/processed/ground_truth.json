@@ -1,7 +1,7 @@
 {
   "1": {
     "asset_id": 1,
-    "asset_code": "AST-000001",
+    "asset_code": "ASSET-0000001",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -9,7 +9,7 @@
   },
   "2": {
     "asset_id": 2,
-    "asset_code": "AST-000002",
+    "asset_code": "ASSET-0000002",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -17,7 +17,7 @@
   },
   "3": {
     "asset_id": 3,
-    "asset_code": "AST-000003",
+    "asset_code": "ASSET-0000003",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -25,7 +25,7 @@
   },
   "4": {
     "asset_id": 4,
-    "asset_code": "AST-000004",
+    "asset_code": "ASSET-0000004",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -33,7 +33,7 @@
   },
   "5": {
     "asset_id": 5,
-    "asset_code": "AST-000005",
+    "asset_code": "ASSET-0000005",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -41,7 +41,7 @@
   },
   "6": {
     "asset_id": 6,
-    "asset_code": "AST-000006",
+    "asset_code": "ASSET-0000006",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -49,7 +49,7 @@
   },
   "7": {
     "asset_id": 7,
-    "asset_code": "AST-000007",
+    "asset_code": "ASSET-0000007",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -57,7 +57,7 @@
   },
   "8": {
     "asset_id": 8,
-    "asset_code": "AST-000008",
+    "asset_code": "ASSET-0000008",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -65,7 +65,7 @@
   },
   "9": {
     "asset_id": 9,
-    "asset_code": "AST-000009",
+    "asset_code": "ASSET-0000009",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -73,7 +73,7 @@
   },
   "10": {
     "asset_id": 10,
-    "asset_code": "AST-000010",
+    "asset_code": "ASSET-0000010",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -81,7 +81,7 @@
   },
   "11": {
     "asset_id": 11,
-    "asset_code": "AST-000011",
+    "asset_code": "ASSET-0000011",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -89,7 +89,7 @@
   },
   "12": {
     "asset_id": 12,
-    "asset_code": "AST-000012",
+    "asset_code": "ASSET-0000012",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -97,7 +97,7 @@
   },
   "13": {
     "asset_id": 13,
-    "asset_code": "AST-000013",
+    "asset_code": "ASSET-0000013",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -105,7 +105,7 @@
   },
   "14": {
     "asset_id": 14,
-    "asset_code": "AST-000014",
+    "asset_code": "ASSET-0000014",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -113,7 +113,7 @@
   },
   "15": {
     "asset_id": 15,
-    "asset_code": "AST-000015",
+    "asset_code": "ASSET-0000015",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -121,7 +121,7 @@
   },
   "16": {
     "asset_id": 16,
-    "asset_code": "AST-000016",
+    "asset_code": "ASSET-0000016",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -129,7 +129,7 @@
   },
   "17": {
     "asset_id": 17,
-    "asset_code": "AST-000017",
+    "asset_code": "ASSET-0000017",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -137,7 +137,7 @@
   },
   "18": {
     "asset_id": 18,
-    "asset_code": "AST-000018",
+    "asset_code": "ASSET-0000018",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -145,7 +145,7 @@
   },
   "19": {
     "asset_id": 19,
-    "asset_code": "AST-000019",
+    "asset_code": "ASSET-0000019",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -153,7 +153,7 @@
   },
   "20": {
     "asset_id": 20,
-    "asset_code": "AST-000020",
+    "asset_code": "ASSET-0000020",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -161,7 +161,7 @@
   },
   "21": {
     "asset_id": 21,
-    "asset_code": "AST-000021",
+    "asset_code": "ASSET-0000021",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -169,7 +169,7 @@
   },
   "22": {
     "asset_id": 22,
-    "asset_code": "AST-000022",
+    "asset_code": "ASSET-0000022",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -177,7 +177,7 @@
   },
   "23": {
     "asset_id": 23,
-    "asset_code": "AST-000023",
+    "asset_code": "ASSET-0000023",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -185,7 +185,7 @@
   },
   "24": {
     "asset_id": 24,
-    "asset_code": "AST-000024",
+    "asset_code": "ASSET-0000024",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -193,7 +193,7 @@
   },
   "25": {
     "asset_id": 25,
-    "asset_code": "AST-000025",
+    "asset_code": "ASSET-0000025",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -201,7 +201,7 @@
   },
   "26": {
     "asset_id": 26,
-    "asset_code": "AST-000026",
+    "asset_code": "ASSET-0000026",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -209,7 +209,7 @@
   },
   "27": {
     "asset_id": 27,
-    "asset_code": "AST-000027",
+    "asset_code": "ASSET-0000027",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -217,7 +217,7 @@
   },
   "28": {
     "asset_id": 28,
-    "asset_code": "AST-000028",
+    "asset_code": "ASSET-0000028",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -225,7 +225,7 @@
   },
   "29": {
     "asset_id": 29,
-    "asset_code": "AST-000029",
+    "asset_code": "ASSET-0000029",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -233,7 +233,7 @@
   },
   "30": {
     "asset_id": 30,
-    "asset_code": "AST-000030",
+    "asset_code": "ASSET-0000030",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -241,7 +241,7 @@
   },
   "31": {
     "asset_id": 31,
-    "asset_code": "AST-000031",
+    "asset_code": "ASSET-0000031",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -249,7 +249,7 @@
   },
   "32": {
     "asset_id": 32,
-    "asset_code": "AST-000032",
+    "asset_code": "ASSET-0000032",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -257,7 +257,7 @@
   },
   "33": {
     "asset_id": 33,
-    "asset_code": "AST-000033",
+    "asset_code": "ASSET-0000033",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -265,7 +265,7 @@
   },
   "34": {
     "asset_id": 34,
-    "asset_code": "AST-000034",
+    "asset_code": "ASSET-0000034",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -273,7 +273,7 @@
   },
   "35": {
     "asset_id": 35,
-    "asset_code": "AST-000035",
+    "asset_code": "ASSET-0000035",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -281,7 +281,7 @@
   },
   "36": {
     "asset_id": 36,
-    "asset_code": "AST-000036",
+    "asset_code": "ASSET-0000036",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -289,7 +289,7 @@
   },
   "37": {
     "asset_id": 37,
-    "asset_code": "AST-000037",
+    "asset_code": "ASSET-0000037",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -297,7 +297,7 @@
   },
   "38": {
     "asset_id": 38,
-    "asset_code": "AST-000038",
+    "asset_code": "ASSET-0000038",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -305,7 +305,7 @@
   },
   "39": {
     "asset_id": 39,
-    "asset_code": "AST-000039",
+    "asset_code": "ASSET-0000039",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -313,7 +313,7 @@
   },
   "40": {
     "asset_id": 40,
-    "asset_code": "AST-000040",
+    "asset_code": "ASSET-0000040",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -321,7 +321,7 @@
   },
   "41": {
     "asset_id": 41,
-    "asset_code": "AST-000041",
+    "asset_code": "ASSET-0000041",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -329,7 +329,7 @@
   },
   "42": {
     "asset_id": 42,
-    "asset_code": "AST-000042",
+    "asset_code": "ASSET-0000042",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -337,7 +337,7 @@
   },
   "43": {
     "asset_id": 43,
-    "asset_code": "AST-000043",
+    "asset_code": "ASSET-0000043",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -345,7 +345,7 @@
   },
   "44": {
     "asset_id": 44,
-    "asset_code": "AST-000044",
+    "asset_code": "ASSET-0000044",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -353,7 +353,7 @@
   },
   "45": {
     "asset_id": 45,
-    "asset_code": "AST-000045",
+    "asset_code": "ASSET-0000045",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -361,7 +361,7 @@
   },
   "46": {
     "asset_id": 46,
-    "asset_code": "AST-000046",
+    "asset_code": "ASSET-0000046",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -369,7 +369,7 @@
   },
   "47": {
     "asset_id": 47,
-    "asset_code": "AST-000047",
+    "asset_code": "ASSET-0000047",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -377,7 +377,7 @@
   },
   "48": {
     "asset_id": 48,
-    "asset_code": "AST-000048",
+    "asset_code": "ASSET-0000048",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -385,7 +385,7 @@
   },
   "49": {
     "asset_id": 49,
-    "asset_code": "AST-000049",
+    "asset_code": "ASSET-0000049",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -393,7 +393,7 @@
   },
   "50": {
     "asset_id": 50,
-    "asset_code": "AST-000050",
+    "asset_code": "ASSET-0000050",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -401,7 +401,7 @@
   },
   "51": {
     "asset_id": 51,
-    "asset_code": "AST-000051",
+    "asset_code": "ASSET-0000051",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -409,7 +409,7 @@
   },
   "52": {
     "asset_id": 52,
-    "asset_code": "AST-000052",
+    "asset_code": "ASSET-0000052",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -417,7 +417,7 @@
   },
   "53": {
     "asset_id": 53,
-    "asset_code": "AST-000053",
+    "asset_code": "ASSET-0000053",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -425,7 +425,7 @@
   },
   "54": {
     "asset_id": 54,
-    "asset_code": "AST-000054",
+    "asset_code": "ASSET-0000054",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -433,7 +433,7 @@
   },
   "55": {
     "asset_id": 55,
-    "asset_code": "AST-000055",
+    "asset_code": "ASSET-0000055",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -441,7 +441,7 @@
   },
   "56": {
     "asset_id": 56,
-    "asset_code": "AST-000056",
+    "asset_code": "ASSET-0000056",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -449,7 +449,7 @@
   },
   "57": {
     "asset_id": 57,
-    "asset_code": "AST-000057",
+    "asset_code": "ASSET-0000057",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -457,7 +457,7 @@
   },
   "58": {
     "asset_id": 58,
-    "asset_code": "AST-000058",
+    "asset_code": "ASSET-0000058",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -465,7 +465,7 @@
   },
   "59": {
     "asset_id": 59,
-    "asset_code": "AST-000059",
+    "asset_code": "ASSET-0000059",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -473,7 +473,7 @@
   },
   "60": {
     "asset_id": 60,
-    "asset_code": "AST-000060",
+    "asset_code": "ASSET-0000060",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -481,7 +481,7 @@
   },
   "61": {
     "asset_id": 61,
-    "asset_code": "AST-000061",
+    "asset_code": "ASSET-0000061",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -489,7 +489,7 @@
   },
   "62": {
     "asset_id": 62,
-    "asset_code": "AST-000062",
+    "asset_code": "ASSET-0000062",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -497,7 +497,7 @@
   },
   "63": {
     "asset_id": 63,
-    "asset_code": "AST-000063",
+    "asset_code": "ASSET-0000063",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -505,7 +505,7 @@
   },
   "64": {
     "asset_id": 64,
-    "asset_code": "AST-000064",
+    "asset_code": "ASSET-0000064",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -513,7 +513,7 @@
   },
   "65": {
     "asset_id": 65,
-    "asset_code": "AST-000065",
+    "asset_code": "ASSET-0000065",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -521,7 +521,7 @@
   },
   "66": {
     "asset_id": 66,
-    "asset_code": "AST-000066",
+    "asset_code": "ASSET-0000066",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -529,7 +529,7 @@
   },
   "67": {
     "asset_id": 67,
-    "asset_code": "AST-000067",
+    "asset_code": "ASSET-0000067",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -537,7 +537,7 @@
   },
   "68": {
     "asset_id": 68,
-    "asset_code": "AST-000068",
+    "asset_code": "ASSET-0000068",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -545,7 +545,7 @@
   },
   "69": {
     "asset_id": 69,
-    "asset_code": "AST-000069",
+    "asset_code": "ASSET-0000069",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -553,7 +553,7 @@
   },
   "70": {
     "asset_id": 70,
-    "asset_code": "AST-000070",
+    "asset_code": "ASSET-0000070",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -561,7 +561,7 @@
   },
   "71": {
     "asset_id": 71,
-    "asset_code": "AST-000071",
+    "asset_code": "ASSET-0000071",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -569,7 +569,7 @@
   },
   "72": {
     "asset_id": 72,
-    "asset_code": "AST-000072",
+    "asset_code": "ASSET-0000072",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -577,7 +577,7 @@
   },
   "73": {
     "asset_id": 73,
-    "asset_code": "AST-000073",
+    "asset_code": "ASSET-0000073",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -585,7 +585,7 @@
   },
   "74": {
     "asset_id": 74,
-    "asset_code": "AST-000074",
+    "asset_code": "ASSET-0000074",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -593,7 +593,7 @@
   },
   "75": {
     "asset_id": 75,
-    "asset_code": "AST-000075",
+    "asset_code": "ASSET-0000075",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -601,7 +601,7 @@
   },
   "76": {
     "asset_id": 76,
-    "asset_code": "AST-000076",
+    "asset_code": "ASSET-0000076",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -609,7 +609,7 @@
   },
   "77": {
     "asset_id": 77,
-    "asset_code": "AST-000077",
+    "asset_code": "ASSET-0000077",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -617,7 +617,7 @@
   },
   "78": {
     "asset_id": 78,
-    "asset_code": "AST-000078",
+    "asset_code": "ASSET-0000078",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -625,7 +625,7 @@
   },
   "79": {
     "asset_id": 79,
-    "asset_code": "AST-000079",
+    "asset_code": "ASSET-0000079",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -633,7 +633,7 @@
   },
   "80": {
     "asset_id": 80,
-    "asset_code": "AST-000080",
+    "asset_code": "ASSET-0000080",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -641,7 +641,7 @@
   },
   "81": {
     "asset_id": 81,
-    "asset_code": "AST-000081",
+    "asset_code": "ASSET-0000081",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -649,7 +649,7 @@
   },
   "82": {
     "asset_id": 82,
-    "asset_code": "AST-000082",
+    "asset_code": "ASSET-0000082",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -657,7 +657,7 @@
   },
   "83": {
     "asset_id": 83,
-    "asset_code": "AST-000083",
+    "asset_code": "ASSET-0000083",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -665,7 +665,7 @@
   },
   "84": {
     "asset_id": 84,
-    "asset_code": "AST-000084",
+    "asset_code": "ASSET-0000084",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -673,7 +673,7 @@
   },
   "85": {
     "asset_id": 85,
-    "asset_code": "AST-000085",
+    "asset_code": "ASSET-0000085",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -681,7 +681,7 @@
   },
   "86": {
     "asset_id": 86,
-    "asset_code": "AST-000086",
+    "asset_code": "ASSET-0000086",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -689,7 +689,7 @@
   },
   "87": {
     "asset_id": 87,
-    "asset_code": "AST-000087",
+    "asset_code": "ASSET-0000087",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -697,7 +697,7 @@
   },
   "88": {
     "asset_id": 88,
-    "asset_code": "AST-000088",
+    "asset_code": "ASSET-0000088",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -705,7 +705,7 @@
   },
   "89": {
     "asset_id": 89,
-    "asset_code": "AST-000089",
+    "asset_code": "ASSET-0000089",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -713,7 +713,7 @@
   },
   "90": {
     "asset_id": 90,
-    "asset_code": "AST-000090",
+    "asset_code": "ASSET-0000090",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -721,7 +721,7 @@
   },
   "91": {
     "asset_id": 91,
-    "asset_code": "AST-000091",
+    "asset_code": "ASSET-0000091",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -729,7 +729,7 @@
   },
   "92": {
     "asset_id": 92,
-    "asset_code": "AST-000092",
+    "asset_code": "ASSET-0000092",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -737,7 +737,7 @@
   },
   "93": {
     "asset_id": 93,
-    "asset_code": "AST-000093",
+    "asset_code": "ASSET-0000093",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -745,7 +745,7 @@
   },
   "94": {
     "asset_id": 94,
-    "asset_code": "AST-000094",
+    "asset_code": "ASSET-0000094",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -753,7 +753,7 @@
   },
   "95": {
     "asset_id": 95,
-    "asset_code": "AST-000095",
+    "asset_code": "ASSET-0000095",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -761,7 +761,7 @@
   },
   "96": {
     "asset_id": 96,
-    "asset_code": "AST-000096",
+    "asset_code": "ASSET-0000096",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -769,7 +769,7 @@
   },
   "97": {
     "asset_id": 97,
-    "asset_code": "AST-000097",
+    "asset_code": "ASSET-0000097",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -777,7 +777,7 @@
   },
   "98": {
     "asset_id": 98,
-    "asset_code": "AST-000098",
+    "asset_code": "ASSET-0000098",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -785,7 +785,7 @@
   },
   "99": {
     "asset_id": 99,
-    "asset_code": "AST-000099",
+    "asset_code": "ASSET-0000099",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -793,7 +793,7 @@
   },
   "100": {
     "asset_id": 100,
-    "asset_code": "AST-000100",
+    "asset_code": "ASSET-0000100",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -801,7 +801,7 @@
   },
   "101": {
     "asset_id": 101,
-    "asset_code": "AST-000101",
+    "asset_code": "ASSET-0000101",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -809,7 +809,7 @@
   },
   "102": {
     "asset_id": 102,
-    "asset_code": "AST-000102",
+    "asset_code": "ASSET-0000102",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -817,7 +817,7 @@
   },
   "103": {
     "asset_id": 103,
-    "asset_code": "AST-000103",
+    "asset_code": "ASSET-0000103",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -825,7 +825,7 @@
   },
   "104": {
     "asset_id": 104,
-    "asset_code": "AST-000104",
+    "asset_code": "ASSET-0000104",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -833,7 +833,7 @@
   },
   "105": {
     "asset_id": 105,
-    "asset_code": "AST-000105",
+    "asset_code": "ASSET-0000105",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -841,7 +841,7 @@
   },
   "106": {
     "asset_id": 106,
-    "asset_code": "AST-000106",
+    "asset_code": "ASSET-0000106",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -849,7 +849,7 @@
   },
   "107": {
     "asset_id": 107,
-    "asset_code": "AST-000107",
+    "asset_code": "ASSET-0000107",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -857,7 +857,7 @@
   },
   "108": {
     "asset_id": 108,
-    "asset_code": "AST-000108",
+    "asset_code": "ASSET-0000108",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -865,7 +865,7 @@
   },
   "109": {
     "asset_id": 109,
-    "asset_code": "AST-000109",
+    "asset_code": "ASSET-0000109",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -873,7 +873,7 @@
   },
   "110": {
     "asset_id": 110,
-    "asset_code": "AST-000110",
+    "asset_code": "ASSET-0000110",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -881,7 +881,7 @@
   },
   "111": {
     "asset_id": 111,
-    "asset_code": "AST-000111",
+    "asset_code": "ASSET-0000111",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -889,7 +889,7 @@
   },
   "112": {
     "asset_id": 112,
-    "asset_code": "AST-000112",
+    "asset_code": "ASSET-0000112",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -897,7 +897,7 @@
   },
   "113": {
     "asset_id": 113,
-    "asset_code": "AST-000113",
+    "asset_code": "ASSET-0000113",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -905,7 +905,7 @@
   },
   "114": {
     "asset_id": 114,
-    "asset_code": "AST-000114",
+    "asset_code": "ASSET-0000114",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -913,7 +913,7 @@
   },
   "115": {
     "asset_id": 115,
-    "asset_code": "AST-000115",
+    "asset_code": "ASSET-0000115",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -921,7 +921,7 @@
   },
   "116": {
     "asset_id": 116,
-    "asset_code": "AST-000116",
+    "asset_code": "ASSET-0000116",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -929,7 +929,7 @@
   },
   "117": {
     "asset_id": 117,
-    "asset_code": "AST-000117",
+    "asset_code": "ASSET-0000117",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -937,7 +937,7 @@
   },
   "118": {
     "asset_id": 118,
-    "asset_code": "AST-000118",
+    "asset_code": "ASSET-0000118",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -945,7 +945,7 @@
   },
   "119": {
     "asset_id": 119,
-    "asset_code": "AST-000119",
+    "asset_code": "ASSET-0000119",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -953,7 +953,7 @@
   },
   "120": {
     "asset_id": 120,
-    "asset_code": "AST-000120",
+    "asset_code": "ASSET-0000120",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -961,7 +961,7 @@
   },
   "121": {
     "asset_id": 121,
-    "asset_code": "AST-000121",
+    "asset_code": "ASSET-0000121",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -969,7 +969,7 @@
   },
   "122": {
     "asset_id": 122,
-    "asset_code": "AST-000122",
+    "asset_code": "ASSET-0000122",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -977,7 +977,7 @@
   },
   "123": {
     "asset_id": 123,
-    "asset_code": "AST-000123",
+    "asset_code": "ASSET-0000123",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -985,7 +985,7 @@
   },
   "124": {
     "asset_id": 124,
-    "asset_code": "AST-000124",
+    "asset_code": "ASSET-0000124",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -993,7 +993,7 @@
   },
   "125": {
     "asset_id": 125,
-    "asset_code": "AST-000125",
+    "asset_code": "ASSET-0000125",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1001,7 +1001,7 @@
   },
   "126": {
     "asset_id": 126,
-    "asset_code": "AST-000126",
+    "asset_code": "ASSET-0000126",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1009,7 +1009,7 @@
   },
   "127": {
     "asset_id": 127,
-    "asset_code": "AST-000127",
+    "asset_code": "ASSET-0000127",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1017,7 +1017,7 @@
   },
   "128": {
     "asset_id": 128,
-    "asset_code": "AST-000128",
+    "asset_code": "ASSET-0000128",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1025,7 +1025,7 @@
   },
   "129": {
     "asset_id": 129,
-    "asset_code": "AST-000129",
+    "asset_code": "ASSET-0000129",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1033,7 +1033,7 @@
   },
   "130": {
     "asset_id": 130,
-    "asset_code": "AST-000130",
+    "asset_code": "ASSET-0000130",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1041,7 +1041,7 @@
   },
   "131": {
     "asset_id": 131,
-    "asset_code": "AST-000131",
+    "asset_code": "ASSET-0000131",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1049,7 +1049,7 @@
   },
   "132": {
     "asset_id": 132,
-    "asset_code": "AST-000132",
+    "asset_code": "ASSET-0000132",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1057,7 +1057,7 @@
   },
   "133": {
     "asset_id": 133,
-    "asset_code": "AST-000133",
+    "asset_code": "ASSET-0000133",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1065,7 +1065,7 @@
   },
   "134": {
     "asset_id": 134,
-    "asset_code": "AST-000134",
+    "asset_code": "ASSET-0000134",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1073,7 +1073,7 @@
   },
   "135": {
     "asset_id": 135,
-    "asset_code": "AST-000135",
+    "asset_code": "ASSET-0000135",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1081,7 +1081,7 @@
   },
   "136": {
     "asset_id": 136,
-    "asset_code": "AST-000136",
+    "asset_code": "ASSET-0000136",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1089,7 +1089,7 @@
   },
   "137": {
     "asset_id": 137,
-    "asset_code": "AST-000137",
+    "asset_code": "ASSET-0000137",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1097,7 +1097,7 @@
   },
   "138": {
     "asset_id": 138,
-    "asset_code": "AST-000138",
+    "asset_code": "ASSET-0000138",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1105,7 +1105,7 @@
   },
   "139": {
     "asset_id": 139,
-    "asset_code": "AST-000139",
+    "asset_code": "ASSET-0000139",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1113,7 +1113,7 @@
   },
   "140": {
     "asset_id": 140,
-    "asset_code": "AST-000140",
+    "asset_code": "ASSET-0000140",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1121,7 +1121,7 @@
   },
   "141": {
     "asset_id": 141,
-    "asset_code": "AST-000141",
+    "asset_code": "ASSET-0000141",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1129,7 +1129,7 @@
   },
   "142": {
     "asset_id": 142,
-    "asset_code": "AST-000142",
+    "asset_code": "ASSET-0000142",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1137,7 +1137,7 @@
   },
   "143": {
     "asset_id": 143,
-    "asset_code": "AST-000143",
+    "asset_code": "ASSET-0000143",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1145,7 +1145,7 @@
   },
   "144": {
     "asset_id": 144,
-    "asset_code": "AST-000144",
+    "asset_code": "ASSET-0000144",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1153,7 +1153,7 @@
   },
   "145": {
     "asset_id": 145,
-    "asset_code": "AST-000145",
+    "asset_code": "ASSET-0000145",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1161,7 +1161,7 @@
   },
   "146": {
     "asset_id": 146,
-    "asset_code": "AST-000146",
+    "asset_code": "ASSET-0000146",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1169,7 +1169,7 @@
   },
   "147": {
     "asset_id": 147,
-    "asset_code": "AST-000147",
+    "asset_code": "ASSET-0000147",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1177,7 +1177,7 @@
   },
   "148": {
     "asset_id": 148,
-    "asset_code": "AST-000148",
+    "asset_code": "ASSET-0000148",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1185,7 +1185,7 @@
   },
   "149": {
     "asset_id": 149,
-    "asset_code": "AST-000149",
+    "asset_code": "ASSET-0000149",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1193,7 +1193,7 @@
   },
   "150": {
     "asset_id": 150,
-    "asset_code": "AST-000150",
+    "asset_code": "ASSET-0000150",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1201,7 +1201,7 @@
   },
   "151": {
     "asset_id": 151,
-    "asset_code": "AST-000151",
+    "asset_code": "ASSET-0000151",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1209,7 +1209,7 @@
   },
   "152": {
     "asset_id": 152,
-    "asset_code": "AST-000152",
+    "asset_code": "ASSET-0000152",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1217,7 +1217,7 @@
   },
   "153": {
     "asset_id": 153,
-    "asset_code": "AST-000153",
+    "asset_code": "ASSET-0000153",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1225,7 +1225,7 @@
   },
   "154": {
     "asset_id": 154,
-    "asset_code": "AST-000154",
+    "asset_code": "ASSET-0000154",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1233,7 +1233,7 @@
   },
   "155": {
     "asset_id": 155,
-    "asset_code": "AST-000155",
+    "asset_code": "ASSET-0000155",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1241,7 +1241,7 @@
   },
   "156": {
     "asset_id": 156,
-    "asset_code": "AST-000156",
+    "asset_code": "ASSET-0000156",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1249,7 +1249,7 @@
   },
   "157": {
     "asset_id": 157,
-    "asset_code": "AST-000157",
+    "asset_code": "ASSET-0000157",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1257,7 +1257,7 @@
   },
   "158": {
     "asset_id": 158,
-    "asset_code": "AST-000158",
+    "asset_code": "ASSET-0000158",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1265,7 +1265,7 @@
   },
   "159": {
     "asset_id": 159,
-    "asset_code": "AST-000159",
+    "asset_code": "ASSET-0000159",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1273,7 +1273,7 @@
   },
   "160": {
     "asset_id": 160,
-    "asset_code": "AST-000160",
+    "asset_code": "ASSET-0000160",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1281,7 +1281,7 @@
   },
   "161": {
     "asset_id": 161,
-    "asset_code": "AST-000161",
+    "asset_code": "ASSET-0000161",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1289,7 +1289,7 @@
   },
   "162": {
     "asset_id": 162,
-    "asset_code": "AST-000162",
+    "asset_code": "ASSET-0000162",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1297,7 +1297,7 @@
   },
   "163": {
     "asset_id": 163,
-    "asset_code": "AST-000163",
+    "asset_code": "ASSET-0000163",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1305,7 +1305,7 @@
   },
   "164": {
     "asset_id": 164,
-    "asset_code": "AST-000164",
+    "asset_code": "ASSET-0000164",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1313,7 +1313,7 @@
   },
   "165": {
     "asset_id": 165,
-    "asset_code": "AST-000165",
+    "asset_code": "ASSET-0000165",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1321,7 +1321,7 @@
   },
   "166": {
     "asset_id": 166,
-    "asset_code": "AST-000166",
+    "asset_code": "ASSET-0000166",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1329,7 +1329,7 @@
   },
   "167": {
     "asset_id": 167,
-    "asset_code": "AST-000167",
+    "asset_code": "ASSET-0000167",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1337,7 +1337,7 @@
   },
   "168": {
     "asset_id": 168,
-    "asset_code": "AST-000168",
+    "asset_code": "ASSET-0000168",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1345,7 +1345,7 @@
   },
   "169": {
     "asset_id": 169,
-    "asset_code": "AST-000169",
+    "asset_code": "ASSET-0000169",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1353,7 +1353,7 @@
   },
   "170": {
     "asset_id": 170,
-    "asset_code": "AST-000170",
+    "asset_code": "ASSET-0000170",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1361,7 +1361,7 @@
   },
   "171": {
     "asset_id": 171,
-    "asset_code": "AST-000171",
+    "asset_code": "ASSET-0000171",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1369,7 +1369,7 @@
   },
   "172": {
     "asset_id": 172,
-    "asset_code": "AST-000172",
+    "asset_code": "ASSET-0000172",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1377,7 +1377,7 @@
   },
   "173": {
     "asset_id": 173,
-    "asset_code": "AST-000173",
+    "asset_code": "ASSET-0000173",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1385,7 +1385,7 @@
   },
   "174": {
     "asset_id": 174,
-    "asset_code": "AST-000174",
+    "asset_code": "ASSET-0000174",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1393,7 +1393,7 @@
   },
   "175": {
     "asset_id": 175,
-    "asset_code": "AST-000175",
+    "asset_code": "ASSET-0000175",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1401,7 +1401,7 @@
   },
   "176": {
     "asset_id": 176,
-    "asset_code": "AST-000176",
+    "asset_code": "ASSET-0000176",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1409,7 +1409,7 @@
   },
   "177": {
     "asset_id": 177,
-    "asset_code": "AST-000177",
+    "asset_code": "ASSET-0000177",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1417,7 +1417,7 @@
   },
   "178": {
     "asset_id": 178,
-    "asset_code": "AST-000178",
+    "asset_code": "ASSET-0000178",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1425,7 +1425,7 @@
   },
   "179": {
     "asset_id": 179,
-    "asset_code": "AST-000179",
+    "asset_code": "ASSET-0000179",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1433,7 +1433,7 @@
   },
   "180": {
     "asset_id": 180,
-    "asset_code": "AST-000180",
+    "asset_code": "ASSET-0000180",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1441,7 +1441,7 @@
   },
   "181": {
     "asset_id": 181,
-    "asset_code": "AST-000181",
+    "asset_code": "ASSET-0000181",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1449,7 +1449,7 @@
   },
   "182": {
     "asset_id": 182,
-    "asset_code": "AST-000182",
+    "asset_code": "ASSET-0000182",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1457,7 +1457,7 @@
   },
   "183": {
     "asset_id": 183,
-    "asset_code": "AST-000183",
+    "asset_code": "ASSET-0000183",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1465,7 +1465,7 @@
   },
   "184": {
     "asset_id": 184,
-    "asset_code": "AST-000184",
+    "asset_code": "ASSET-0000184",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1473,7 +1473,7 @@
   },
   "185": {
     "asset_id": 185,
-    "asset_code": "AST-000185",
+    "asset_code": "ASSET-0000185",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1481,7 +1481,7 @@
   },
   "186": {
     "asset_id": 186,
-    "asset_code": "AST-000186",
+    "asset_code": "ASSET-0000186",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1489,7 +1489,7 @@
   },
   "187": {
     "asset_id": 187,
-    "asset_code": "AST-000187",
+    "asset_code": "ASSET-0000187",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1497,7 +1497,7 @@
   },
   "188": {
     "asset_id": 188,
-    "asset_code": "AST-000188",
+    "asset_code": "ASSET-0000188",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1505,7 +1505,7 @@
   },
   "189": {
     "asset_id": 189,
-    "asset_code": "AST-000189",
+    "asset_code": "ASSET-0000189",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1513,7 +1513,7 @@
   },
   "190": {
     "asset_id": 190,
-    "asset_code": "AST-000190",
+    "asset_code": "ASSET-0000190",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1521,7 +1521,7 @@
   },
   "191": {
     "asset_id": 191,
-    "asset_code": "AST-000191",
+    "asset_code": "ASSET-0000191",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1529,7 +1529,7 @@
   },
   "192": {
     "asset_id": 192,
-    "asset_code": "AST-000192",
+    "asset_code": "ASSET-0000192",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1537,7 +1537,7 @@
   },
   "193": {
     "asset_id": 193,
-    "asset_code": "AST-000193",
+    "asset_code": "ASSET-0000193",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1545,7 +1545,7 @@
   },
   "194": {
     "asset_id": 194,
-    "asset_code": "AST-000194",
+    "asset_code": "ASSET-0000194",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1553,7 +1553,7 @@
   },
   "195": {
     "asset_id": 195,
-    "asset_code": "AST-000195",
+    "asset_code": "ASSET-0000195",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1561,7 +1561,7 @@
   },
   "196": {
     "asset_id": 196,
-    "asset_code": "AST-000196",
+    "asset_code": "ASSET-0000196",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1569,7 +1569,7 @@
   },
   "197": {
     "asset_id": 197,
-    "asset_code": "AST-000197",
+    "asset_code": "ASSET-0000197",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1577,7 +1577,7 @@
   },
   "198": {
     "asset_id": 198,
-    "asset_code": "AST-000198",
+    "asset_code": "ASSET-0000198",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1585,7 +1585,7 @@
   },
   "199": {
     "asset_id": 199,
-    "asset_code": "AST-000199",
+    "asset_code": "ASSET-0000199",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1593,7 +1593,7 @@
   },
   "200": {
     "asset_id": 200,
-    "asset_code": "AST-000200",
+    "asset_code": "ASSET-0000200",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1601,7 +1601,7 @@
   },
   "201": {
     "asset_id": 201,
-    "asset_code": "AST-000201",
+    "asset_code": "ASSET-0000201",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1609,7 +1609,7 @@
   },
   "202": {
     "asset_id": 202,
-    "asset_code": "AST-000202",
+    "asset_code": "ASSET-0000202",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1617,7 +1617,7 @@
   },
   "203": {
     "asset_id": 203,
-    "asset_code": "AST-000203",
+    "asset_code": "ASSET-0000203",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1625,7 +1625,7 @@
   },
   "204": {
     "asset_id": 204,
-    "asset_code": "AST-000204",
+    "asset_code": "ASSET-0000204",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1633,7 +1633,7 @@
   },
   "205": {
     "asset_id": 205,
-    "asset_code": "AST-000205",
+    "asset_code": "ASSET-0000205",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1641,7 +1641,7 @@
   },
   "206": {
     "asset_id": 206,
-    "asset_code": "AST-000206",
+    "asset_code": "ASSET-0000206",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1649,7 +1649,7 @@
   },
   "207": {
     "asset_id": 207,
-    "asset_code": "AST-000207",
+    "asset_code": "ASSET-0000207",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1657,7 +1657,7 @@
   },
   "208": {
     "asset_id": 208,
-    "asset_code": "AST-000208",
+    "asset_code": "ASSET-0000208",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1665,7 +1665,7 @@
   },
   "209": {
     "asset_id": 209,
-    "asset_code": "AST-000209",
+    "asset_code": "ASSET-0000209",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1673,7 +1673,7 @@
   },
   "210": {
     "asset_id": 210,
-    "asset_code": "AST-000210",
+    "asset_code": "ASSET-0000210",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1681,7 +1681,7 @@
   },
   "211": {
     "asset_id": 211,
-    "asset_code": "AST-000211",
+    "asset_code": "ASSET-0000211",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1689,7 +1689,7 @@
   },
   "212": {
     "asset_id": 212,
-    "asset_code": "AST-000212",
+    "asset_code": "ASSET-0000212",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1697,7 +1697,7 @@
   },
   "213": {
     "asset_id": 213,
-    "asset_code": "AST-000213",
+    "asset_code": "ASSET-0000213",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1705,7 +1705,7 @@
   },
   "214": {
     "asset_id": 214,
-    "asset_code": "AST-000214",
+    "asset_code": "ASSET-0000214",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1713,7 +1713,7 @@
   },
   "215": {
     "asset_id": 215,
-    "asset_code": "AST-000215",
+    "asset_code": "ASSET-0000215",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1721,7 +1721,7 @@
   },
   "216": {
     "asset_id": 216,
-    "asset_code": "AST-000216",
+    "asset_code": "ASSET-0000216",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1729,7 +1729,7 @@
   },
   "217": {
     "asset_id": 217,
-    "asset_code": "AST-000217",
+    "asset_code": "ASSET-0000217",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1737,7 +1737,7 @@
   },
   "218": {
     "asset_id": 218,
-    "asset_code": "AST-000218",
+    "asset_code": "ASSET-0000218",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1745,7 +1745,7 @@
   },
   "219": {
     "asset_id": 219,
-    "asset_code": "AST-000219",
+    "asset_code": "ASSET-0000219",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1753,7 +1753,7 @@
   },
   "220": {
     "asset_id": 220,
-    "asset_code": "AST-000220",
+    "asset_code": "ASSET-0000220",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1761,7 +1761,7 @@
   },
   "221": {
     "asset_id": 221,
-    "asset_code": "AST-000221",
+    "asset_code": "ASSET-0000221",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1769,7 +1769,7 @@
   },
   "222": {
     "asset_id": 222,
-    "asset_code": "AST-000222",
+    "asset_code": "ASSET-0000222",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1777,7 +1777,7 @@
   },
   "223": {
     "asset_id": 223,
-    "asset_code": "AST-000223",
+    "asset_code": "ASSET-0000223",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1785,7 +1785,7 @@
   },
   "224": {
     "asset_id": 224,
-    "asset_code": "AST-000224",
+    "asset_code": "ASSET-0000224",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1793,7 +1793,7 @@
   },
   "225": {
     "asset_id": 225,
-    "asset_code": "AST-000225",
+    "asset_code": "ASSET-0000225",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1801,7 +1801,7 @@
   },
   "226": {
     "asset_id": 226,
-    "asset_code": "AST-000226",
+    "asset_code": "ASSET-0000226",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1809,7 +1809,7 @@
   },
   "227": {
     "asset_id": 227,
-    "asset_code": "AST-000227",
+    "asset_code": "ASSET-0000227",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1817,7 +1817,7 @@
   },
   "228": {
     "asset_id": 228,
-    "asset_code": "AST-000228",
+    "asset_code": "ASSET-0000228",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1825,7 +1825,7 @@
   },
   "229": {
     "asset_id": 229,
-    "asset_code": "AST-000229",
+    "asset_code": "ASSET-0000229",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1833,7 +1833,7 @@
   },
   "230": {
     "asset_id": 230,
-    "asset_code": "AST-000230",
+    "asset_code": "ASSET-0000230",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1841,7 +1841,7 @@
   },
   "231": {
     "asset_id": 231,
-    "asset_code": "AST-000231",
+    "asset_code": "ASSET-0000231",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1849,7 +1849,7 @@
   },
   "232": {
     "asset_id": 232,
-    "asset_code": "AST-000232",
+    "asset_code": "ASSET-0000232",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1857,7 +1857,7 @@
   },
   "233": {
     "asset_id": 233,
-    "asset_code": "AST-000233",
+    "asset_code": "ASSET-0000233",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1865,7 +1865,7 @@
   },
   "234": {
     "asset_id": 234,
-    "asset_code": "AST-000234",
+    "asset_code": "ASSET-0000234",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1873,7 +1873,7 @@
   },
   "235": {
     "asset_id": 235,
-    "asset_code": "AST-000235",
+    "asset_code": "ASSET-0000235",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1881,7 +1881,7 @@
   },
   "236": {
     "asset_id": 236,
-    "asset_code": "AST-000236",
+    "asset_code": "ASSET-0000236",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1889,7 +1889,7 @@
   },
   "237": {
     "asset_id": 237,
-    "asset_code": "AST-000237",
+    "asset_code": "ASSET-0000237",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1897,7 +1897,7 @@
   },
   "238": {
     "asset_id": 238,
-    "asset_code": "AST-000238",
+    "asset_code": "ASSET-0000238",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1905,7 +1905,7 @@
   },
   "239": {
     "asset_id": 239,
-    "asset_code": "AST-000239",
+    "asset_code": "ASSET-0000239",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1913,7 +1913,7 @@
   },
   "240": {
     "asset_id": 240,
-    "asset_code": "AST-000240",
+    "asset_code": "ASSET-0000240",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1921,7 +1921,7 @@
   },
   "241": {
     "asset_id": 241,
-    "asset_code": "AST-000241",
+    "asset_code": "ASSET-0000241",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1929,7 +1929,7 @@
   },
   "242": {
     "asset_id": 242,
-    "asset_code": "AST-000242",
+    "asset_code": "ASSET-0000242",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1937,7 +1937,7 @@
   },
   "243": {
     "asset_id": 243,
-    "asset_code": "AST-000243",
+    "asset_code": "ASSET-0000243",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1945,7 +1945,7 @@
   },
   "244": {
     "asset_id": 244,
-    "asset_code": "AST-000244",
+    "asset_code": "ASSET-0000244",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1953,7 +1953,7 @@
   },
   "245": {
     "asset_id": 245,
-    "asset_code": "AST-000245",
+    "asset_code": "ASSET-0000245",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1961,7 +1961,7 @@
   },
   "246": {
     "asset_id": 246,
-    "asset_code": "AST-000246",
+    "asset_code": "ASSET-0000246",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1969,7 +1969,7 @@
   },
   "247": {
     "asset_id": 247,
-    "asset_code": "AST-000247",
+    "asset_code": "ASSET-0000247",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1977,7 +1977,7 @@
   },
   "248": {
     "asset_id": 248,
-    "asset_code": "AST-000248",
+    "asset_code": "ASSET-0000248",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1985,7 +1985,7 @@
   },
   "249": {
     "asset_id": 249,
-    "asset_code": "AST-000249",
+    "asset_code": "ASSET-0000249",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -1993,7 +1993,7 @@
   },
   "250": {
     "asset_id": 250,
-    "asset_code": "AST-000250",
+    "asset_code": "ASSET-0000250",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2001,7 +2001,7 @@
   },
   "251": {
     "asset_id": 251,
-    "asset_code": "AST-000251",
+    "asset_code": "ASSET-0000251",
     "label": "ANOMALOUS",
     "is_anomaly": true,
     "expected_rules": [
@@ -2013,7 +2013,7 @@
   },
   "252": {
     "asset_id": 252,
-    "asset_code": "AST-000252",
+    "asset_code": "ASSET-0000252",
     "label": "ANOMALOUS",
     "is_anomaly": true,
     "expected_rules": [
@@ -2025,7 +2025,7 @@
   },
   "253": {
     "asset_id": 253,
-    "asset_code": "AST-000253",
+    "asset_code": "ASSET-0000253",
     "label": "ANOMALOUS",
     "is_anomaly": true,
     "expected_rules": [
@@ -2037,7 +2037,7 @@
   },
   "254": {
     "asset_id": 254,
-    "asset_code": "AST-000254",
+    "asset_code": "ASSET-0000254",
     "label": "ANOMALOUS",
     "is_anomaly": true,
     "expected_rules": [
@@ -2049,7 +2049,7 @@
   },
   "255": {
     "asset_id": 255,
-    "asset_code": "AST-000255",
+    "asset_code": "ASSET-0000255",
     "label": "ANOMALOUS",
     "is_anomaly": true,
     "expected_rules": [
@@ -2061,7 +2061,7 @@
   },
   "256": {
     "asset_id": 256,
-    "asset_code": "AST-000256",
+    "asset_code": "ASSET-0000256",
     "label": "ANOMALOUS",
     "is_anomaly": true,
     "expected_rules": [
@@ -2073,7 +2073,7 @@
   },
   "257": {
     "asset_id": 257,
-    "asset_code": "AST-000257",
+    "asset_code": "ASSET-0000257",
     "label": "ANOMALOUS",
     "is_anomaly": true,
     "expected_rules": [
@@ -2085,7 +2085,7 @@
   },
   "258": {
     "asset_id": 258,
-    "asset_code": "AST-000258",
+    "asset_code": "ASSET-0000258",
     "label": "ANOMALOUS",
     "is_anomaly": true,
     "expected_rules": [
@@ -2097,7 +2097,7 @@
   },
   "259": {
     "asset_id": 259,
-    "asset_code": "AST-000259",
+    "asset_code": "ASSET-0000259",
     "label": "ANOMALOUS",
     "is_anomaly": true,
     "expected_rules": [
@@ -2109,7 +2109,7 @@
   },
   "260": {
     "asset_id": 260,
-    "asset_code": "AST-000260",
+    "asset_code": "ASSET-0000260",
     "label": "ANOMALOUS",
     "is_anomaly": true,
     "expected_rules": [
@@ -2121,7 +2121,7 @@
   },
   "261": {
     "asset_id": 261,
-    "asset_code": "AST-000261",
+    "asset_code": "ASSET-0000261",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2129,7 +2129,7 @@
   },
   "262": {
     "asset_id": 262,
-    "asset_code": "AST-000262",
+    "asset_code": "ASSET-0000262",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2137,7 +2137,7 @@
   },
   "263": {
     "asset_id": 263,
-    "asset_code": "AST-000263",
+    "asset_code": "ASSET-0000263",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2145,7 +2145,7 @@
   },
   "264": {
     "asset_id": 264,
-    "asset_code": "AST-000264",
+    "asset_code": "ASSET-0000264",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2153,7 +2153,7 @@
   },
   "265": {
     "asset_id": 265,
-    "asset_code": "AST-000265",
+    "asset_code": "ASSET-0000265",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2161,7 +2161,7 @@
   },
   "266": {
     "asset_id": 266,
-    "asset_code": "AST-000266",
+    "asset_code": "ASSET-0000266",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2169,7 +2169,7 @@
   },
   "267": {
     "asset_id": 267,
-    "asset_code": "AST-000267",
+    "asset_code": "ASSET-0000267",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2177,7 +2177,7 @@
   },
   "268": {
     "asset_id": 268,
-    "asset_code": "AST-000268",
+    "asset_code": "ASSET-0000268",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2185,7 +2185,7 @@
   },
   "269": {
     "asset_id": 269,
-    "asset_code": "AST-000269",
+    "asset_code": "ASSET-0000269",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2193,7 +2193,7 @@
   },
   "270": {
     "asset_id": 270,
-    "asset_code": "AST-000270",
+    "asset_code": "ASSET-0000270",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2201,7 +2201,7 @@
   },
   "271": {
     "asset_id": 271,
-    "asset_code": "AST-000271",
+    "asset_code": "ASSET-0000271",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2209,7 +2209,7 @@
   },
   "272": {
     "asset_id": 272,
-    "asset_code": "AST-000272",
+    "asset_code": "ASSET-0000272",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2217,7 +2217,7 @@
   },
   "273": {
     "asset_id": 273,
-    "asset_code": "AST-000273",
+    "asset_code": "ASSET-0000273",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2225,7 +2225,7 @@
   },
   "274": {
     "asset_id": 274,
-    "asset_code": "AST-000274",
+    "asset_code": "ASSET-0000274",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2233,7 +2233,7 @@
   },
   "275": {
     "asset_id": 275,
-    "asset_code": "AST-000275",
+    "asset_code": "ASSET-0000275",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2241,7 +2241,7 @@
   },
   "276": {
     "asset_id": 276,
-    "asset_code": "AST-000276",
+    "asset_code": "ASSET-0000276",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2249,7 +2249,7 @@
   },
   "277": {
     "asset_id": 277,
-    "asset_code": "AST-000277",
+    "asset_code": "ASSET-0000277",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2257,7 +2257,7 @@
   },
   "278": {
     "asset_id": 278,
-    "asset_code": "AST-000278",
+    "asset_code": "ASSET-0000278",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2265,7 +2265,7 @@
   },
   "279": {
     "asset_id": 279,
-    "asset_code": "AST-000279",
+    "asset_code": "ASSET-0000279",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2273,7 +2273,7 @@
   },
   "280": {
     "asset_id": 280,
-    "asset_code": "AST-000280",
+    "asset_code": "ASSET-0000280",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2281,7 +2281,7 @@
   },
   "281": {
     "asset_id": 281,
-    "asset_code": "AST-000281",
+    "asset_code": "ASSET-0000281",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2289,7 +2289,7 @@
   },
   "282": {
     "asset_id": 282,
-    "asset_code": "AST-000282",
+    "asset_code": "ASSET-0000282",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2297,7 +2297,7 @@
   },
   "283": {
     "asset_id": 283,
-    "asset_code": "AST-000283",
+    "asset_code": "ASSET-0000283",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2305,7 +2305,7 @@
   },
   "284": {
     "asset_id": 284,
-    "asset_code": "AST-000284",
+    "asset_code": "ASSET-0000284",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2313,7 +2313,7 @@
   },
   "285": {
     "asset_id": 285,
-    "asset_code": "AST-000285",
+    "asset_code": "ASSET-0000285",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2321,7 +2321,7 @@
   },
   "286": {
     "asset_id": 286,
-    "asset_code": "AST-000286",
+    "asset_code": "ASSET-0000286",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2329,7 +2329,7 @@
   },
   "287": {
     "asset_id": 287,
-    "asset_code": "AST-000287",
+    "asset_code": "ASSET-0000287",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2337,7 +2337,7 @@
   },
   "288": {
     "asset_id": 288,
-    "asset_code": "AST-000288",
+    "asset_code": "ASSET-0000288",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2345,7 +2345,7 @@
   },
   "289": {
     "asset_id": 289,
-    "asset_code": "AST-000289",
+    "asset_code": "ASSET-0000289",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2353,7 +2353,7 @@
   },
   "290": {
     "asset_id": 290,
-    "asset_code": "AST-000290",
+    "asset_code": "ASSET-0000290",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2361,7 +2361,7 @@
   },
   "291": {
     "asset_id": 291,
-    "asset_code": "AST-000291",
+    "asset_code": "ASSET-0000291",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2369,7 +2369,7 @@
   },
   "292": {
     "asset_id": 292,
-    "asset_code": "AST-000292",
+    "asset_code": "ASSET-0000292",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2377,7 +2377,7 @@
   },
   "293": {
     "asset_id": 293,
-    "asset_code": "AST-000293",
+    "asset_code": "ASSET-0000293",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2385,7 +2385,7 @@
   },
   "294": {
     "asset_id": 294,
-    "asset_code": "AST-000294",
+    "asset_code": "ASSET-0000294",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2393,7 +2393,7 @@
   },
   "295": {
     "asset_id": 295,
-    "asset_code": "AST-000295",
+    "asset_code": "ASSET-0000295",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2401,7 +2401,7 @@
   },
   "296": {
     "asset_id": 296,
-    "asset_code": "AST-000296",
+    "asset_code": "ASSET-0000296",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2409,7 +2409,7 @@
   },
   "297": {
     "asset_id": 297,
-    "asset_code": "AST-000297",
+    "asset_code": "ASSET-0000297",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2417,7 +2417,7 @@
   },
   "298": {
     "asset_id": 298,
-    "asset_code": "AST-000298",
+    "asset_code": "ASSET-0000298",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2425,7 +2425,7 @@
   },
   "299": {
     "asset_id": 299,
-    "asset_code": "AST-000299",
+    "asset_code": "ASSET-0000299",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2433,7 +2433,7 @@
   },
   "300": {
     "asset_id": 300,
-    "asset_code": "AST-000300",
+    "asset_code": "ASSET-0000300",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2441,7 +2441,7 @@
   },
   "301": {
     "asset_id": 301,
-    "asset_code": "AST-000301",
+    "asset_code": "ASSET-0000301",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2449,7 +2449,7 @@
   },
   "302": {
     "asset_id": 302,
-    "asset_code": "AST-000302",
+    "asset_code": "ASSET-0000302",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2457,7 +2457,7 @@
   },
   "303": {
     "asset_id": 303,
-    "asset_code": "AST-000303",
+    "asset_code": "ASSET-0000303",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2465,7 +2465,7 @@
   },
   "304": {
     "asset_id": 304,
-    "asset_code": "AST-000304",
+    "asset_code": "ASSET-0000304",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2473,7 +2473,7 @@
   },
   "305": {
     "asset_id": 305,
-    "asset_code": "AST-000305",
+    "asset_code": "ASSET-0000305",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2481,7 +2481,7 @@
   },
   "306": {
     "asset_id": 306,
-    "asset_code": "AST-000306",
+    "asset_code": "ASSET-0000306",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2489,7 +2489,7 @@
   },
   "307": {
     "asset_id": 307,
-    "asset_code": "AST-000307",
+    "asset_code": "ASSET-0000307",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2497,7 +2497,7 @@
   },
   "308": {
     "asset_id": 308,
-    "asset_code": "AST-000308",
+    "asset_code": "ASSET-0000308",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2505,7 +2505,7 @@
   },
   "309": {
     "asset_id": 309,
-    "asset_code": "AST-000309",
+    "asset_code": "ASSET-0000309",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2513,7 +2513,7 @@
   },
   "310": {
     "asset_id": 310,
-    "asset_code": "AST-000310",
+    "asset_code": "ASSET-0000310",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2521,7 +2521,7 @@
   },
   "311": {
     "asset_id": 311,
-    "asset_code": "AST-000311",
+    "asset_code": "ASSET-0000311",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2529,7 +2529,7 @@
   },
   "312": {
     "asset_id": 312,
-    "asset_code": "AST-000312",
+    "asset_code": "ASSET-0000312",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2537,7 +2537,7 @@
   },
   "313": {
     "asset_id": 313,
-    "asset_code": "AST-000313",
+    "asset_code": "ASSET-0000313",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2545,7 +2545,7 @@
   },
   "314": {
     "asset_id": 314,
-    "asset_code": "AST-000314",
+    "asset_code": "ASSET-0000314",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2553,7 +2553,7 @@
   },
   "315": {
     "asset_id": 315,
-    "asset_code": "AST-000315",
+    "asset_code": "ASSET-0000315",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2561,7 +2561,7 @@
   },
   "316": {
     "asset_id": 316,
-    "asset_code": "AST-000316",
+    "asset_code": "ASSET-0000316",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2569,7 +2569,7 @@
   },
   "317": {
     "asset_id": 317,
-    "asset_code": "AST-000317",
+    "asset_code": "ASSET-0000317",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2577,7 +2577,7 @@
   },
   "318": {
     "asset_id": 318,
-    "asset_code": "AST-000318",
+    "asset_code": "ASSET-0000318",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2585,7 +2585,7 @@
   },
   "319": {
     "asset_id": 319,
-    "asset_code": "AST-000319",
+    "asset_code": "ASSET-0000319",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2593,7 +2593,7 @@
   },
   "320": {
     "asset_id": 320,
-    "asset_code": "AST-000320",
+    "asset_code": "ASSET-0000320",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2601,7 +2601,7 @@
   },
   "321": {
     "asset_id": 321,
-    "asset_code": "AST-000321",
+    "asset_code": "ASSET-0000321",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2609,7 +2609,7 @@
   },
   "322": {
     "asset_id": 322,
-    "asset_code": "AST-000322",
+    "asset_code": "ASSET-0000322",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2617,7 +2617,7 @@
   },
   "323": {
     "asset_id": 323,
-    "asset_code": "AST-000323",
+    "asset_code": "ASSET-0000323",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2625,7 +2625,7 @@
   },
   "324": {
     "asset_id": 324,
-    "asset_code": "AST-000324",
+    "asset_code": "ASSET-0000324",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2633,7 +2633,7 @@
   },
   "325": {
     "asset_id": 325,
-    "asset_code": "AST-000325",
+    "asset_code": "ASSET-0000325",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2641,7 +2641,7 @@
   },
   "326": {
     "asset_id": 326,
-    "asset_code": "AST-000326",
+    "asset_code": "ASSET-0000326",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2649,7 +2649,7 @@
   },
   "327": {
     "asset_id": 327,
-    "asset_code": "AST-000327",
+    "asset_code": "ASSET-0000327",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2657,7 +2657,7 @@
   },
   "328": {
     "asset_id": 328,
-    "asset_code": "AST-000328",
+    "asset_code": "ASSET-0000328",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2665,7 +2665,7 @@
   },
   "329": {
     "asset_id": 329,
-    "asset_code": "AST-000329",
+    "asset_code": "ASSET-0000329",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2673,7 +2673,7 @@
   },
   "330": {
     "asset_id": 330,
-    "asset_code": "AST-000330",
+    "asset_code": "ASSET-0000330",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2681,7 +2681,7 @@
   },
   "331": {
     "asset_id": 331,
-    "asset_code": "AST-000331",
+    "asset_code": "ASSET-0000331",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2689,7 +2689,7 @@
   },
   "332": {
     "asset_id": 332,
-    "asset_code": "AST-000332",
+    "asset_code": "ASSET-0000332",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2697,7 +2697,7 @@
   },
   "333": {
     "asset_id": 333,
-    "asset_code": "AST-000333",
+    "asset_code": "ASSET-0000333",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2705,7 +2705,7 @@
   },
   "334": {
     "asset_id": 334,
-    "asset_code": "AST-000334",
+    "asset_code": "ASSET-0000334",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2713,7 +2713,7 @@
   },
   "335": {
     "asset_id": 335,
-    "asset_code": "AST-000335",
+    "asset_code": "ASSET-0000335",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2721,7 +2721,7 @@
   },
   "336": {
     "asset_id": 336,
-    "asset_code": "AST-000336",
+    "asset_code": "ASSET-0000336",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2729,7 +2729,7 @@
   },
   "337": {
     "asset_id": 337,
-    "asset_code": "AST-000337",
+    "asset_code": "ASSET-0000337",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2737,7 +2737,7 @@
   },
   "338": {
     "asset_id": 338,
-    "asset_code": "AST-000338",
+    "asset_code": "ASSET-0000338",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2745,7 +2745,7 @@
   },
   "339": {
     "asset_id": 339,
-    "asset_code": "AST-000339",
+    "asset_code": "ASSET-0000339",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2753,7 +2753,7 @@
   },
   "340": {
     "asset_id": 340,
-    "asset_code": "AST-000340",
+    "asset_code": "ASSET-0000340",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2761,7 +2761,7 @@
   },
   "341": {
     "asset_id": 341,
-    "asset_code": "AST-000341",
+    "asset_code": "ASSET-0000341",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2769,7 +2769,7 @@
   },
   "342": {
     "asset_id": 342,
-    "asset_code": "AST-000342",
+    "asset_code": "ASSET-0000342",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2777,7 +2777,7 @@
   },
   "343": {
     "asset_id": 343,
-    "asset_code": "AST-000343",
+    "asset_code": "ASSET-0000343",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2785,7 +2785,7 @@
   },
   "344": {
     "asset_id": 344,
-    "asset_code": "AST-000344",
+    "asset_code": "ASSET-0000344",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2793,7 +2793,7 @@
   },
   "345": {
     "asset_id": 345,
-    "asset_code": "AST-000345",
+    "asset_code": "ASSET-0000345",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2801,7 +2801,7 @@
   },
   "346": {
     "asset_id": 346,
-    "asset_code": "AST-000346",
+    "asset_code": "ASSET-0000346",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2809,7 +2809,7 @@
   },
   "347": {
     "asset_id": 347,
-    "asset_code": "AST-000347",
+    "asset_code": "ASSET-0000347",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2817,7 +2817,7 @@
   },
   "348": {
     "asset_id": 348,
-    "asset_code": "AST-000348",
+    "asset_code": "ASSET-0000348",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2825,7 +2825,7 @@
   },
   "349": {
     "asset_id": 349,
-    "asset_code": "AST-000349",
+    "asset_code": "ASSET-0000349",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2833,7 +2833,7 @@
   },
   "350": {
     "asset_id": 350,
-    "asset_code": "AST-000350",
+    "asset_code": "ASSET-0000350",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2841,7 +2841,7 @@
   },
   "351": {
     "asset_id": 351,
-    "asset_code": "AST-000351",
+    "asset_code": "ASSET-0000351",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2849,7 +2849,7 @@
   },
   "352": {
     "asset_id": 352,
-    "asset_code": "AST-000352",
+    "asset_code": "ASSET-0000352",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2857,7 +2857,7 @@
   },
   "353": {
     "asset_id": 353,
-    "asset_code": "AST-000353",
+    "asset_code": "ASSET-0000353",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2865,7 +2865,7 @@
   },
   "354": {
     "asset_id": 354,
-    "asset_code": "AST-000354",
+    "asset_code": "ASSET-0000354",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2873,7 +2873,7 @@
   },
   "355": {
     "asset_id": 355,
-    "asset_code": "AST-000355",
+    "asset_code": "ASSET-0000355",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2881,7 +2881,7 @@
   },
   "356": {
     "asset_id": 356,
-    "asset_code": "AST-000356",
+    "asset_code": "ASSET-0000356",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2889,7 +2889,7 @@
   },
   "357": {
     "asset_id": 357,
-    "asset_code": "AST-000357",
+    "asset_code": "ASSET-0000357",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2897,7 +2897,7 @@
   },
   "358": {
     "asset_id": 358,
-    "asset_code": "AST-000358",
+    "asset_code": "ASSET-0000358",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2905,7 +2905,7 @@
   },
   "359": {
     "asset_id": 359,
-    "asset_code": "AST-000359",
+    "asset_code": "ASSET-0000359",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2913,7 +2913,7 @@
   },
   "360": {
     "asset_id": 360,
-    "asset_code": "AST-000360",
+    "asset_code": "ASSET-0000360",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2921,7 +2921,7 @@
   },
   "361": {
     "asset_id": 361,
-    "asset_code": "AST-000361",
+    "asset_code": "ASSET-0000361",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2929,7 +2929,7 @@
   },
   "362": {
     "asset_id": 362,
-    "asset_code": "AST-000362",
+    "asset_code": "ASSET-0000362",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2937,7 +2937,7 @@
   },
   "363": {
     "asset_id": 363,
-    "asset_code": "AST-000363",
+    "asset_code": "ASSET-0000363",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2945,7 +2945,7 @@
   },
   "364": {
     "asset_id": 364,
-    "asset_code": "AST-000364",
+    "asset_code": "ASSET-0000364",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2953,7 +2953,7 @@
   },
   "365": {
     "asset_id": 365,
-    "asset_code": "AST-000365",
+    "asset_code": "ASSET-0000365",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2961,7 +2961,7 @@
   },
   "366": {
     "asset_id": 366,
-    "asset_code": "AST-000366",
+    "asset_code": "ASSET-0000366",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2969,7 +2969,7 @@
   },
   "367": {
     "asset_id": 367,
-    "asset_code": "AST-000367",
+    "asset_code": "ASSET-0000367",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2977,7 +2977,7 @@
   },
   "368": {
     "asset_id": 368,
-    "asset_code": "AST-000368",
+    "asset_code": "ASSET-0000368",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2985,7 +2985,7 @@
   },
   "369": {
     "asset_id": 369,
-    "asset_code": "AST-000369",
+    "asset_code": "ASSET-0000369",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -2993,7 +2993,7 @@
   },
   "370": {
     "asset_id": 370,
-    "asset_code": "AST-000370",
+    "asset_code": "ASSET-0000370",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3001,7 +3001,7 @@
   },
   "371": {
     "asset_id": 371,
-    "asset_code": "AST-000371",
+    "asset_code": "ASSET-0000371",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3009,7 +3009,7 @@
   },
   "372": {
     "asset_id": 372,
-    "asset_code": "AST-000372",
+    "asset_code": "ASSET-0000372",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3017,7 +3017,7 @@
   },
   "373": {
     "asset_id": 373,
-    "asset_code": "AST-000373",
+    "asset_code": "ASSET-0000373",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3025,7 +3025,7 @@
   },
   "374": {
     "asset_id": 374,
-    "asset_code": "AST-000374",
+    "asset_code": "ASSET-0000374",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3033,7 +3033,7 @@
   },
   "375": {
     "asset_id": 375,
-    "asset_code": "AST-000375",
+    "asset_code": "ASSET-0000375",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3041,7 +3041,7 @@
   },
   "376": {
     "asset_id": 376,
-    "asset_code": "AST-000376",
+    "asset_code": "ASSET-0000376",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3049,7 +3049,7 @@
   },
   "377": {
     "asset_id": 377,
-    "asset_code": "AST-000377",
+    "asset_code": "ASSET-0000377",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3057,7 +3057,7 @@
   },
   "378": {
     "asset_id": 378,
-    "asset_code": "AST-000378",
+    "asset_code": "ASSET-0000378",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3065,7 +3065,7 @@
   },
   "379": {
     "asset_id": 379,
-    "asset_code": "AST-000379",
+    "asset_code": "ASSET-0000379",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3073,7 +3073,7 @@
   },
   "380": {
     "asset_id": 380,
-    "asset_code": "AST-000380",
+    "asset_code": "ASSET-0000380",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3081,7 +3081,7 @@
   },
   "381": {
     "asset_id": 381,
-    "asset_code": "AST-000381",
+    "asset_code": "ASSET-0000381",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3089,7 +3089,7 @@
   },
   "382": {
     "asset_id": 382,
-    "asset_code": "AST-000382",
+    "asset_code": "ASSET-0000382",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3097,7 +3097,7 @@
   },
   "383": {
     "asset_id": 383,
-    "asset_code": "AST-000383",
+    "asset_code": "ASSET-0000383",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3105,7 +3105,7 @@
   },
   "384": {
     "asset_id": 384,
-    "asset_code": "AST-000384",
+    "asset_code": "ASSET-0000384",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3113,7 +3113,7 @@
   },
   "385": {
     "asset_id": 385,
-    "asset_code": "AST-000385",
+    "asset_code": "ASSET-0000385",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3121,7 +3121,7 @@
   },
   "386": {
     "asset_id": 386,
-    "asset_code": "AST-000386",
+    "asset_code": "ASSET-0000386",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3129,7 +3129,7 @@
   },
   "387": {
     "asset_id": 387,
-    "asset_code": "AST-000387",
+    "asset_code": "ASSET-0000387",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3137,7 +3137,7 @@
   },
   "388": {
     "asset_id": 388,
-    "asset_code": "AST-000388",
+    "asset_code": "ASSET-0000388",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3145,7 +3145,7 @@
   },
   "389": {
     "asset_id": 389,
-    "asset_code": "AST-000389",
+    "asset_code": "ASSET-0000389",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3153,7 +3153,7 @@
   },
   "390": {
     "asset_id": 390,
-    "asset_code": "AST-000390",
+    "asset_code": "ASSET-0000390",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3161,7 +3161,7 @@
   },
   "391": {
     "asset_id": 391,
-    "asset_code": "AST-000391",
+    "asset_code": "ASSET-0000391",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3169,7 +3169,7 @@
   },
   "392": {
     "asset_id": 392,
-    "asset_code": "AST-000392",
+    "asset_code": "ASSET-0000392",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3177,7 +3177,7 @@
   },
   "393": {
     "asset_id": 393,
-    "asset_code": "AST-000393",
+    "asset_code": "ASSET-0000393",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3185,7 +3185,7 @@
   },
   "394": {
     "asset_id": 394,
-    "asset_code": "AST-000394",
+    "asset_code": "ASSET-0000394",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3193,7 +3193,7 @@
   },
   "395": {
     "asset_id": 395,
-    "asset_code": "AST-000395",
+    "asset_code": "ASSET-0000395",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3201,7 +3201,7 @@
   },
   "396": {
     "asset_id": 396,
-    "asset_code": "AST-000396",
+    "asset_code": "ASSET-0000396",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3209,7 +3209,7 @@
   },
   "397": {
     "asset_id": 397,
-    "asset_code": "AST-000397",
+    "asset_code": "ASSET-0000397",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3217,7 +3217,7 @@
   },
   "398": {
     "asset_id": 398,
-    "asset_code": "AST-000398",
+    "asset_code": "ASSET-0000398",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3225,7 +3225,7 @@
   },
   "399": {
     "asset_id": 399,
-    "asset_code": "AST-000399",
+    "asset_code": "ASSET-0000399",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3233,7 +3233,7 @@
   },
   "400": {
     "asset_id": 400,
-    "asset_code": "AST-000400",
+    "asset_code": "ASSET-0000400",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3241,7 +3241,7 @@
   },
   "401": {
     "asset_id": 401,
-    "asset_code": "AST-000401",
+    "asset_code": "ASSET-0000401",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3249,7 +3249,7 @@
   },
   "402": {
     "asset_id": 402,
-    "asset_code": "AST-000402",
+    "asset_code": "ASSET-0000402",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3257,7 +3257,7 @@
   },
   "403": {
     "asset_id": 403,
-    "asset_code": "AST-000403",
+    "asset_code": "ASSET-0000403",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3265,7 +3265,7 @@
   },
   "404": {
     "asset_id": 404,
-    "asset_code": "AST-000404",
+    "asset_code": "ASSET-0000404",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3273,7 +3273,7 @@
   },
   "405": {
     "asset_id": 405,
-    "asset_code": "AST-000405",
+    "asset_code": "ASSET-0000405",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3281,7 +3281,7 @@
   },
   "406": {
     "asset_id": 406,
-    "asset_code": "AST-000406",
+    "asset_code": "ASSET-0000406",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3289,7 +3289,7 @@
   },
   "407": {
     "asset_id": 407,
-    "asset_code": "AST-000407",
+    "asset_code": "ASSET-0000407",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3297,7 +3297,7 @@
   },
   "408": {
     "asset_id": 408,
-    "asset_code": "AST-000408",
+    "asset_code": "ASSET-0000408",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3305,7 +3305,7 @@
   },
   "409": {
     "asset_id": 409,
-    "asset_code": "AST-000409",
+    "asset_code": "ASSET-0000409",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3313,7 +3313,7 @@
   },
   "410": {
     "asset_id": 410,
-    "asset_code": "AST-000410",
+    "asset_code": "ASSET-0000410",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3321,7 +3321,7 @@
   },
   "411": {
     "asset_id": 411,
-    "asset_code": "AST-000411",
+    "asset_code": "ASSET-0000411",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3329,7 +3329,7 @@
   },
   "412": {
     "asset_id": 412,
-    "asset_code": "AST-000412",
+    "asset_code": "ASSET-0000412",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3337,7 +3337,7 @@
   },
   "413": {
     "asset_id": 413,
-    "asset_code": "AST-000413",
+    "asset_code": "ASSET-0000413",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3345,7 +3345,7 @@
   },
   "414": {
     "asset_id": 414,
-    "asset_code": "AST-000414",
+    "asset_code": "ASSET-0000414",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3353,7 +3353,7 @@
   },
   "415": {
     "asset_id": 415,
-    "asset_code": "AST-000415",
+    "asset_code": "ASSET-0000415",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3361,7 +3361,7 @@
   },
   "416": {
     "asset_id": 416,
-    "asset_code": "AST-000416",
+    "asset_code": "ASSET-0000416",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3369,7 +3369,7 @@
   },
   "417": {
     "asset_id": 417,
-    "asset_code": "AST-000417",
+    "asset_code": "ASSET-0000417",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3377,7 +3377,7 @@
   },
   "418": {
     "asset_id": 418,
-    "asset_code": "AST-000418",
+    "asset_code": "ASSET-0000418",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3385,7 +3385,7 @@
   },
   "419": {
     "asset_id": 419,
-    "asset_code": "AST-000419",
+    "asset_code": "ASSET-0000419",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3393,7 +3393,7 @@
   },
   "420": {
     "asset_id": 420,
-    "asset_code": "AST-000420",
+    "asset_code": "ASSET-0000420",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3401,7 +3401,7 @@
   },
   "421": {
     "asset_id": 421,
-    "asset_code": "AST-000421",
+    "asset_code": "ASSET-0000421",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3409,7 +3409,7 @@
   },
   "422": {
     "asset_id": 422,
-    "asset_code": "AST-000422",
+    "asset_code": "ASSET-0000422",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3417,7 +3417,7 @@
   },
   "423": {
     "asset_id": 423,
-    "asset_code": "AST-000423",
+    "asset_code": "ASSET-0000423",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3425,7 +3425,7 @@
   },
   "424": {
     "asset_id": 424,
-    "asset_code": "AST-000424",
+    "asset_code": "ASSET-0000424",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3433,7 +3433,7 @@
   },
   "425": {
     "asset_id": 425,
-    "asset_code": "AST-000425",
+    "asset_code": "ASSET-0000425",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3441,7 +3441,7 @@
   },
   "426": {
     "asset_id": 426,
-    "asset_code": "AST-000426",
+    "asset_code": "ASSET-0000426",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3449,7 +3449,7 @@
   },
   "427": {
     "asset_id": 427,
-    "asset_code": "AST-000427",
+    "asset_code": "ASSET-0000427",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3457,7 +3457,7 @@
   },
   "428": {
     "asset_id": 428,
-    "asset_code": "AST-000428",
+    "asset_code": "ASSET-0000428",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3465,7 +3465,7 @@
   },
   "429": {
     "asset_id": 429,
-    "asset_code": "AST-000429",
+    "asset_code": "ASSET-0000429",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3473,7 +3473,7 @@
   },
   "430": {
     "asset_id": 430,
-    "asset_code": "AST-000430",
+    "asset_code": "ASSET-0000430",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3481,7 +3481,7 @@
   },
   "431": {
     "asset_id": 431,
-    "asset_code": "AST-000431",
+    "asset_code": "ASSET-0000431",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3489,7 +3489,7 @@
   },
   "432": {
     "asset_id": 432,
-    "asset_code": "AST-000432",
+    "asset_code": "ASSET-0000432",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3497,7 +3497,7 @@
   },
   "433": {
     "asset_id": 433,
-    "asset_code": "AST-000433",
+    "asset_code": "ASSET-0000433",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3505,7 +3505,7 @@
   },
   "434": {
     "asset_id": 434,
-    "asset_code": "AST-000434",
+    "asset_code": "ASSET-0000434",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3513,7 +3513,7 @@
   },
   "435": {
     "asset_id": 435,
-    "asset_code": "AST-000435",
+    "asset_code": "ASSET-0000435",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3521,7 +3521,7 @@
   },
   "436": {
     "asset_id": 436,
-    "asset_code": "AST-000436",
+    "asset_code": "ASSET-0000436",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3529,7 +3529,7 @@
   },
   "437": {
     "asset_id": 437,
-    "asset_code": "AST-000437",
+    "asset_code": "ASSET-0000437",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3537,7 +3537,7 @@
   },
   "438": {
     "asset_id": 438,
-    "asset_code": "AST-000438",
+    "asset_code": "ASSET-0000438",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3545,7 +3545,7 @@
   },
   "439": {
     "asset_id": 439,
-    "asset_code": "AST-000439",
+    "asset_code": "ASSET-0000439",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3553,7 +3553,7 @@
   },
   "440": {
     "asset_id": 440,
-    "asset_code": "AST-000440",
+    "asset_code": "ASSET-0000440",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3561,7 +3561,7 @@
   },
   "441": {
     "asset_id": 441,
-    "asset_code": "AST-000441",
+    "asset_code": "ASSET-0000441",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3569,7 +3569,7 @@
   },
   "442": {
     "asset_id": 442,
-    "asset_code": "AST-000442",
+    "asset_code": "ASSET-0000442",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3577,7 +3577,7 @@
   },
   "443": {
     "asset_id": 443,
-    "asset_code": "AST-000443",
+    "asset_code": "ASSET-0000443",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3585,7 +3585,7 @@
   },
   "444": {
     "asset_id": 444,
-    "asset_code": "AST-000444",
+    "asset_code": "ASSET-0000444",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3593,7 +3593,7 @@
   },
   "445": {
     "asset_id": 445,
-    "asset_code": "AST-000445",
+    "asset_code": "ASSET-0000445",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3601,7 +3601,7 @@
   },
   "446": {
     "asset_id": 446,
-    "asset_code": "AST-000446",
+    "asset_code": "ASSET-0000446",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3609,7 +3609,7 @@
   },
   "447": {
     "asset_id": 447,
-    "asset_code": "AST-000447",
+    "asset_code": "ASSET-0000447",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3617,7 +3617,7 @@
   },
   "448": {
     "asset_id": 448,
-    "asset_code": "AST-000448",
+    "asset_code": "ASSET-0000448",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3625,7 +3625,7 @@
   },
   "449": {
     "asset_id": 449,
-    "asset_code": "AST-000449",
+    "asset_code": "ASSET-0000449",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3633,7 +3633,7 @@
   },
   "450": {
     "asset_id": 450,
-    "asset_code": "AST-000450",
+    "asset_code": "ASSET-0000450",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3641,7 +3641,7 @@
   },
   "451": {
     "asset_id": 451,
-    "asset_code": "AST-000451",
+    "asset_code": "ASSET-0000451",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3649,7 +3649,7 @@
   },
   "452": {
     "asset_id": 452,
-    "asset_code": "AST-000452",
+    "asset_code": "ASSET-0000452",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3657,7 +3657,7 @@
   },
   "453": {
     "asset_id": 453,
-    "asset_code": "AST-000453",
+    "asset_code": "ASSET-0000453",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3665,7 +3665,7 @@
   },
   "454": {
     "asset_id": 454,
-    "asset_code": "AST-000454",
+    "asset_code": "ASSET-0000454",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3673,7 +3673,7 @@
   },
   "455": {
     "asset_id": 455,
-    "asset_code": "AST-000455",
+    "asset_code": "ASSET-0000455",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3681,7 +3681,7 @@
   },
   "456": {
     "asset_id": 456,
-    "asset_code": "AST-000456",
+    "asset_code": "ASSET-0000456",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3689,7 +3689,7 @@
   },
   "457": {
     "asset_id": 457,
-    "asset_code": "AST-000457",
+    "asset_code": "ASSET-0000457",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3697,7 +3697,7 @@
   },
   "458": {
     "asset_id": 458,
-    "asset_code": "AST-000458",
+    "asset_code": "ASSET-0000458",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3705,7 +3705,7 @@
   },
   "459": {
     "asset_id": 459,
-    "asset_code": "AST-000459",
+    "asset_code": "ASSET-0000459",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3713,7 +3713,7 @@
   },
   "460": {
     "asset_id": 460,
-    "asset_code": "AST-000460",
+    "asset_code": "ASSET-0000460",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3721,7 +3721,7 @@
   },
   "461": {
     "asset_id": 461,
-    "asset_code": "AST-000461",
+    "asset_code": "ASSET-0000461",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3729,7 +3729,7 @@
   },
   "462": {
     "asset_id": 462,
-    "asset_code": "AST-000462",
+    "asset_code": "ASSET-0000462",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3737,7 +3737,7 @@
   },
   "463": {
     "asset_id": 463,
-    "asset_code": "AST-000463",
+    "asset_code": "ASSET-0000463",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3745,7 +3745,7 @@
   },
   "464": {
     "asset_id": 464,
-    "asset_code": "AST-000464",
+    "asset_code": "ASSET-0000464",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3753,7 +3753,7 @@
   },
   "465": {
     "asset_id": 465,
-    "asset_code": "AST-000465",
+    "asset_code": "ASSET-0000465",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3761,7 +3761,7 @@
   },
   "466": {
     "asset_id": 466,
-    "asset_code": "AST-000466",
+    "asset_code": "ASSET-0000466",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3769,7 +3769,7 @@
   },
   "467": {
     "asset_id": 467,
-    "asset_code": "AST-000467",
+    "asset_code": "ASSET-0000467",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3777,7 +3777,7 @@
   },
   "468": {
     "asset_id": 468,
-    "asset_code": "AST-000468",
+    "asset_code": "ASSET-0000468",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3785,7 +3785,7 @@
   },
   "469": {
     "asset_id": 469,
-    "asset_code": "AST-000469",
+    "asset_code": "ASSET-0000469",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3793,7 +3793,7 @@
   },
   "470": {
     "asset_id": 470,
-    "asset_code": "AST-000470",
+    "asset_code": "ASSET-0000470",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3801,7 +3801,7 @@
   },
   "471": {
     "asset_id": 471,
-    "asset_code": "AST-000471",
+    "asset_code": "ASSET-0000471",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3809,7 +3809,7 @@
   },
   "472": {
     "asset_id": 472,
-    "asset_code": "AST-000472",
+    "asset_code": "ASSET-0000472",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3817,7 +3817,7 @@
   },
   "473": {
     "asset_id": 473,
-    "asset_code": "AST-000473",
+    "asset_code": "ASSET-0000473",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3825,7 +3825,7 @@
   },
   "474": {
     "asset_id": 474,
-    "asset_code": "AST-000474",
+    "asset_code": "ASSET-0000474",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3833,7 +3833,7 @@
   },
   "475": {
     "asset_id": 475,
-    "asset_code": "AST-000475",
+    "asset_code": "ASSET-0000475",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3841,7 +3841,7 @@
   },
   "476": {
     "asset_id": 476,
-    "asset_code": "AST-000476",
+    "asset_code": "ASSET-0000476",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3849,7 +3849,7 @@
   },
   "477": {
     "asset_id": 477,
-    "asset_code": "AST-000477",
+    "asset_code": "ASSET-0000477",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3857,7 +3857,7 @@
   },
   "478": {
     "asset_id": 478,
-    "asset_code": "AST-000478",
+    "asset_code": "ASSET-0000478",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3865,7 +3865,7 @@
   },
   "479": {
     "asset_id": 479,
-    "asset_code": "AST-000479",
+    "asset_code": "ASSET-0000479",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3873,7 +3873,7 @@
   },
   "480": {
     "asset_id": 480,
-    "asset_code": "AST-000480",
+    "asset_code": "ASSET-0000480",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3881,7 +3881,7 @@
   },
   "481": {
     "asset_id": 481,
-    "asset_code": "AST-000481",
+    "asset_code": "ASSET-0000481",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3889,7 +3889,7 @@
   },
   "482": {
     "asset_id": 482,
-    "asset_code": "AST-000482",
+    "asset_code": "ASSET-0000482",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3897,7 +3897,7 @@
   },
   "483": {
     "asset_id": 483,
-    "asset_code": "AST-000483",
+    "asset_code": "ASSET-0000483",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3905,7 +3905,7 @@
   },
   "484": {
     "asset_id": 484,
-    "asset_code": "AST-000484",
+    "asset_code": "ASSET-0000484",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3913,7 +3913,7 @@
   },
   "485": {
     "asset_id": 485,
-    "asset_code": "AST-000485",
+    "asset_code": "ASSET-0000485",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3921,7 +3921,7 @@
   },
   "486": {
     "asset_id": 486,
-    "asset_code": "AST-000486",
+    "asset_code": "ASSET-0000486",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3929,7 +3929,7 @@
   },
   "487": {
     "asset_id": 487,
-    "asset_code": "AST-000487",
+    "asset_code": "ASSET-0000487",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3937,7 +3937,7 @@
   },
   "488": {
     "asset_id": 488,
-    "asset_code": "AST-000488",
+    "asset_code": "ASSET-0000488",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3945,7 +3945,7 @@
   },
   "489": {
     "asset_id": 489,
-    "asset_code": "AST-000489",
+    "asset_code": "ASSET-0000489",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3953,7 +3953,7 @@
   },
   "490": {
     "asset_id": 490,
-    "asset_code": "AST-000490",
+    "asset_code": "ASSET-0000490",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3961,7 +3961,7 @@
   },
   "491": {
     "asset_id": 491,
-    "asset_code": "AST-000491",
+    "asset_code": "ASSET-0000491",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3969,7 +3969,7 @@
   },
   "492": {
     "asset_id": 492,
-    "asset_code": "AST-000492",
+    "asset_code": "ASSET-0000492",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3977,7 +3977,7 @@
   },
   "493": {
     "asset_id": 493,
-    "asset_code": "AST-000493",
+    "asset_code": "ASSET-0000493",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3985,7 +3985,7 @@
   },
   "494": {
     "asset_id": 494,
-    "asset_code": "AST-000494",
+    "asset_code": "ASSET-0000494",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -3993,7 +3993,7 @@
   },
   "495": {
     "asset_id": 495,
-    "asset_code": "AST-000495",
+    "asset_code": "ASSET-0000495",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -4001,7 +4001,7 @@
   },
   "496": {
     "asset_id": 496,
-    "asset_code": "AST-000496",
+    "asset_code": "ASSET-0000496",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -4009,7 +4009,7 @@
   },
   "497": {
     "asset_id": 497,
-    "asset_code": "AST-000497",
+    "asset_code": "ASSET-0000497",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -4017,7 +4017,7 @@
   },
   "498": {
     "asset_id": 498,
-    "asset_code": "AST-000498",
+    "asset_code": "ASSET-0000498",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -4025,7 +4025,7 @@
   },
   "499": {
     "asset_id": 499,
-    "asset_code": "AST-000499",
+    "asset_code": "ASSET-0000499",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],
@@ -4033,7 +4033,7 @@
   },
   "500": {
     "asset_id": 500,
-    "asset_code": "AST-000500",
+    "asset_code": "ASSET-0000500",
     "label": "CLEAN",
     "is_anomaly": false,
     "expected_rules": [],

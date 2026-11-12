@@ -230,6 +230,7 @@ class CustodyEvent(Base):
     __tablename__ = "custody_events"
 
     event_id = Column(Integer, primary_key=True, index=True)
+    event_code = Column(String(100), nullable=True, unique=True)
 
     asset_id = Column(
         Integer,
@@ -255,7 +256,7 @@ class CustodyEvent(Base):
         nullable=False,
     )
 
-    actor_name = Column(String(150), nullable=False)
+    actor_name = Column(String(150), nullable=True)
     event_type = Column(String(30), nullable=False)
     event_timestamp = Column(DateTime, nullable=False)
     notes = Column(Text, nullable=True)
@@ -377,6 +378,7 @@ class Repair(Base):
     __tablename__ = "repairs"
 
     repair_id = Column(Integer, primary_key=True, index=True)
+    repair_code = Column(String(50), nullable=True, unique=True)
 
     asset_id = Column(
         Integer,
@@ -387,7 +389,7 @@ class Repair(Base):
     inspection_id = Column(
         Integer,
         ForeignKey("inspections.inspection_id"),
-        nullable=False,
+        nullable=True,
     )
 
     repair_description = Column(Text, nullable=False)

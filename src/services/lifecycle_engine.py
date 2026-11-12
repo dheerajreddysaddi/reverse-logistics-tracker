@@ -146,9 +146,20 @@ class LifecycleEngine:
         }
 
     @staticmethod
-    def calculate_days_outstanding(
-        reference_date: datetime,
-        expected_return_date: datetime,
+    def can_dispatch(status: str) -> bool:
+        """Determines if an asset in the given status is eligible for outbound dispatch."""
+        st = (status or "").lower()
+        return st in ["available"]
+
+    @staticmethod
+    def is_asset_overdue_lost(days_outstanding: int, threshold_days: int = 30) -> bool:
+        """Determines if an overdue asset should be categorized as candidate lost."""
+        return days_outstanding > threshold_days
+
+    @staticmethod
+    def calculate_outstanding_days(
+        expected_return_date: Any,
+        reference_date: Any,
     ) -> int:
         """
         Formula required by Section 9:
@@ -156,5 +167,9 @@ class LifecycleEngine:
         """
         if not reference_date or not expected_return_date:
             return 0
-        diff_days = (reference_date.date() - expected_return_date.date()).days
+        ref_d = reference_date.date() if hasattr(reference_date, "date") else reference_date
+        exp_d = expected_return_date.date() if hasattr(expected_return_date, "date") else expected_return_date
+        diff_days = (ref_d - exp_d).days
         return max(0, diff_days)
+
+    calculate_days_outstanding = calculate_outstanding_days

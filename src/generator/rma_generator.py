@@ -25,6 +25,7 @@ from src.database.models import (
 )
 
 from src.services.reverse_logistics_service import ReverseLogisticsService
+from src.generator.id_generator import generate_repair_code
 
 
 INSPECTORS = [
@@ -340,15 +341,17 @@ def bulk_insert_reverse_logistics(
         }
 
         # Insert repairs.
+        existing_repairs = db.query(Repair).count()
         repair_mappings = []
 
-        for record in repairs:
+        for idx, record in enumerate(repairs, start=existing_repairs + 1):
 
             return_id = return_id_map[
                 record["_return_code"]
             ]
 
             repair_mappings.append({
+                "repair_code": generate_repair_code(idx),
                 "asset_id": record["asset_id"],
                 "inspection_id": inspection_id_map[return_id],
                 "repair_description": record["repair_description"],

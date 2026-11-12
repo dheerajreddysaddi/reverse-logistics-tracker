@@ -1,0 +1,5002 @@
+[
+  {
+    "asset_id": "1",
+    "asset_code": "ASSET-0000001",
+    "asset_type_id": "3",
+    "owner_id": "3",
+    "serial_number": "SN-RSB-51719D-000001",
+    "manufacture_date": "2023-12-20",
+    "lifecycle_status": "in_transit",
+    "created_at": "2024-03-04 16:47:58"
+  },
+  {
+    "asset_id": "2",
+    "asset_code": "ASSET-0000002",
+    "asset_type_id": "2",
+    "owner_id": "1",
+    "serial_number": "SN-IC-985F97-000002",
+    "manufacture_date": "2026-01-24",
+    "lifecycle_status": "available",
+    "created_at": "2026-03-16 11:15:13"
+  },
+  {
+    "asset_id": "3",
+    "asset_code": "ASSET-0000003",
+    "asset_type_id": "1",
+    "owner_id": "1",
+    "serial_number": "SN-RPP-B4B9B9-000003",
+    "manufacture_date": "2026-06-29",
+    "lifecycle_status": "available",
+    "created_at": "2026-07-20 00:47:13"
+  },
+  {
+    "asset_id": "4",
+    "asset_code": "ASSET-0000004",
+    "asset_type_id": "2",
+    "owner_id": "1",
+    "serial_number": "SN-IC-58FDA4-000004",
+    "manufacture_date": "2024-03-19",
+    "lifecycle_status": "in_use",
+    "created_at": "2026-09-22 05:44:53"
+  },
+  {
+    "asset_id": "5",
+    "asset_code": "ASSET-0000005",
+    "asset_type_id": "4",
+    "owner_id": "1",
+    "serial_number": "SN-LC-DAFE63-000005",
+    "manufacture_date": "2025-01-22",
+    "lifecycle_status": "in_use",
+    "created_at": "2025-05-11 19:09:32"
+  },
+  {
+    "asset_id": "6",
+    "asset_code": "ASSET-0000006",
+    "asset_type_id": "5",
+    "owner_id": "2",
+    "serial_number": "SN-MHE-F87D2F-000006",
+    "manufacture_date": "2023-05-07",
+    "lifecycle_status": "in_use",
+    "created_at": "2023-12-23 18:22:52"
+  },
+  {
+    "asset_id": "7",
+    "asset_code": "ASSET-0000007",
+    "asset_type_id": "2",
+    "owner_id": "2",
+    "serial_number": "SN-IC-C44791-000007",
+    "manufacture_date": "2023-08-10",
+    "lifecycle_status": "available",
+    "created_at": "2025-12-31 18:30:34"
+  },
+  {
+    "asset_id": "8",
+    "asset_code": "ASSET-0000008",
+    "asset_type_id": "2",
+    "owner_id": "3",
+    "serial_number": "SN-IC-A28994-000008",
+    "manufacture_date": "2024-11-14",
+    "lifecycle_status": "retired",
+    "created_at": "2025-01-27 02:10:47"
+  },
+  {
+    "asset_id": "9",
+    "asset_code": "ASSET-0000009",
+    "asset_type_id": "2",
+    "owner_id": "2",
+    "serial_number": "SN-IC-C51E71-000009",
+    "manufacture_date": "2025-05-02",
+    "lifecycle_status": "in_use",
+    "created_at": "2025-07-10 09:16:50"
+  },
+  {
+    "asset_id": "10",
+    "asset_code": "ASSET-0000010",
+    "asset_type_id": "4",
+    "owner_id": "2",
+    "serial_number": "SN-LC-DCAA41-000010",
+    "manufacture_date": "2023-04-04",
+    "lifecycle_status": "in_use",
+    "created_at": "2023-10-17 09:18:28"
+  },
+  {
+    "asset_id": "11",
+    "asset_code": "ASSET-0000011",
+    "asset_type_id": "4",
+    "owner_id": "3",
+    "serial_number": "SN-LC-D04CB1-000011",
+    "manufacture_date": "2023-04-29",
+    "lifecycle_status": "available",
+    "created_at": "2023-08-19 11:49:07"
+  },
+  {
+    "asset_id": "12",
+    "asset_code": "ASSET-0000012",
+    "asset_type_id": "3",
+    "owner_id": "1",
+    "serial_number": "SN-RSB-19B7B9-000012",
+    "manufacture_date": "2024-01-28",
+    "lifecycle_status": "in_transit",
+    "created_at": "2024-02-06 06:55:18"
+  },
+  {
+    "asset_id": "13",
+    "asset_code": "ASSET-0000013",
+    "asset_type_id": "1",
+    "owner_id": "1",
+    "serial_number": "SN-RPP-5E04DA-000013",
+    "manufacture_date": "2026-03-11",
+    "lifecycle_status": "in_use",
+    "created_at": "2026-09-16 06:34:34"
+  },
+  {
+    "asset_id": "14",
+    "asset_code": "ASSET-0000014",
+    "asset_type_id": "4",
+    "owner_id": "3",
+    "serial_number": "SN-LC-9F0C08-000014",
+    "manufacture_date": "2025-12-27",
+    "lifecycle_status": "available",
+    "created_at": "2026-10-18 01:55:17"
+  },
+  {
+    "asset_id": "15",
+    "asset_code": "ASSET-0000015",
+    "asset_type_id": "1",
+    "owner_id": "2",
+    "serial_number": "SN-RPP-093F51-000015",
+    "manufacture_date": "2026-04-29",
+    "lifecycle_status": "available",
+    "created_at": "2026-07-11 20:48:26"
+  },
+  {
+    "asset_id": "16",
+    "asset_code": "ASSET-0000016",
+    "asset_type_id": "1",
+    "owner_id": "3",
+    "serial_number": "SN-RPP-826992-000016",
+    "manufacture_date": "2024-05-02",
+    "lifecycle_status": "in_use",
+    "created_at": "2024-06-15 15:00:11"
+  },
+  {
+    "asset_id": "17",
+    "asset_code": "ASSET-0000017",
+    "asset_type_id": "2",
+    "owner_id": "2",
+    "serial_number": "SN-IC-2D262C-000017",
+    "manufacture_date": "2025-10-25",
+    "lifecycle_status": "lost",
+    "created_at": "2026-08-08 01:00:25"
+  },
+  {
+    "asset_id": "18",
+    "asset_code": "ASSET-0000018",
+    "asset_type_id": "5",
+    "owner_id": "3",
+    "serial_number": "SN-MHE-0512DF-000018",
+    "manufacture_date": "2023-03-28",
+    "lifecycle_status": "in_use",
+    "created_at": "2024-07-19 00:38:03"
+  },
+  {
+    "asset_id": "19",
+    "asset_code": "ASSET-0000019",
+    "asset_type_id": "4",
+    "owner_id": "1",
+    "serial_number": "SN-LC-23F9B0-000019",
+    "manufacture_date": "2023-09-03",
+    "lifecycle_status": "lost",
+    "created_at": "2023-10-21 20:59:20"
+  },
+  {
+    "asset_id": "20",
+    "asset_code": "ASSET-0000020",
+    "asset_type_id": "3",
+    "owner_id": "3",
+    "serial_number": "SN-RSB-21A691-000020",
+    "manufacture_date": "2023-04-02",
+    "lifecycle_status": "in_use",
+    "created_at": "2026-05-10 12:33:20"
+  },
+  {
+    "asset_id": "21",
+    "asset_code": "ASSET-0000021",
+    "asset_type_id": "5",
+    "owner_id": "1",
+    "serial_number": "SN-MHE-12E94B-000021",
+    "manufacture_date": "2024-07-29",
+    "lifecycle_status": "in_use",
+    "created_at": "2026-05-30 23:34:44"
+  },
+  {
+    "asset_id": "22",
+    "asset_code": "ASSET-0000022",
+    "asset_type_id": "1",
+    "owner_id": "2",
+    "serial_number": "SN-RPP-4F6481-000022",
+    "manufacture_date": "2024-02-16",
+    "lifecycle_status": "in_use",
+    "created_at": "2025-06-21 15:01:29"
+  },
+  {
+    "asset_id": "23",
+    "asset_code": "ASSET-0000023",
+    "asset_type_id": "5",
+    "owner_id": "3",
+    "serial_number": "SN-MHE-8AF002-000023",
+    "manufacture_date": "2025-11-13",
+    "lifecycle_status": "lost",
+    "created_at": "2026-08-21 22:14:21"
+  },
+  {
+    "asset_id": "24",
+    "asset_code": "ASSET-0000024",
+    "asset_type_id": "5",
+    "owner_id": "2",
+    "serial_number": "SN-MHE-75B40D-000024",
+    "manufacture_date": "2024-06-11",
+    "lifecycle_status": "in_transit",
+    "created_at": "2025-10-14 14:23:06"
+  },
+  {
+    "asset_id": "25",
+    "asset_code": "ASSET-0000025",
+    "asset_type_id": "5",
+    "owner_id": "2",
+    "serial_number": "SN-MHE-FB4100-000025",
+    "manufacture_date": "2026-02-10",
+    "lifecycle_status": "lost",
+    "created_at": "2026-09-19 11:38:32"
+  },
+  {
+    "asset_id": "26",
+    "asset_code": "ASSET-0000026",
+    "asset_type_id": "3",
+    "owner_id": "3",
+    "serial_number": "SN-RSB-0CDE47-000026",
+    "manufacture_date": "2025-01-02",
+    "lifecycle_status": "in_use",
+    "created_at": "2025-05-20 16:32:00"
+  },
+  {
+    "asset_id": "27",
+    "asset_code": "ASSET-0000027",
+    "asset_type_id": "2",
+    "owner_id": "3",
+    "serial_number": "SN-IC-4F4F06-000027",
+    "manufacture_date": "2025-11-21",
+    "lifecycle_status": "available",
+    "created_at": "2026-03-14 16:47:49"
+  },
+  {
+    "asset_id": "28",
+    "asset_code": "ASSET-0000028",
+    "asset_type_id": "4",
+    "owner_id": "1",
+    "serial_number": "SN-LC-1548F8-000028",
+    "manufacture_date": "2023-01-18",
+    "lifecycle_status": "in_use",
+    "created_at": "2023-03-18 17:58:31"
+  },
+  {
+    "asset_id": "29",
+    "asset_code": "ASSET-0000029",
+    "asset_type_id": "4",
+    "owner_id": "3",
+    "serial_number": "SN-LC-FC997D-000029",
+    "manufacture_date": "2026-01-07",
+    "lifecycle_status": "in_use",
+    "created_at": "2026-07-24 21:00:04"
+  },
+  {
+    "asset_id": "30",
+    "asset_code": "ASSET-0000030",
+    "asset_type_id": "2",
+    "owner_id": "3",
+    "serial_number": "SN-IC-50640C-000030",
+    "manufacture_date": "2025-09-25",
+    "lifecycle_status": "available",
+    "created_at": "2026-08-26 18:58:49"
+  },
+  {
+    "asset_id": "31",
+    "asset_code": "ASSET-0000031",
+    "asset_type_id": "5",
+    "owner_id": "1",
+    "serial_number": "SN-MHE-D43123-000031",
+    "manufacture_date": "2024-05-18",
+    "lifecycle_status": "available",
+    "created_at": "2026-10-15 16:18:41"
+  },
+  {
+    "asset_id": "32",
+    "asset_code": "ASSET-0000032",
+    "asset_type_id": "1",
+    "owner_id": "3",
+    "serial_number": "SN-RPP-43174A-000032",
+    "manufacture_date": "2026-03-28",
+    "lifecycle_status": "in_use",
+    "created_at": "2026-08-19 15:00:19"
+  },
+  {
+    "asset_id": "33",
+    "asset_code": "ASSET-0000033",
+    "asset_type_id": "1",
+    "owner_id": "1",
+    "serial_number": "SN-RPP-A07C57-000033",
+    "manufacture_date": "2023-04-26",
+    "lifecycle_status": "in_use",
+    "created_at": "2024-08-24 18:30:13"
+  },
+  {
+    "asset_id": "34",
+    "asset_code": "ASSET-0000034",
+    "asset_type_id": "1",
+    "owner_id": "3",
+    "serial_number": "SN-RPP-BC1BAC-000034",
+    "manufacture_date": "2023-01-24",
+    "lifecycle_status": "in_use",
+    "created_at": "2026-03-07 05:07:01"
+  },
+  {
+    "asset_id": "35",
+    "asset_code": "ASSET-0000035",
+    "asset_type_id": "3",
+    "owner_id": "3",
+    "serial_number": "SN-RSB-3995E5-000035",
+    "manufacture_date": "2026-05-21",
+    "lifecycle_status": "in_use",
+    "created_at": "2026-09-01 12:27:05"
+  },
+  {
+    "asset_id": "36",
+    "asset_code": "ASSET-0000036",
+    "asset_type_id": "4",
+    "owner_id": "1",
+    "serial_number": "SN-LC-0688C2-000036",
+    "manufacture_date": "2023-02-14",
+    "lifecycle_status": "in_use",
+    "created_at": "2023-10-10 06:24:21"
+  },
+  {
+    "asset_id": "37",
+    "asset_code": "ASSET-0000037",
+    "asset_type_id": "2",
+    "owner_id": "2",
+    "serial_number": "SN-IC-B1AE72-000037",
+    "manufacture_date": "2025-04-06",
+    "lifecycle_status": "under_repair",
+    "created_at": "2025-05-26 05:12:36"
+  },
+  {
+    "asset_id": "38",
+    "asset_code": "ASSET-0000038",
+    "asset_type_id": "1",
+    "owner_id": "1",
+    "serial_number": "SN-RPP-A1DC09-000038",
+    "manufacture_date": "2023-10-30",
+    "lifecycle_status": "in_use",
+    "created_at": "2025-07-16 18:17:48"
+  },
+  {
+    "asset_id": "39",
+    "asset_code": "ASSET-0000039",
+    "asset_type_id": "4",
+    "owner_id": "2",
+    "serial_number": "SN-LC-1B1471-000039",
+    "manufacture_date": "2025-03-10",
+    "lifecycle_status": "available",
+    "created_at": "2025-11-23 08:33:19"
+  },
+  {
+    "asset_id": "40",
+    "asset_code": "ASSET-0000040",
+    "asset_type_id": "5",
+    "owner_id": "2",
+    "serial_number": "SN-MHE-EE5CF7-000040",
+    "manufacture_date": "2023-04-14",
+    "lifecycle_status": "under_repair",
+    "created_at": "2023-09-11 07:52:23"
+  },
+  {
+    "asset_id": "41",
+    "asset_code": "ASSET-0000041",
+    "asset_type_id": "4",
+    "owner_id": "3",
+    "serial_number": "SN-LC-DAC78C-000041",
+    "manufacture_date": "2023-09-16",
+    "lifecycle_status": "available",
+    "created_at": "2023-12-15 21:38:08"
+  },
+  {
+    "asset_id": "42",
+    "asset_code": "ASSET-0000042",
+    "asset_type_id": "3",
+    "owner_id": "1",
+    "serial_number": "SN-RSB-32589F-000042",
+    "manufacture_date": "2025-09-05",
+    "lifecycle_status": "in_use",
+    "created_at": "2026-08-03 15:43:45"
+  },
+  {
+    "asset_id": "43",
+    "asset_code": "ASSET-0000043",
+    "asset_type_id": "3",
+    "owner_id": "2",
+    "serial_number": "SN-RSB-487E4F-000043",
+    "manufacture_date": "2026-05-06",
+    "lifecycle_status": "in_transit",
+    "created_at": "2026-06-18 18:41:41"
+  },
+  {
+    "asset_id": "44",
+    "asset_code": "ASSET-0000044",
+    "asset_type_id": "5",
+    "owner_id": "1",
+    "serial_number": "SN-MHE-FCCE4C-000044",
+    "manufacture_date": "2024-03-30",
+    "lifecycle_status": "in_use",
+    "created_at": "2025-11-25 13:31:56"
+  },
+  {
+    "asset_id": "45",
+    "asset_code": "ASSET-0000045",
+    "asset_type_id": "5",
+    "owner_id": "3",
+    "serial_number": "SN-MHE-7A75BF-000045",
+    "manufacture_date": "2023-05-24",
+    "lifecycle_status": "in_use",
+    "created_at": "2025-02-04 22:18:51"
+  },
+  {
+    "asset_id": "46",
+    "asset_code": "ASSET-0000046",
+    "asset_type_id": "5",
+    "owner_id": "3",
+    "serial_number": "SN-MHE-2F3FE1-000046",
+    "manufacture_date": "2023-06-29",
+    "lifecycle_status": "in_use",
+    "created_at": "2024-04-12 09:19:42"
+  },
+  {
+    "asset_id": "47",
+    "asset_code": "ASSET-0000047",
+    "asset_type_id": "1",
+    "owner_id": "1",
+    "serial_number": "SN-RPP-E362BD-000047",
+    "manufacture_date": "2026-03-22",
+    "lifecycle_status": "retired",
+    "created_at": "2026-09-17 16:55:01"
+  },
+  {
+    "asset_id": "48",
+    "asset_code": "ASSET-0000048",
+    "asset_type_id": "1",
+    "owner_id": "3",
+    "serial_number": "SN-RPP-90047D-000048",
+    "manufacture_date": "2026-02-13",
+    "lifecycle_status": "under_repair",
+    "created_at": "2026-09-15 23:58:55"
+  },
+  {
+    "asset_id": "49",
+    "asset_code": "ASSET-0000049",
+    "asset_type_id": "3",
+    "owner_id": "1",
+    "serial_number": "SN-RSB-4D0403-000049",
+    "manufacture_date": "2024-05-30",
+    "lifecycle_status": "in_use",
+    "created_at": "2025-03-03 23:41:45"
+  },
+  {
+    "asset_id": "50",
+    "asset_code": "ASSET-0000050",
+    "asset_type_id": "5",
+    "owner_id": "2",
+    "serial_number": "SN-MHE-DEDA94-000050",
+    "manufacture_date": "2024-12-16",
+    "lifecycle_status": "in_use",
+    "created_at": "2026-07-24 17:54:48"
+  },
+  {
+    "asset_id": "51",
+    "asset_code": "ASSET-0000051",
+    "asset_type_id": "1",
+    "owner_id": "1",
+    "serial_number": "SN-RPP-A02A31-000051",
+    "manufacture_date": "2024-07-06",
+    "lifecycle_status": "in_use",
+    "created_at": "2025-07-16 08:00:35"
+  },
+  {
+    "asset_id": "52",
+    "asset_code": "ASSET-0000052",
+    "asset_type_id": "3",
+    "owner_id": "1",
+    "serial_number": "SN-RSB-A5683F-000052",
+    "manufacture_date": "2024-12-28",
+    "lifecycle_status": "in_transit",
+    "created_at": "2026-05-22 15:02:52"
+  },
+  {
+    "asset_id": "53",
+    "asset_code": "ASSET-0000053",
+    "asset_type_id": "1",
+    "owner_id": "1",
+    "serial_number": "SN-RPP-8F45F2-000053",
+    "manufacture_date": "2023-11-14",
+    "lifecycle_status": "in_use",
+    "created_at": "2025-09-08 23:31:10"
+  },
+  {
+    "asset_id": "54",
+    "asset_code": "ASSET-0000054",
+    "asset_type_id": "5",
+    "owner_id": "1",
+    "serial_number": "SN-MHE-3B539C-000054",
+    "manufacture_date": "2024-10-13",
+    "lifecycle_status": "in_transit",
+    "created_at": "2025-08-10 18:10:22"
+  },
+  {
+    "asset_id": "55",
+    "asset_code": "ASSET-0000055",
+    "asset_type_id": "2",
+    "owner_id": "3",
+    "serial_number": "SN-IC-ABEBE6-000055",
+    "manufacture_date": "2023-03-06",
+    "lifecycle_status": "lost",
+    "created_at": "2024-01-11 10:49:30"
+  },
+  {
+    "asset_id": "56",
+    "asset_code": "ASSET-0000056",
+    "asset_type_id": "1",
+    "owner_id": "3",
+    "serial_number": "SN-RPP-B0688D-000056",
+    "manufacture_date": "2024-12-24",
+    "lifecycle_status": "in_transit",
+    "created_at": "2026-01-01 12:11:10"
+  },
+  {
+    "asset_id": "57",
+    "asset_code": "ASSET-0000057",
+    "asset_type_id": "3",
+    "owner_id": "3",
+    "serial_number": "SN-RSB-B8A033-000057",
+    "manufacture_date": "2024-11-23",
+    "lifecycle_status": "under_repair",
+    "created_at": "2026-03-11 23:28:37"
+  },
+  {
+    "asset_id": "58",
+    "asset_code": "ASSET-0000058",
+    "asset_type_id": "2",
+    "owner_id": "2",
+    "serial_number": "SN-IC-3C3485-000058",
+    "manufacture_date": "2026-03-13",
+    "lifecycle_status": "in_use",
+    "created_at": "2026-08-02 14:13:08"
+  },
+  {
+    "asset_id": "59",
+    "asset_code": "ASSET-0000059",
+    "asset_type_id": "1",
+    "owner_id": "3",
+    "serial_number": "SN-RPP-069CDA-000059",
+    "manufacture_date": "2025-10-06",
+    "lifecycle_status": "in_use",
+    "created_at": "2026-07-26 01:23:19"
+  },
+  {
+    "asset_id": "60",
+    "asset_code": "ASSET-0000060",
+    "asset_type_id": "4",
+    "owner_id": "1",
+    "serial_number": "SN-LC-5FEC05-000060",
+    "manufacture_date": "2024-08-30",
+    "lifecycle_status": "in_transit",
+    "created_at": "2025-03-04 22:06:26"
+  },
+  {
+    "asset_id": "61",
+    "asset_code": "ASSET-0000061",
+    "asset_type_id": "3",
+    "owner_id": "3",
+    "serial_number": "SN-RSB-8B7ADC-000061",
+    "manufacture_date": "2025-06-08",
+    "lifecycle_status": "in_transit",
+    "created_at": "2026-03-31 03:28:00"
+  },
+  {
+    "asset_id": "62",
+    "asset_code": "ASSET-0000062",
+    "asset_type_id": "3",
+    "owner_id": "1",
+    "serial_number": "SN-RSB-0682FA-000062",
+    "manufacture_date": "2023-10-24",
+    "lifecycle_status": "in_transit",
+    "created_at": "2026-01-16 23:04:16"
+  },
+  {
+    "asset_id": "63",
+    "asset_code": "ASSET-0000063",
+    "asset_type_id": "5",
+    "owner_id": "3",
+    "serial_number": "SN-MHE-41505C-000063",
+    "manufacture_date": "2023-10-01",
+    "lifecycle_status": "retired",
+    "created_at": "2024-05-13 05:20:32"
+  },
+  {
+    "asset_id": "64",
+    "asset_code": "ASSET-0000064",
+    "asset_type_id": "1",
+    "owner_id": "1",
+    "serial_number": "SN-RPP-10EA63-000064",
+    "manufacture_date": "2024-07-23",
+    "lifecycle_status": "in_transit",
+    "created_at": "2024-12-30 00:34:13"
+  },
+  {
+    "asset_id": "65",
+    "asset_code": "ASSET-0000065",
+    "asset_type_id": "3",
+    "owner_id": "2",
+    "serial_number": "SN-RSB-FBCD89-000065",
+    "manufacture_date": "2026-03-22",
+    "lifecycle_status": "in_use",
+    "created_at": "2026-05-29 07:23:37"
+  },
+  {
+    "asset_id": "66",
+    "asset_code": "ASSET-0000066",
+    "asset_type_id": "5",
+    "owner_id": "1",
+    "serial_number": "SN-MHE-21905A-000066",
+    "manufacture_date": "2023-02-02",
+    "lifecycle_status": "retired",
+    "created_at": "2024-08-25 06:46:46"
+  },
+  {
+    "asset_id": "67",
+    "asset_code": "ASSET-0000067",
+    "asset_type_id": "1",
+    "owner_id": "3",
+    "serial_number": "SN-RPP-7F2FAC-000067",
+    "manufacture_date": "2023-03-25",
+    "lifecycle_status": "lost",
+    "created_at": "2025-08-12 18:24:05"
+  },
+  {
+    "asset_id": "68",
+    "asset_code": "ASSET-0000068",
+    "asset_type_id": "4",
+    "owner_id": "2",
+    "serial_number": "SN-LC-35E56C-000068",
+    "manufacture_date": "2024-12-26",
+    "lifecycle_status": "available",
+    "created_at": "2025-10-13 05:07:16"
+  },
+  {
+    "asset_id": "69",
+    "asset_code": "ASSET-0000069",
+    "asset_type_id": "5",
+    "owner_id": "1",
+    "serial_number": "SN-MHE-8326F5-000069",
+    "manufacture_date": "2025-01-11",
+    "lifecycle_status": "in_transit",
+    "created_at": "2026-01-17 20:26:39"
+  },
+  {
+    "asset_id": "70",
+    "asset_code": "ASSET-0000070",
+    "asset_type_id": "1",
+    "owner_id": "1",
+    "serial_number": "SN-RPP-2F3B14-000070",
+    "manufacture_date": "2024-06-14",
+    "lifecycle_status": "in_use",
+    "created_at": "2025-12-29 15:56:58"
+  },
+  {
+    "asset_id": "71",
+    "asset_code": "ASSET-0000071",
+    "asset_type_id": "3",
+    "owner_id": "1",
+    "serial_number": "SN-RSB-66F1B2-000071",
+    "manufacture_date": "2023-07-01",
+    "lifecycle_status": "in_use",
+    "created_at": "2023-08-27 16:22:21"
+  },
+  {
+    "asset_id": "72",
+    "asset_code": "ASSET-0000072",
+    "asset_type_id": "2",
+    "owner_id": "3",
+    "serial_number": "SN-IC-DA94CE-000072",
+    "manufacture_date": "2024-03-07",
+    "lifecycle_status": "under_repair",
+    "created_at": "2024-07-19 09:01:43"
+  },
+  {
+    "asset_id": "73",
+    "asset_code": "ASSET-0000073",
+    "asset_type_id": "3",
+    "owner_id": "3",
+    "serial_number": "SN-RSB-C37564-000073",
+    "manufacture_date": "2025-03-26",
+    "lifecycle_status": "available",
+    "created_at": "2025-06-06 19:58:39"
+  },
+  {
+    "asset_id": "74",
+    "asset_code": "ASSET-0000074",
+    "asset_type_id": "1",
+    "owner_id": "2",
+    "serial_number": "SN-RPP-5EAB62-000074",
+    "manufacture_date": "2023-12-02",
+    "lifecycle_status": "lost",
+    "created_at": "2024-06-06 08:02:02"
+  },
+  {
+    "asset_id": "75",
+    "asset_code": "ASSET-0000075",
+    "asset_type_id": "1",
+    "owner_id": "1",
+    "serial_number": "SN-RPP-854392-000075",
+    "manufacture_date": "2025-04-25",
+    "lifecycle_status": "in_use",
+    "created_at": "2025-04-28 13:13:23"
+  },
+  {
+    "asset_id": "76",
+    "asset_code": "ASSET-0000076",
+    "asset_type_id": "5",
+    "owner_id": "3",
+    "serial_number": "SN-MHE-603524-000076",
+    "manufacture_date": "2023-04-18",
+    "lifecycle_status": "available",
+    "created_at": "2024-08-21 03:14:33"
+  },
+  {
+    "asset_id": "77",
+    "asset_code": "ASSET-0000077",
+    "asset_type_id": "3",
+    "owner_id": "2",
+    "serial_number": "SN-RSB-A1C25A-000077",
+    "manufacture_date": "2023-12-14",
+    "lifecycle_status": "in_use",
+    "created_at": "2025-02-17 08:20:00"
+  },
+  {
+    "asset_id": "78",
+    "asset_code": "ASSET-0000078",
+    "asset_type_id": "5",
+    "owner_id": "1",
+    "serial_number": "SN-MHE-A57CDC-000078",
+    "manufacture_date": "2025-07-04",
+    "lifecycle_status": "in_transit",
+    "created_at": "2026-10-21 21:56:58"
+  },
+  {
+    "asset_id": "79",
+    "asset_code": "ASSET-0000079",
+    "asset_type_id": "5",
+    "owner_id": "3",
+    "serial_number": "SN-MHE-9BDF45-000079",
+    "manufacture_date": "2025-04-18",
+    "lifecycle_status": "in_use",
+    "created_at": "2026-06-13 05:04:15"
+  },
+  {
+    "asset_id": "80",
+    "asset_code": "ASSET-0000080",
+    "asset_type_id": "3",
+    "owner_id": "1",
+    "serial_number": "SN-RSB-C5696D-000080",
+    "manufacture_date": "2024-06-08",
+    "lifecycle_status": "in_use",
+    "created_at": "2026-06-24 23:29:54"
+  },
+  {
+    "asset_id": "81",
+    "asset_code": "ASSET-0000081",
+    "asset_type_id": "1",
+    "owner_id": "3",
+    "serial_number": "SN-RPP-D2D3A9-000081",
+    "manufacture_date": "2023-01-01",
+    "lifecycle_status": "in_use",
+    "created_at": "2026-04-22 22:58:09"
+  },
+  {
+    "asset_id": "82",
+    "asset_code": "ASSET-0000082",
+    "asset_type_id": "2",
+    "owner_id": "1",
+    "serial_number": "SN-IC-D122D3-000082",
+    "manufacture_date": "2024-10-24",
+    "lifecycle_status": "retired",
+    "created_at": "2026-09-27 00:59:54"
+  },
+  {
+    "asset_id": "83",
+    "asset_code": "ASSET-0000083",
+    "asset_type_id": "2",
+    "owner_id": "1",
+    "serial_number": "SN-IC-35C73A-000083",
+    "manufacture_date": "2023-03-29",
+    "lifecycle_status": "available",
+    "created_at": "2025-03-30 02:36:41"
+  },
+  {
+    "asset_id": "84",
+    "asset_code": "ASSET-0000084",
+    "asset_type_id": "1",
+    "owner_id": "2",
+    "serial_number": "SN-RPP-273662-000084",
+    "manufacture_date": "2023-02-19",
+    "lifecycle_status": "in_use",
+    "created_at": "2025-07-24 03:46:14"
+  },
+  {
+    "asset_id": "85",
+    "asset_code": "ASSET-0000085",
+    "asset_type_id": "2",
+    "owner_id": "2",
+    "serial_number": "SN-IC-DD4B1B-000085",
+    "manufacture_date": "2023-12-23",
+    "lifecycle_status": "in_transit",
+    "created_at": "2026-06-24 21:08:41"
+  },
+  {
+    "asset_id": "86",
+    "asset_code": "ASSET-0000086",
+    "asset_type_id": "4",
+    "owner_id": "1",
+    "serial_number": "SN-LC-37560B-000086",
+    "manufacture_date": "2024-01-01",
+    "lifecycle_status": "under_repair",
+    "created_at": "2025-08-08 03:11:29"
+  },
+  {
+    "asset_id": "87",
+    "asset_code": "ASSET-0000087",
+    "asset_type_id": "3",
+    "owner_id": "3",
+    "serial_number": "SN-RSB-2A2801-000087",
+    "manufacture_date": "2023-10-07",
+    "lifecycle_status": "retired",
+    "created_at": "2024-04-03 10:54:21"
+  },
+  {
+    "asset_id": "88",
+    "asset_code": "ASSET-0000088",
+    "asset_type_id": "2",
+    "owner_id": "3",
+    "serial_number": "SN-IC-CBA827-000088",
+    "manufacture_date": "2024-03-20",
+    "lifecycle_status": "available",
+    "created_at": "2024-06-18 16:26:56"
+  },
+  {
+    "asset_id": "89",
+    "asset_code": "ASSET-0000089",
+    "asset_type_id": "4",
+    "owner_id": "1",
+    "serial_number": "SN-LC-90C38E-000089",
+    "manufacture_date": "2023-12-09",
+    "lifecycle_status": "in_transit",
+    "created_at": "2026-10-22 11:44:12"
+  },
+  {
+    "asset_id": "90",
+    "asset_code": "ASSET-0000090",
+    "asset_type_id": "2",
+    "owner_id": "1",
+    "serial_number": "SN-IC-73034F-000090",
+    "manufacture_date": "2023-06-28",
+    "lifecycle_status": "available",
+    "created_at": "2024-07-17 02:09:28"
+  },
+  {
+    "asset_id": "91",
+    "asset_code": "ASSET-0000091",
+    "asset_type_id": "3",
+    "owner_id": "2",
+    "serial_number": "SN-RSB-95E6F3-000091",
+    "manufacture_date": "2023-11-18",
+    "lifecycle_status": "available",
+    "created_at": "2024-10-15 02:44:47"
+  },
+  {
+    "asset_id": "92",
+    "asset_code": "ASSET-0000092",
+    "asset_type_id": "4",
+    "owner_id": "2",
+    "serial_number": "SN-LC-7A3D70-000092",
+    "manufacture_date": "2025-03-15",
+    "lifecycle_status": "in_use",
+    "created_at": "2025-08-08 11:56:11"
+  },
+  {
+    "asset_id": "93",
+    "asset_code": "ASSET-0000093",
+    "asset_type_id": "2",
+    "owner_id": "3",
+    "serial_number": "SN-IC-A0AFBE-000093",
+    "manufacture_date": "2024-03-11",
+    "lifecycle_status": "retired",
+    "created_at": "2026-08-03 13:24:58"
+  },
+  {
+    "asset_id": "94",
+    "asset_code": "ASSET-0000094",
+    "asset_type_id": "5",
+    "owner_id": "1",
+    "serial_number": "SN-MHE-82C17F-000094",
+    "manufacture_date": "2023-01-21",
+    "lifecycle_status": "available",
+    "created_at": "2023-04-12 12:26:37"
+  },
+  {
+    "asset_id": "95",
+    "asset_code": "ASSET-0000095",
+    "asset_type_id": "4",
+    "owner_id": "3",
+    "serial_number": "SN-LC-E03E38-000095",
+    "manufacture_date": "2023-10-10",
+    "lifecycle_status": "under_repair",
+    "created_at": "2025-09-14 03:22:54"
+  },
+  {
+    "asset_id": "96",
+    "asset_code": "ASSET-0000096",
+    "asset_type_id": "2",
+    "owner_id": "3",
+    "serial_number": "SN-IC-7FEB23-000096",
+    "manufacture_date": "2024-11-21",
+    "lifecycle_status": "in_transit",
+    "created_at": "2025-03-22 19:46:38"
+  },
+  {
+    "asset_id": "97",
+    "asset_code": "ASSET-0000097",
+    "asset_type_id": "5",
+    "owner_id": "1",
+    "serial_number": "SN-MHE-04C12C-000097",
+    "manufacture_date": "2023-07-04",
+    "lifecycle_status": "in_use",
+    "created_at": "2025-10-01 00:29:43"
+  },
+  {
+    "asset_id": "98",
+    "asset_code": "ASSET-0000098",
+    "asset_type_id": "4",
+    "owner_id": "2",
+    "serial_number": "SN-LC-C467A4-000098",
+    "manufacture_date": "2026-04-02",
+    "lifecycle_status": "available",
+    "created_at": "2026-10-13 09:28:44"
+  },
+  {
+    "asset_id": "99",
+    "asset_code": "ASSET-0000099",
+    "asset_type_id": "4",
+    "owner_id": "3",
+    "serial_number": "SN-LC-DBDF46-000099",
+    "manufacture_date": "2025-09-12",
+    "lifecycle_status": "available",
+    "created_at": "2025-12-27 23:14:28"
+  },
+  {
+    "asset_id": "100",
+    "asset_code": "ASSET-0000100",
+    "asset_type_id": "3",
+    "owner_id": "1",
+    "serial_number": "SN-RSB-4FCE2C-000100",
+    "manufacture_date": "2025-09-25",
+    "lifecycle_status": "lost",
+    "created_at": "2025-12-06 04:28:25"
+  },
+  {
+    "asset_id": "101",
+    "asset_code": "ASSET-0000101",
+    "asset_type_id": "3",
+    "owner_id": "2",
+    "serial_number": "SN-RSB-040293-000101",
+    "manufacture_date": "2025-04-14",
+    "lifecycle_status": "retired",
+    "created_at": "2025-12-16 21:07:02"
+  },
+  {
+    "asset_id": "102",
+    "asset_code": "ASSET-0000102",
+    "asset_type_id": "3",
+    "owner_id": "3",
+    "serial_number": "SN-RSB-83EEC5-000102",
+    "manufacture_date": "2024-11-24",
+    "lifecycle_status": "in_use",
+    "created_at": "2025-02-02 01:33:57"
+  },
+  {
+    "asset_id": "103",
+    "asset_code": "ASSET-0000103",
+    "asset_type_id": "2",
+    "owner_id": "3",
+    "serial_number": "SN-IC-12BF91-000103",
+    "manufacture_date": "2026-05-29",
+    "lifecycle_status": "in_use",
+    "created_at": "2026-07-05 08:33:11"
+  },
+  {
+    "asset_id": "104",
+    "asset_code": "ASSET-0000104",
+    "asset_type_id": "4",
+    "owner_id": "2",
+    "serial_number": "SN-LC-99DBFF-000104",
+    "manufacture_date": "2023-06-29",
+    "lifecycle_status": "available",
+    "created_at": "2024-01-01 07:53:22"
+  },
+  {
+    "asset_id": "105",
+    "asset_code": "ASSET-0000105",
+    "asset_type_id": "4",
+    "owner_id": "2",
+    "serial_number": "SN-LC-123FAD-000105",
+    "manufacture_date": "2025-12-01",
+    "lifecycle_status": "in_use",
+    "created_at": "2026-03-04 21:15:48"
+  },
+  {
+    "asset_id": "106",
+    "asset_code": "ASSET-0000106",
+    "asset_type_id": "3",
+    "owner_id": "1",
+    "serial_number": "SN-RSB-733044-000106",
+    "manufacture_date": "2026-04-28",
+    "lifecycle_status": "in_use",
+    "created_at": "2026-06-13 15:26:30"
+  },
+  {
+    "asset_id": "107",
+    "asset_code": "ASSET-0000107",
+    "asset_type_id": "1",
+    "owner_id": "1",
+    "serial_number": "SN-RPP-A74ECB-000107",
+    "manufacture_date": "2023-03-21",
+    "lifecycle_status": "in_transit",
+    "created_at": "2025-08-19 17:55:08"
+  },
+  {
+    "asset_id": "108",
+    "asset_code": "ASSET-0000108",
+    "asset_type_id": "5",
+    "owner_id": "2",
+    "serial_number": "SN-MHE-C7319D-000108",
+    "manufacture_date": "2023-12-18",
+    "lifecycle_status": "in_transit",
+    "created_at": "2025-01-02 16:08:48"
+  },
+  {
+    "asset_id": "109",
+    "asset_code": "ASSET-0000109",
+    "asset_type_id": "4",
+    "owner_id": "2",
+    "serial_number": "SN-LC-902D1A-000109",
+    "manufacture_date": "2025-12-10",
+    "lifecycle_status": "in_use",
+    "created_at": "2026-06-17 08:52:04"
+  },
+  {
+    "asset_id": "110",
+    "asset_code": "ASSET-0000110",
+    "asset_type_id": "2",
+    "owner_id": "1",
+    "serial_number": "SN-IC-A2B917-000110",
+    "manufacture_date": "2023-12-11",
+    "lifecycle_status": "in_use",
+    "created_at": "2024-06-28 23:49:45"
+  },
+  {
+    "asset_id": "111",
+    "asset_code": "ASSET-0000111",
+    "asset_type_id": "3",
+    "owner_id": "3",
+    "serial_number": "SN-RSB-80CA94-000111",
+    "manufacture_date": "2024-04-10",
+    "lifecycle_status": "in_use",
+    "created_at": "2025-06-07 06:26:59"
+  },
+  {
+    "asset_id": "112",
+    "asset_code": "ASSET-0000112",
+    "asset_type_id": "5",
+    "owner_id": "2",
+    "serial_number": "SN-MHE-D9DB27-000112",
+    "manufacture_date": "2023-04-19",
+    "lifecycle_status": "in_use",
+    "created_at": "2024-04-28 20:34:45"
+  },
+  {
+    "asset_id": "113",
+    "asset_code": "ASSET-0000113",
+    "asset_type_id": "4",
+    "owner_id": "2",
+    "serial_number": "SN-LC-8B1F04-000113",
+    "manufacture_date": "2023-12-11",
+    "lifecycle_status": "available",
+    "created_at": "2026-03-15 05:32:13"
+  },
+  {
+    "asset_id": "114",
+    "asset_code": "ASSET-0000114",
+    "asset_type_id": "5",
+    "owner_id": "3",
+    "serial_number": "SN-MHE-D853C4-000114",
+    "manufacture_date": "2025-06-05",
+    "lifecycle_status": "in_transit",
+    "created_at": "2026-09-05 04:32:18"
+  },
+  {
+    "asset_id": "115",
+    "asset_code": "ASSET-0000115",
+    "asset_type_id": "1",
+    "owner_id": "2",
+    "serial_number": "SN-RPP-5A63E1-000115",
+    "manufacture_date": "2025-04-11",
+    "lifecycle_status": "available",
+    "created_at": "2026-02-09 18:50:41"
+  },
+  {
+    "asset_id": "116",
+    "asset_code": "ASSET-0000116",
+    "asset_type_id": "5",
+    "owner_id": "2",
+    "serial_number": "SN-MHE-4B3D91-000116",
+    "manufacture_date": "2024-03-28",
+    "lifecycle_status": "in_use",
+    "created_at": "2024-09-14 18:38:45"
+  },
+  {
+    "asset_id": "117",
+    "asset_code": "ASSET-0000117",
+    "asset_type_id": "4",
+    "owner_id": "1",
+    "serial_number": "SN-LC-90D78A-000117",
+    "manufacture_date": "2023-06-07",
+    "lifecycle_status": "available",
+    "created_at": "2025-01-09 00:29:39"
+  },
+  {
+    "asset_id": "118",
+    "asset_code": "ASSET-0000118",
+    "asset_type_id": "1",
+    "owner_id": "2",
+    "serial_number": "SN-RPP-C03848-000118",
+    "manufacture_date": "2024-06-08",
+    "lifecycle_status": "available",
+    "created_at": "2026-05-11 13:35:52"
+  },
+  {
+    "asset_id": "119",
+    "asset_code": "ASSET-0000119",
+    "asset_type_id": "1",
+    "owner_id": "3",
+    "serial_number": "SN-RPP-92202B-000119",
+    "manufacture_date": "2024-07-25",
+    "lifecycle_status": "in_transit",
+    "created_at": "2026-02-22 18:33:20"
+  },
+  {
+    "asset_id": "120",
+    "asset_code": "ASSET-0000120",
+    "asset_type_id": "5",
+    "owner_id": "3",
+    "serial_number": "SN-MHE-9AF429-000120",
+    "manufacture_date": "2024-06-08",
+    "lifecycle_status": "retired",
+    "created_at": "2026-05-29 14:54:59"
+  },
+  {
+    "asset_id": "121",
+    "asset_code": "ASSET-0000121",
+    "asset_type_id": "5",
+    "owner_id": "3",
+    "serial_number": "SN-MHE-AA43AF-000121",
+    "manufacture_date": "2025-10-04",
+    "lifecycle_status": "lost",
+    "created_at": "2025-11-25 19:16:42"
+  },
+  {
+    "asset_id": "122",
+    "asset_code": "ASSET-0000122",
+    "asset_type_id": "2",
+    "owner_id": "2",
+    "serial_number": "SN-IC-3840B8-000122",
+    "manufacture_date": "2024-08-13",
+    "lifecycle_status": "under_repair",
+    "created_at": "2025-07-16 12:27:49"
+  },
+  {
+    "asset_id": "123",
+    "asset_code": "ASSET-0000123",
+    "asset_type_id": "2",
+    "owner_id": "3",
+    "serial_number": "SN-IC-80592D-000123",
+    "manufacture_date": "2023-12-20",
+    "lifecycle_status": "retired",
+    "created_at": "2026-07-22 02:09:02"
+  },
+  {
+    "asset_id": "124",
+    "asset_code": "ASSET-0000124",
+    "asset_type_id": "3",
+    "owner_id": "3",
+    "serial_number": "SN-RSB-767769-000124",
+    "manufacture_date": "2024-07-21",
+    "lifecycle_status": "available",
+    "created_at": "2026-07-22 17:44:39"
+  },
+  {
+    "asset_id": "125",
+    "asset_code": "ASSET-0000125",
+    "asset_type_id": "3",
+    "owner_id": "1",
+    "serial_number": "SN-RSB-0C67FE-000125",
+    "manufacture_date": "2024-02-29",
+    "lifecycle_status": "available",
+    "created_at": "2024-11-06 00:52:43"
+  },
+  {
+    "asset_id": "126",
+    "asset_code": "ASSET-0000126",
+    "asset_type_id": "4",
+    "owner_id": "1",
+    "serial_number": "SN-LC-C6011F-000126",
+    "manufacture_date": "2025-10-15",
+    "lifecycle_status": "available",
+    "created_at": "2026-06-14 16:56:49"
+  },
+  {
+    "asset_id": "127",
+    "asset_code": "ASSET-0000127",
+    "asset_type_id": "2",
+    "owner_id": "3",
+    "serial_number": "SN-IC-BD78F8-000127",
+    "manufacture_date": "2025-12-30",
+    "lifecycle_status": "in_use",
+    "created_at": "2026-01-30 10:26:49"
+  },
+  {
+    "asset_id": "128",
+    "asset_code": "ASSET-0000128",
+    "asset_type_id": "1",
+    "owner_id": "3",
+    "serial_number": "SN-RPP-AB0E88-000128",
+    "manufacture_date": "2025-01-04",
+    "lifecycle_status": "in_use",
+    "created_at": "2025-06-16 18:00:11"
+  },
+  {
+    "asset_id": "129",
+    "asset_code": "ASSET-0000129",
+    "asset_type_id": "5",
+    "owner_id": "2",
+    "serial_number": "SN-MHE-C5E7CD-000129",
+    "manufacture_date": "2024-03-21",
+    "lifecycle_status": "under_repair",
+    "created_at": "2024-06-23 15:48:34"
+  },
+  {
+    "asset_id": "130",
+    "asset_code": "ASSET-0000130",
+    "asset_type_id": "2",
+    "owner_id": "1",
+    "serial_number": "SN-IC-33C30B-000130",
+    "manufacture_date": "2024-05-22",
+    "lifecycle_status": "in_transit",
+    "created_at": "2024-09-21 21:39:31"
+  },
+  {
+    "asset_id": "131",
+    "asset_code": "ASSET-0000131",
+    "asset_type_id": "5",
+    "owner_id": "3",
+    "serial_number": "SN-MHE-E40B3F-000131",
+    "manufacture_date": "2023-08-02",
+    "lifecycle_status": "retired",
+    "created_at": "2026-09-23 18:50:31"
+  },
+  {
+    "asset_id": "132",
+    "asset_code": "ASSET-0000132",
+    "asset_type_id": "1",
+    "owner_id": "2",
+    "serial_number": "SN-RPP-B0D650-000132",
+    "manufacture_date": "2023-06-27",
+    "lifecycle_status": "in_transit",
+    "created_at": "2025-12-05 01:32:13"
+  },
+  {
+    "asset_id": "133",
+    "asset_code": "ASSET-0000133",
+    "asset_type_id": "2",
+    "owner_id": "1",
+    "serial_number": "SN-IC-0AB92A-000133",
+    "manufacture_date": "2025-03-03",
+    "lifecycle_status": "in_use",
+    "created_at": "2025-05-25 12:23:07"
+  },
+  {
+    "asset_id": "134",
+    "asset_code": "ASSET-0000134",
+    "asset_type_id": "3",
+    "owner_id": "1",
+    "serial_number": "SN-RSB-E71A6F-000134",
+    "manufacture_date": "2026-03-25",
+    "lifecycle_status": "in_transit",
+    "created_at": "2026-04-11 20:33:58"
+  },
+  {
+    "asset_id": "135",
+    "asset_code": "ASSET-0000135",
+    "asset_type_id": "2",
+    "owner_id": "1",
+    "serial_number": "SN-IC-B85C38-000135",
+    "manufacture_date": "2024-06-07",
+    "lifecycle_status": "retired",
+    "created_at": "2026-05-13 14:09:16"
+  },
+  {
+    "asset_id": "136",
+    "asset_code": "ASSET-0000136",
+    "asset_type_id": "1",
+    "owner_id": "1",
+    "serial_number": "SN-RPP-E6E0E6-000136",
+    "manufacture_date": "2024-07-09",
+    "lifecycle_status": "in_use",
+    "created_at": "2025-09-09 00:31:24"
+  },
+  {
+    "asset_id": "137",
+    "asset_code": "ASSET-0000137",
+    "asset_type_id": "5",
+    "owner_id": "2",
+    "serial_number": "SN-MHE-D0960A-000137",
+    "manufacture_date": "2024-04-09",
+    "lifecycle_status": "retired",
+    "created_at": "2024-05-12 15:29:26"
+  },
+  {
+    "asset_id": "138",
+    "asset_code": "ASSET-0000138",
+    "asset_type_id": "4",
+    "owner_id": "2",
+    "serial_number": "SN-LC-BABE3E-000138",
+    "manufacture_date": "2025-02-11",
+    "lifecycle_status": "in_use",
+    "created_at": "2025-05-16 06:52:36"
+  },
+  {
+    "asset_id": "139",
+    "asset_code": "ASSET-0000139",
+    "asset_type_id": "3",
+    "owner_id": "2",
+    "serial_number": "SN-RSB-35902E-000139",
+    "manufacture_date": "2023-10-29",
+    "lifecycle_status": "in_use",
+    "created_at": "2024-10-26 20:04:54"
+  },
+  {
+    "asset_id": "140",
+    "asset_code": "ASSET-0000140",
+    "asset_type_id": "3",
+    "owner_id": "2",
+    "serial_number": "SN-RSB-0A1312-000140",
+    "manufacture_date": "2024-04-01",
+    "lifecycle_status": "in_transit",
+    "created_at": "2025-01-26 23:35:20"
+  },
+  {
+    "asset_id": "141",
+    "asset_code": "ASSET-0000141",
+    "asset_type_id": "3",
+    "owner_id": "1",
+    "serial_number": "SN-RSB-2F1833-000141",
+    "manufacture_date": "2026-04-03",
+    "lifecycle_status": "available",
+    "created_at": "2026-04-16 13:21:54"
+  },
+  {
+    "asset_id": "142",
+    "asset_code": "ASSET-0000142",
+    "asset_type_id": "3",
+    "owner_id": "2",
+    "serial_number": "SN-RSB-7C8548-000142",
+    "manufacture_date": "2025-05-06",
+    "lifecycle_status": "retired",
+    "created_at": "2025-10-27 11:12:40"
+  },
+  {
+    "asset_id": "143",
+    "asset_code": "ASSET-0000143",
+    "asset_type_id": "2",
+    "owner_id": "3",
+    "serial_number": "SN-IC-F21529-000143",
+    "manufacture_date": "2023-03-28",
+    "lifecycle_status": "in_use",
+    "created_at": "2025-05-01 04:23:06"
+  },
+  {
+    "asset_id": "144",
+    "asset_code": "ASSET-0000144",
+    "asset_type_id": "4",
+    "owner_id": "1",
+    "serial_number": "SN-LC-E1F9BD-000144",
+    "manufacture_date": "2026-04-24",
+    "lifecycle_status": "available",
+    "created_at": "2026-06-19 14:30:04"
+  },
+  {
+    "asset_id": "145",
+    "asset_code": "ASSET-0000145",
+    "asset_type_id": "5",
+    "owner_id": "3",
+    "serial_number": "SN-MHE-FE7A58-000145",
+    "manufacture_date": "2024-04-29",
+    "lifecycle_status": "retired",
+    "created_at": "2025-02-23 22:39:05"
+  },
+  {
+    "asset_id": "146",
+    "asset_code": "ASSET-0000146",
+    "asset_type_id": "2",
+    "owner_id": "1",
+    "serial_number": "SN-IC-FE0D2A-000146",
+    "manufacture_date": "2023-10-04",
+    "lifecycle_status": "under_repair",
+    "created_at": "2024-04-28 00:47:35"
+  },
+  {
+    "asset_id": "147",
+    "asset_code": "ASSET-0000147",
+    "asset_type_id": "2",
+    "owner_id": "3",
+    "serial_number": "SN-IC-E9E20A-000147",
+    "manufacture_date": "2025-09-23",
+    "lifecycle_status": "in_use",
+    "created_at": "2026-01-29 21:32:39"
+  },
+  {
+    "asset_id": "148",
+    "asset_code": "ASSET-0000148",
+    "asset_type_id": "1",
+    "owner_id": "3",
+    "serial_number": "SN-RPP-F75283-000148",
+    "manufacture_date": "2023-10-06",
+    "lifecycle_status": "in_use",
+    "created_at": "2024-03-06 05:47:54"
+  },
+  {
+    "asset_id": "149",
+    "asset_code": "ASSET-0000149",
+    "asset_type_id": "5",
+    "owner_id": "2",
+    "serial_number": "SN-MHE-979ED6-000149",
+    "manufacture_date": "2024-04-30",
+    "lifecycle_status": "available",
+    "created_at": "2025-03-01 14:14:44"
+  },
+  {
+    "asset_id": "150",
+    "asset_code": "ASSET-0000150",
+    "asset_type_id": "4",
+    "owner_id": "2",
+    "serial_number": "SN-LC-BF62F8-000150",
+    "manufacture_date": "2025-08-01",
+    "lifecycle_status": "available",
+    "created_at": "2025-11-06 15:31:11"
+  },
+  {
+    "asset_id": "151",
+    "asset_code": "ASSET-0000151",
+    "asset_type_id": "1",
+    "owner_id": "1",
+    "serial_number": "SN-RPP-8C0D13-000151",
+    "manufacture_date": "2023-03-24",
+    "lifecycle_status": "in_use",
+    "created_at": "2024-06-11 07:39:16"
+  },
+  {
+    "asset_id": "152",
+    "asset_code": "ASSET-0000152",
+    "asset_type_id": "1",
+    "owner_id": "1",
+    "serial_number": "SN-RPP-520E4F-000152",
+    "manufacture_date": "2023-06-26",
+    "lifecycle_status": "available",
+    "created_at": "2025-12-13 21:54:50"
+  },
+  {
+    "asset_id": "153",
+    "asset_code": "ASSET-0000153",
+    "asset_type_id": "3",
+    "owner_id": "1",
+    "serial_number": "SN-RSB-A00B38-000153",
+    "manufacture_date": "2026-03-10",
+    "lifecycle_status": "in_use",
+    "created_at": "2026-04-02 09:11:35"
+  },
+  {
+    "asset_id": "154",
+    "asset_code": "ASSET-0000154",
+    "asset_type_id": "5",
+    "owner_id": "3",
+    "serial_number": "SN-MHE-0C40C5-000154",
+    "manufacture_date": "2026-02-27",
+    "lifecycle_status": "lost",
+    "created_at": "2026-04-02 03:41:57"
+  },
+  {
+    "asset_id": "155",
+    "asset_code": "ASSET-0000155",
+    "asset_type_id": "1",
+    "owner_id": "3",
+    "serial_number": "SN-RPP-D764B4-000155",
+    "manufacture_date": "2024-01-08",
+    "lifecycle_status": "under_repair",
+    "created_at": "2024-04-14 04:58:29"
+  },
+  {
+    "asset_id": "156",
+    "asset_code": "ASSET-0000156",
+    "asset_type_id": "1",
+    "owner_id": "2",
+    "serial_number": "SN-RPP-B27C9D-000156",
+    "manufacture_date": "2025-07-04",
+    "lifecycle_status": "under_repair",
+    "created_at": "2026-05-19 07:39:18"
+  },
+  {
+    "asset_id": "157",
+    "asset_code": "ASSET-0000157",
+    "asset_type_id": "2",
+    "owner_id": "2",
+    "serial_number": "SN-IC-065C7D-000157",
+    "manufacture_date": "2025-04-15",
+    "lifecycle_status": "in_transit",
+    "created_at": "2025-12-14 23:23:50"
+  },
+  {
+    "asset_id": "158",
+    "asset_code": "ASSET-0000158",
+    "asset_type_id": "2",
+    "owner_id": "1",
+    "serial_number": "SN-IC-58AAFB-000158",
+    "manufacture_date": "2024-07-04",
+    "lifecycle_status": "in_use",
+    "created_at": "2025-06-26 05:14:34"
+  },
+  {
+    "asset_id": "159",
+    "asset_code": "ASSET-0000159",
+    "asset_type_id": "4",
+    "owner_id": "2",
+    "serial_number": "SN-LC-CB517C-000159",
+    "manufacture_date": "2024-09-26",
+    "lifecycle_status": "available",
+    "created_at": "2025-10-02 04:15:49"
+  },
+  {
+    "asset_id": "160",
+    "asset_code": "ASSET-0000160",
+    "asset_type_id": "2",
+    "owner_id": "3",
+    "serial_number": "SN-IC-7C16E3-000160",
+    "manufacture_date": "2023-12-19",
+    "lifecycle_status": "lost",
+    "created_at": "2025-07-03 09:09:31"
+  },
+  {
+    "asset_id": "161",
+    "asset_code": "ASSET-0000161",
+    "asset_type_id": "2",
+    "owner_id": "1",
+    "serial_number": "SN-IC-02C2D6-000161",
+    "manufacture_date": "2023-12-22",
+    "lifecycle_status": "lost",
+    "created_at": "2024-06-03 12:35:15"
+  },
+  {
+    "asset_id": "162",
+    "asset_code": "ASSET-0000162",
+    "asset_type_id": "5",
+    "owner_id": "1",
+    "serial_number": "SN-MHE-AA7384-000162",
+    "manufacture_date": "2024-05-17",
+    "lifecycle_status": "available",
+    "created_at": "2025-12-21 04:53:12"
+  },
+  {
+    "asset_id": "163",
+    "asset_code": "ASSET-0000163",
+    "asset_type_id": "2",
+    "owner_id": "1",
+    "serial_number": "SN-IC-F7C643-000163",
+    "manufacture_date": "2023-04-09",
+    "lifecycle_status": "in_use",
+    "created_at": "2025-10-26 02:47:07"
+  },
+  {
+    "asset_id": "164",
+    "asset_code": "ASSET-0000164",
+    "asset_type_id": "5",
+    "owner_id": "2",
+    "serial_number": "SN-MHE-1C743E-000164",
+    "manufacture_date": "2025-11-07",
+    "lifecycle_status": "under_repair",
+    "created_at": "2026-08-02 23:43:36"
+  },
+  {
+    "asset_id": "165",
+    "asset_code": "ASSET-0000165",
+    "asset_type_id": "3",
+    "owner_id": "1",
+    "serial_number": "SN-RSB-1A3AD4-000165",
+    "manufacture_date": "2024-07-11",
+    "lifecycle_status": "available",
+    "created_at": "2025-04-28 02:53:10"
+  },
+  {
+    "asset_id": "166",
+    "asset_code": "ASSET-0000166",
+    "asset_type_id": "2",
+    "owner_id": "3",
+    "serial_number": "SN-IC-796469-000166",
+    "manufacture_date": "2025-09-04",
+    "lifecycle_status": "in_use",
+    "created_at": "2026-04-17 04:26:37"
+  },
+  {
+    "asset_id": "167",
+    "asset_code": "ASSET-0000167",
+    "asset_type_id": "1",
+    "owner_id": "1",
+    "serial_number": "SN-RPP-05E8C5-000167",
+    "manufacture_date": "2023-12-17",
+    "lifecycle_status": "retired",
+    "created_at": "2026-07-22 20:36:04"
+  },
+  {
+    "asset_id": "168",
+    "asset_code": "ASSET-0000168",
+    "asset_type_id": "1",
+    "owner_id": "1",
+    "serial_number": "SN-RPP-32AD6A-000168",
+    "manufacture_date": "2023-01-27",
+    "lifecycle_status": "in_transit",
+    "created_at": "2026-03-03 10:40:13"
+  },
+  {
+    "asset_id": "169",
+    "asset_code": "ASSET-0000169",
+    "asset_type_id": "2",
+    "owner_id": "3",
+    "serial_number": "SN-IC-29625E-000169",
+    "manufacture_date": "2023-06-07",
+    "lifecycle_status": "in_use",
+    "created_at": "2024-07-20 16:49:54"
+  },
+  {
+    "asset_id": "170",
+    "asset_code": "ASSET-0000170",
+    "asset_type_id": "4",
+    "owner_id": "1",
+    "serial_number": "SN-LC-A253A0-000170",
+    "manufacture_date": "2024-04-12",
+    "lifecycle_status": "in_use",
+    "created_at": "2024-04-28 21:02:06"
+  },
+  {
+    "asset_id": "171",
+    "asset_code": "ASSET-0000171",
+    "asset_type_id": "5",
+    "owner_id": "3",
+    "serial_number": "SN-MHE-790366-000171",
+    "manufacture_date": "2025-04-21",
+    "lifecycle_status": "lost",
+    "created_at": "2026-09-14 17:15:25"
+  },
+  {
+    "asset_id": "172",
+    "asset_code": "ASSET-0000172",
+    "asset_type_id": "2",
+    "owner_id": "3",
+    "serial_number": "SN-IC-BD602D-000172",
+    "manufacture_date": "2024-03-26",
+    "lifecycle_status": "available",
+    "created_at": "2025-05-03 04:52:47"
+  },
+  {
+    "asset_id": "173",
+    "asset_code": "ASSET-0000173",
+    "asset_type_id": "5",
+    "owner_id": "2",
+    "serial_number": "SN-MHE-D900CC-000173",
+    "manufacture_date": "2024-05-15",
+    "lifecycle_status": "available",
+    "created_at": "2024-12-31 07:34:14"
+  },
+  {
+    "asset_id": "174",
+    "asset_code": "ASSET-0000174",
+    "asset_type_id": "2",
+    "owner_id": "3",
+    "serial_number": "SN-IC-257F62-000174",
+    "manufacture_date": "2025-03-28",
+    "lifecycle_status": "retired",
+    "created_at": "2026-10-18 12:50:58"
+  },
+  {
+    "asset_id": "175",
+    "asset_code": "ASSET-0000175",
+    "asset_type_id": "1",
+    "owner_id": "2",
+    "serial_number": "SN-RPP-08B10A-000175",
+    "manufacture_date": "2023-06-08",
+    "lifecycle_status": "retired",
+    "created_at": "2023-07-11 03:56:19"
+  },
+  {
+    "asset_id": "176",
+    "asset_code": "ASSET-0000176",
+    "asset_type_id": "5",
+    "owner_id": "3",
+    "serial_number": "SN-MHE-8FF254-000176",
+    "manufacture_date": "2024-01-25",
+    "lifecycle_status": "in_use",
+    "created_at": "2025-12-14 17:03:34"
+  },
+  {
+    "asset_id": "177",
+    "asset_code": "ASSET-0000177",
+    "asset_type_id": "3",
+    "owner_id": "3",
+    "serial_number": "SN-RSB-126943-000177",
+    "manufacture_date": "2023-12-19",
+    "lifecycle_status": "available",
+    "created_at": "2024-01-27 22:49:18"
+  },
+  {
+    "asset_id": "178",
+    "asset_code": "ASSET-0000178",
+    "asset_type_id": "1",
+    "owner_id": "3",
+    "serial_number": "SN-RPP-172FF7-000178",
+    "manufacture_date": "2025-11-28",
+    "lifecycle_status": "available",
+    "created_at": "2026-04-25 08:40:53"
+  },
+  {
+    "asset_id": "179",
+    "asset_code": "ASSET-0000179",
+    "asset_type_id": "4",
+    "owner_id": "1",
+    "serial_number": "SN-LC-0109EB-000179",
+    "manufacture_date": "2025-12-16",
+    "lifecycle_status": "lost",
+    "created_at": "2026-04-27 16:05:27"
+  },
+  {
+    "asset_id": "180",
+    "asset_code": "ASSET-0000180",
+    "asset_type_id": "1",
+    "owner_id": "2",
+    "serial_number": "SN-RPP-A57A51-000180",
+    "manufacture_date": "2023-01-16",
+    "lifecycle_status": "in_use",
+    "created_at": "2025-05-16 10:24:38"
+  },
+  {
+    "asset_id": "181",
+    "asset_code": "ASSET-0000181",
+    "asset_type_id": "4",
+    "owner_id": "1",
+    "serial_number": "SN-LC-7CDE24-000181",
+    "manufacture_date": "2026-06-02",
+    "lifecycle_status": "available",
+    "created_at": "2026-09-30 01:27:52"
+  },
+  {
+    "asset_id": "182",
+    "asset_code": "ASSET-0000182",
+    "asset_type_id": "4",
+    "owner_id": "1",
+    "serial_number": "SN-LC-B52FD5-000182",
+    "manufacture_date": "2023-01-13",
+    "lifecycle_status": "in_use",
+    "created_at": "2025-10-15 10:30:19"
+  },
+  {
+    "asset_id": "183",
+    "asset_code": "ASSET-0000183",
+    "asset_type_id": "2",
+    "owner_id": "3",
+    "serial_number": "SN-IC-ED6CCB-000183",
+    "manufacture_date": "2023-04-22",
+    "lifecycle_status": "under_repair",
+    "created_at": "2024-05-21 17:35:07"
+  },
+  {
+    "asset_id": "184",
+    "asset_code": "ASSET-0000184",
+    "asset_type_id": "5",
+    "owner_id": "2",
+    "serial_number": "SN-MHE-311D08-000184",
+    "manufacture_date": "2025-06-09",
+    "lifecycle_status": "in_transit",
+    "created_at": "2025-09-25 15:45:58"
+  },
+  {
+    "asset_id": "185",
+    "asset_code": "ASSET-0000185",
+    "asset_type_id": "4",
+    "owner_id": "2",
+    "serial_number": "SN-LC-44C453-000185",
+    "manufacture_date": "2023-06-25",
+    "lifecycle_status": "in_use",
+    "created_at": "2023-11-22 02:56:16"
+  },
+  {
+    "asset_id": "186",
+    "asset_code": "ASSET-0000186",
+    "asset_type_id": "5",
+    "owner_id": "1",
+    "serial_number": "SN-MHE-39B733-000186",
+    "manufacture_date": "2026-06-27",
+    "lifecycle_status": "in_transit",
+    "created_at": "2026-10-18 05:17:39"
+  },
+  {
+    "asset_id": "187",
+    "asset_code": "ASSET-0000187",
+    "asset_type_id": "4",
+    "owner_id": "2",
+    "serial_number": "SN-LC-13CA20-000187",
+    "manufacture_date": "2025-02-10",
+    "lifecycle_status": "available",
+    "created_at": "2025-11-12 23:14:56"
+  },
+  {
+    "asset_id": "188",
+    "asset_code": "ASSET-0000188",
+    "asset_type_id": "3",
+    "owner_id": "2",
+    "serial_number": "SN-RSB-AB0F3D-000188",
+    "manufacture_date": "2024-04-29",
+    "lifecycle_status": "in_use",
+    "created_at": "2026-03-01 12:48:43"
+  },
+  {
+    "asset_id": "189",
+    "asset_code": "ASSET-0000189",
+    "asset_type_id": "5",
+    "owner_id": "1",
+    "serial_number": "SN-MHE-C3EE90-000189",
+    "manufacture_date": "2023-08-12",
+    "lifecycle_status": "in_use",
+    "created_at": "2026-07-17 11:29:08"
+  },
+  {
+    "asset_id": "190",
+    "asset_code": "ASSET-0000190",
+    "asset_type_id": "5",
+    "owner_id": "1",
+    "serial_number": "SN-MHE-C2412E-000190",
+    "manufacture_date": "2025-09-28",
+    "lifecycle_status": "in_use",
+    "created_at": "2026-09-14 22:46:48"
+  },
+  {
+    "asset_id": "191",
+    "asset_code": "ASSET-0000191",
+    "asset_type_id": "1",
+    "owner_id": "3",
+    "serial_number": "SN-RPP-2C3CBE-000191",
+    "manufacture_date": "2025-09-21",
+    "lifecycle_status": "in_use",
+    "created_at": "2025-10-23 05:08:43"
+  },
+  {
+    "asset_id": "192",
+    "asset_code": "ASSET-0000192",
+    "asset_type_id": "4",
+    "owner_id": "2",
+    "serial_number": "SN-LC-BA4C75-000192",
+    "manufacture_date": "2026-01-16",
+    "lifecycle_status": "in_use",
+    "created_at": "2026-06-15 04:55:10"
+  },
+  {
+    "asset_id": "193",
+    "asset_code": "ASSET-0000193",
+    "asset_type_id": "4",
+    "owner_id": "1",
+    "serial_number": "SN-LC-9A67E9-000193",
+    "manufacture_date": "2024-01-17",
+    "lifecycle_status": "in_transit",
+    "created_at": "2026-05-12 22:20:28"
+  },
+  {
+    "asset_id": "194",
+    "asset_code": "ASSET-0000194",
+    "asset_type_id": "1",
+    "owner_id": "1",
+    "serial_number": "SN-RPP-132AE9-000194",
+    "manufacture_date": "2025-07-01",
+    "lifecycle_status": "in_use",
+    "created_at": "2026-03-14 15:32:02"
+  },
+  {
+    "asset_id": "195",
+    "asset_code": "ASSET-0000195",
+    "asset_type_id": "2",
+    "owner_id": "2",
+    "serial_number": "SN-IC-5A3C2A-000195",
+    "manufacture_date": "2024-06-14",
+    "lifecycle_status": "in_use",
+    "created_at": "2026-02-02 18:52:08"
+  },
+  {
+    "asset_id": "196",
+    "asset_code": "ASSET-0000196",
+    "asset_type_id": "5",
+    "owner_id": "1",
+    "serial_number": "SN-MHE-22A4F8-000196",
+    "manufacture_date": "2026-02-17",
+    "lifecycle_status": "in_transit",
+    "created_at": "2026-10-05 12:56:47"
+  },
+  {
+    "asset_id": "197",
+    "asset_code": "ASSET-0000197",
+    "asset_type_id": "5",
+    "owner_id": "3",
+    "serial_number": "SN-MHE-D0E916-000197",
+    "manufacture_date": "2024-04-09",
+    "lifecycle_status": "in_use",
+    "created_at": "2025-08-05 18:57:21"
+  },
+  {
+    "asset_id": "198",
+    "asset_code": "ASSET-0000198",
+    "asset_type_id": "1",
+    "owner_id": "1",
+    "serial_number": "SN-RPP-C3F378-000198",
+    "manufacture_date": "2026-04-28",
+    "lifecycle_status": "in_use",
+    "created_at": "2026-09-05 10:04:47"
+  },
+  {
+    "asset_id": "199",
+    "asset_code": "ASSET-0000199",
+    "asset_type_id": "5",
+    "owner_id": "2",
+    "serial_number": "SN-MHE-51FC6C-000199",
+    "manufacture_date": "2024-12-26",
+    "lifecycle_status": "in_use",
+    "created_at": "2026-05-22 07:05:26"
+  },
+  {
+    "asset_id": "200",
+    "asset_code": "ASSET-0000200",
+    "asset_type_id": "5",
+    "owner_id": "3",
+    "serial_number": "SN-MHE-B59DB2-000200",
+    "manufacture_date": "2024-02-21",
+    "lifecycle_status": "in_use",
+    "created_at": "2025-11-08 22:09:11"
+  },
+  {
+    "asset_id": "201",
+    "asset_code": "ASSET-0000201",
+    "asset_type_id": "2",
+    "owner_id": "3",
+    "serial_number": "SN-IC-435A6F-000201",
+    "manufacture_date": "2026-01-31",
+    "lifecycle_status": "in_use",
+    "created_at": "2026-08-15 07:34:30"
+  },
+  {
+    "asset_id": "202",
+    "asset_code": "ASSET-0000202",
+    "asset_type_id": "4",
+    "owner_id": "1",
+    "serial_number": "SN-LC-5D8408-000202",
+    "manufacture_date": "2023-06-23",
+    "lifecycle_status": "available",
+    "created_at": "2024-01-23 09:13:55"
+  },
+  {
+    "asset_id": "203",
+    "asset_code": "ASSET-0000203",
+    "asset_type_id": "4",
+    "owner_id": "1",
+    "serial_number": "SN-LC-2709C1-000203",
+    "manufacture_date": "2025-08-27",
+    "lifecycle_status": "in_use",
+    "created_at": "2026-02-01 02:30:05"
+  },
+  {
+    "asset_id": "204",
+    "asset_code": "ASSET-0000204",
+    "asset_type_id": "1",
+    "owner_id": "2",
+    "serial_number": "SN-RPP-B14E6F-000204",
+    "manufacture_date": "2024-07-24",
+    "lifecycle_status": "in_transit",
+    "created_at": "2025-06-02 10:37:23"
+  },
+  {
+    "asset_id": "205",
+    "asset_code": "ASSET-0000205",
+    "asset_type_id": "1",
+    "owner_id": "3",
+    "serial_number": "SN-RPP-698A86-000205",
+    "manufacture_date": "2024-10-07",
+    "lifecycle_status": "in_use",
+    "created_at": "2025-02-21 06:53:47"
+  },
+  {
+    "asset_id": "206",
+    "asset_code": "ASSET-0000206",
+    "asset_type_id": "2",
+    "owner_id": "2",
+    "serial_number": "SN-IC-8A8C8B-000206",
+    "manufacture_date": "2025-10-10",
+    "lifecycle_status": "lost",
+    "created_at": "2026-08-09 05:01:47"
+  },
+  {
+    "asset_id": "207",
+    "asset_code": "ASSET-0000207",
+    "asset_type_id": "3",
+    "owner_id": "1",
+    "serial_number": "SN-RSB-988E16-000207",
+    "manufacture_date": "2026-02-17",
+    "lifecycle_status": "in_use",
+    "created_at": "2026-04-07 00:28:23"
+  },
+  {
+    "asset_id": "208",
+    "asset_code": "ASSET-0000208",
+    "asset_type_id": "4",
+    "owner_id": "1",
+    "serial_number": "SN-LC-071AA1-000208",
+    "manufacture_date": "2024-01-26",
+    "lifecycle_status": "available",
+    "created_at": "2024-05-23 05:23:39"
+  },
+  {
+    "asset_id": "209",
+    "asset_code": "ASSET-0000209",
+    "asset_type_id": "5",
+    "owner_id": "2",
+    "serial_number": "SN-MHE-F8C57A-000209",
+    "manufacture_date": "2024-02-07",
+    "lifecycle_status": "lost",
+    "created_at": "2025-07-17 19:08:52"
+  },
+  {
+    "asset_id": "210",
+    "asset_code": "ASSET-0000210",
+    "asset_type_id": "5",
+    "owner_id": "2",
+    "serial_number": "SN-MHE-42CF6A-000210",
+    "manufacture_date": "2025-11-15",
+    "lifecycle_status": "in_use",
+    "created_at": "2026-01-16 16:36:26"
+  },
+  {
+    "asset_id": "211",
+    "asset_code": "ASSET-0000211",
+    "asset_type_id": "1",
+    "owner_id": "2",
+    "serial_number": "SN-RPP-30F9AA-000211",
+    "manufacture_date": "2023-01-02",
+    "lifecycle_status": "in_use",
+    "created_at": "2024-03-12 07:18:04"
+  },
+  {
+    "asset_id": "212",
+    "asset_code": "ASSET-0000212",
+    "asset_type_id": "1",
+    "owner_id": "3",
+    "serial_number": "SN-RPP-562BBD-000212",
+    "manufacture_date": "2023-06-16",
+    "lifecycle_status": "in_use",
+    "created_at": "2026-07-11 05:18:38"
+  },
+  {
+    "asset_id": "213",
+    "asset_code": "ASSET-0000213",
+    "asset_type_id": "1",
+    "owner_id": "1",
+    "serial_number": "SN-RPP-A9F56E-000213",
+    "manufacture_date": "2023-10-08",
+    "lifecycle_status": "retired",
+    "created_at": "2026-03-22 10:58:05"
+  },
+  {
+    "asset_id": "214",
+    "asset_code": "ASSET-0000214",
+    "asset_type_id": "1",
+    "owner_id": "1",
+    "serial_number": "SN-RPP-DFFB83-000214",
+    "manufacture_date": "2025-10-04",
+    "lifecycle_status": "under_repair",
+    "created_at": "2026-05-31 13:59:15"
+  },
+  {
+    "asset_id": "215",
+    "asset_code": "ASSET-0000215",
+    "asset_type_id": "4",
+    "owner_id": "1",
+    "serial_number": "SN-LC-9B314C-000215",
+    "manufacture_date": "2026-02-20",
+    "lifecycle_status": "in_transit",
+    "created_at": "2026-09-14 19:32:32"
+  },
+  {
+    "asset_id": "216",
+    "asset_code": "ASSET-0000216",
+    "asset_type_id": "5",
+    "owner_id": "3",
+    "serial_number": "SN-MHE-2291AD-000216",
+    "manufacture_date": "2025-07-30",
+    "lifecycle_status": "available",
+    "created_at": "2026-01-30 23:27:23"
+  },
+  {
+    "asset_id": "217",
+    "asset_code": "ASSET-0000217",
+    "asset_type_id": "1",
+    "owner_id": "3",
+    "serial_number": "SN-RPP-D96FE8-000217",
+    "manufacture_date": "2026-06-26",
+    "lifecycle_status": "in_use",
+    "created_at": "2026-06-30 07:58:57"
+  },
+  {
+    "asset_id": "218",
+    "asset_code": "ASSET-0000218",
+    "asset_type_id": "1",
+    "owner_id": "3",
+    "serial_number": "SN-RPP-60C7B1-000218",
+    "manufacture_date": "2024-01-06",
+    "lifecycle_status": "in_use",
+    "created_at": "2024-03-26 16:01:32"
+  },
+  {
+    "asset_id": "219",
+    "asset_code": "ASSET-0000219",
+    "asset_type_id": "2",
+    "owner_id": "1",
+    "serial_number": "SN-IC-9C64A9-000219",
+    "manufacture_date": "2024-11-20",
+    "lifecycle_status": "lost",
+    "created_at": "2025-05-25 04:11:26"
+  },
+  {
+    "asset_id": "220",
+    "asset_code": "ASSET-0000220",
+    "asset_type_id": "2",
+    "owner_id": "1",
+    "serial_number": "SN-IC-29DEF6-000220",
+    "manufacture_date": "2025-08-21",
+    "lifecycle_status": "in_use",
+    "created_at": "2025-09-22 19:27:54"
+  },
+  {
+    "asset_id": "221",
+    "asset_code": "ASSET-0000221",
+    "asset_type_id": "4",
+    "owner_id": "2",
+    "serial_number": "SN-LC-31C876-000221",
+    "manufacture_date": "2023-12-08",
+    "lifecycle_status": "available",
+    "created_at": "2024-08-26 23:35:12"
+  },
+  {
+    "asset_id": "222",
+    "asset_code": "ASSET-0000222",
+    "asset_type_id": "1",
+    "owner_id": "2",
+    "serial_number": "SN-RPP-B6CF2B-000222",
+    "manufacture_date": "2025-11-18",
+    "lifecycle_status": "under_repair",
+    "created_at": "2026-07-02 06:42:31"
+  },
+  {
+    "asset_id": "223",
+    "asset_code": "ASSET-0000223",
+    "asset_type_id": "3",
+    "owner_id": "2",
+    "serial_number": "SN-RSB-8CC3A6-000223",
+    "manufacture_date": "2024-04-17",
+    "lifecycle_status": "available",
+    "created_at": "2025-05-26 12:39:11"
+  },
+  {
+    "asset_id": "224",
+    "asset_code": "ASSET-0000224",
+    "asset_type_id": "2",
+    "owner_id": "1",
+    "serial_number": "SN-IC-00160B-000224",
+    "manufacture_date": "2026-01-18",
+    "lifecycle_status": "lost",
+    "created_at": "2026-05-28 06:35:09"
+  },
+  {
+    "asset_id": "225",
+    "asset_code": "ASSET-0000225",
+    "asset_type_id": "4",
+    "owner_id": "1",
+    "serial_number": "SN-LC-0836BB-000225",
+    "manufacture_date": "2025-10-25",
+    "lifecycle_status": "available",
+    "created_at": "2025-11-09 21:25:06"
+  },
+  {
+    "asset_id": "226",
+    "asset_code": "ASSET-0000226",
+    "asset_type_id": "3",
+    "owner_id": "1",
+    "serial_number": "SN-RSB-9C2CE9-000226",
+    "manufacture_date": "2023-06-04",
+    "lifecycle_status": "in_transit",
+    "created_at": "2024-10-31 16:37:15"
+  },
+  {
+    "asset_id": "227",
+    "asset_code": "ASSET-0000227",
+    "asset_type_id": "2",
+    "owner_id": "2",
+    "serial_number": "SN-IC-29EB02-000227",
+    "manufacture_date": "2026-06-26",
+    "lifecycle_status": "available",
+    "created_at": "2026-06-27 00:54:22"
+  },
+  {
+    "asset_id": "228",
+    "asset_code": "ASSET-0000228",
+    "asset_type_id": "2",
+    "owner_id": "2",
+    "serial_number": "SN-IC-9B8AEF-000228",
+    "manufacture_date": "2023-12-16",
+    "lifecycle_status": "available",
+    "created_at": "2024-04-21 17:31:57"
+  },
+  {
+    "asset_id": "229",
+    "asset_code": "ASSET-0000229",
+    "asset_type_id": "4",
+    "owner_id": "1",
+    "serial_number": "SN-LC-7CE282-000229",
+    "manufacture_date": "2026-06-15",
+    "lifecycle_status": "lost",
+    "created_at": "2026-08-15 19:25:30"
+  },
+  {
+    "asset_id": "230",
+    "asset_code": "ASSET-0000230",
+    "asset_type_id": "3",
+    "owner_id": "1",
+    "serial_number": "SN-RSB-29422D-000230",
+    "manufacture_date": "2025-08-04",
+    "lifecycle_status": "available",
+    "created_at": "2026-09-13 06:41:43"
+  },
+  {
+    "asset_id": "231",
+    "asset_code": "ASSET-0000231",
+    "asset_type_id": "4",
+    "owner_id": "1",
+    "serial_number": "SN-LC-9913C5-000231",
+    "manufacture_date": "2024-09-02",
+    "lifecycle_status": "retired",
+    "created_at": "2025-05-22 00:04:35"
+  },
+  {
+    "asset_id": "232",
+    "asset_code": "ASSET-0000232",
+    "asset_type_id": "3",
+    "owner_id": "2",
+    "serial_number": "SN-RSB-5E1F92-000232",
+    "manufacture_date": "2024-08-09",
+    "lifecycle_status": "available",
+    "created_at": "2025-07-21 19:00:41"
+  },
+  {
+    "asset_id": "233",
+    "asset_code": "ASSET-0000233",
+    "asset_type_id": "1",
+    "owner_id": "2",
+    "serial_number": "SN-RPP-986B1D-000233",
+    "manufacture_date": "2024-06-12",
+    "lifecycle_status": "available",
+    "created_at": "2026-01-22 12:56:05"
+  },
+  {
+    "asset_id": "234",
+    "asset_code": "ASSET-0000234",
+    "asset_type_id": "5",
+    "owner_id": "3",
+    "serial_number": "SN-MHE-352B5A-000234",
+    "manufacture_date": "2025-04-26",
+    "lifecycle_status": "in_use",
+    "created_at": "2025-09-04 22:00:13"
+  },
+  {
+    "asset_id": "235",
+    "asset_code": "ASSET-0000235",
+    "asset_type_id": "5",
+    "owner_id": "2",
+    "serial_number": "SN-MHE-35F39A-000235",
+    "manufacture_date": "2025-06-18",
+    "lifecycle_status": "under_repair",
+    "created_at": "2026-09-15 00:11:50"
+  },
+  {
+    "asset_id": "236",
+    "asset_code": "ASSET-0000236",
+    "asset_type_id": "3",
+    "owner_id": "3",
+    "serial_number": "SN-RSB-C5B036-000236",
+    "manufacture_date": "2024-02-27",
+    "lifecycle_status": "in_use",
+    "created_at": "2024-11-03 02:04:29"
+  },
+  {
+    "asset_id": "237",
+    "asset_code": "ASSET-0000237",
+    "asset_type_id": "4",
+    "owner_id": "1",
+    "serial_number": "SN-LC-917974-000237",
+    "manufacture_date": "2023-03-08",
+    "lifecycle_status": "under_repair",
+    "created_at": "2024-08-26 23:32:10"
+  },
+  {
+    "asset_id": "238",
+    "asset_code": "ASSET-0000238",
+    "asset_type_id": "4",
+    "owner_id": "2",
+    "serial_number": "SN-LC-1DBF55-000238",
+    "manufacture_date": "2025-07-06",
+    "lifecycle_status": "in_transit",
+    "created_at": "2026-04-09 07:21:31"
+  },
+  {
+    "asset_id": "239",
+    "asset_code": "ASSET-0000239",
+    "asset_type_id": "1",
+    "owner_id": "2",
+    "serial_number": "SN-RPP-DE4D41-000239",
+    "manufacture_date": "2023-06-23",
+    "lifecycle_status": "in_use",
+    "created_at": "2026-06-28 18:29:28"
+  },
+  {
+    "asset_id": "240",
+    "asset_code": "ASSET-0000240",
+    "asset_type_id": "4",
+    "owner_id": "2",
+    "serial_number": "SN-LC-F20FC4-000240",
+    "manufacture_date": "2024-02-26",
+    "lifecycle_status": "lost",
+    "created_at": "2026-07-01 04:24:40"
+  },
+  {
+    "asset_id": "241",
+    "asset_code": "ASSET-0000241",
+    "asset_type_id": "2",
+    "owner_id": "2",
+    "serial_number": "SN-IC-9365DF-000241",
+    "manufacture_date": "2023-04-25",
+    "lifecycle_status": "in_use",
+    "created_at": "2026-04-08 20:05:06"
+  },
+  {
+    "asset_id": "242",
+    "asset_code": "ASSET-0000242",
+    "asset_type_id": "3",
+    "owner_id": "2",
+    "serial_number": "SN-RSB-430BA0-000242",
+    "manufacture_date": "2024-11-19",
+    "lifecycle_status": "in_transit",
+    "created_at": "2025-10-06 08:27:24"
+  },
+  {
+    "asset_id": "243",
+    "asset_code": "ASSET-0000243",
+    "asset_type_id": "2",
+    "owner_id": "2",
+    "serial_number": "SN-IC-D05431-000243",
+    "manufacture_date": "2025-01-30",
+    "lifecycle_status": "in_use",
+    "created_at": "2025-05-14 07:16:11"
+  },
+  {
+    "asset_id": "244",
+    "asset_code": "ASSET-0000244",
+    "asset_type_id": "3",
+    "owner_id": "1",
+    "serial_number": "SN-RSB-C2B003-000244",
+    "manufacture_date": "2023-11-16",
+    "lifecycle_status": "in_transit",
+    "created_at": "2024-10-02 10:20:19"
+  },
+  {
+    "asset_id": "245",
+    "asset_code": "ASSET-0000245",
+    "asset_type_id": "5",
+    "owner_id": "2",
+    "serial_number": "SN-MHE-EFE097-000245",
+    "manufacture_date": "2025-11-20",
+    "lifecycle_status": "retired",
+    "created_at": "2026-02-05 05:03:12"
+  },
+  {
+    "asset_id": "246",
+    "asset_code": "ASSET-0000246",
+    "asset_type_id": "4",
+    "owner_id": "2",
+    "serial_number": "SN-LC-A18CA1-000246",
+    "manufacture_date": "2024-03-23",
+    "lifecycle_status": "available",
+    "created_at": "2026-06-29 19:05:27"
+  },
+  {
+    "asset_id": "247",
+    "asset_code": "ASSET-0000247",
+    "asset_type_id": "4",
+    "owner_id": "2",
+    "serial_number": "SN-LC-39F120-000247",
+    "manufacture_date": "2025-05-26",
+    "lifecycle_status": "in_use",
+    "created_at": "2026-05-31 02:55:00"
+  },
+  {
+    "asset_id": "248",
+    "asset_code": "ASSET-0000248",
+    "asset_type_id": "3",
+    "owner_id": "2",
+    "serial_number": "SN-RSB-BB41AE-000248",
+    "manufacture_date": "2024-07-13",
+    "lifecycle_status": "available",
+    "created_at": "2026-10-11 08:38:42"
+  },
+  {
+    "asset_id": "249",
+    "asset_code": "ASSET-0000249",
+    "asset_type_id": "1",
+    "owner_id": "1",
+    "serial_number": "SN-RPP-383D39-000249",
+    "manufacture_date": "2023-06-07",
+    "lifecycle_status": "in_use",
+    "created_at": "2023-06-12 04:57:49"
+  },
+  {
+    "asset_id": "250",
+    "asset_code": "ASSET-0000250",
+    "asset_type_id": "2",
+    "owner_id": "2",
+    "serial_number": "SN-IC-31CFC7-000250",
+    "manufacture_date": "2026-05-12",
+    "lifecycle_status": "in_use",
+    "created_at": "2026-09-27 00:49:17"
+  },
+  {
+    "asset_id": "251",
+    "asset_code": "ASSET-0000251",
+    "asset_type_id": "4",
+    "owner_id": "3",
+    "serial_number": "SN-LC-EED64B-000251",
+    "manufacture_date": "2024-03-19",
+    "lifecycle_status": "retired",
+    "created_at": "2024-10-09 03:01:25"
+  },
+  {
+    "asset_id": "252",
+    "asset_code": "ASSET-0000252",
+    "asset_type_id": "1",
+    "owner_id": "3",
+    "serial_number": "SN-RPP-E7E742-000252",
+    "manufacture_date": "2023-02-18",
+    "lifecycle_status": "available",
+    "created_at": "2024-11-22 21:20:31"
+  },
+  {
+    "asset_id": "253",
+    "asset_code": "ASSET-0000253",
+    "asset_type_id": "1",
+    "owner_id": "2",
+    "serial_number": "SN-RPP-E8E4E4-000253",
+    "manufacture_date": "2023-10-25",
+    "lifecycle_status": "available",
+    "created_at": "2023-12-05 21:39:30"
+  },
+  {
+    "asset_id": "254",
+    "asset_code": "ASSET-0000254",
+    "asset_type_id": "1",
+    "owner_id": "1",
+    "serial_number": "SN-RPP-B58B38-000254",
+    "manufacture_date": "2025-05-06",
+    "lifecycle_status": "available",
+    "created_at": "2026-09-14 11:25:23"
+  },
+  {
+    "asset_id": "255",
+    "asset_code": "ASSET-0000255",
+    "asset_type_id": "5",
+    "owner_id": "1",
+    "serial_number": "SN-MHE-C76476-000255",
+    "manufacture_date": "2023-11-05",
+    "lifecycle_status": "retired",
+    "created_at": "2026-09-19 01:04:40"
+  },
+  {
+    "asset_id": "256",
+    "asset_code": "ASSET-0000256",
+    "asset_type_id": "3",
+    "owner_id": "3",
+    "serial_number": "SN-RSB-6648BE-000256",
+    "manufacture_date": "2023-05-06",
+    "lifecycle_status": "retired",
+    "created_at": "2026-06-05 12:07:09"
+  },
+  {
+    "asset_id": "257",
+    "asset_code": "ASSET-0000257",
+    "asset_type_id": "5",
+    "owner_id": "1",
+    "serial_number": "SN-MHE-C650D7-000257",
+    "manufacture_date": "2025-03-18",
+    "lifecycle_status": "in_use",
+    "created_at": "2026-07-23 05:28:22"
+  },
+  {
+    "asset_id": "258",
+    "asset_code": "ASSET-0000258",
+    "asset_type_id": "2",
+    "owner_id": "1",
+    "serial_number": "SN-IC-7DD5D8-000258",
+    "manufacture_date": "2025-09-30",
+    "lifecycle_status": "available",
+    "created_at": "2025-12-26 21:59:25"
+  },
+  {
+    "asset_id": "259",
+    "asset_code": "ASSET-0000259",
+    "asset_type_id": "4",
+    "owner_id": "2",
+    "serial_number": "SN-LC-7C281B-000259",
+    "manufacture_date": "2025-05-27",
+    "lifecycle_status": "lost",
+    "created_at": "2026-08-29 19:11:01"
+  },
+  {
+    "asset_id": "260",
+    "asset_code": "ASSET-0000260",
+    "asset_type_id": "2",
+    "owner_id": "1",
+    "serial_number": "SN-IC-EFF341-000260",
+    "manufacture_date": "2024-05-05",
+    "lifecycle_status": "in_use",
+    "created_at": "2026-07-24 13:16:56"
+  },
+  {
+    "asset_id": "261",
+    "asset_code": "ASSET-0000261",
+    "asset_type_id": "5",
+    "owner_id": "3",
+    "serial_number": "SN-MHE-860DC2-000261",
+    "manufacture_date": "2023-03-19",
+    "lifecycle_status": "in_use",
+    "created_at": "2023-08-06 15:39:56"
+  },
+  {
+    "asset_id": "262",
+    "asset_code": "ASSET-0000262",
+    "asset_type_id": "3",
+    "owner_id": "2",
+    "serial_number": "SN-RSB-23888C-000262",
+    "manufacture_date": "2026-06-06",
+    "lifecycle_status": "in_use",
+    "created_at": "2026-06-24 17:42:49"
+  },
+  {
+    "asset_id": "263",
+    "asset_code": "ASSET-0000263",
+    "asset_type_id": "4",
+    "owner_id": "1",
+    "serial_number": "SN-LC-DC1983-000263",
+    "manufacture_date": "2025-12-14",
+    "lifecycle_status": "lost",
+    "created_at": "2026-05-25 11:29:09"
+  },
+  {
+    "asset_id": "264",
+    "asset_code": "ASSET-0000264",
+    "asset_type_id": "2",
+    "owner_id": "3",
+    "serial_number": "SN-IC-282227-000264",
+    "manufacture_date": "2023-07-06",
+    "lifecycle_status": "available",
+    "created_at": "2024-10-06 19:18:05"
+  },
+  {
+    "asset_id": "265",
+    "asset_code": "ASSET-0000265",
+    "asset_type_id": "3",
+    "owner_id": "1",
+    "serial_number": "SN-RSB-5F99C1-000265",
+    "manufacture_date": "2025-11-08",
+    "lifecycle_status": "available",
+    "created_at": "2026-06-07 22:47:08"
+  },
+  {
+    "asset_id": "266",
+    "asset_code": "ASSET-0000266",
+    "asset_type_id": "3",
+    "owner_id": "3",
+    "serial_number": "SN-RSB-4D71F1-000266",
+    "manufacture_date": "2023-07-19",
+    "lifecycle_status": "under_repair",
+    "created_at": "2024-01-10 17:52:55"
+  },
+  {
+    "asset_id": "267",
+    "asset_code": "ASSET-0000267",
+    "asset_type_id": "2",
+    "owner_id": "3",
+    "serial_number": "SN-IC-795C0A-000267",
+    "manufacture_date": "2023-06-01",
+    "lifecycle_status": "retired",
+    "created_at": "2024-06-07 21:49:29"
+  },
+  {
+    "asset_id": "268",
+    "asset_code": "ASSET-0000268",
+    "asset_type_id": "4",
+    "owner_id": "1",
+    "serial_number": "SN-LC-3D9F6C-000268",
+    "manufacture_date": "2025-06-13",
+    "lifecycle_status": "in_use",
+    "created_at": "2026-03-18 14:58:55"
+  },
+  {
+    "asset_id": "269",
+    "asset_code": "ASSET-0000269",
+    "asset_type_id": "5",
+    "owner_id": "1",
+    "serial_number": "SN-MHE-EF7775-000269",
+    "manufacture_date": "2025-09-22",
+    "lifecycle_status": "available",
+    "created_at": "2026-08-09 17:45:55"
+  },
+  {
+    "asset_id": "270",
+    "asset_code": "ASSET-0000270",
+    "asset_type_id": "3",
+    "owner_id": "3",
+    "serial_number": "SN-RSB-EBFD79-000270",
+    "manufacture_date": "2024-11-09",
+    "lifecycle_status": "available",
+    "created_at": "2025-03-13 10:48:36"
+  },
+  {
+    "asset_id": "271",
+    "asset_code": "ASSET-0000271",
+    "asset_type_id": "5",
+    "owner_id": "1",
+    "serial_number": "SN-MHE-17454D-000271",
+    "manufacture_date": "2023-08-07",
+    "lifecycle_status": "in_use",
+    "created_at": "2023-11-02 02:02:01"
+  },
+  {
+    "asset_id": "272",
+    "asset_code": "ASSET-0000272",
+    "asset_type_id": "5",
+    "owner_id": "3",
+    "serial_number": "SN-MHE-4106BD-000272",
+    "manufacture_date": "2025-09-22",
+    "lifecycle_status": "in_use",
+    "created_at": "2026-05-11 01:37:30"
+  },
+  {
+    "asset_id": "273",
+    "asset_code": "ASSET-0000273",
+    "asset_type_id": "5",
+    "owner_id": "1",
+    "serial_number": "SN-MHE-663C3E-000273",
+    "manufacture_date": "2024-12-26",
+    "lifecycle_status": "in_use",
+    "created_at": "2025-11-18 10:35:40"
+  },
+  {
+    "asset_id": "274",
+    "asset_code": "ASSET-0000274",
+    "asset_type_id": "3",
+    "owner_id": "2",
+    "serial_number": "SN-RSB-304ABB-000274",
+    "manufacture_date": "2026-03-07",
+    "lifecycle_status": "in_use",
+    "created_at": "2026-04-08 23:53:36"
+  },
+  {
+    "asset_id": "275",
+    "asset_code": "ASSET-0000275",
+    "asset_type_id": "4",
+    "owner_id": "1",
+    "serial_number": "SN-LC-80A23D-000275",
+    "manufacture_date": "2024-01-18",
+    "lifecycle_status": "in_use",
+    "created_at": "2025-01-06 03:53:21"
+  },
+  {
+    "asset_id": "276",
+    "asset_code": "ASSET-0000276",
+    "asset_type_id": "5",
+    "owner_id": "1",
+    "serial_number": "SN-MHE-92A1C2-000276",
+    "manufacture_date": "2024-11-02",
+    "lifecycle_status": "in_use",
+    "created_at": "2025-07-16 01:47:43"
+  },
+  {
+    "asset_id": "277",
+    "asset_code": "ASSET-0000277",
+    "asset_type_id": "3",
+    "owner_id": "1",
+    "serial_number": "SN-RSB-11AD5B-000277",
+    "manufacture_date": "2024-05-24",
+    "lifecycle_status": "in_use",
+    "created_at": "2025-08-19 21:43:47"
+  },
+  {
+    "asset_id": "278",
+    "asset_code": "ASSET-0000278",
+    "asset_type_id": "1",
+    "owner_id": "2",
+    "serial_number": "SN-RPP-5CCB1C-000278",
+    "manufacture_date": "2025-12-30",
+    "lifecycle_status": "in_use",
+    "created_at": "2026-09-01 12:04:30"
+  },
+  {
+    "asset_id": "279",
+    "asset_code": "ASSET-0000279",
+    "asset_type_id": "4",
+    "owner_id": "1",
+    "serial_number": "SN-LC-24E44F-000279",
+    "manufacture_date": "2023-05-27",
+    "lifecycle_status": "in_use",
+    "created_at": "2026-08-07 21:13:26"
+  },
+  {
+    "asset_id": "280",
+    "asset_code": "ASSET-0000280",
+    "asset_type_id": "5",
+    "owner_id": "2",
+    "serial_number": "SN-MHE-4CB27D-000280",
+    "manufacture_date": "2023-02-22",
+    "lifecycle_status": "lost",
+    "created_at": "2023-11-11 14:58:54"
+  },
+  {
+    "asset_id": "281",
+    "asset_code": "ASSET-0000281",
+    "asset_type_id": "3",
+    "owner_id": "1",
+    "serial_number": "SN-RSB-1434FD-000281",
+    "manufacture_date": "2025-01-28",
+    "lifecycle_status": "in_use",
+    "created_at": "2025-09-13 18:51:20"
+  },
+  {
+    "asset_id": "282",
+    "asset_code": "ASSET-0000282",
+    "asset_type_id": "2",
+    "owner_id": "2",
+    "serial_number": "SN-IC-4488F6-000282",
+    "manufacture_date": "2023-10-06",
+    "lifecycle_status": "retired",
+    "created_at": "2024-09-27 02:17:47"
+  },
+  {
+    "asset_id": "283",
+    "asset_code": "ASSET-0000283",
+    "asset_type_id": "3",
+    "owner_id": "3",
+    "serial_number": "SN-RSB-6921A1-000283",
+    "manufacture_date": "2026-03-01",
+    "lifecycle_status": "under_repair",
+    "created_at": "2026-05-02 17:51:41"
+  },
+  {
+    "asset_id": "284",
+    "asset_code": "ASSET-0000284",
+    "asset_type_id": "2",
+    "owner_id": "3",
+    "serial_number": "SN-IC-89C4AE-000284",
+    "manufacture_date": "2023-11-07",
+    "lifecycle_status": "in_use",
+    "created_at": "2024-11-11 05:38:30"
+  },
+  {
+    "asset_id": "285",
+    "asset_code": "ASSET-0000285",
+    "asset_type_id": "4",
+    "owner_id": "3",
+    "serial_number": "SN-LC-0DCC33-000285",
+    "manufacture_date": "2023-01-24",
+    "lifecycle_status": "available",
+    "created_at": "2026-02-26 01:47:09"
+  },
+  {
+    "asset_id": "286",
+    "asset_code": "ASSET-0000286",
+    "asset_type_id": "3",
+    "owner_id": "3",
+    "serial_number": "SN-RSB-0059AE-000286",
+    "manufacture_date": "2026-06-30",
+    "lifecycle_status": "retired",
+    "created_at": "2026-07-29 01:20:04"
+  },
+  {
+    "asset_id": "287",
+    "asset_code": "ASSET-0000287",
+    "asset_type_id": "4",
+    "owner_id": "3",
+    "serial_number": "SN-LC-7458CC-000287",
+    "manufacture_date": "2026-01-26",
+    "lifecycle_status": "lost",
+    "created_at": "2026-04-11 23:57:27"
+  },
+  {
+    "asset_id": "288",
+    "asset_code": "ASSET-0000288",
+    "asset_type_id": "5",
+    "owner_id": "2",
+    "serial_number": "SN-MHE-DCF6AC-000288",
+    "manufacture_date": "2026-04-30",
+    "lifecycle_status": "lost",
+    "created_at": "2026-09-06 03:29:36"
+  },
+  {
+    "asset_id": "289",
+    "asset_code": "ASSET-0000289",
+    "asset_type_id": "2",
+    "owner_id": "1",
+    "serial_number": "SN-IC-8C345D-000289",
+    "manufacture_date": "2026-02-10",
+    "lifecycle_status": "in_use",
+    "created_at": "2026-09-14 19:18:35"
+  },
+  {
+    "asset_id": "290",
+    "asset_code": "ASSET-0000290",
+    "asset_type_id": "5",
+    "owner_id": "3",
+    "serial_number": "SN-MHE-183D50-000290",
+    "manufacture_date": "2024-02-24",
+    "lifecycle_status": "in_transit",
+    "created_at": "2026-02-18 01:56:22"
+  },
+  {
+    "asset_id": "291",
+    "asset_code": "ASSET-0000291",
+    "asset_type_id": "2",
+    "owner_id": "2",
+    "serial_number": "SN-IC-4EF5DA-000291",
+    "manufacture_date": "2025-01-21",
+    "lifecycle_status": "in_use",
+    "created_at": "2025-10-11 16:39:45"
+  },
+  {
+    "asset_id": "292",
+    "asset_code": "ASSET-0000292",
+    "asset_type_id": "1",
+    "owner_id": "3",
+    "serial_number": "SN-RPP-64848B-000292",
+    "manufacture_date": "2023-01-14",
+    "lifecycle_status": "in_use",
+    "created_at": "2025-12-17 08:57:00"
+  },
+  {
+    "asset_id": "293",
+    "asset_code": "ASSET-0000293",
+    "asset_type_id": "2",
+    "owner_id": "2",
+    "serial_number": "SN-IC-1ED7EF-000293",
+    "manufacture_date": "2024-03-05",
+    "lifecycle_status": "in_use",
+    "created_at": "2024-07-31 07:39:38"
+  },
+  {
+    "asset_id": "294",
+    "asset_code": "ASSET-0000294",
+    "asset_type_id": "5",
+    "owner_id": "3",
+    "serial_number": "SN-MHE-3D2357-000294",
+    "manufacture_date": "2023-01-01",
+    "lifecycle_status": "in_transit",
+    "created_at": "2025-03-14 06:31:46"
+  },
+  {
+    "asset_id": "295",
+    "asset_code": "ASSET-0000295",
+    "asset_type_id": "5",
+    "owner_id": "3",
+    "serial_number": "SN-MHE-4D7F64-000295",
+    "manufacture_date": "2025-11-01",
+    "lifecycle_status": "in_use",
+    "created_at": "2026-07-31 07:41:19"
+  },
+  {
+    "asset_id": "296",
+    "asset_code": "ASSET-0000296",
+    "asset_type_id": "4",
+    "owner_id": "3",
+    "serial_number": "SN-LC-A04464-000296",
+    "manufacture_date": "2023-05-25",
+    "lifecycle_status": "in_transit",
+    "created_at": "2023-09-19 02:57:34"
+  },
+  {
+    "asset_id": "297",
+    "asset_code": "ASSET-0000297",
+    "asset_type_id": "1",
+    "owner_id": "2",
+    "serial_number": "SN-RPP-4962CC-000297",
+    "manufacture_date": "2024-06-10",
+    "lifecycle_status": "available",
+    "created_at": "2025-09-30 12:13:01"
+  },
+  {
+    "asset_id": "298",
+    "asset_code": "ASSET-0000298",
+    "asset_type_id": "3",
+    "owner_id": "2",
+    "serial_number": "SN-RSB-DC5D6C-000298",
+    "manufacture_date": "2023-09-18",
+    "lifecycle_status": "in_use",
+    "created_at": "2026-05-02 11:32:13"
+  },
+  {
+    "asset_id": "299",
+    "asset_code": "ASSET-0000299",
+    "asset_type_id": "2",
+    "owner_id": "2",
+    "serial_number": "SN-IC-6F26B0-000299",
+    "manufacture_date": "2025-10-01",
+    "lifecycle_status": "in_use",
+    "created_at": "2025-11-24 04:13:39"
+  },
+  {
+    "asset_id": "300",
+    "asset_code": "ASSET-0000300",
+    "asset_type_id": "2",
+    "owner_id": "2",
+    "serial_number": "SN-IC-CBDF4B-000300",
+    "manufacture_date": "2023-02-14",
+    "lifecycle_status": "available",
+    "created_at": "2024-08-20 14:23:43"
+  },
+  {
+    "asset_id": "301",
+    "asset_code": "ASSET-0000301",
+    "asset_type_id": "1",
+    "owner_id": "3",
+    "serial_number": "SN-RPP-B53B68-000301",
+    "manufacture_date": "2024-07-23",
+    "lifecycle_status": "in_use",
+    "created_at": "2024-08-15 10:54:58"
+  },
+  {
+    "asset_id": "302",
+    "asset_code": "ASSET-0000302",
+    "asset_type_id": "1",
+    "owner_id": "2",
+    "serial_number": "SN-RPP-FD3A0D-000302",
+    "manufacture_date": "2024-08-05",
+    "lifecycle_status": "in_use",
+    "created_at": "2026-05-06 16:31:09"
+  },
+  {
+    "asset_id": "303",
+    "asset_code": "ASSET-0000303",
+    "asset_type_id": "2",
+    "owner_id": "1",
+    "serial_number": "SN-IC-300C0D-000303",
+    "manufacture_date": "2025-06-02",
+    "lifecycle_status": "in_use",
+    "created_at": "2025-06-09 20:18:24"
+  },
+  {
+    "asset_id": "304",
+    "asset_code": "ASSET-0000304",
+    "asset_type_id": "4",
+    "owner_id": "1",
+    "serial_number": "SN-LC-8522A0-000304",
+    "manufacture_date": "2024-06-15",
+    "lifecycle_status": "lost",
+    "created_at": "2026-10-12 15:14:07"
+  },
+  {
+    "asset_id": "305",
+    "asset_code": "ASSET-0000305",
+    "asset_type_id": "1",
+    "owner_id": "1",
+    "serial_number": "SN-RPP-0395B5-000305",
+    "manufacture_date": "2024-04-11",
+    "lifecycle_status": "lost",
+    "created_at": "2025-09-17 02:26:34"
+  },
+  {
+    "asset_id": "306",
+    "asset_code": "ASSET-0000306",
+    "asset_type_id": "1",
+    "owner_id": "3",
+    "serial_number": "SN-RPP-9356AD-000306",
+    "manufacture_date": "2024-03-10",
+    "lifecycle_status": "lost",
+    "created_at": "2026-09-21 10:53:12"
+  },
+  {
+    "asset_id": "307",
+    "asset_code": "ASSET-0000307",
+    "asset_type_id": "5",
+    "owner_id": "3",
+    "serial_number": "SN-MHE-C0274E-000307",
+    "manufacture_date": "2024-06-04",
+    "lifecycle_status": "in_use",
+    "created_at": "2026-08-31 14:09:53"
+  },
+  {
+    "asset_id": "308",
+    "asset_code": "ASSET-0000308",
+    "asset_type_id": "5",
+    "owner_id": "2",
+    "serial_number": "SN-MHE-AF1BEE-000308",
+    "manufacture_date": "2025-08-21",
+    "lifecycle_status": "in_use",
+    "created_at": "2026-06-23 15:46:20"
+  },
+  {
+    "asset_id": "309",
+    "asset_code": "ASSET-0000309",
+    "asset_type_id": "4",
+    "owner_id": "3",
+    "serial_number": "SN-LC-A9D003-000309",
+    "manufacture_date": "2025-11-22",
+    "lifecycle_status": "available",
+    "created_at": "2026-09-14 15:56:44"
+  },
+  {
+    "asset_id": "310",
+    "asset_code": "ASSET-0000310",
+    "asset_type_id": "2",
+    "owner_id": "2",
+    "serial_number": "SN-IC-CC91D4-000310",
+    "manufacture_date": "2023-12-19",
+    "lifecycle_status": "in_use",
+    "created_at": "2026-05-16 21:29:07"
+  },
+  {
+    "asset_id": "311",
+    "asset_code": "ASSET-0000311",
+    "asset_type_id": "5",
+    "owner_id": "2",
+    "serial_number": "SN-MHE-A60A6B-000311",
+    "manufacture_date": "2023-09-04",
+    "lifecycle_status": "in_use",
+    "created_at": "2024-11-14 04:47:14"
+  },
+  {
+    "asset_id": "312",
+    "asset_code": "ASSET-0000312",
+    "asset_type_id": "3",
+    "owner_id": "3",
+    "serial_number": "SN-RSB-0B3995-000312",
+    "manufacture_date": "2023-06-28",
+    "lifecycle_status": "retired",
+    "created_at": "2026-04-23 01:48:33"
+  },
+  {
+    "asset_id": "313",
+    "asset_code": "ASSET-0000313",
+    "asset_type_id": "2",
+    "owner_id": "2",
+    "serial_number": "SN-IC-76B708-000313",
+    "manufacture_date": "2023-08-13",
+    "lifecycle_status": "retired",
+    "created_at": "2024-06-07 15:38:26"
+  },
+  {
+    "asset_id": "314",
+    "asset_code": "ASSET-0000314",
+    "asset_type_id": "2",
+    "owner_id": "2",
+    "serial_number": "SN-IC-D69A1C-000314",
+    "manufacture_date": "2025-12-21",
+    "lifecycle_status": "available",
+    "created_at": "2026-06-06 01:07:25"
+  },
+  {
+    "asset_id": "315",
+    "asset_code": "ASSET-0000315",
+    "asset_type_id": "1",
+    "owner_id": "2",
+    "serial_number": "SN-RPP-C7E9DF-000315",
+    "manufacture_date": "2026-05-31",
+    "lifecycle_status": "in_transit",
+    "created_at": "2026-06-10 19:20:42"
+  },
+  {
+    "asset_id": "316",
+    "asset_code": "ASSET-0000316",
+    "asset_type_id": "5",
+    "owner_id": "1",
+    "serial_number": "SN-MHE-C71303-000316",
+    "manufacture_date": "2025-06-13",
+    "lifecycle_status": "available",
+    "created_at": "2026-02-27 13:28:03"
+  },
+  {
+    "asset_id": "317",
+    "asset_code": "ASSET-0000317",
+    "asset_type_id": "1",
+    "owner_id": "2",
+    "serial_number": "SN-RPP-E83E7F-000317",
+    "manufacture_date": "2025-06-04",
+    "lifecycle_status": "in_transit",
+    "created_at": "2026-02-27 10:25:52"
+  },
+  {
+    "asset_id": "318",
+    "asset_code": "ASSET-0000318",
+    "asset_type_id": "1",
+    "owner_id": "2",
+    "serial_number": "SN-RPP-5362BA-000318",
+    "manufacture_date": "2026-04-27",
+    "lifecycle_status": "in_transit",
+    "created_at": "2026-07-13 01:48:15"
+  },
+  {
+    "asset_id": "319",
+    "asset_code": "ASSET-0000319",
+    "asset_type_id": "4",
+    "owner_id": "3",
+    "serial_number": "SN-LC-4F1DF0-000319",
+    "manufacture_date": "2024-06-08",
+    "lifecycle_status": "available",
+    "created_at": "2026-09-22 02:24:48"
+  },
+  {
+    "asset_id": "320",
+    "asset_code": "ASSET-0000320",
+    "asset_type_id": "1",
+    "owner_id": "3",
+    "serial_number": "SN-RPP-102583-000320",
+    "manufacture_date": "2025-12-23",
+    "lifecycle_status": "in_transit",
+    "created_at": "2026-07-13 20:58:13"
+  },
+  {
+    "asset_id": "321",
+    "asset_code": "ASSET-0000321",
+    "asset_type_id": "4",
+    "owner_id": "2",
+    "serial_number": "SN-LC-FEADF6-000321",
+    "manufacture_date": "2023-07-09",
+    "lifecycle_status": "available",
+    "created_at": "2025-12-11 12:09:00"
+  },
+  {
+    "asset_id": "322",
+    "asset_code": "ASSET-0000322",
+    "asset_type_id": "4",
+    "owner_id": "3",
+    "serial_number": "SN-LC-8AE9E3-000322",
+    "manufacture_date": "2024-06-27",
+    "lifecycle_status": "available",
+    "created_at": "2026-10-20 04:41:24"
+  },
+  {
+    "asset_id": "323",
+    "asset_code": "ASSET-0000323",
+    "asset_type_id": "4",
+    "owner_id": "1",
+    "serial_number": "SN-LC-3C52EE-000323",
+    "manufacture_date": "2025-05-13",
+    "lifecycle_status": "in_use",
+    "created_at": "2026-07-24 13:25:32"
+  },
+  {
+    "asset_id": "324",
+    "asset_code": "ASSET-0000324",
+    "asset_type_id": "1",
+    "owner_id": "2",
+    "serial_number": "SN-RPP-908659-000324",
+    "manufacture_date": "2026-02-04",
+    "lifecycle_status": "retired",
+    "created_at": "2026-09-10 15:29:09"
+  },
+  {
+    "asset_id": "325",
+    "asset_code": "ASSET-0000325",
+    "asset_type_id": "3",
+    "owner_id": "1",
+    "serial_number": "SN-RSB-FCEF9C-000325",
+    "manufacture_date": "2023-04-02",
+    "lifecycle_status": "in_use",
+    "created_at": "2025-04-17 17:55:53"
+  },
+  {
+    "asset_id": "326",
+    "asset_code": "ASSET-0000326",
+    "asset_type_id": "1",
+    "owner_id": "1",
+    "serial_number": "SN-RPP-6B3453-000326",
+    "manufacture_date": "2026-03-14",
+    "lifecycle_status": "available",
+    "created_at": "2026-08-28 20:53:30"
+  },
+  {
+    "asset_id": "327",
+    "asset_code": "ASSET-0000327",
+    "asset_type_id": "4",
+    "owner_id": "1",
+    "serial_number": "SN-LC-AD76B0-000327",
+    "manufacture_date": "2025-02-23",
+    "lifecycle_status": "in_use",
+    "created_at": "2026-03-16 19:14:32"
+  },
+  {
+    "asset_id": "328",
+    "asset_code": "ASSET-0000328",
+    "asset_type_id": "4",
+    "owner_id": "2",
+    "serial_number": "SN-LC-317669-000328",
+    "manufacture_date": "2023-10-02",
+    "lifecycle_status": "available",
+    "created_at": "2024-08-25 01:50:20"
+  },
+  {
+    "asset_id": "329",
+    "asset_code": "ASSET-0000329",
+    "asset_type_id": "4",
+    "owner_id": "3",
+    "serial_number": "SN-LC-1CB066-000329",
+    "manufacture_date": "2026-01-30",
+    "lifecycle_status": "lost",
+    "created_at": "2026-07-05 10:29:35"
+  },
+  {
+    "asset_id": "330",
+    "asset_code": "ASSET-0000330",
+    "asset_type_id": "5",
+    "owner_id": "3",
+    "serial_number": "SN-MHE-97CA81-000330",
+    "manufacture_date": "2025-09-22",
+    "lifecycle_status": "in_transit",
+    "created_at": "2026-01-22 10:06:49"
+  },
+  {
+    "asset_id": "331",
+    "asset_code": "ASSET-0000331",
+    "asset_type_id": "3",
+    "owner_id": "2",
+    "serial_number": "SN-RSB-BC373F-000331",
+    "manufacture_date": "2023-12-26",
+    "lifecycle_status": "in_use",
+    "created_at": "2025-10-14 21:30:12"
+  },
+  {
+    "asset_id": "332",
+    "asset_code": "ASSET-0000332",
+    "asset_type_id": "4",
+    "owner_id": "1",
+    "serial_number": "SN-LC-46E6B9-000332",
+    "manufacture_date": "2025-02-02",
+    "lifecycle_status": "in_transit",
+    "created_at": "2026-10-02 06:34:50"
+  },
+  {
+    "asset_id": "333",
+    "asset_code": "ASSET-0000333",
+    "asset_type_id": "5",
+    "owner_id": "1",
+    "serial_number": "SN-MHE-C6087D-000333",
+    "manufacture_date": "2024-12-04",
+    "lifecycle_status": "in_use",
+    "created_at": "2025-06-04 03:58:02"
+  },
+  {
+    "asset_id": "334",
+    "asset_code": "ASSET-0000334",
+    "asset_type_id": "2",
+    "owner_id": "3",
+    "serial_number": "SN-IC-4FBD92-000334",
+    "manufacture_date": "2025-05-07",
+    "lifecycle_status": "in_use",
+    "created_at": "2026-01-07 10:17:12"
+  },
+  {
+    "asset_id": "335",
+    "asset_code": "ASSET-0000335",
+    "asset_type_id": "1",
+    "owner_id": "3",
+    "serial_number": "SN-RPP-E1751F-000335",
+    "manufacture_date": "2023-08-31",
+    "lifecycle_status": "available",
+    "created_at": "2025-05-28 17:52:27"
+  },
+  {
+    "asset_id": "336",
+    "asset_code": "ASSET-0000336",
+    "asset_type_id": "1",
+    "owner_id": "2",
+    "serial_number": "SN-RPP-F8B59A-000336",
+    "manufacture_date": "2023-10-30",
+    "lifecycle_status": "in_transit",
+    "created_at": "2025-04-22 16:58:26"
+  },
+  {
+    "asset_id": "337",
+    "asset_code": "ASSET-0000337",
+    "asset_type_id": "5",
+    "owner_id": "3",
+    "serial_number": "SN-MHE-4FBC18-000337",
+    "manufacture_date": "2024-12-11",
+    "lifecycle_status": "in_transit",
+    "created_at": "2025-01-08 19:25:07"
+  },
+  {
+    "asset_id": "338",
+    "asset_code": "ASSET-0000338",
+    "asset_type_id": "3",
+    "owner_id": "2",
+    "serial_number": "SN-RSB-B51CBE-000338",
+    "manufacture_date": "2026-02-21",
+    "lifecycle_status": "available",
+    "created_at": "2026-09-03 17:13:33"
+  },
+  {
+    "asset_id": "339",
+    "asset_code": "ASSET-0000339",
+    "asset_type_id": "4",
+    "owner_id": "1",
+    "serial_number": "SN-LC-AB617D-000339",
+    "manufacture_date": "2023-12-26",
+    "lifecycle_status": "under_repair",
+    "created_at": "2026-03-26 13:21:49"
+  },
+  {
+    "asset_id": "340",
+    "asset_code": "ASSET-0000340",
+    "asset_type_id": "3",
+    "owner_id": "2",
+    "serial_number": "SN-RSB-EE3D7C-000340",
+    "manufacture_date": "2023-10-25",
+    "lifecycle_status": "in_use",
+    "created_at": "2025-07-01 17:52:43"
+  },
+  {
+    "asset_id": "341",
+    "asset_code": "ASSET-0000341",
+    "asset_type_id": "3",
+    "owner_id": "3",
+    "serial_number": "SN-RSB-FB67D9-000341",
+    "manufacture_date": "2026-01-27",
+    "lifecycle_status": "in_use",
+    "created_at": "2026-05-14 22:13:05"
+  },
+  {
+    "asset_id": "342",
+    "asset_code": "ASSET-0000342",
+    "asset_type_id": "1",
+    "owner_id": "3",
+    "serial_number": "SN-RPP-7763B2-000342",
+    "manufacture_date": "2025-10-27",
+    "lifecycle_status": "retired",
+    "created_at": "2025-12-20 22:53:23"
+  },
+  {
+    "asset_id": "343",
+    "asset_code": "ASSET-0000343",
+    "asset_type_id": "5",
+    "owner_id": "1",
+    "serial_number": "SN-MHE-FAC2F9-000343",
+    "manufacture_date": "2023-04-08",
+    "lifecycle_status": "retired",
+    "created_at": "2025-07-20 11:29:56"
+  },
+  {
+    "asset_id": "344",
+    "asset_code": "ASSET-0000344",
+    "asset_type_id": "3",
+    "owner_id": "3",
+    "serial_number": "SN-RSB-4E382C-000344",
+    "manufacture_date": "2023-11-10",
+    "lifecycle_status": "retired",
+    "created_at": "2024-04-01 19:35:55"
+  },
+  {
+    "asset_id": "345",
+    "asset_code": "ASSET-0000345",
+    "asset_type_id": "5",
+    "owner_id": "1",
+    "serial_number": "SN-MHE-CFC3BC-000345",
+    "manufacture_date": "2024-07-30",
+    "lifecycle_status": "in_use",
+    "created_at": "2025-11-26 14:02:44"
+  },
+  {
+    "asset_id": "346",
+    "asset_code": "ASSET-0000346",
+    "asset_type_id": "3",
+    "owner_id": "3",
+    "serial_number": "SN-RSB-EAA5A4-000346",
+    "manufacture_date": "2025-11-22",
+    "lifecycle_status": "lost",
+    "created_at": "2026-03-09 07:50:36"
+  },
+  {
+    "asset_id": "347",
+    "asset_code": "ASSET-0000347",
+    "asset_type_id": "4",
+    "owner_id": "2",
+    "serial_number": "SN-LC-ED0B31-000347",
+    "manufacture_date": "2024-08-13",
+    "lifecycle_status": "available",
+    "created_at": "2025-05-13 16:28:57"
+  },
+  {
+    "asset_id": "348",
+    "asset_code": "ASSET-0000348",
+    "asset_type_id": "1",
+    "owner_id": "3",
+    "serial_number": "SN-RPP-74880B-000348",
+    "manufacture_date": "2023-06-13",
+    "lifecycle_status": "in_use",
+    "created_at": "2025-05-15 07:34:40"
+  },
+  {
+    "asset_id": "349",
+    "asset_code": "ASSET-0000349",
+    "asset_type_id": "3",
+    "owner_id": "2",
+    "serial_number": "SN-RSB-C0B945-000349",
+    "manufacture_date": "2023-05-15",
+    "lifecycle_status": "in_use",
+    "created_at": "2025-06-26 22:43:30"
+  },
+  {
+    "asset_id": "350",
+    "asset_code": "ASSET-0000350",
+    "asset_type_id": "2",
+    "owner_id": "1",
+    "serial_number": "SN-IC-575C33-000350",
+    "manufacture_date": "2023-09-10",
+    "lifecycle_status": "available",
+    "created_at": "2026-05-16 07:35:31"
+  },
+  {
+    "asset_id": "351",
+    "asset_code": "ASSET-0000351",
+    "asset_type_id": "5",
+    "owner_id": "2",
+    "serial_number": "SN-MHE-3C2BB8-000351",
+    "manufacture_date": "2023-09-13",
+    "lifecycle_status": "under_repair",
+    "created_at": "2026-04-17 19:46:25"
+  },
+  {
+    "asset_id": "352",
+    "asset_code": "ASSET-0000352",
+    "asset_type_id": "5",
+    "owner_id": "3",
+    "serial_number": "SN-MHE-9BD30B-000352",
+    "manufacture_date": "2025-12-25",
+    "lifecycle_status": "in_use",
+    "created_at": "2026-06-12 23:51:53"
+  },
+  {
+    "asset_id": "353",
+    "asset_code": "ASSET-0000353",
+    "asset_type_id": "4",
+    "owner_id": "3",
+    "serial_number": "SN-LC-A81705-000353",
+    "manufacture_date": "2026-06-25",
+    "lifecycle_status": "under_repair",
+    "created_at": "2026-10-09 11:48:37"
+  },
+  {
+    "asset_id": "354",
+    "asset_code": "ASSET-0000354",
+    "asset_type_id": "2",
+    "owner_id": "3",
+    "serial_number": "SN-IC-562432-000354",
+    "manufacture_date": "2025-12-03",
+    "lifecycle_status": "in_use",
+    "created_at": "2026-04-18 03:43:34"
+  },
+  {
+    "asset_id": "355",
+    "asset_code": "ASSET-0000355",
+    "asset_type_id": "4",
+    "owner_id": "3",
+    "serial_number": "SN-LC-FB3ADB-000355",
+    "manufacture_date": "2024-09-18",
+    "lifecycle_status": "available",
+    "created_at": "2025-06-11 09:27:10"
+  },
+  {
+    "asset_id": "356",
+    "asset_code": "ASSET-0000356",
+    "asset_type_id": "2",
+    "owner_id": "3",
+    "serial_number": "SN-IC-3C1BD9-000356",
+    "manufacture_date": "2023-03-28",
+    "lifecycle_status": "available",
+    "created_at": "2025-12-24 00:44:54"
+  },
+  {
+    "asset_id": "357",
+    "asset_code": "ASSET-0000357",
+    "asset_type_id": "4",
+    "owner_id": "2",
+    "serial_number": "SN-LC-D2A1E5-000357",
+    "manufacture_date": "2024-05-18",
+    "lifecycle_status": "in_use",
+    "created_at": "2025-11-04 23:30:08"
+  },
+  {
+    "asset_id": "358",
+    "asset_code": "ASSET-0000358",
+    "asset_type_id": "3",
+    "owner_id": "3",
+    "serial_number": "SN-RSB-009A41-000358",
+    "manufacture_date": "2026-02-17",
+    "lifecycle_status": "retired",
+    "created_at": "2026-08-13 04:32:54"
+  },
+  {
+    "asset_id": "359",
+    "asset_code": "ASSET-0000359",
+    "asset_type_id": "4",
+    "owner_id": "3",
+    "serial_number": "SN-LC-87AE60-000359",
+    "manufacture_date": "2025-04-03",
+    "lifecycle_status": "available",
+    "created_at": "2026-02-26 16:50:29"
+  },
+  {
+    "asset_id": "360",
+    "asset_code": "ASSET-0000360",
+    "asset_type_id": "1",
+    "owner_id": "3",
+    "serial_number": "SN-RPP-6DF508-000360",
+    "manufacture_date": "2024-04-25",
+    "lifecycle_status": "lost",
+    "created_at": "2024-10-21 07:51:10"
+  },
+  {
+    "asset_id": "361",
+    "asset_code": "ASSET-0000361",
+    "asset_type_id": "4",
+    "owner_id": "2",
+    "serial_number": "SN-LC-868559-000361",
+    "manufacture_date": "2023-01-06",
+    "lifecycle_status": "available",
+    "created_at": "2024-06-19 03:22:30"
+  },
+  {
+    "asset_id": "362",
+    "asset_code": "ASSET-0000362",
+    "asset_type_id": "5",
+    "owner_id": "3",
+    "serial_number": "SN-MHE-4F1F4C-000362",
+    "manufacture_date": "2025-05-21",
+    "lifecycle_status": "in_use",
+    "created_at": "2026-06-05 20:45:16"
+  },
+  {
+    "asset_id": "363",
+    "asset_code": "ASSET-0000363",
+    "asset_type_id": "2",
+    "owner_id": "2",
+    "serial_number": "SN-IC-B64EA8-000363",
+    "manufacture_date": "2024-01-05",
+    "lifecycle_status": "lost",
+    "created_at": "2025-06-24 13:34:48"
+  },
+  {
+    "asset_id": "364",
+    "asset_code": "ASSET-0000364",
+    "asset_type_id": "4",
+    "owner_id": "3",
+    "serial_number": "SN-LC-B8F91A-000364",
+    "manufacture_date": "2025-09-05",
+    "lifecycle_status": "in_use",
+    "created_at": "2026-01-18 16:25:24"
+  },
+  {
+    "asset_id": "365",
+    "asset_code": "ASSET-0000365",
+    "asset_type_id": "4",
+    "owner_id": "3",
+    "serial_number": "SN-LC-B121E5-000365",
+    "manufacture_date": "2023-09-01",
+    "lifecycle_status": "retired",
+    "created_at": "2025-02-13 12:23:59"
+  },
+  {
+    "asset_id": "366",
+    "asset_code": "ASSET-0000366",
+    "asset_type_id": "1",
+    "owner_id": "2",
+    "serial_number": "SN-RPP-B2445E-000366",
+    "manufacture_date": "2023-01-25",
+    "lifecycle_status": "available",
+    "created_at": "2023-08-31 00:41:58"
+  },
+  {
+    "asset_id": "367",
+    "asset_code": "ASSET-0000367",
+    "asset_type_id": "3",
+    "owner_id": "3",
+    "serial_number": "SN-RSB-025FF8-000367",
+    "manufacture_date": "2025-11-06",
+    "lifecycle_status": "available",
+    "created_at": "2026-05-23 05:35:03"
+  },
+  {
+    "asset_id": "368",
+    "asset_code": "ASSET-0000368",
+    "asset_type_id": "1",
+    "owner_id": "1",
+    "serial_number": "SN-RPP-64F8BC-000368",
+    "manufacture_date": "2025-02-12",
+    "lifecycle_status": "in_use",
+    "created_at": "2025-09-25 04:33:52"
+  },
+  {
+    "asset_id": "369",
+    "asset_code": "ASSET-0000369",
+    "asset_type_id": "1",
+    "owner_id": "2",
+    "serial_number": "SN-RPP-30EB75-000369",
+    "manufacture_date": "2023-07-31",
+    "lifecycle_status": "in_use",
+    "created_at": "2024-09-21 04:17:06"
+  },
+  {
+    "asset_id": "370",
+    "asset_code": "ASSET-0000370",
+    "asset_type_id": "3",
+    "owner_id": "3",
+    "serial_number": "SN-RSB-2E2AEE-000370",
+    "manufacture_date": "2026-01-31",
+    "lifecycle_status": "in_use",
+    "created_at": "2026-05-22 20:50:56"
+  },
+  {
+    "asset_id": "371",
+    "asset_code": "ASSET-0000371",
+    "asset_type_id": "1",
+    "owner_id": "3",
+    "serial_number": "SN-RPP-879F9C-000371",
+    "manufacture_date": "2023-04-20",
+    "lifecycle_status": "available",
+    "created_at": "2025-12-16 04:06:09"
+  },
+  {
+    "asset_id": "372",
+    "asset_code": "ASSET-0000372",
+    "asset_type_id": "5",
+    "owner_id": "2",
+    "serial_number": "SN-MHE-8F88CF-000372",
+    "manufacture_date": "2024-11-24",
+    "lifecycle_status": "under_repair",
+    "created_at": "2026-09-12 08:54:37"
+  },
+  {
+    "asset_id": "373",
+    "asset_code": "ASSET-0000373",
+    "asset_type_id": "1",
+    "owner_id": "1",
+    "serial_number": "SN-RPP-0FA939-000373",
+    "manufacture_date": "2026-06-11",
+    "lifecycle_status": "available",
+    "created_at": "2026-06-17 18:45:25"
+  },
+  {
+    "asset_id": "374",
+    "asset_code": "ASSET-0000374",
+    "asset_type_id": "4",
+    "owner_id": "3",
+    "serial_number": "SN-LC-36F6F6-000374",
+    "manufacture_date": "2025-12-29",
+    "lifecycle_status": "in_transit",
+    "created_at": "2026-05-13 13:39:51"
+  },
+  {
+    "asset_id": "375",
+    "asset_code": "ASSET-0000375",
+    "asset_type_id": "4",
+    "owner_id": "1",
+    "serial_number": "SN-LC-46952B-000375",
+    "manufacture_date": "2023-09-16",
+    "lifecycle_status": "available",
+    "created_at": "2025-02-23 20:34:00"
+  },
+  {
+    "asset_id": "376",
+    "asset_code": "ASSET-0000376",
+    "asset_type_id": "4",
+    "owner_id": "1",
+    "serial_number": "SN-LC-866495-000376",
+    "manufacture_date": "2024-10-07",
+    "lifecycle_status": "in_use",
+    "created_at": "2025-08-29 09:13:40"
+  },
+  {
+    "asset_id": "377",
+    "asset_code": "ASSET-0000377",
+    "asset_type_id": "3",
+    "owner_id": "2",
+    "serial_number": "SN-RSB-A492C9-000377",
+    "manufacture_date": "2025-01-02",
+    "lifecycle_status": "in_use",
+    "created_at": "2025-10-08 23:09:41"
+  },
+  {
+    "asset_id": "378",
+    "asset_code": "ASSET-0000378",
+    "asset_type_id": "1",
+    "owner_id": "3",
+    "serial_number": "SN-RPP-31F34D-000378",
+    "manufacture_date": "2024-10-11",
+    "lifecycle_status": "available",
+    "created_at": "2025-06-26 22:19:43"
+  },
+  {
+    "asset_id": "379",
+    "asset_code": "ASSET-0000379",
+    "asset_type_id": "3",
+    "owner_id": "1",
+    "serial_number": "SN-RSB-B0D419-000379",
+    "manufacture_date": "2024-06-02",
+    "lifecycle_status": "in_use",
+    "created_at": "2024-08-30 12:59:11"
+  },
+  {
+    "asset_id": "380",
+    "asset_code": "ASSET-0000380",
+    "asset_type_id": "3",
+    "owner_id": "2",
+    "serial_number": "SN-RSB-9488F0-000380",
+    "manufacture_date": "2023-08-08",
+    "lifecycle_status": "in_transit",
+    "created_at": "2024-02-08 22:09:37"
+  },
+  {
+    "asset_id": "381",
+    "asset_code": "ASSET-0000381",
+    "asset_type_id": "4",
+    "owner_id": "3",
+    "serial_number": "SN-LC-9C365B-000381",
+    "manufacture_date": "2024-04-26",
+    "lifecycle_status": "in_use",
+    "created_at": "2025-09-07 04:28:26"
+  },
+  {
+    "asset_id": "382",
+    "asset_code": "ASSET-0000382",
+    "asset_type_id": "3",
+    "owner_id": "3",
+    "serial_number": "SN-RSB-C39628-000382",
+    "manufacture_date": "2025-09-12",
+    "lifecycle_status": "available",
+    "created_at": "2026-09-27 07:47:33"
+  },
+  {
+    "asset_id": "383",
+    "asset_code": "ASSET-0000383",
+    "asset_type_id": "4",
+    "owner_id": "1",
+    "serial_number": "SN-LC-80C9DF-000383",
+    "manufacture_date": "2024-04-15",
+    "lifecycle_status": "lost",
+    "created_at": "2026-06-27 18:19:35"
+  },
+  {
+    "asset_id": "384",
+    "asset_code": "ASSET-0000384",
+    "asset_type_id": "4",
+    "owner_id": "2",
+    "serial_number": "SN-LC-B30CF5-000384",
+    "manufacture_date": "2023-07-04",
+    "lifecycle_status": "in_use",
+    "created_at": "2026-10-14 01:30:51"
+  },
+  {
+    "asset_id": "385",
+    "asset_code": "ASSET-0000385",
+    "asset_type_id": "3",
+    "owner_id": "2",
+    "serial_number": "SN-RSB-5C3B22-000385",
+    "manufacture_date": "2023-05-16",
+    "lifecycle_status": "in_use",
+    "created_at": "2026-01-03 13:34:34"
+  },
+  {
+    "asset_id": "386",
+    "asset_code": "ASSET-0000386",
+    "asset_type_id": "1",
+    "owner_id": "2",
+    "serial_number": "SN-RPP-927145-000386",
+    "manufacture_date": "2024-05-11",
+    "lifecycle_status": "available",
+    "created_at": "2026-09-23 18:55:22"
+  },
+  {
+    "asset_id": "387",
+    "asset_code": "ASSET-0000387",
+    "asset_type_id": "3",
+    "owner_id": "2",
+    "serial_number": "SN-RSB-1F57A6-000387",
+    "manufacture_date": "2024-05-12",
+    "lifecycle_status": "in_use",
+    "created_at": "2025-10-01 03:18:08"
+  },
+  {
+    "asset_id": "388",
+    "asset_code": "ASSET-0000388",
+    "asset_type_id": "4",
+    "owner_id": "3",
+    "serial_number": "SN-LC-C1ED27-000388",
+    "manufacture_date": "2024-09-21",
+    "lifecycle_status": "under_repair",
+    "created_at": "2024-12-11 07:33:56"
+  },
+  {
+    "asset_id": "389",
+    "asset_code": "ASSET-0000389",
+    "asset_type_id": "5",
+    "owner_id": "3",
+    "serial_number": "SN-MHE-4158B0-000389",
+    "manufacture_date": "2024-06-25",
+    "lifecycle_status": "retired",
+    "created_at": "2024-09-05 13:23:44"
+  },
+  {
+    "asset_id": "390",
+    "asset_code": "ASSET-0000390",
+    "asset_type_id": "5",
+    "owner_id": "1",
+    "serial_number": "SN-MHE-61B391-000390",
+    "manufacture_date": "2024-03-09",
+    "lifecycle_status": "available",
+    "created_at": "2025-12-13 20:06:01"
+  },
+  {
+    "asset_id": "391",
+    "asset_code": "ASSET-0000391",
+    "asset_type_id": "4",
+    "owner_id": "2",
+    "serial_number": "SN-LC-620600-000391",
+    "manufacture_date": "2025-01-31",
+    "lifecycle_status": "under_repair",
+    "created_at": "2025-04-29 03:54:09"
+  },
+  {
+    "asset_id": "392",
+    "asset_code": "ASSET-0000392",
+    "asset_type_id": "3",
+    "owner_id": "3",
+    "serial_number": "SN-RSB-CE1923-000392",
+    "manufacture_date": "2025-05-06",
+    "lifecycle_status": "retired",
+    "created_at": "2025-05-07 12:58:58"
+  },
+  {
+    "asset_id": "393",
+    "asset_code": "ASSET-0000393",
+    "asset_type_id": "4",
+    "owner_id": "3",
+    "serial_number": "SN-LC-6B6515-000393",
+    "manufacture_date": "2024-03-05",
+    "lifecycle_status": "under_repair",
+    "created_at": "2025-05-04 08:29:17"
+  },
+  {
+    "asset_id": "394",
+    "asset_code": "ASSET-0000394",
+    "asset_type_id": "2",
+    "owner_id": "1",
+    "serial_number": "SN-IC-33FE73-000394",
+    "manufacture_date": "2025-03-09",
+    "lifecycle_status": "in_use",
+    "created_at": "2025-07-04 03:56:34"
+  },
+  {
+    "asset_id": "395",
+    "asset_code": "ASSET-0000395",
+    "asset_type_id": "2",
+    "owner_id": "1",
+    "serial_number": "SN-IC-442FFD-000395",
+    "manufacture_date": "2023-05-31",
+    "lifecycle_status": "available",
+    "created_at": "2024-03-16 22:49:45"
+  },
+  {
+    "asset_id": "396",
+    "asset_code": "ASSET-0000396",
+    "asset_type_id": "3",
+    "owner_id": "2",
+    "serial_number": "SN-RSB-AF8D1F-000396",
+    "manufacture_date": "2023-09-01",
+    "lifecycle_status": "in_use",
+    "created_at": "2024-01-23 18:58:25"
+  },
+  {
+    "asset_id": "397",
+    "asset_code": "ASSET-0000397",
+    "asset_type_id": "5",
+    "owner_id": "2",
+    "serial_number": "SN-MHE-8A4614-000397",
+    "manufacture_date": "2024-09-13",
+    "lifecycle_status": "in_use",
+    "created_at": "2026-09-06 17:08:32"
+  },
+  {
+    "asset_id": "398",
+    "asset_code": "ASSET-0000398",
+    "asset_type_id": "1",
+    "owner_id": "3",
+    "serial_number": "SN-RPP-8C6FB2-000398",
+    "manufacture_date": "2024-06-19",
+    "lifecycle_status": "in_use",
+    "created_at": "2025-07-16 17:20:22"
+  },
+  {
+    "asset_id": "399",
+    "asset_code": "ASSET-0000399",
+    "asset_type_id": "2",
+    "owner_id": "1",
+    "serial_number": "SN-IC-FF02D4-000399",
+    "manufacture_date": "2025-08-11",
+    "lifecycle_status": "in_use",
+    "created_at": "2026-02-11 19:20:05"
+  },
+  {
+    "asset_id": "400",
+    "asset_code": "ASSET-0000400",
+    "asset_type_id": "5",
+    "owner_id": "2",
+    "serial_number": "SN-MHE-B2312A-000400",
+    "manufacture_date": "2025-12-08",
+    "lifecycle_status": "lost",
+    "created_at": "2026-06-20 04:31:53"
+  },
+  {
+    "asset_id": "401",
+    "asset_code": "ASSET-0000401",
+    "asset_type_id": "5",
+    "owner_id": "2",
+    "serial_number": "SN-MHE-B8FFFF-000401",
+    "manufacture_date": "2023-08-24",
+    "lifecycle_status": "available",
+    "created_at": "2025-04-13 14:42:23"
+  },
+  {
+    "asset_id": "402",
+    "asset_code": "ASSET-0000402",
+    "asset_type_id": "1",
+    "owner_id": "1",
+    "serial_number": "SN-RPP-A3E16B-000402",
+    "manufacture_date": "2026-01-09",
+    "lifecycle_status": "under_repair",
+    "created_at": "2026-05-14 01:35:29"
+  },
+  {
+    "asset_id": "403",
+    "asset_code": "ASSET-0000403",
+    "asset_type_id": "4",
+    "owner_id": "2",
+    "serial_number": "SN-LC-1252BA-000403",
+    "manufacture_date": "2026-02-10",
+    "lifecycle_status": "in_use",
+    "created_at": "2026-04-10 12:42:02"
+  },
+  {
+    "asset_id": "404",
+    "asset_code": "ASSET-0000404",
+    "asset_type_id": "1",
+    "owner_id": "2",
+    "serial_number": "SN-RPP-02D5A3-000404",
+    "manufacture_date": "2023-04-09",
+    "lifecycle_status": "available",
+    "created_at": "2024-05-31 20:06:44"
+  },
+  {
+    "asset_id": "405",
+    "asset_code": "ASSET-0000405",
+    "asset_type_id": "3",
+    "owner_id": "2",
+    "serial_number": "SN-RSB-CC8AE9-000405",
+    "manufacture_date": "2025-01-31",
+    "lifecycle_status": "in_transit",
+    "created_at": "2026-08-09 20:05:31"
+  },
+  {
+    "asset_id": "406",
+    "asset_code": "ASSET-0000406",
+    "asset_type_id": "2",
+    "owner_id": "1",
+    "serial_number": "SN-IC-FE0C2D-000406",
+    "manufacture_date": "2023-04-14",
+    "lifecycle_status": "in_use",
+    "created_at": "2024-11-03 15:19:06"
+  },
+  {
+    "asset_id": "407",
+    "asset_code": "ASSET-0000407",
+    "asset_type_id": "1",
+    "owner_id": "2",
+    "serial_number": "SN-RPP-A726EF-000407",
+    "manufacture_date": "2025-05-23",
+    "lifecycle_status": "lost",
+    "created_at": "2025-10-15 17:11:20"
+  },
+  {
+    "asset_id": "408",
+    "asset_code": "ASSET-0000408",
+    "asset_type_id": "4",
+    "owner_id": "2",
+    "serial_number": "SN-LC-D4475C-000408",
+    "manufacture_date": "2024-06-13",
+    "lifecycle_status": "in_use",
+    "created_at": "2026-05-25 16:24:47"
+  },
+  {
+    "asset_id": "409",
+    "asset_code": "ASSET-0000409",
+    "asset_type_id": "2",
+    "owner_id": "2",
+    "serial_number": "SN-IC-5CB920-000409",
+    "manufacture_date": "2024-06-30",
+    "lifecycle_status": "in_use",
+    "created_at": "2024-10-30 23:03:07"
+  },
+  {
+    "asset_id": "410",
+    "asset_code": "ASSET-0000410",
+    "asset_type_id": "2",
+    "owner_id": "1",
+    "serial_number": "SN-IC-45407A-000410",
+    "manufacture_date": "2023-10-20",
+    "lifecycle_status": "lost",
+    "created_at": "2025-05-12 07:43:57"
+  },
+  {
+    "asset_id": "411",
+    "asset_code": "ASSET-0000411",
+    "asset_type_id": "5",
+    "owner_id": "2",
+    "serial_number": "SN-MHE-AC65A9-000411",
+    "manufacture_date": "2026-01-28",
+    "lifecycle_status": "in_use",
+    "created_at": "2026-03-27 19:57:46"
+  },
+  {
+    "asset_id": "412",
+    "asset_code": "ASSET-0000412",
+    "asset_type_id": "2",
+    "owner_id": "2",
+    "serial_number": "SN-IC-53AEAC-000412",
+    "manufacture_date": "2024-05-31",
+    "lifecycle_status": "in_use",
+    "created_at": "2024-09-08 03:47:47"
+  },
+  {
+    "asset_id": "413",
+    "asset_code": "ASSET-0000413",
+    "asset_type_id": "4",
+    "owner_id": "2",
+    "serial_number": "SN-LC-ABBF34-000413",
+    "manufacture_date": "2024-01-21",
+    "lifecycle_status": "available",
+    "created_at": "2024-08-22 22:59:16"
+  },
+  {
+    "asset_id": "414",
+    "asset_code": "ASSET-0000414",
+    "asset_type_id": "1",
+    "owner_id": "1",
+    "serial_number": "SN-RPP-64D092-000414",
+    "manufacture_date": "2024-07-02",
+    "lifecycle_status": "in_use",
+    "created_at": "2024-11-26 10:56:25"
+  },
+  {
+    "asset_id": "415",
+    "asset_code": "ASSET-0000415",
+    "asset_type_id": "5",
+    "owner_id": "2",
+    "serial_number": "SN-MHE-E8CD88-000415",
+    "manufacture_date": "2025-08-04",
+    "lifecycle_status": "retired",
+    "created_at": "2025-08-20 23:46:36"
+  },
+  {
+    "asset_id": "416",
+    "asset_code": "ASSET-0000416",
+    "asset_type_id": "3",
+    "owner_id": "3",
+    "serial_number": "SN-RSB-4FD41D-000416",
+    "manufacture_date": "2023-03-04",
+    "lifecycle_status": "in_transit",
+    "created_at": "2024-04-02 02:11:29"
+  },
+  {
+    "asset_id": "417",
+    "asset_code": "ASSET-0000417",
+    "asset_type_id": "5",
+    "owner_id": "1",
+    "serial_number": "SN-MHE-B1758A-000417",
+    "manufacture_date": "2023-03-13",
+    "lifecycle_status": "available",
+    "created_at": "2024-10-11 05:50:16"
+  },
+  {
+    "asset_id": "418",
+    "asset_code": "ASSET-0000418",
+    "asset_type_id": "1",
+    "owner_id": "3",
+    "serial_number": "SN-RPP-E27207-000418",
+    "manufacture_date": "2024-07-04",
+    "lifecycle_status": "under_repair",
+    "created_at": "2026-05-24 17:35:17"
+  },
+  {
+    "asset_id": "419",
+    "asset_code": "ASSET-0000419",
+    "asset_type_id": "4",
+    "owner_id": "3",
+    "serial_number": "SN-LC-94EA7B-000419",
+    "manufacture_date": "2023-03-08",
+    "lifecycle_status": "under_repair",
+    "created_at": "2025-03-19 00:37:11"
+  },
+  {
+    "asset_id": "420",
+    "asset_code": "ASSET-0000420",
+    "asset_type_id": "1",
+    "owner_id": "1",
+    "serial_number": "SN-RPP-D161D6-000420",
+    "manufacture_date": "2023-06-25",
+    "lifecycle_status": "under_repair",
+    "created_at": "2023-12-15 01:20:16"
+  },
+  {
+    "asset_id": "421",
+    "asset_code": "ASSET-0000421",
+    "asset_type_id": "3",
+    "owner_id": "3",
+    "serial_number": "SN-RSB-BD5A04-000421",
+    "manufacture_date": "2023-11-24",
+    "lifecycle_status": "available",
+    "created_at": "2025-04-15 01:22:38"
+  },
+  {
+    "asset_id": "422",
+    "asset_code": "ASSET-0000422",
+    "asset_type_id": "3",
+    "owner_id": "1",
+    "serial_number": "SN-RSB-E4FC61-000422",
+    "manufacture_date": "2024-05-27",
+    "lifecycle_status": "available",
+    "created_at": "2026-07-31 05:42:17"
+  },
+  {
+    "asset_id": "423",
+    "asset_code": "ASSET-0000423",
+    "asset_type_id": "3",
+    "owner_id": "3",
+    "serial_number": "SN-RSB-B0DE4A-000423",
+    "manufacture_date": "2023-03-08",
+    "lifecycle_status": "under_repair",
+    "created_at": "2026-02-02 08:50:35"
+  },
+  {
+    "asset_id": "424",
+    "asset_code": "ASSET-0000424",
+    "asset_type_id": "4",
+    "owner_id": "1",
+    "serial_number": "SN-LC-1F0916-000424",
+    "manufacture_date": "2024-01-08",
+    "lifecycle_status": "under_repair",
+    "created_at": "2024-07-01 19:07:18"
+  },
+  {
+    "asset_id": "425",
+    "asset_code": "ASSET-0000425",
+    "asset_type_id": "3",
+    "owner_id": "1",
+    "serial_number": "SN-RSB-D9E672-000425",
+    "manufacture_date": "2024-01-05",
+    "lifecycle_status": "available",
+    "created_at": "2024-11-09 19:18:47"
+  },
+  {
+    "asset_id": "426",
+    "asset_code": "ASSET-0000426",
+    "asset_type_id": "3",
+    "owner_id": "2",
+    "serial_number": "SN-RSB-1F6638-000426",
+    "manufacture_date": "2023-09-22",
+    "lifecycle_status": "available",
+    "created_at": "2024-09-18 02:13:49"
+  },
+  {
+    "asset_id": "427",
+    "asset_code": "ASSET-0000427",
+    "asset_type_id": "5",
+    "owner_id": "3",
+    "serial_number": "SN-MHE-5E214C-000427",
+    "manufacture_date": "2024-02-19",
+    "lifecycle_status": "under_repair",
+    "created_at": "2024-10-23 17:04:37"
+  },
+  {
+    "asset_id": "428",
+    "asset_code": "ASSET-0000428",
+    "asset_type_id": "2",
+    "owner_id": "3",
+    "serial_number": "SN-IC-51F0C6-000428",
+    "manufacture_date": "2023-10-16",
+    "lifecycle_status": "in_use",
+    "created_at": "2025-04-13 20:09:37"
+  },
+  {
+    "asset_id": "429",
+    "asset_code": "ASSET-0000429",
+    "asset_type_id": "1",
+    "owner_id": "1",
+    "serial_number": "SN-RPP-F7449A-000429",
+    "manufacture_date": "2024-02-18",
+    "lifecycle_status": "retired",
+    "created_at": "2026-05-22 19:00:38"
+  },
+  {
+    "asset_id": "430",
+    "asset_code": "ASSET-0000430",
+    "asset_type_id": "5",
+    "owner_id": "3",
+    "serial_number": "SN-MHE-ABCEDB-000430",
+    "manufacture_date": "2024-11-16",
+    "lifecycle_status": "in_transit",
+    "created_at": "2024-12-05 10:17:53"
+  },
+  {
+    "asset_id": "431",
+    "asset_code": "ASSET-0000431",
+    "asset_type_id": "5",
+    "owner_id": "1",
+    "serial_number": "SN-MHE-616423-000431",
+    "manufacture_date": "2025-05-12",
+    "lifecycle_status": "retired",
+    "created_at": "2026-09-21 15:49:08"
+  },
+  {
+    "asset_id": "432",
+    "asset_code": "ASSET-0000432",
+    "asset_type_id": "2",
+    "owner_id": "1",
+    "serial_number": "SN-IC-104D4E-000432",
+    "manufacture_date": "2026-05-27",
+    "lifecycle_status": "retired",
+    "created_at": "2026-08-14 21:41:08"
+  },
+  {
+    "asset_id": "433",
+    "asset_code": "ASSET-0000433",
+    "asset_type_id": "2",
+    "owner_id": "2",
+    "serial_number": "SN-IC-E30062-000433",
+    "manufacture_date": "2024-12-28",
+    "lifecycle_status": "in_use",
+    "created_at": "2025-10-14 01:50:20"
+  },
+  {
+    "asset_id": "434",
+    "asset_code": "ASSET-0000434",
+    "asset_type_id": "2",
+    "owner_id": "2",
+    "serial_number": "SN-IC-2F1A16-000434",
+    "manufacture_date": "2025-06-19",
+    "lifecycle_status": "in_use",
+    "created_at": "2026-03-19 04:45:06"
+  },
+  {
+    "asset_id": "435",
+    "asset_code": "ASSET-0000435",
+    "asset_type_id": "5",
+    "owner_id": "1",
+    "serial_number": "SN-MHE-EAE2BB-000435",
+    "manufacture_date": "2024-05-10",
+    "lifecycle_status": "under_repair",
+    "created_at": "2025-01-31 18:10:10"
+  },
+  {
+    "asset_id": "436",
+    "asset_code": "ASSET-0000436",
+    "asset_type_id": "4",
+    "owner_id": "2",
+    "serial_number": "SN-LC-493218-000436",
+    "manufacture_date": "2026-06-20",
+    "lifecycle_status": "in_use",
+    "created_at": "2026-08-19 11:53:10"
+  },
+  {
+    "asset_id": "437",
+    "asset_code": "ASSET-0000437",
+    "asset_type_id": "4",
+    "owner_id": "2",
+    "serial_number": "SN-LC-CFFD67-000437",
+    "manufacture_date": "2025-01-20",
+    "lifecycle_status": "in_use",
+    "created_at": "2026-01-01 09:52:32"
+  },
+  {
+    "asset_id": "438",
+    "asset_code": "ASSET-0000438",
+    "asset_type_id": "4",
+    "owner_id": "3",
+    "serial_number": "SN-LC-B3C7B2-000438",
+    "manufacture_date": "2023-10-12",
+    "lifecycle_status": "in_use",
+    "created_at": "2024-04-30 17:52:16"
+  },
+  {
+    "asset_id": "439",
+    "asset_code": "ASSET-0000439",
+    "asset_type_id": "4",
+    "owner_id": "3",
+    "serial_number": "SN-LC-5D00ED-000439",
+    "manufacture_date": "2024-02-20",
+    "lifecycle_status": "in_use",
+    "created_at": "2024-06-13 10:02:06"
+  },
+  {
+    "asset_id": "440",
+    "asset_code": "ASSET-0000440",
+    "asset_type_id": "3",
+    "owner_id": "3",
+    "serial_number": "SN-RSB-1BF91A-000440",
+    "manufacture_date": "2024-03-15",
+    "lifecycle_status": "retired",
+    "created_at": "2026-02-09 06:56:38"
+  },
+  {
+    "asset_id": "441",
+    "asset_code": "ASSET-0000441",
+    "asset_type_id": "1",
+    "owner_id": "2",
+    "serial_number": "SN-RPP-928CDA-000441",
+    "manufacture_date": "2026-05-04",
+    "lifecycle_status": "available",
+    "created_at": "2026-09-27 02:09:16"
+  },
+  {
+    "asset_id": "442",
+    "asset_code": "ASSET-0000442",
+    "asset_type_id": "4",
+    "owner_id": "1",
+    "serial_number": "SN-LC-C35891-000442",
+    "manufacture_date": "2025-06-30",
+    "lifecycle_status": "in_use",
+    "created_at": "2025-09-18 07:58:20"
+  },
+  {
+    "asset_id": "443",
+    "asset_code": "ASSET-0000443",
+    "asset_type_id": "5",
+    "owner_id": "3",
+    "serial_number": "SN-MHE-839406-000443",
+    "manufacture_date": "2023-07-06",
+    "lifecycle_status": "retired",
+    "created_at": "2025-10-03 21:09:58"
+  },
+  {
+    "asset_id": "444",
+    "asset_code": "ASSET-0000444",
+    "asset_type_id": "2",
+    "owner_id": "2",
+    "serial_number": "SN-IC-A963A9-000444",
+    "manufacture_date": "2023-04-20",
+    "lifecycle_status": "in_use",
+    "created_at": "2023-07-25 16:35:33"
+  },
+  {
+    "asset_id": "445",
+    "asset_code": "ASSET-0000445",
+    "asset_type_id": "4",
+    "owner_id": "2",
+    "serial_number": "SN-LC-3776E7-000445",
+    "manufacture_date": "2026-01-20",
+    "lifecycle_status": "retired",
+    "created_at": "2026-06-30 23:26:26"
+  },
+  {
+    "asset_id": "446",
+    "asset_code": "ASSET-0000446",
+    "asset_type_id": "3",
+    "owner_id": "1",
+    "serial_number": "SN-RSB-80794E-000446",
+    "manufacture_date": "2025-04-11",
+    "lifecycle_status": "under_repair",
+    "created_at": "2025-12-10 05:29:33"
+  },
+  {
+    "asset_id": "447",
+    "asset_code": "ASSET-0000447",
+    "asset_type_id": "5",
+    "owner_id": "2",
+    "serial_number": "SN-MHE-71B41A-000447",
+    "manufacture_date": "2025-09-24",
+    "lifecycle_status": "in_use",
+    "created_at": "2026-03-04 17:05:26"
+  },
+  {
+    "asset_id": "448",
+    "asset_code": "ASSET-0000448",
+    "asset_type_id": "5",
+    "owner_id": "1",
+    "serial_number": "SN-MHE-66C3D1-000448",
+    "manufacture_date": "2026-04-07",
+    "lifecycle_status": "in_use",
+    "created_at": "2026-09-20 20:42:22"
+  },
+  {
+    "asset_id": "449",
+    "asset_code": "ASSET-0000449",
+    "asset_type_id": "3",
+    "owner_id": "3",
+    "serial_number": "SN-RSB-F72491-000449",
+    "manufacture_date": "2025-09-17",
+    "lifecycle_status": "in_use",
+    "created_at": "2026-01-01 04:26:29"
+  },
+  {
+    "asset_id": "450",
+    "asset_code": "ASSET-0000450",
+    "asset_type_id": "5",
+    "owner_id": "2",
+    "serial_number": "SN-MHE-24C578-000450",
+    "manufacture_date": "2025-01-16",
+    "lifecycle_status": "in_use",
+    "created_at": "2026-09-25 05:47:51"
+  },
+  {
+    "asset_id": "451",
+    "asset_code": "ASSET-0000451",
+    "asset_type_id": "5",
+    "owner_id": "1",
+    "serial_number": "SN-MHE-7DFDE6-000451",
+    "manufacture_date": "2024-10-15",
+    "lifecycle_status": "in_use",
+    "created_at": "2025-02-20 04:38:14"
+  },
+  {
+    "asset_id": "452",
+    "asset_code": "ASSET-0000452",
+    "asset_type_id": "1",
+    "owner_id": "2",
+    "serial_number": "SN-RPP-8CA83D-000452",
+    "manufacture_date": "2024-07-02",
+    "lifecycle_status": "in_use",
+    "created_at": "2025-03-02 07:44:34"
+  },
+  {
+    "asset_id": "453",
+    "asset_code": "ASSET-0000453",
+    "asset_type_id": "5",
+    "owner_id": "1",
+    "serial_number": "SN-MHE-36DA53-000453",
+    "manufacture_date": "2023-07-01",
+    "lifecycle_status": "in_use",
+    "created_at": "2023-07-12 23:36:45"
+  },
+  {
+    "asset_id": "454",
+    "asset_code": "ASSET-0000454",
+    "asset_type_id": "4",
+    "owner_id": "1",
+    "serial_number": "SN-LC-64B836-000454",
+    "manufacture_date": "2025-11-19",
+    "lifecycle_status": "available",
+    "created_at": "2026-06-09 00:10:08"
+  },
+  {
+    "asset_id": "455",
+    "asset_code": "ASSET-0000455",
+    "asset_type_id": "5",
+    "owner_id": "3",
+    "serial_number": "SN-MHE-2858AC-000455",
+    "manufacture_date": "2024-05-17",
+    "lifecycle_status": "retired",
+    "created_at": "2026-05-03 11:23:08"
+  },
+  {
+    "asset_id": "456",
+    "asset_code": "ASSET-0000456",
+    "asset_type_id": "5",
+    "owner_id": "3",
+    "serial_number": "SN-MHE-8D5D5E-000456",
+    "manufacture_date": "2025-07-15",
+    "lifecycle_status": "in_use",
+    "created_at": "2025-11-16 11:30:59"
+  },
+  {
+    "asset_id": "457",
+    "asset_code": "ASSET-0000457",
+    "asset_type_id": "1",
+    "owner_id": "1",
+    "serial_number": "SN-RPP-58B3F7-000457",
+    "manufacture_date": "2023-12-11",
+    "lifecycle_status": "in_use",
+    "created_at": "2026-06-17 12:49:42"
+  },
+  {
+    "asset_id": "458",
+    "asset_code": "ASSET-0000458",
+    "asset_type_id": "4",
+    "owner_id": "3",
+    "serial_number": "SN-LC-B7B678-000458",
+    "manufacture_date": "2024-02-26",
+    "lifecycle_status": "lost",
+    "created_at": "2025-01-21 10:45:41"
+  },
+  {
+    "asset_id": "459",
+    "asset_code": "ASSET-0000459",
+    "asset_type_id": "3",
+    "owner_id": "2",
+    "serial_number": "SN-RSB-50657A-000459",
+    "manufacture_date": "2026-03-02",
+    "lifecycle_status": "available",
+    "created_at": "2026-08-17 18:02:45"
+  },
+  {
+    "asset_id": "460",
+    "asset_code": "ASSET-0000460",
+    "asset_type_id": "2",
+    "owner_id": "2",
+    "serial_number": "SN-IC-AE15BD-000460",
+    "manufacture_date": "2024-07-25",
+    "lifecycle_status": "in_transit",
+    "created_at": "2025-11-10 07:58:02"
+  },
+  {
+    "asset_id": "461",
+    "asset_code": "ASSET-0000461",
+    "asset_type_id": "1",
+    "owner_id": "2",
+    "serial_number": "SN-RPP-778043-000461",
+    "manufacture_date": "2024-01-04",
+    "lifecycle_status": "retired",
+    "created_at": "2024-02-17 12:22:03"
+  },
+  {
+    "asset_id": "462",
+    "asset_code": "ASSET-0000462",
+    "asset_type_id": "2",
+    "owner_id": "3",
+    "serial_number": "SN-IC-B008A6-000462",
+    "manufacture_date": "2025-12-24",
+    "lifecycle_status": "in_use",
+    "created_at": "2026-05-17 20:24:16"
+  },
+  {
+    "asset_id": "463",
+    "asset_code": "ASSET-0000463",
+    "asset_type_id": "1",
+    "owner_id": "3",
+    "serial_number": "SN-RPP-C321EA-000463",
+    "manufacture_date": "2025-06-05",
+    "lifecycle_status": "available",
+    "created_at": "2026-03-12 17:38:41"
+  },
+  {
+    "asset_id": "464",
+    "asset_code": "ASSET-0000464",
+    "asset_type_id": "1",
+    "owner_id": "2",
+    "serial_number": "SN-RPP-81BA84-000464",
+    "manufacture_date": "2023-06-11",
+    "lifecycle_status": "available",
+    "created_at": "2023-11-15 03:15:24"
+  },
+  {
+    "asset_id": "465",
+    "asset_code": "ASSET-0000465",
+    "asset_type_id": "5",
+    "owner_id": "1",
+    "serial_number": "SN-MHE-CC0A29-000465",
+    "manufacture_date": "2023-08-06",
+    "lifecycle_status": "available",
+    "created_at": "2023-08-16 18:07:47"
+  },
+  {
+    "asset_id": "466",
+    "asset_code": "ASSET-0000466",
+    "asset_type_id": "5",
+    "owner_id": "3",
+    "serial_number": "SN-MHE-B0EBDE-000466",
+    "manufacture_date": "2023-12-17",
+    "lifecycle_status": "available",
+    "created_at": "2024-02-12 11:12:12"
+  },
+  {
+    "asset_id": "467",
+    "asset_code": "ASSET-0000467",
+    "asset_type_id": "1",
+    "owner_id": "3",
+    "serial_number": "SN-RPP-5AECB7-000467",
+    "manufacture_date": "2025-04-09",
+    "lifecycle_status": "retired",
+    "created_at": "2025-12-08 10:14:30"
+  },
+  {
+    "asset_id": "468",
+    "asset_code": "ASSET-0000468",
+    "asset_type_id": "4",
+    "owner_id": "3",
+    "serial_number": "SN-LC-8523BF-000468",
+    "manufacture_date": "2025-12-29",
+    "lifecycle_status": "in_use",
+    "created_at": "2026-08-06 22:16:31"
+  },
+  {
+    "asset_id": "469",
+    "asset_code": "ASSET-0000469",
+    "asset_type_id": "3",
+    "owner_id": "3",
+    "serial_number": "SN-RSB-535AAB-000469",
+    "manufacture_date": "2026-06-02",
+    "lifecycle_status": "in_use",
+    "created_at": "2026-10-18 18:52:23"
+  },
+  {
+    "asset_id": "470",
+    "asset_code": "ASSET-0000470",
+    "asset_type_id": "4",
+    "owner_id": "2",
+    "serial_number": "SN-LC-BE193F-000470",
+    "manufacture_date": "2025-09-13",
+    "lifecycle_status": "available",
+    "created_at": "2025-12-27 20:43:50"
+  },
+  {
+    "asset_id": "471",
+    "asset_code": "ASSET-0000471",
+    "asset_type_id": "4",
+    "owner_id": "2",
+    "serial_number": "SN-LC-5DA936-000471",
+    "manufacture_date": "2023-07-19",
+    "lifecycle_status": "in_use",
+    "created_at": "2024-12-04 08:43:19"
+  },
+  {
+    "asset_id": "472",
+    "asset_code": "ASSET-0000472",
+    "asset_type_id": "4",
+    "owner_id": "2",
+    "serial_number": "SN-LC-A68161-000472",
+    "manufacture_date": "2025-08-27",
+    "lifecycle_status": "retired",
+    "created_at": "2026-07-09 16:41:40"
+  },
+  {
+    "asset_id": "473",
+    "asset_code": "ASSET-0000473",
+    "asset_type_id": "1",
+    "owner_id": "2",
+    "serial_number": "SN-RPP-414318-000473",
+    "manufacture_date": "2023-03-11",
+    "lifecycle_status": "under_repair",
+    "created_at": "2026-05-17 21:29:59"
+  },
+  {
+    "asset_id": "474",
+    "asset_code": "ASSET-0000474",
+    "asset_type_id": "2",
+    "owner_id": "3",
+    "serial_number": "SN-IC-1AB092-000474",
+    "manufacture_date": "2024-08-20",
+    "lifecycle_status": "in_use",
+    "created_at": "2025-03-07 14:05:07"
+  },
+  {
+    "asset_id": "475",
+    "asset_code": "ASSET-0000475",
+    "asset_type_id": "4",
+    "owner_id": "3",
+    "serial_number": "SN-LC-40D087-000475",
+    "manufacture_date": "2023-02-23",
+    "lifecycle_status": "in_use",
+    "created_at": "2025-11-28 21:42:50"
+  },
+  {
+    "asset_id": "476",
+    "asset_code": "ASSET-0000476",
+    "asset_type_id": "3",
+    "owner_id": "2",
+    "serial_number": "SN-RSB-5754B8-000476",
+    "manufacture_date": "2023-04-07",
+    "lifecycle_status": "under_repair",
+    "created_at": "2025-04-06 10:02:02"
+  },
+  {
+    "asset_id": "477",
+    "asset_code": "ASSET-0000477",
+    "asset_type_id": "5",
+    "owner_id": "2",
+    "serial_number": "SN-MHE-944C91-000477",
+    "manufacture_date": "2023-09-25",
+    "lifecycle_status": "in_use",
+    "created_at": "2026-06-26 19:35:14"
+  },
+  {
+    "asset_id": "478",
+    "asset_code": "ASSET-0000478",
+    "asset_type_id": "4",
+    "owner_id": "3",
+    "serial_number": "SN-LC-1DA6D0-000478",
+    "manufacture_date": "2024-08-05",
+    "lifecycle_status": "lost",
+    "created_at": "2025-01-01 16:48:40"
+  },
+  {
+    "asset_id": "479",
+    "asset_code": "ASSET-0000479",
+    "asset_type_id": "2",
+    "owner_id": "3",
+    "serial_number": "SN-IC-85448C-000479",
+    "manufacture_date": "2026-04-20",
+    "lifecycle_status": "in_use",
+    "created_at": "2026-08-06 20:31:34"
+  },
+  {
+    "asset_id": "480",
+    "asset_code": "ASSET-0000480",
+    "asset_type_id": "1",
+    "owner_id": "3",
+    "serial_number": "SN-RPP-920F48-000480",
+    "manufacture_date": "2023-08-30",
+    "lifecycle_status": "available",
+    "created_at": "2024-06-29 05:09:25"
+  },
+  {
+    "asset_id": "481",
+    "asset_code": "ASSET-0000481",
+    "asset_type_id": "3",
+    "owner_id": "1",
+    "serial_number": "SN-RSB-EBC73A-000481",
+    "manufacture_date": "2026-01-19",
+    "lifecycle_status": "in_transit",
+    "created_at": "2026-02-17 15:23:38"
+  },
+  {
+    "asset_id": "482",
+    "asset_code": "ASSET-0000482",
+    "asset_type_id": "5",
+    "owner_id": "3",
+    "serial_number": "SN-MHE-88B342-000482",
+    "manufacture_date": "2024-09-25",
+    "lifecycle_status": "in_use",
+    "created_at": "2026-07-12 23:05:13"
+  },
+  {
+    "asset_id": "483",
+    "asset_code": "ASSET-0000483",
+    "asset_type_id": "3",
+    "owner_id": "2",
+    "serial_number": "SN-RSB-1A6E29-000483",
+    "manufacture_date": "2026-01-30",
+    "lifecycle_status": "retired",
+    "created_at": "2026-05-06 17:09:27"
+  },
+  {
+    "asset_id": "484",
+    "asset_code": "ASSET-0000484",
+    "asset_type_id": "1",
+    "owner_id": "2",
+    "serial_number": "SN-RPP-C19364-000484",
+    "manufacture_date": "2023-06-22",
+    "lifecycle_status": "in_transit",
+    "created_at": "2024-03-04 10:15:19"
+  },
+  {
+    "asset_id": "485",
+    "asset_code": "ASSET-0000485",
+    "asset_type_id": "4",
+    "owner_id": "3",
+    "serial_number": "SN-LC-F5A45E-000485",
+    "manufacture_date": "2026-03-21",
+    "lifecycle_status": "in_use",
+    "created_at": "2026-08-11 00:39:44"
+  },
+  {
+    "asset_id": "486",
+    "asset_code": "ASSET-0000486",
+    "asset_type_id": "5",
+    "owner_id": "3",
+    "serial_number": "SN-MHE-C288C0-000486",
+    "manufacture_date": "2024-05-28",
+    "lifecycle_status": "available",
+    "created_at": "2026-01-08 08:50:45"
+  },
+  {
+    "asset_id": "487",
+    "asset_code": "ASSET-0000487",
+    "asset_type_id": "2",
+    "owner_id": "3",
+    "serial_number": "SN-IC-8A8B3B-000487",
+    "manufacture_date": "2024-05-07",
+    "lifecycle_status": "in_use",
+    "created_at": "2026-02-21 03:07:00"
+  },
+  {
+    "asset_id": "488",
+    "asset_code": "ASSET-0000488",
+    "asset_type_id": "1",
+    "owner_id": "1",
+    "serial_number": "SN-RPP-201EC5-000488",
+    "manufacture_date": "2026-04-15",
+    "lifecycle_status": "available",
+    "created_at": "2026-07-19 10:40:42"
+  },
+  {
+    "asset_id": "489",
+    "asset_code": "ASSET-0000489",
+    "asset_type_id": "5",
+    "owner_id": "3",
+    "serial_number": "SN-MHE-839B27-000489",
+    "manufacture_date": "2023-01-30",
+    "lifecycle_status": "retired",
+    "created_at": "2026-09-06 18:48:50"
+  },
+  {
+    "asset_id": "490",
+    "asset_code": "ASSET-0000490",
+    "asset_type_id": "4",
+    "owner_id": "1",
+    "serial_number": "SN-LC-007773-000490",
+    "manufacture_date": "2025-12-19",
+    "lifecycle_status": "in_use",
+    "created_at": "2026-09-20 20:40:49"
+  },
+  {
+    "asset_id": "491",
+    "asset_code": "ASSET-0000491",
+    "asset_type_id": "4",
+    "owner_id": "3",
+    "serial_number": "SN-LC-AB2505-000491",
+    "manufacture_date": "2025-05-24",
+    "lifecycle_status": "available",
+    "created_at": "2026-07-04 04:19:54"
+  },
+  {
+    "asset_id": "492",
+    "asset_code": "ASSET-0000492",
+    "asset_type_id": "5",
+    "owner_id": "3",
+    "serial_number": "SN-MHE-9AA002-000492",
+    "manufacture_date": "2025-12-03",
+    "lifecycle_status": "in_use",
+    "created_at": "2026-01-19 09:21:37"
+  },
+  {
+    "asset_id": "493",
+    "asset_code": "ASSET-0000493",
+    "asset_type_id": "2",
+    "owner_id": "1",
+    "serial_number": "SN-IC-8C0F75-000493",
+    "manufacture_date": "2024-02-12",
+    "lifecycle_status": "retired",
+    "created_at": "2025-08-13 06:05:14"
+  },
+  {
+    "asset_id": "494",
+    "asset_code": "ASSET-0000494",
+    "asset_type_id": "4",
+    "owner_id": "2",
+    "serial_number": "SN-LC-9D6AA9-000494",
+    "manufacture_date": "2025-09-10",
+    "lifecycle_status": "lost",
+    "created_at": "2026-08-22 06:59:17"
+  },
+  {
+    "asset_id": "495",
+    "asset_code": "ASSET-0000495",
+    "asset_type_id": "2",
+    "owner_id": "3",
+    "serial_number": "SN-IC-507C04-000495",
+    "manufacture_date": "2023-04-16",
+    "lifecycle_status": "retired",
+    "created_at": "2024-12-02 13:28:45"
+  },
+  {
+    "asset_id": "496",
+    "asset_code": "ASSET-0000496",
+    "asset_type_id": "3",
+    "owner_id": "2",
+    "serial_number": "SN-RSB-92D850-000496",
+    "manufacture_date": "2024-09-13",
+    "lifecycle_status": "available",
+    "created_at": "2026-02-28 05:33:25"
+  },
+  {
+    "asset_id": "497",
+    "asset_code": "ASSET-0000497",
+    "asset_type_id": "5",
+    "owner_id": "3",
+    "serial_number": "SN-MHE-ACFBD5-000497",
+    "manufacture_date": "2025-04-27",
+    "lifecycle_status": "available",
+    "created_at": "2025-09-21 13:31:54"
+  },
+  {
+    "asset_id": "498",
+    "asset_code": "ASSET-0000498",
+    "asset_type_id": "5",
+    "owner_id": "3",
+    "serial_number": "SN-MHE-482D55-000498",
+    "manufacture_date": "2023-07-18",
+    "lifecycle_status": "in_transit",
+    "created_at": "2025-01-14 21:21:08"
+  },
+  {
+    "asset_id": "499",
+    "asset_code": "ASSET-0000499",
+    "asset_type_id": "2",
+    "owner_id": "2",
+    "serial_number": "SN-IC-9F59C8-000499",
+    "manufacture_date": "2024-05-05",
+    "lifecycle_status": "available",
+    "created_at": "2024-05-11 06:20:29"
+  },
+  {
+    "asset_id": "500",
+    "asset_code": "ASSET-0000500",
+    "asset_type_id": "3",
+    "owner_id": "1",
+    "serial_number": "SN-RSB-2BA770-000500",
+    "manufacture_date": "2025-10-19",
+    "lifecycle_status": "in_transit",
+    "created_at": "2026-04-12 19:47:11"
+  }
+]

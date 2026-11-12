@@ -44,7 +44,9 @@ The app runs on Streamlit Community Cloud with automatic database bootstrapping.
 - **Automated data validation engine:** 12 automated integrity checks verifying referential integrity, date ordering, foreign keys, lifecycle rules, and ledger balance.
 - **Interactive operations dashboard:** 6 specialized operational workspaces with GIS route visualization.
 - **REST API:** FastAPI service with OpenAPI Swagger documentation (`/docs`) for warehouse scanning and external ERP/WMS integration.
-- **Automated test suite:** 20 unit and integration tests executing in under 1 second.
+- **Automated test suite:** 30 unit and integration tests executing in under 2 seconds.
+- **Deterministic reproducibility & export:** Bit-for-bit SHA-256 reproducibility engine across all 11 tables and complete CSV, JSON, and SQL seed dumps.
+- **Formal acceptance report:** Comprehensive requirement-by-requirement audit in [`FINAL_ACCEPTANCE_REPORT.md`](FINAL_ACCEPTANCE_REPORT.md).
 
 ---
 
@@ -202,16 +204,25 @@ python -m scripts.reproduce_all --scale full --seed 20261022
 ```bash
 pytest tests/test_logistics.py -v
 ```
-All 20 unit and integration tests pass in under 1 second.
+All 30 unit and integration tests pass in under 2 seconds.
 
-### 4. Launch REST API
+### 4. Verify Reproducibility & Export Data
+```bash
+# Verify bit-for-bit SHA-256 reproducibility across 2 isolated runs
+python -m scripts.reproducibility
+
+# Export all 11 tables to CSV, JSON, and SQL seed script
+python -m scripts.export_all
+```
+
+### 5. Launch REST API
 ```bash
 uvicorn src.api.main:app --reload --host 127.0.0.1 --port 8000
 ```
 - Interactive Swagger UI: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
 - Health check: [http://127.0.0.1:8000/api/v1/health](http://127.0.0.1:8000/api/v1/health)
 
-### 5. Launch Operations Control Tower
+### 6. Launch Operations Control Tower
 ```bash
 streamlit run src/dashboard/app.py
 ```

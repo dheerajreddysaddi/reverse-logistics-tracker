@@ -1,7 +1,6 @@
 """
 Ground Truth Benchmark Registry for Reverse Logistics Control Tower.
 
-
 Maintains an authoritative benchmark distinguishing clean operations from
 intentionally injected synthetic anomalies for empirical model evaluation.
 
@@ -50,7 +49,7 @@ RULE_METADATA = {
     },
     "ANOM-02": {
         "issue_type": "RETURN_BEFORE_DISPATCH",
-        "affected_entity": "CustodyEvent",
+        "affected_entity": "ReturnAuthorization",
         "expected_decision": "HOLD_RETURN_INTAKE",
         "severity": "HIGH",
     },
@@ -58,7 +57,7 @@ RULE_METADATA = {
         "issue_type": "DUPLICATE_REFUND",
         "affected_entity": "DepositLedger",
         "expected_decision": "FREEZE_LEDGER_TRANSACTION",
-        "severity": "HIGH",
+        "severity": "CRITICAL",
     },
     "ANOM-04": {
         "issue_type": "REPAIR_WITHOUT_INSPECTION",
@@ -84,29 +83,50 @@ def build_and_save_ground_truth(db: Session) -> Dict[str, Any]:
     """
     injected_map: Dict[int, set] = {}
 
-    # 1. Custody event anomalies
+    # 1. Custody event anomalies (ANOM-01, ANOM-02, ANOM-05)
     events = (
         db.query(CustodyEvent)
-        .filter(CustodyEvent.notes.like("STAGE6:%"))
+        .filter(CustodyEvent.notes.like("%STAGE6%"))
         .all()
     )
     for event in events:
         notes = event.notes or ""
         for rule_code in RULE_CODES:
-            if f"STAGE6:{rule_code}" in notes:
+            if f"STAGE6:{rule_code}" in notes or rule_code in notes:
                 injected_map.setdefault(event.asset_id, set()).add(rule_code)
 
-    # 2. Deposit ledger anomalies
+    # 2. Deposit ledger anomalies (ANOM-03)
     entries = (
         db.query(DepositLedger)
-        .filter(DepositLedger.notes.like("STAGE6:%"))
+        .filter(DepositLedger.notes.like("%STAGE6%"))
         .all()
     )
     for entry in entries:
         notes = entry.notes or ""
         for rule_code in RULE_CODES:
-            if f"STAGE6:{rule_code}" in notes:
+            if f"STAGE6:{rule_code}" in notes or rule_code in notes:
                 injected_map.setdefault(entry.asset_id, set()).add(rule_code)
+
+    # 3. Repair anomalies (ANOM-04)
+    repairs = (
+        db.query(Repair)
+        .filter(Repair.repair_description.like("%STAGE6%"))
+        .all()
+    )
+    for repair in repairs:
+        desc = repair.repair_description or ""
+        for rule_code in RULE_CODES:
+            if f"STAGE6:{rule_code}" in desc or rule_code in desc:
+                injected_map.setdefault(repair.asset_id, set()).add(rule_code)
+
+    # 4. Return authorization anomalies (ANOM-02)
+    rmas = (
+        db.query(ReturnAuthorization)
+        .filter(ReturnAuthorization.return_code.like("%STAGE6%"))
+        .all()
+    )
+    for rma in rmas:
+        injected_map.setdefault(rma.asset_id, set()).add("ANOM-02")
 
     ground_truth_asset_map = {}
     ground_truth_records: List[Dict[str, Any]] = []

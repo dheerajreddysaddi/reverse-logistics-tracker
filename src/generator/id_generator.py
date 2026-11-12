@@ -1,21 +1,25 @@
 """
-Deterministic ID generators for ReLoop 360 reverse logistics platform.
+Deterministic ID generators for Reverse Logistics & Asset Custody Control Tower.
 
-These functions generate repeatable, zero-padded identifiers for assets,
-shipments, tracking numbers, RMAs, repairs, and custody events.
-Conforms strictly to the deterministic ID conventions.
+These functions generate repeatable, immutable, zero-padded identifiers strictly
+adhering to the mandated enterprise specifications:
+- Asset: ASSET-0000001 (7 digits)
+- Return Authorization: RMA-2026-000001 (6 digits)
+- Shipment: SHP-2026-000001 (6 digits)
+- Custody Event: CUST-ASSET-0000001-000001 (Asset Code + 6 digits counter)
+- Repair: REP-2026-000001 (6 digits)
 """
 
 import hashlib
 
 
 def generate_asset_id(index: int) -> str:
-    """Generate a deterministic reusable asset ID (AST-000001 format)."""
-    return f"AST-{index:06d}"
+    """Generate standardized enterprise asset identifier (ASSET-0000001 format)."""
+    return f"ASSET-{index:07d}"
 
 
 def generate_reusable_asset_id(index: int) -> str:
-    """Standard ReLoop 360 enterprise format (ASSET-0000001)."""
+    """Alias for standardized enterprise asset identifier (ASSET-0000001 format)."""
     return f"ASSET-{index:07d}"
 
 
@@ -34,12 +38,12 @@ def generate_serial_number(asset_type: str, index: int) -> str:
 
 
 def generate_shipment_id(index: int) -> str:
-    """Generate a deterministic shipment ID (SHP-000001 format)."""
-    return f"SHP-{index:06d}"
+    """Generate standardized enterprise shipment identifier (SHP-2026-000001 format)."""
+    return f"SHP-2026-{index:06d}"
 
 
 def generate_reusable_shipment_id(index: int) -> str:
-    """Standard ReLoop 360 enterprise format (SHP-2026-000001)."""
+    """Alias for standardized enterprise shipment identifier (SHP-2026-000001 format)."""
     return f"SHP-2026-{index:06d}"
 
 
@@ -53,20 +57,20 @@ def generate_tracking_number(carrier: str, index: int) -> str:
 
 
 def generate_rma_number(index: int) -> str:
-    """Generate a deterministic return authorization number (RMA-2026-000001)."""
+    """Generate standardized return authorization identifier (RMA-2026-000001 format)."""
     return f"RMA-2026-{index:06d}"
 
 
 def generate_custody_event_id(asset_code: str, event_index: int) -> str:
-    """Generate a deterministic custody event ID (CUST-ASSET-0000001-000001)."""
+    """Generate standardized custody event identifier (CUST-ASSET-0000001-000001 format)."""
     return f"CUST-{asset_code}-{event_index:06d}"
 
 
 def generate_event_id(index: int) -> str:
-    """Generate a sequential custody event ID."""
-    return f"EVT-{index:08d}"
+    """Generate sequential custody event identifier."""
+    return f"EVT-2026-{index:06d}"
 
 
 def generate_repair_code(index: int) -> str:
-    """Generate a deterministic repair code (REP-2026-000001)."""
+    """Generate standardized repair work order identifier (REP-2026-000001 format)."""
     return f"REP-2026-{index:06d}"

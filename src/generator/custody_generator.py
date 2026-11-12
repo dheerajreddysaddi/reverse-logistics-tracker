@@ -14,7 +14,10 @@ from src.database.models import (
     CustodyEvent,
 )
 
-from src.generator.id_generator import generate_shipment_id
+from src.generator.id_generator import (
+    generate_shipment_id,
+    generate_custody_event_id,
+)
 
 
 PROJECT_SEED = 20261022
@@ -131,8 +134,10 @@ def generate_shipments_and_events_batch(
             "shipment_status": "delivered" if is_delivered else "dispatched",
         })
 
+        event_seq = 1
         custody_event_records.append({
             "asset_id": asset.asset_id,
+            "event_code": generate_custody_event_id(asset.asset_code, event_seq),
             "shipment_code": shipment_code,
             "from_location_id": origin.location_id,
             "to_location_id": transit_hub.location_id,
@@ -143,9 +148,10 @@ def generate_shipments_and_events_batch(
         })
 
         if is_delivered:
-
+            event_seq += 1
             custody_event_records.append({
                 "asset_id": asset.asset_id,
+                "event_code": generate_custody_event_id(asset.asset_code, event_seq),
                 "shipment_code": shipment_code,
                 "from_location_id": transit_hub.location_id,
                 "to_location_id": destination.location_id,
@@ -155,8 +161,10 @@ def generate_shipments_and_events_batch(
                 "notes": f"Transferred through {carrier}.",
             })
 
+            event_seq += 1
             custody_event_records.append({
                 "asset_id": asset.asset_id,
+                "event_code": generate_custody_event_id(asset.asset_code, event_seq),
                 "shipment_code": shipment_code,
                 "from_location_id": destination.location_id,
                 "to_location_id": destination.location_id,

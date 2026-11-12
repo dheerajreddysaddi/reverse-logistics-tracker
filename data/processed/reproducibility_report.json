@@ -1,0 +1,118 @@
+{
+  "seed": 20261022,
+  "dataset_scale": "starter",
+  "table_comparisons": [
+    {
+      "table_name": "owners",
+      "first_run_row_count": 3,
+      "second_run_row_count": 3,
+      "counts_match": true,
+      "first_run_checksum": "46a9cd8aea28d19304d8bb130745622b9488d2fa57c59e827efa9fdda9213105",
+      "second_run_checksum": "46a9cd8aea28d19304d8bb130745622b9488d2fa57c59e827efa9fdda9213105",
+      "checksums_match": true,
+      "match_status": "MATCH"
+    },
+    {
+      "table_name": "locations",
+      "first_run_row_count": 4,
+      "second_run_row_count": 4,
+      "counts_match": true,
+      "first_run_checksum": "4cd19442b036cb4d00b8b7ec17057848e7d0bf9ea138afea9170b9e0826984bf",
+      "second_run_checksum": "4cd19442b036cb4d00b8b7ec17057848e7d0bf9ea138afea9170b9e0826984bf",
+      "checksums_match": true,
+      "match_status": "MATCH"
+    },
+    {
+      "table_name": "asset_types",
+      "first_run_row_count": 5,
+      "second_run_row_count": 5,
+      "counts_match": true,
+      "first_run_checksum": "05b33ed20ce7d53697df7bf346a18622cc8d5ee3ded2ea6a6c8e60318bcb42af",
+      "second_run_checksum": "05b33ed20ce7d53697df7bf346a18622cc8d5ee3ded2ea6a6c8e60318bcb42af",
+      "checksums_match": true,
+      "match_status": "MATCH"
+    },
+    {
+      "table_name": "reusable_assets",
+      "first_run_row_count": 500,
+      "second_run_row_count": 500,
+      "counts_match": true,
+      "first_run_checksum": "c7e3bb4e66012732a027aec601a483ccaabdf5438e1e52899f9a7b80d8875277",
+      "second_run_checksum": "c7e3bb4e66012732a027aec601a483ccaabdf5438e1e52899f9a7b80d8875277",
+      "checksums_match": true,
+      "match_status": "MATCH"
+    },
+    {
+      "table_name": "shipments",
+      "first_run_row_count": 252,
+      "second_run_row_count": 252,
+      "counts_match": true,
+      "first_run_checksum": "eedbfd5df2ef8dd0a304aac1725ec7fe9f2a3544837b30d7ce2ccae6076ae67d",
+      "second_run_checksum": "eedbfd5df2ef8dd0a304aac1725ec7fe9f2a3544837b30d7ce2ccae6076ae67d",
+      "checksums_match": true,
+      "match_status": "MATCH"
+    },
+    {
+      "table_name": "custody_events",
+      "first_run_row_count": 644,
+      "second_run_row_count": 644,
+      "counts_match": true,
+      "first_run_checksum": "abb980e7e610e29e1e964b8fe58951228a8ea0cf41587e1250b554ffda40d477",
+      "second_run_checksum": "abb980e7e610e29e1e964b8fe58951228a8ea0cf41587e1250b554ffda40d477",
+      "checksums_match": true,
+      "match_status": "MATCH"
+    },
+    {
+      "table_name": "return_authorizations",
+      "first_run_row_count": 102,
+      "second_run_row_count": 102,
+      "counts_match": true,
+      "first_run_checksum": "d8c477bd414c59dc795d8b05b8981e58f386fff0d9eac36d57fc725a5f32a2b0",
+      "second_run_checksum": "d8c477bd414c59dc795d8b05b8981e58f386fff0d9eac36d57fc725a5f32a2b0",
+      "checksums_match": true,
+      "match_status": "MATCH"
+    },
+    {
+      "table_name": "inspections",
+      "first_run_row_count": 100,
+      "second_run_row_count": 100,
+      "counts_match": true,
+      "first_run_checksum": "6f617f451d09fa3d2ebf63106f8bdf8fd40b0e8493abc1967deaf7d0df09743c",
+      "second_run_checksum": "6f617f451d09fa3d2ebf63106f8bdf8fd40b0e8493abc1967deaf7d0df09743c",
+      "checksums_match": true,
+      "match_status": "MATCH"
+    },
+    {
+      "table_name": "repairs",
+      "first_run_row_count": 12,
+      "second_run_row_count": 12,
+      "counts_match": true,
+      "first_run_checksum": "45d813c749a221bb96c39ca98baff93aab955984bafe021f445f78fb8037aed3",
+      "second_run_checksum": "45d813c749a221bb96c39ca98baff93aab955984bafe021f445f78fb8037aed3",
+      "checksums_match": true,
+      "match_status": "MATCH"
+    },
+    {
+      "table_name": "deposit_ledger",
+      "first_run_row_count": 106,
+      "second_run_row_count": 106,
+      "counts_match": true,
+      "first_run_checksum": "cd8cbd9f8ac4b8655b7ea49d428327c490bc519a1cac737b93e6fa64c1ac388d",
+      "second_run_checksum": "cd8cbd9f8ac4b8655b7ea49d428327c490bc519a1cac737b93e6fa64c1ac388d",
+      "checksums_match": true,
+      "match_status": "MATCH"
+    },
+    {
+      "table_name": "operational_exceptions",
+      "first_run_row_count": 10,
+      "second_run_row_count": 10,
+      "counts_match": true,
+      "first_run_checksum": "902641728c4c50fb5ede844d018b3e8c93e8ef6cd1ffb6f8844c8510a8a01e35",
+      "second_run_checksum": "902641728c4c50fb5ede844d018b3e8c93e8ef6cd1ffb6f8844c8510a8a01e35",
+      "checksums_match": true,
+      "match_status": "MATCH"
+    }
+  ],
+  "all_tables_match": true,
+  "overall_reproducibility_result": "PASS"
+}

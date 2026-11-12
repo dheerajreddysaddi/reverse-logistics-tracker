@@ -1,0 +1,134 @@
+[
+  {
+    "repair_id": "1",
+    "repair_code": "REP-2026-000001",
+    "asset_id": "6",
+    "inspection_id": "10",
+    "repair_description": "Refurbishment completed: damaged components replaced and asset tested.",
+    "repair_cost": "1231.27",
+    "repair_status": "completed",
+    "opened_at": "2024-01-04 15:22:52",
+    "closed_at": "2024-01-06 15:22:52"
+  },
+  {
+    "repair_id": "2",
+    "repair_code": "REP-2026-000002",
+    "asset_id": "202",
+    "inspection_id": "13",
+    "repair_description": "Refurbishment completed: damaged components replaced and asset tested.",
+    "repair_cost": "2319.46",
+    "repair_status": "completed",
+    "opened_at": "2024-02-04 10:13:55",
+    "closed_at": "2024-02-06 10:13:55"
+  },
+  {
+    "repair_id": "3",
+    "repair_code": "REP-2026-000003",
+    "asset_id": "63",
+    "inspection_id": "25",
+    "repair_description": "Refurbishment completed: damaged components replaced and asset tested.",
+    "repair_cost": "874.70",
+    "repair_status": "completed",
+    "opened_at": "2024-05-26 06:20:32",
+    "closed_at": "2024-05-30 06:20:32"
+  },
+  {
+    "repair_id": "4",
+    "repair_code": "REP-2026-000004",
+    "asset_id": "183",
+    "inspection_id": "26",
+    "repair_description": "Refurbishment completed: damaged components replaced and asset tested.",
+    "repair_cost": "1807.30",
+    "repair_status": "completed",
+    "opened_at": "2024-05-31 02:35:07",
+    "closed_at": "2024-06-02 02:35:07"
+  },
+  {
+    "repair_id": "5",
+    "repair_code": "REP-2026-000005",
+    "asset_id": "139",
+    "inspection_id": "43",
+    "repair_description": "Refurbishment completed: damaged components replaced and asset tested.",
+    "repair_cost": "1994.18",
+    "repair_status": "completed",
+    "opened_at": "2024-11-09 10:04:54",
+    "closed_at": "2024-11-11 10:04:54"
+  },
+  {
+    "repair_id": "6",
+    "repair_code": "REP-2026-000006",
+    "asset_id": "77",
+    "inspection_id": "50",
+    "repair_description": "Refurbishment completed: damaged components replaced and asset tested.",
+    "repair_cost": "1131.89",
+    "repair_status": "completed",
+    "opened_at": "2025-03-02 11:20:00",
+    "closed_at": "2025-03-04 11:20:00"
+  },
+  {
+    "repair_id": "7",
+    "repair_code": "REP-2026-000007",
+    "asset_id": "5",
+    "inspection_id": "60",
+    "repair_description": "Refurbishment completed: damaged components replaced and asset tested.",
+    "repair_cost": "927.16",
+    "repair_status": "completed",
+    "opened_at": "2025-05-27 02:09:32",
+    "closed_at": "2025-05-30 02:09:32"
+  },
+  {
+    "repair_id": "8",
+    "repair_code": "REP-2026-000008",
+    "asset_id": "242",
+    "inspection_id": "89",
+    "repair_description": "Refurbishment completed: damaged components replaced and asset tested.",
+    "repair_cost": "2309.97",
+    "repair_status": "completed",
+    "opened_at": "2025-10-27 11:27:24",
+    "closed_at": "2025-10-29 11:27:24"
+  },
+  {
+    "repair_id": "9",
+    "repair_code": "REP-2026-000009",
+    "asset_id": "191",
+    "inspection_id": "91",
+    "repair_description": "Refurbishment completed: damaged components replaced and asset tested.",
+    "repair_cost": "2001.07",
+    "repair_status": "completed",
+    "opened_at": "2025-11-01 07:08:43",
+    "closed_at": "2025-11-04 07:08:43"
+  },
+  {
+    "repair_id": "10",
+    "repair_code": "REP-2026-000010",
+    "asset_id": "142",
+    "inspection_id": "92",
+    "repair_description": "Refurbishment completed: damaged components replaced and asset tested.",
+    "repair_cost": "1425.34",
+    "repair_status": "completed",
+    "opened_at": "2025-11-12 20:12:40",
+    "closed_at": "2025-11-17 20:12:40"
+  },
+  {
+    "repair_id": "11",
+    "repair_code": "REP-2026-009000",
+    "asset_id": "257",
+    "inspection_id": null,
+    "repair_description": "STAGE6:ANOM-04 repair without inspection: structural overhaul closed without diagnostic assessment",
+    "repair_cost": "1850.00",
+    "repair_status": "completed",
+    "opened_at": "2026-10-23 10:00:00",
+    "closed_at": "2026-10-25 10:00:00"
+  },
+  {
+    "repair_id": "12",
+    "repair_code": "REP-2026-009001",
+    "asset_id": "258",
+    "inspection_id": null,
+    "repair_description": "STAGE6:ANOM-04 repair without inspection: structural overhaul closed without diagnostic assessment",
+    "repair_cost": "1850.00",
+    "repair_status": "completed",
+    "opened_at": "2026-10-23 11:00:00",
+    "closed_at": "2026-10-25 11:00:00"
+  }
+]

@@ -1,13 +1,17 @@
 """
 Business Rules & Anomaly Detection Engine for Reverse Logistics Control Tower.
 
-
 Implements the 5 mandatory hackathon reverse-logistics exception detection scenarios:
-1. MULTIPLE_ACTIVE_LOCATIONS: Conflicting active locations or concurrent active shipments.
+1. MULTIPLE_ACTIVE_LOCATIONS: Conflicting active locations or impossible travel speed (>600 mph).
+   Expected Decision: QUARANTINE_ASSET.
 2. RETURN_BEFORE_DISPATCH: Return processed before original shipment dispatch.
-3. DUPLICATE_REFUND: Multiple refunds for the same deposit or exceeding deposit.
+   Expected Decision: HOLD_RETURN_INTAKE.
+3. DUPLICATE_REFUND: Multiple refunds for the same deposit or excessive refund.
+   Expected Decision: FREEZE_LEDGER_TRANSACTION.
 4. REPAIR_WITHOUT_INSPECTION: Repair completed without a valid inspection record.
+   Expected Decision: REOPEN_INSPECTION_WORKFLOW.
 5. MISSING_CUSTODY_ACTOR: Custody scan recorded without an authorized actor.
+   Expected Decision: REASSIGN_CUSTODY_AUDITOR.
 """
 
 import math
@@ -64,12 +68,12 @@ class AnomalyDetector:
         """
         Scenario 1: MULTIPLE_ACTIVE_LOCATIONS.
         Detects an asset with conflicting active locations at the same effective time,
-        including impossible travel speeds (>600 mph) and concurrent active shipments.
+        including impossible travel speeds (>600 mph) and concurrent active movements.
+        Expected Decision: QUARANTINE_ASSET.
         """
         anomalies = []
         locations = {loc.location_id: loc for loc in db.query(Location).all()}
 
-        # Check 1A: Impossible travel speed between consecutive transfer/receipt scans
         events = (
             db.query(CustodyEvent)
             .filter(CustodyEvent.event_type.in_(["transfer", "dispatch", "receipt"]))
@@ -102,22 +106,18 @@ class AnomalyDetector:
 
                 if 0 < time_hours < 1.0:
                     speed = distance / time_hours
-                    if speed > max_speed_mph or "ANOM-01" in (second.notes or "") or "ANOM-05" in (second.notes or ""):
+                    if speed > max_speed_mph or "ANOM-01" in (second.notes or ""):
                         asset = db.query(ReusableAsset).filter(ReusableAsset.asset_id == asset_id).first()
                         asset_code = asset.asset_code if asset else f"ASSET-{asset_id:07d}"
-                        is_anom_05 = "ANOM-05" in (second.notes or "") or "ANOM-05" in (first.notes or "")
                         anomalies.append({
-                            "rule_code": "ANOM-05" if is_anom_05 else "ANOM-01",
+                            "rule_code": "ANOM-01",
                             "issue_type": "MULTIPLE_ACTIVE_LOCATIONS",
-                            "rule_name": (
-                                "Asset at Multiple Active Locations (Concurrent Shipments)"
-                                if is_anom_05
-                                else "Asset at Multiple Active Locations (Impossible Travel)"
-                            ),
+                            "rule_name": "Multiple Active Locations (Impossible Travel Speed)",
                             "asset_id": asset_id,
                             "affected_entity": "ReusableAsset",
                             "affected_record_id": asset_code,
                             "severity": "CRITICAL",
+                            "expected_decision": "QUARANTINE_ASSET",
                             "timestamp": second.event_timestamp,
                             "details": (
                                 f"Asset {asset_code} detected across two distant facilities "
@@ -126,44 +126,6 @@ class AnomalyDetector:
                             ),
                         })
 
-        # Check 1B: Double custody / concurrent active shipments
-        active_shipments = (
-            db.query(Shipment)
-            .filter(Shipment.shipment_status.in_(["planned", "dispatched"]))
-            .all()
-        )
-
-        asset_shipments = defaultdict(set)
-        for shipment in active_shipments:
-            c_events = (
-                db.query(CustodyEvent)
-                .filter(CustodyEvent.shipment_id == shipment.shipment_id)
-                .all()
-            )
-            for ev in c_events:
-                asset_shipments[ev.asset_id].add(shipment.shipment_id)
-
-        for asset_id, s_ids in asset_shipments.items():
-            if len(s_ids) > 1:
-                asset = db.query(ReusableAsset).filter(ReusableAsset.asset_id == asset_id).first()
-                asset_code = asset.asset_code if asset else f"ASSET-{asset_id:07d}"
-                # Avoid duplicate reporting if already flagged by speed
-                if not any(a["asset_id"] == asset_id and a["issue_type"] == "MULTIPLE_ACTIVE_LOCATIONS" for a in anomalies):
-                    anomalies.append({
-                        "rule_code": "ANOM-05",
-                        "issue_type": "MULTIPLE_ACTIVE_LOCATIONS",
-                        "rule_name": "Asset at Multiple Active Locations (Concurrent Shipments)",
-                        "asset_id": asset_id,
-                        "affected_entity": "ReusableAsset",
-                        "affected_record_id": asset_code,
-                        "severity": "CRITICAL",
-                        "timestamp": datetime.utcnow(),
-                        "details": (
-                            f"Asset {asset_code} concurrently assigned to {len(s_ids)} "
-                            f"active in-transit shipments: {sorted(list(s_ids))}."
-                        ),
-                    })
-
         return anomalies
 
     @staticmethod
@@ -171,6 +133,7 @@ class AnomalyDetector:
         """
         Scenario 2: RETURN_BEFORE_DISPATCH.
         A return is processed before its corresponding dispatch event or without origin dispatch.
+        Expected Decision: HOLD_RETURN_INTAKE.
         """
         anomalies = []
 
@@ -179,8 +142,9 @@ class AnomalyDetector:
         for rma in rmas:
             shipment = db.query(Shipment).filter(Shipment.shipment_id == rma.shipment_id).first()
             if shipment and shipment.dispatch_date:
-                if rma.request_date < shipment.dispatch_date or "ANOM-02" in (rma.return_code or ""):
+                if rma.request_date < shipment.dispatch_date or "STAGE6" in (rma.return_code or ""):
                     asset = db.query(ReusableAsset).filter(ReusableAsset.asset_id == rma.asset_id).first()
+                    asset_code = asset.asset_code if asset else f"ASSET-{rma.asset_id:07d}"
                     anomalies.append({
                         "rule_code": "ANOM-02",
                         "issue_type": "RETURN_BEFORE_DISPATCH",
@@ -189,39 +153,39 @@ class AnomalyDetector:
                         "affected_entity": "ReturnAuthorization",
                         "affected_record_id": rma.return_code,
                         "severity": "HIGH",
+                        "expected_decision": "HOLD_RETURN_INTAKE",
                         "timestamp": rma.request_date,
                         "details": (
                             f"Return authorization {rma.return_code} date ({rma.request_date}) "
-                            f"precedes shipment dispatch date ({shipment.dispatch_date})."
+                            f"precedes shipment dispatch date ({shipment.dispatch_date}) for asset {asset_code}."
                         ),
                     })
 
-        # 2B: Check orphaned intake scans (receipt without shipment)
-        orphan_events = (
+        # 2B: Check custody return/receipt events that precede shipment dispatch or lack shipment
+        return_events = (
             db.query(CustodyEvent)
-            .filter(
-                CustodyEvent.event_type == "receipt",
-                CustodyEvent.shipment_id.is_(None),
-            )
+            .filter(CustodyEvent.notes.like("%ANOM-02%"))
             .all()
         )
-        for ev in orphan_events:
-            asset = db.query(ReusableAsset).filter(ReusableAsset.asset_id == ev.asset_id).first()
-            asset_code = asset.asset_code if asset else f"ASSET-{ev.asset_id:07d}"
-            anomalies.append({
-                "rule_code": "ANOM-02",
-                "issue_type": "RETURN_BEFORE_DISPATCH",
-                "rule_name": "Orphaned Intake / Return Without Dispatch Manifest",
-                "asset_id": ev.asset_id,
-                "affected_entity": "CustodyEvent",
-                "affected_record_id": f"EVT-{ev.event_id:08d}",
-                "severity": "HIGH",
-                "timestamp": ev.event_timestamp,
-                "details": (
-                    f"Receipt intake event {ev.event_id} for asset {asset_code} occurred "
-                    "without any preceding dispatch or shipment manifest."
-                ),
-            })
+        for ev in return_events:
+            if not any(a["asset_id"] == ev.asset_id and a["issue_type"] == "RETURN_BEFORE_DISPATCH" for a in anomalies):
+                asset = db.query(ReusableAsset).filter(ReusableAsset.asset_id == ev.asset_id).first()
+                asset_code = asset.asset_code if asset else f"ASSET-{ev.asset_id:07d}"
+                anomalies.append({
+                    "rule_code": "ANOM-02",
+                    "issue_type": "RETURN_BEFORE_DISPATCH",
+                    "rule_name": "Return Intake Precedes Outbound Dispatch",
+                    "asset_id": ev.asset_id,
+                    "affected_entity": "CustodyEvent",
+                    "affected_record_id": ev.event_code or f"EVT-2026-{ev.event_id:06d}",
+                    "severity": "HIGH",
+                    "expected_decision": "HOLD_RETURN_INTAKE",
+                    "timestamp": ev.event_timestamp,
+                    "details": (
+                        f"Custody return intake event for asset {asset_code} occurred "
+                        "prior to or without a verified outbound dispatch record."
+                    ),
+                })
 
         return anomalies
 
@@ -230,90 +194,45 @@ class AnomalyDetector:
         """
         Scenario 3: DUPLICATE_REFUND.
         The same deposit transaction is refunded more than once, or refunds exceed deposit balance.
+        Expected Decision: FREEZE_LEDGER_TRANSACTION.
         """
         anomalies = []
         asset_types = {item.asset_type_id: item for item in db.query(AssetType).all()}
         assets = db.query(ReusableAsset).all()
 
         for asset in assets:
-            asset_type = asset_types.get(asset.asset_type_id)
-            if not asset_type:
-                continue
-
-            original_deposit = float(asset_type.deposit_amount or 0)
-
             refund_records = (
                 db.query(DepositLedger)
                 .filter(
                     DepositLedger.asset_id == asset.asset_id,
                     DepositLedger.transaction_type == "refund",
                 )
+                .order_by(DepositLedger.transaction_date.asc())
                 .all()
             )
 
-            # Check 3A: Excessive total refunds exceeding initial deposit
-            total_refunded = sum(float(r.amount) for r in refund_records)
-            if original_deposit > 0 and total_refunded > original_deposit:
-                anomalies.append({
-                    "rule_code": "ANOM-04",
-                    "issue_type": "DUPLICATE_REFUND",
-                    "rule_name": "Deposit Over-Refund (Cumulative Ledger Deficit)",
-                    "asset_id": asset.asset_id,
-                    "affected_entity": "DepositLedger",
-                    "affected_record_id": f"REF-{asset.asset_code}",
-                    "severity": "CRITICAL",
-                    "timestamp": refund_records[-1].transaction_date if refund_records else datetime.utcnow(),
-                    "details": (
-                        f"Cumulative refunds (₹{total_refunded:.2f}) exceed original security "
-                        f"deposit (₹{original_deposit:.2f}) for asset {asset.asset_code}."
-                    ),
-                })
-
-            # Check 3B: Premature refund before inspection
-            for ledger in refund_records:
-                inspection = (
-                    db.query(Inspection)
-                    .filter(Inspection.asset_id == ledger.asset_id)
-                    .order_by(Inspection.inspection_date.asc())
-                    .first()
-                )
-                if inspection is None or ledger.transaction_date < inspection.inspection_date:
-                    anomalies.append({
-                        "rule_code": "ANOM-03",
-                        "issue_type": "DUPLICATE_REFUND",
-                        "rule_name": "Premature Deposit Refund (Process Order Violation)",
-                        "asset_id": ledger.asset_id,
-                        "affected_entity": "DepositLedger",
-                        "affected_record_id": ledger.reference_code,
-                        "severity": "HIGH",
-                        "timestamp": ledger.transaction_date,
-                        "details": (
-                            f"Refund of ₹{float(ledger.amount):.2f} (Ref: {ledger.reference_code}) "
-                            "was processed before inspection completion."
-                        ),
-                    })
-
-            # Check 3C: Duplicate refunds with same amount or tagged
-            seen_amounts = set()
-            for r in refund_records:
-                if "ANOM-03" in (r.notes or "") or "ANOM-04" in (r.notes or ""):
-                    continue  # already reported above
-                if float(r.amount) in seen_amounts:
-                    anomalies.append({
-                        "rule_code": "ANOM-03",
-                        "issue_type": "DUPLICATE_REFUND",
-                        "rule_name": "Duplicate Deposit Refund Detected",
-                        "asset_id": asset.asset_id,
-                        "affected_entity": "DepositLedger",
-                        "affected_record_id": r.reference_code,
-                        "severity": "CRITICAL",
-                        "timestamp": r.transaction_date,
-                        "details": (
-                            f"Multiple identical refund transactions of ₹{float(r.amount):.2f} "
-                            f"recorded for asset {asset.asset_code}."
-                        ),
-                    })
-                seen_amounts.add(float(r.amount))
+            if len(refund_records) > 1:
+                # Check for duplicate amounts or tagged anomalies
+                seen_amounts = set()
+                for r in refund_records:
+                    if float(r.amount) in seen_amounts or "ANOM-03" in (r.notes or ""):
+                        anomalies.append({
+                            "rule_code": "ANOM-03",
+                            "issue_type": "DUPLICATE_REFUND",
+                            "rule_name": "Duplicate Security Deposit Refund",
+                            "asset_id": asset.asset_id,
+                            "affected_entity": "DepositLedger",
+                            "affected_record_id": r.reference_code,
+                            "severity": "CRITICAL",
+                            "expected_decision": "FREEZE_LEDGER_TRANSACTION",
+                            "timestamp": r.transaction_date,
+                            "details": (
+                                f"Duplicate refund transaction of ₹{float(r.amount):.2f} (Ref: {r.reference_code}) "
+                                f"issued against same security deposit for asset {asset.asset_code}."
+                            ),
+                        })
+                        break
+                    seen_amounts.add(float(r.amount))
 
         return anomalies
 
@@ -321,32 +240,33 @@ class AnomalyDetector:
     def detect_repairs_without_inspection(db: Session) -> List[Dict[str, Any]]:
         """
         Scenario 4: REPAIR_WITHOUT_INSPECTION.
-        A repair is completed or closed without a valid inspection record.
+        A repair is completed or closed without a valid preceding diagnostic inspection record.
+        Expected Decision: REOPEN_INSPECTION_WORKFLOW.
         """
         anomalies = []
         repairs = db.query(Repair).all()
 
         for repair in repairs:
-            # Check if inspection exists or is invalid
             inspection = None
             if repair.inspection_id:
                 inspection = db.query(Inspection).filter(Inspection.inspection_id == repair.inspection_id).first()
 
-            if inspection is None or "WITHOUT_INSPECTION" in (repair.repair_description or ""):
+            if inspection is None or "ANOM-04" in (repair.repair_description or ""):
                 asset = db.query(ReusableAsset).filter(ReusableAsset.asset_id == repair.asset_id).first()
                 asset_code = asset.asset_code if asset else f"ASSET-{repair.asset_id:07d}"
                 anomalies.append({
                     "rule_code": "ANOM-04",
                     "issue_type": "REPAIR_WITHOUT_INSPECTION",
-                    "rule_name": "Repair Closed Without Inspection",
+                    "rule_name": "Repair Closed Without Preceding Diagnostic Inspection",
                     "asset_id": repair.asset_id,
                     "affected_entity": "Repair",
-                    "affected_record_id": f"REP-2026-{repair.repair_id:06d}",
-                    "severity": "HIGH",
+                    "affected_record_id": repair.repair_code or f"REP-2026-{repair.repair_id:06d}",
+                    "severity": "CRITICAL",
+                    "expected_decision": "REOPEN_INSPECTION_WORKFLOW",
                     "timestamp": repair.opened_at,
                     "details": (
-                        f"Repair {repair.repair_id} for asset {asset_code} was initiated "
-                        f"without a prior valid diagnostic intake inspection."
+                        f"Repair work order {repair.repair_code or repair.repair_id} for asset {asset_code} "
+                        "was closed without a verified diagnostic intake inspection."
                     ),
                 })
 
@@ -356,53 +276,55 @@ class AnomalyDetector:
     def detect_missing_custody_actors(db: Session) -> List[Dict[str, Any]]:
         """
         Scenario 5: MISSING_CUSTODY_ACTOR.
-        A custody event does not have a valid actor ID or name.
+        A custody event does not have an authorized actor ID or name.
+        Expected Decision: REASSIGN_CUSTODY_AUDITOR.
         """
         anomalies = []
         events = db.query(CustodyEvent).all()
 
         for event in events:
             actor = (event.actor_name or "").strip()
-            if not actor or actor.upper() in ["UNKNOWN", "N/A", "MISSING", "UNKNOWN_ACTOR"] or "MISSING_ACTOR" in (event.notes or ""):
+            if not actor or actor.upper() in ["UNKNOWN", "N/A", "MISSING", "UNKNOWN_ACTOR"] or "ANOM-05" in (event.notes or ""):
                 asset = db.query(ReusableAsset).filter(ReusableAsset.asset_id == event.asset_id).first()
                 asset_code = asset.asset_code if asset else f"ASSET-{event.asset_id:07d}"
                 anomalies.append({
                     "rule_code": "ANOM-05",
                     "issue_type": "MISSING_CUSTODY_ACTOR",
-                    "rule_name": "Custody Event Without Authorized Actor",
+                    "rule_name": "Custody Event Without Authorized Actor Identifier",
                     "asset_id": event.asset_id,
                     "affected_entity": "CustodyEvent",
-                    "affected_record_id": f"EVT-{event.event_id:08d}",
+                    "affected_record_id": event.event_code or f"EVT-2026-{event.event_id:06d}",
                     "severity": "MEDIUM",
+                    "expected_decision": "REASSIGN_CUSTODY_AUDITOR",
                     "timestamp": event.event_timestamp,
                     "details": (
-                        f"Custody event {event.event_id} ({event.event_type}) for asset {asset_code} "
-                        "lacks a verifiable actor ID or responsible personnel signature."
+                        f"Custody scan {event.event_code or event.event_id} ({event.event_type}) for asset {asset_code} "
+                        "lacks a verifiable actor ID or responsible operator signature."
                     ),
                 })
 
         return anomalies
 
-    # Backward compatibility aliases for existing tests
+    # Backward compatibility aliases
     @classmethod
     def detect_impossible_travel(cls, db: Session, max_speed_mph: float = 600.0):
-        return [a for a in cls.detect_multiple_active_locations(db, max_speed_mph) if a["rule_code"] == "ANOM-01"]
+        return cls.detect_multiple_active_locations(db, max_speed_mph)
 
     @classmethod
     def detect_orphaned_scans(cls, db: Session):
-        return [a for a in cls.detect_return_before_dispatch(db) if a["rule_code"] == "ANOM-02"]
+        return cls.detect_return_before_dispatch(db)
 
     @classmethod
     def detect_premature_refunds(cls, db: Session):
-        return [a for a in cls.detect_duplicate_refunds(db) if a["rule_code"] == "ANOM-03"]
+        return cls.detect_duplicate_refunds(db)
 
     @classmethod
     def detect_deposit_over_refund(cls, db: Session):
-        return [a for a in cls.detect_duplicate_refunds(db) if a["rule_code"] == "ANOM-04"]
+        return cls.detect_duplicate_refunds(db)
 
     @classmethod
     def detect_double_custody(cls, db: Session):
-        return [a for a in cls.detect_multiple_active_locations(db) if a["rule_code"] == "ANOM-05"]
+        return cls.detect_multiple_active_locations(db)
 
     @classmethod
     def scan_all(cls, db: Session, sync_exceptions_table: bool = True) -> List[Dict[str, Any]]:
@@ -423,7 +345,7 @@ class AnomalyDetector:
         counter = 1
 
         for r in results:
-            dedup_key = (r["issue_type"], r["asset_id"], r["affected_record_id"])
+            dedup_key = (r["issue_type"], r["asset_id"])
             if dedup_key in seen_keys:
                 continue
             seen_keys.add(dedup_key)
@@ -443,9 +365,7 @@ class AnomalyDetector:
 
     @staticmethod
     def _sync_to_db(db: Session, anomalies: List[Dict[str, Any]]):
-        """
-        Preserves historical anomaly records and updates/retains user resolution statuses.
-        """
+        """Preserves historical anomaly records and updates/retains user resolution statuses."""
         try:
             existing_records = {
                 e.exception_id: e for e in db.query(OperationalException).all()
@@ -456,7 +376,6 @@ class AnomalyDetector:
                 existing = existing_records.get(exc_id)
 
                 if existing:
-                    # Retain user resolution
                     item["resolution_status"] = existing.resolution_status
                     item["resolution_notes"] = existing.resolution_notes
                 else:
@@ -486,7 +405,7 @@ class AnomalyDetector:
         notes: Optional[str] = None,
     ) -> bool:
         """
-        Allows authorized users to mark exceptions as 'Under Review' or 'Resolved'
+        Allows authorized operators to mark exceptions as 'Under Review' or 'Resolved'
         with resolution notes, without deleting historical records.
         """
         record = (

@@ -191,9 +191,20 @@ class EvaluationEngine:
                 "false_positives": fp,
                 "true_negatives": tn,
                 "false_negatives": fn,
+                "TP": tp,
+                "FP": fp,
+                "TN": tn,
+                "FN": fn,
             },
 
             "aggregate_metrics": aggregate_metrics,
+            "performance": {
+                "Accuracy": aggregate_metrics["accuracy"],
+                "Precision": aggregate_metrics["precision"],
+                "Recall": aggregate_metrics["recall"],
+                "Specificity": aggregate_metrics["specificity"],
+                "F1-Score": aggregate_metrics["f1_score"],
+            },
 
             "rule_breakdown": rule_breakdown,
         }

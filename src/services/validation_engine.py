@@ -224,14 +224,21 @@ class ValidationEngine:
             "MULTIPLE_ACTIVE_LOCATIONS",
             "RETURN_BEFORE_DISPATCH",
             "DUPLICATE_REFUND",
+            "REPAIR_WITHOUT_INSPECTION",
+            "MISSING_CUSTODY_ACTOR",
         }
-        anom_passed = len(anomalies) >= 10 and required_types.issubset(detected_types)
+        missing_types = required_types - detected_types
+        anom_passed = len(anomalies) >= 10 and len(missing_types) == 0
         checks.append({
             "check_id": 12,
             "name": "Five Mandatory Anomaly Detection Scenarios",
             "category": "Exception Monitoring",
             "status": "PASSED" if anom_passed else "FAILED",
-            "details": f"Captured {len(anomalies)} violations covering issue types: {sorted(list(detected_types))}.",
+            "details": (
+                f"Captured {len(anomalies)} violations covering all 5 mandatory issue types: {sorted(list(detected_types))}."
+                if anom_passed
+                else f"FAILED: Missing mandatory anomaly types: {sorted(list(missing_types))}."
+            ),
         })
 
         # Compile Summary

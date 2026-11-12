@@ -1,0 +1,1062 @@
+[
+  {
+    "ledger_id": "1",
+    "asset_id": "28",
+    "shipment_id": "28",
+    "transaction_type": "refund",
+    "amount": "4500.00",
+    "transaction_date": "2023-03-25 21:58:31",
+    "reference_code": "RMA-2023-000001",
+    "notes": "Grade B: 10% cleaning fee deducted: 500.00. Inspection grade: B. Original deposit: 5000.00."
+  },
+  {
+    "ledger_id": "2",
+    "asset_id": "94",
+    "shipment_id": "94",
+    "transaction_type": "refund",
+    "amount": "2500.00",
+    "transaction_date": "2023-04-25 23:26:37",
+    "reference_code": "RMA-2023-000002",
+    "notes": "Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 2500.00."
+  },
+  {
+    "ledger_id": "3",
+    "asset_id": "249",
+    "shipment_id": "249",
+    "transaction_type": "refund",
+    "amount": "1500.00",
+    "transaction_date": "2023-06-18 19:57:49",
+    "reference_code": "RMA-2023-000003",
+    "notes": "Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 1500.00."
+  },
+  {
+    "ledger_id": "4",
+    "asset_id": "175",
+    "shipment_id": "175",
+    "transaction_type": "refund",
+    "amount": "1500.00",
+    "transaction_date": "2023-07-28 14:56:19",
+    "reference_code": "RMA-2023-000004",
+    "notes": "Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 1500.00."
+  },
+  {
+    "ledger_id": "5",
+    "asset_id": "11",
+    "shipment_id": "11",
+    "transaction_type": "refund",
+    "amount": "5000.00",
+    "transaction_date": "2023-09-06 08:49:07",
+    "reference_code": "RMA-2023-000005",
+    "notes": "Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 5000.00."
+  },
+  {
+    "ledger_id": "6",
+    "asset_id": "71",
+    "shipment_id": "71",
+    "transaction_type": "refund",
+    "amount": "270.00",
+    "transaction_date": "2023-09-17 00:22:21",
+    "reference_code": "RMA-2023-000006",
+    "notes": "Grade B: 10% cleaning fee deducted: 30.00. Inspection grade: B. Original deposit: 300.00."
+  },
+  {
+    "ledger_id": "7",
+    "asset_id": "10",
+    "shipment_id": "10",
+    "transaction_type": "refund",
+    "amount": "5000.00",
+    "transaction_date": "2023-11-02 18:18:28",
+    "reference_code": "RMA-2023-000007",
+    "notes": "Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 5000.00."
+  },
+  {
+    "ledger_id": "8",
+    "asset_id": "19",
+    "shipment_id": "19",
+    "transaction_type": "refund",
+    "amount": "5000.00",
+    "transaction_date": "2023-11-06 17:59:20",
+    "reference_code": "RMA-2023-000008",
+    "notes": "Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 5000.00."
+  },
+  {
+    "ledger_id": "9",
+    "asset_id": "185",
+    "shipment_id": "185",
+    "transaction_type": "refund",
+    "amount": "5000.00",
+    "transaction_date": "2023-12-11 10:56:16",
+    "reference_code": "RMA-2023-000009",
+    "notes": "Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 5000.00."
+  },
+  {
+    "ledger_id": "10",
+    "asset_id": "6",
+    "shipment_id": "6",
+    "transaction_type": "refund",
+    "amount": "1250.00",
+    "transaction_date": "2024-01-03 17:22:52",
+    "reference_code": "RMA-2023-000010",
+    "notes": "Grade C: 50% refurbishment deduction: 1250.00. Inspection grade: C. Original deposit: 2500.00."
+  },
+  {
+    "ledger_id": "11",
+    "asset_id": "41",
+    "shipment_id": "41",
+    "transaction_type": "refund",
+    "amount": "5000.00",
+    "transaction_date": "2024-01-05 07:38:08",
+    "reference_code": "RMA-2024-000011",
+    "notes": "Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 5000.00."
+  },
+  {
+    "ledger_id": "12",
+    "asset_id": "104",
+    "shipment_id": "104",
+    "transaction_type": "refund",
+    "amount": "5000.00",
+    "transaction_date": "2024-01-11 13:53:22",
+    "reference_code": "RMA-2024-000012",
+    "notes": "Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 5000.00."
+  },
+  {
+    "ledger_id": "13",
+    "asset_id": "202",
+    "shipment_id": "202",
+    "transaction_type": "refund",
+    "amount": "2500.00",
+    "transaction_date": "2024-02-03 12:13:55",
+    "reference_code": "RMA-2024-000013",
+    "notes": "Grade C: 50% refurbishment deduction: 2500.00. Inspection grade: C. Original deposit: 5000.00."
+  },
+  {
+    "ledger_id": "14",
+    "asset_id": "177",
+    "shipment_id": "177",
+    "transaction_type": "refund",
+    "amount": "300.00",
+    "transaction_date": "2024-02-18 10:49:18",
+    "reference_code": "RMA-2024-000014",
+    "notes": "Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 300.00."
+  },
+  {
+    "ledger_id": "15",
+    "asset_id": "12",
+    "shipment_id": "12",
+    "transaction_type": "refund",
+    "amount": "300.00",
+    "transaction_date": "2024-02-23 23:55:18",
+    "reference_code": "RMA-2024-000015",
+    "notes": "Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 300.00."
+  },
+  {
+    "ledger_id": "16",
+    "asset_id": "1",
+    "shipment_id": "1",
+    "transaction_type": "refund",
+    "amount": "270.00",
+    "transaction_date": "2024-03-12 18:47:58",
+    "reference_code": "RMA-2024-000016",
+    "notes": "Grade B: 10% cleaning fee deducted: 30.00. Inspection grade: B. Original deposit: 300.00."
+  },
+  {
+    "ledger_id": "17",
+    "asset_id": "148",
+    "shipment_id": "148",
+    "transaction_type": "refund",
+    "amount": "1500.00",
+    "transaction_date": "2024-03-21 21:47:54",
+    "reference_code": "RMA-2024-000017",
+    "notes": "Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 1500.00."
+  },
+  {
+    "ledger_id": "18",
+    "asset_id": "211",
+    "shipment_id": "211",
+    "transaction_type": "refund",
+    "amount": "1500.00",
+    "transaction_date": "2024-03-25 18:18:04",
+    "reference_code": "RMA-2024-000018",
+    "notes": "Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 1500.00."
+  },
+  {
+    "ledger_id": "19",
+    "asset_id": "46",
+    "shipment_id": "46",
+    "transaction_type": "refund",
+    "amount": "2500.00",
+    "transaction_date": "2024-04-26 17:19:42",
+    "reference_code": "RMA-2024-000019",
+    "notes": "Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 2500.00."
+  },
+  {
+    "ledger_id": "20",
+    "asset_id": "87",
+    "shipment_id": "87",
+    "transaction_type": "refund",
+    "amount": "300.00",
+    "transaction_date": "2024-04-24 23:54:21",
+    "reference_code": "RMA-2024-000020",
+    "notes": "Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 300.00."
+  },
+  {
+    "ledger_id": "21",
+    "asset_id": "155",
+    "shipment_id": "155",
+    "transaction_type": "refund",
+    "amount": "1500.00",
+    "transaction_date": "2024-05-03 12:58:29",
+    "reference_code": "RMA-2024-000021",
+    "notes": "Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 1500.00."
+  },
+  {
+    "ledger_id": "22",
+    "asset_id": "228",
+    "shipment_id": "228",
+    "transaction_type": "refund",
+    "amount": "800.00",
+    "transaction_date": "2024-05-07 05:31:57",
+    "reference_code": "RMA-2024-000022",
+    "notes": "Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 800.00."
+  },
+  {
+    "ledger_id": "23",
+    "asset_id": "170",
+    "shipment_id": "170",
+    "transaction_type": "refund",
+    "amount": "5000.00",
+    "transaction_date": "2024-05-16 13:02:06",
+    "reference_code": "RMA-2024-000023",
+    "notes": "Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 5000.00."
+  },
+  {
+    "ledger_id": "24",
+    "asset_id": "112",
+    "shipment_id": "112",
+    "transaction_type": "adjustment",
+    "amount": "2500.00",
+    "transaction_date": "2024-05-16 10:34:45",
+    "reference_code": "RMA-2024-000024",
+    "notes": "Grade F: Deposit forfeited due to total asset loss. Inspection grade: F. Original deposit: 2500.00."
+  },
+  {
+    "ledger_id": "25",
+    "asset_id": "63",
+    "shipment_id": "63",
+    "transaction_type": "refund",
+    "amount": "1250.00",
+    "transaction_date": "2024-05-25 08:20:32",
+    "reference_code": "RMA-2024-000025",
+    "notes": "Grade C: 50% refurbishment deduction: 1250.00. Inspection grade: C. Original deposit: 2500.00."
+  },
+  {
+    "ledger_id": "26",
+    "asset_id": "183",
+    "shipment_id": "183",
+    "transaction_type": "refund",
+    "amount": "400.00",
+    "transaction_date": "2024-05-30 04:35:07",
+    "reference_code": "RMA-2024-000026",
+    "notes": "Grade C: 50% refurbishment deduction: 400.00. Inspection grade: C. Original deposit: 800.00."
+  },
+  {
+    "ledger_id": "27",
+    "asset_id": "208",
+    "shipment_id": "208",
+    "transaction_type": "refund",
+    "amount": "5000.00",
+    "transaction_date": "2024-06-10 15:23:39",
+    "reference_code": "RMA-2024-000027",
+    "notes": "Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 5000.00."
+  },
+  {
+    "ledger_id": "28",
+    "asset_id": "161",
+    "shipment_id": "161",
+    "transaction_type": "refund",
+    "amount": "800.00",
+    "transaction_date": "2024-06-15 19:35:15",
+    "reference_code": "RMA-2024-000028",
+    "notes": "Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 800.00."
+  },
+  {
+    "ledger_id": "29",
+    "asset_id": "151",
+    "shipment_id": "151",
+    "transaction_type": "refund",
+    "amount": "1500.00",
+    "transaction_date": "2024-06-21 15:39:16",
+    "reference_code": "RMA-2024-000029",
+    "notes": "Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 1500.00."
+  },
+  {
+    "ledger_id": "30",
+    "asset_id": "88",
+    "shipment_id": "88",
+    "transaction_type": "refund",
+    "amount": "720.00",
+    "transaction_date": "2024-07-03 23:26:56",
+    "reference_code": "RMA-2024-000030",
+    "notes": "Grade B: 10% cleaning fee deducted: 80.00. Inspection grade: B. Original deposit: 800.00."
+  },
+  {
+    "ledger_id": "31",
+    "asset_id": "16",
+    "shipment_id": "16",
+    "transaction_type": "refund",
+    "amount": "1500.00",
+    "transaction_date": "2024-07-04 18:00:11",
+    "reference_code": "RMA-2024-000031",
+    "notes": "Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 1500.00."
+  },
+  {
+    "ledger_id": "32",
+    "asset_id": "129",
+    "shipment_id": "129",
+    "transaction_type": "refund",
+    "amount": "2500.00",
+    "transaction_date": "2024-07-14 04:48:34",
+    "reference_code": "RMA-2024-000032",
+    "notes": "Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 2500.00."
+  },
+  {
+    "ledger_id": "33",
+    "asset_id": "110",
+    "shipment_id": "110",
+    "transaction_type": "refund",
+    "amount": "800.00",
+    "transaction_date": "2024-07-20 06:49:45",
+    "reference_code": "RMA-2024-000033",
+    "notes": "Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 800.00."
+  },
+  {
+    "ledger_id": "34",
+    "asset_id": "90",
+    "shipment_id": "90",
+    "transaction_type": "refund",
+    "amount": "800.00",
+    "transaction_date": "2024-07-29 07:09:28",
+    "reference_code": "RMA-2024-000034",
+    "notes": "Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 800.00."
+  },
+  {
+    "ledger_id": "35",
+    "asset_id": "169",
+    "shipment_id": "169",
+    "transaction_type": "refund",
+    "amount": "800.00",
+    "transaction_date": "2024-08-04 01:49:54",
+    "reference_code": "RMA-2024-000035",
+    "notes": "Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 800.00."
+  },
+  {
+    "ledger_id": "36",
+    "asset_id": "221",
+    "shipment_id": "221",
+    "transaction_type": "refund",
+    "amount": "5000.00",
+    "transaction_date": "2024-09-01 05:35:12",
+    "reference_code": "RMA-2024-000036",
+    "notes": "Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 5000.00."
+  },
+  {
+    "ledger_id": "37",
+    "asset_id": "33",
+    "shipment_id": "33",
+    "transaction_type": "refund",
+    "amount": "1500.00",
+    "transaction_date": "2024-09-06 00:30:13",
+    "reference_code": "RMA-2024-000037",
+    "notes": "Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 1500.00."
+  },
+  {
+    "ledger_id": "38",
+    "asset_id": "76",
+    "shipment_id": "76",
+    "transaction_type": "refund",
+    "amount": "2500.00",
+    "transaction_date": "2024-09-11 03:14:33",
+    "reference_code": "RMA-2024-000038",
+    "notes": "Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 2500.00."
+  },
+  {
+    "ledger_id": "39",
+    "asset_id": "237",
+    "shipment_id": "237",
+    "transaction_type": "refund",
+    "amount": "5000.00",
+    "transaction_date": "2024-09-14 17:32:10",
+    "reference_code": "RMA-2024-000039",
+    "notes": "Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 5000.00."
+  },
+  {
+    "ledger_id": "40",
+    "asset_id": "116",
+    "shipment_id": "116",
+    "transaction_type": "refund",
+    "amount": "2250.00",
+    "transaction_date": "2024-10-05 04:38:45",
+    "reference_code": "RMA-2024-000040",
+    "notes": "Grade B: 10% cleaning fee deducted: 250.00. Inspection grade: B. Original deposit: 2500.00."
+  },
+  {
+    "ledger_id": "41",
+    "asset_id": "244",
+    "shipment_id": "244",
+    "transaction_type": "refund",
+    "amount": "300.00",
+    "transaction_date": "2024-10-08 21:20:19",
+    "reference_code": "RMA-2024-000041",
+    "notes": "Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 300.00."
+  },
+  {
+    "ledger_id": "42",
+    "asset_id": "91",
+    "shipment_id": "91",
+    "transaction_type": "refund",
+    "amount": "300.00",
+    "transaction_date": "2024-10-28 15:44:47",
+    "reference_code": "RMA-2024-000042",
+    "notes": "Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 300.00."
+  },
+  {
+    "ledger_id": "43",
+    "asset_id": "139",
+    "shipment_id": "139",
+    "transaction_type": "refund",
+    "amount": "150.00",
+    "transaction_date": "2024-11-08 12:04:54",
+    "reference_code": "RMA-2024-000043",
+    "notes": "Grade C: 50% refurbishment deduction: 150.00. Inspection grade: C. Original deposit: 300.00."
+  },
+  {
+    "ledger_id": "44",
+    "asset_id": "226",
+    "shipment_id": "226",
+    "transaction_type": "refund",
+    "amount": "300.00",
+    "transaction_date": "2024-11-08 18:37:15",
+    "reference_code": "RMA-2024-000044",
+    "notes": "Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 300.00."
+  },
+  {
+    "ledger_id": "45",
+    "asset_id": "108",
+    "shipment_id": "108",
+    "transaction_type": "refund",
+    "amount": "2500.00",
+    "transaction_date": "2025-01-10 18:08:48",
+    "reference_code": "RMA-2025-000045",
+    "notes": "Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 2500.00."
+  },
+  {
+    "ledger_id": "46",
+    "asset_id": "64",
+    "shipment_id": "64",
+    "transaction_type": "refund",
+    "amount": "1500.00",
+    "transaction_date": "2025-01-10 12:34:13",
+    "reference_code": "RMA-2025-000046",
+    "notes": "Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 1500.00."
+  },
+  {
+    "ledger_id": "47",
+    "asset_id": "45",
+    "shipment_id": "45",
+    "transaction_type": "refund",
+    "amount": "2500.00",
+    "transaction_date": "2025-02-16 02:18:51",
+    "reference_code": "RMA-2025-000047",
+    "notes": "Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 2500.00."
+  },
+  {
+    "ledger_id": "48",
+    "asset_id": "102",
+    "shipment_id": "102",
+    "transaction_type": "refund",
+    "amount": "300.00",
+    "transaction_date": "2025-02-21 02:33:57",
+    "reference_code": "RMA-2025-000048",
+    "notes": "Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 300.00."
+  },
+  {
+    "ledger_id": "49",
+    "asset_id": "205",
+    "shipment_id": "205",
+    "transaction_type": "adjustment",
+    "amount": "1500.00",
+    "transaction_date": "2025-03-01 20:53:47",
+    "reference_code": "RMA-2025-000049",
+    "notes": "Grade F: Deposit forfeited due to total asset loss. Inspection grade: F. Original deposit: 1500.00."
+  },
+  {
+    "ledger_id": "50",
+    "asset_id": "77",
+    "shipment_id": "77",
+    "transaction_type": "refund",
+    "amount": "150.00",
+    "transaction_date": "2025-03-01 13:20:00",
+    "reference_code": "RMA-2025-000050",
+    "notes": "Grade C: 50% refurbishment deduction: 150.00. Inspection grade: C. Original deposit: 300.00."
+  },
+  {
+    "ledger_id": "51",
+    "asset_id": "49",
+    "shipment_id": "49",
+    "transaction_type": "refund",
+    "amount": "300.00",
+    "transaction_date": "2025-03-12 13:41:45",
+    "reference_code": "RMA-2025-000051",
+    "notes": "Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 300.00."
+  },
+  {
+    "ledger_id": "52",
+    "asset_id": "60",
+    "shipment_id": "60",
+    "transaction_type": "refund",
+    "amount": "5000.00",
+    "transaction_date": "2025-03-17 02:06:26",
+    "reference_code": "RMA-2025-000052",
+    "notes": "Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 5000.00."
+  },
+  {
+    "ledger_id": "53",
+    "asset_id": "149",
+    "shipment_id": "149",
+    "transaction_type": "refund",
+    "amount": "2250.00",
+    "transaction_date": "2025-03-15 23:14:44",
+    "reference_code": "RMA-2025-000053",
+    "notes": "Grade B: 10% cleaning fee deducted: 250.00. Inspection grade: B. Original deposit: 2500.00."
+  },
+  {
+    "ledger_id": "54",
+    "asset_id": "96",
+    "shipment_id": "96",
+    "transaction_type": "refund",
+    "amount": "720.00",
+    "transaction_date": "2025-04-09 06:46:38",
+    "reference_code": "RMA-2025-000054",
+    "notes": "Grade B: 10% cleaning fee deducted: 80.00. Inspection grade: B. Original deposit: 800.00."
+  },
+  {
+    "ledger_id": "55",
+    "asset_id": "83",
+    "shipment_id": "83",
+    "transaction_type": "refund",
+    "amount": "800.00",
+    "transaction_date": "2025-04-10 15:36:41",
+    "reference_code": "RMA-2025-000055",
+    "notes": "Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 800.00."
+  },
+  {
+    "ledger_id": "56",
+    "asset_id": "172",
+    "shipment_id": "172",
+    "transaction_type": "refund",
+    "amount": "800.00",
+    "transaction_date": "2025-05-11 19:52:47",
+    "reference_code": "RMA-2025-000056",
+    "notes": "Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 800.00."
+  },
+  {
+    "ledger_id": "57",
+    "asset_id": "143",
+    "shipment_id": "143",
+    "transaction_type": "refund",
+    "amount": "800.00",
+    "transaction_date": "2025-05-11 14:23:06",
+    "reference_code": "RMA-2025-000057",
+    "notes": "Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 800.00."
+  },
+  {
+    "ledger_id": "58",
+    "asset_id": "165",
+    "shipment_id": "165",
+    "transaction_type": "refund",
+    "amount": "300.00",
+    "transaction_date": "2025-05-11 12:53:10",
+    "reference_code": "RMA-2025-000058",
+    "notes": "Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 300.00."
+  },
+  {
+    "ledger_id": "59",
+    "asset_id": "75",
+    "shipment_id": "75",
+    "transaction_type": "refund",
+    "amount": "1350.00",
+    "transaction_date": "2025-05-19 00:13:23",
+    "reference_code": "RMA-2025-000059",
+    "notes": "Grade B: 10% cleaning fee deducted: 150.00. Inspection grade: B. Original deposit: 1500.00."
+  },
+  {
+    "ledger_id": "60",
+    "asset_id": "5",
+    "shipment_id": "5",
+    "transaction_type": "refund",
+    "amount": "2500.00",
+    "transaction_date": "2025-05-26 04:09:32",
+    "reference_code": "RMA-2025-000060",
+    "notes": "Grade C: 50% refurbishment deduction: 2500.00. Inspection grade: C. Original deposit: 5000.00."
+  },
+  {
+    "ledger_id": "61",
+    "asset_id": "180",
+    "shipment_id": "180",
+    "transaction_type": "refund",
+    "amount": "1500.00",
+    "transaction_date": "2025-06-02 00:24:38",
+    "reference_code": "RMA-2025-000061",
+    "notes": "Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 1500.00."
+  },
+  {
+    "ledger_id": "62",
+    "asset_id": "219",
+    "shipment_id": "219",
+    "transaction_type": "refund",
+    "amount": "800.00",
+    "transaction_date": "2025-06-06 17:11:26",
+    "reference_code": "RMA-2025-000062",
+    "notes": "Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 800.00."
+  },
+  {
+    "ledger_id": "63",
+    "asset_id": "223",
+    "shipment_id": "223",
+    "transaction_type": "refund",
+    "amount": "300.00",
+    "transaction_date": "2025-06-07 18:39:11",
+    "reference_code": "RMA-2025-000063",
+    "notes": "Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 300.00."
+  },
+  {
+    "ledger_id": "64",
+    "asset_id": "231",
+    "shipment_id": "231",
+    "transaction_type": "refund",
+    "amount": "5000.00",
+    "transaction_date": "2025-06-08 10:04:35",
+    "reference_code": "RMA-2025-000064",
+    "notes": "Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 5000.00."
+  },
+  {
+    "ledger_id": "65",
+    "asset_id": "73",
+    "shipment_id": "73",
+    "transaction_type": "refund",
+    "amount": "300.00",
+    "transaction_date": "2025-06-23 05:58:39",
+    "reference_code": "RMA-2025-000065",
+    "notes": "Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 300.00."
+  },
+  {
+    "ledger_id": "66",
+    "asset_id": "204",
+    "shipment_id": "204",
+    "transaction_type": "refund",
+    "amount": "1500.00",
+    "transaction_date": "2025-06-24 11:37:23",
+    "reference_code": "RMA-2025-000066",
+    "notes": "Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 1500.00."
+  },
+  {
+    "ledger_id": "67",
+    "asset_id": "111",
+    "shipment_id": "111",
+    "transaction_type": "refund",
+    "amount": "300.00",
+    "transaction_date": "2025-06-26 12:26:59",
+    "reference_code": "RMA-2025-000067",
+    "notes": "Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 300.00."
+  },
+  {
+    "ledger_id": "68",
+    "asset_id": "158",
+    "shipment_id": "158",
+    "transaction_type": "refund",
+    "amount": "720.00",
+    "transaction_date": "2025-07-03 21:14:34",
+    "reference_code": "RMA-2025-000068",
+    "notes": "Grade B: 10% cleaning fee deducted: 80.00. Inspection grade: B. Original deposit: 800.00."
+  },
+  {
+    "ledger_id": "69",
+    "asset_id": "160",
+    "shipment_id": "160",
+    "transaction_type": "refund",
+    "amount": "800.00",
+    "transaction_date": "2025-07-18 05:09:31",
+    "reference_code": "RMA-2025-000069",
+    "notes": "Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 800.00."
+  },
+  {
+    "ledger_id": "70",
+    "asset_id": "122",
+    "shipment_id": "122",
+    "transaction_type": "refund",
+    "amount": "800.00",
+    "transaction_date": "2025-07-26 08:27:49",
+    "reference_code": "RMA-2025-000070",
+    "notes": "Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 800.00."
+  },
+  {
+    "ledger_id": "71",
+    "asset_id": "38",
+    "shipment_id": "38",
+    "transaction_type": "refund",
+    "amount": "1500.00",
+    "transaction_date": "2025-07-30 04:17:48",
+    "reference_code": "RMA-2025-000071",
+    "notes": "Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 1500.00."
+  },
+  {
+    "ledger_id": "72",
+    "asset_id": "51",
+    "shipment_id": "51",
+    "transaction_type": "refund",
+    "amount": "1500.00",
+    "transaction_date": "2025-08-02 09:00:35",
+    "reference_code": "RMA-2025-000072",
+    "notes": "Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 1500.00."
+  },
+  {
+    "ledger_id": "73",
+    "asset_id": "209",
+    "shipment_id": "209",
+    "transaction_type": "refund",
+    "amount": "2500.00",
+    "transaction_date": "2025-08-01 05:08:52",
+    "reference_code": "RMA-2025-000073",
+    "notes": "Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 2500.00."
+  },
+  {
+    "ledger_id": "74",
+    "asset_id": "92",
+    "shipment_id": "92",
+    "transaction_type": "refund",
+    "amount": "5000.00",
+    "transaction_date": "2025-08-20 02:56:11",
+    "reference_code": "RMA-2025-000074",
+    "notes": "Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 5000.00."
+  },
+  {
+    "ledger_id": "75",
+    "asset_id": "86",
+    "shipment_id": "86",
+    "transaction_type": "refund",
+    "amount": "5000.00",
+    "transaction_date": "2025-08-18 11:11:29",
+    "reference_code": "RMA-2025-000075",
+    "notes": "Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 5000.00."
+  },
+  {
+    "ledger_id": "76",
+    "asset_id": "54",
+    "shipment_id": "54",
+    "transaction_type": "refund",
+    "amount": "2500.00",
+    "transaction_date": "2025-08-22 23:10:22",
+    "reference_code": "RMA-2025-000076",
+    "notes": "Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 2500.00."
+  },
+  {
+    "ledger_id": "77",
+    "asset_id": "197",
+    "shipment_id": "197",
+    "transaction_type": "refund",
+    "amount": "2500.00",
+    "transaction_date": "2025-08-27 02:57:21",
+    "reference_code": "RMA-2025-000077",
+    "notes": "Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 2500.00."
+  },
+  {
+    "ledger_id": "78",
+    "asset_id": "67",
+    "shipment_id": "67",
+    "transaction_type": "refund",
+    "amount": "1350.00",
+    "transaction_date": "2025-08-27 07:24:05",
+    "reference_code": "RMA-2025-000078",
+    "notes": "Grade B: 10% cleaning fee deducted: 150.00. Inspection grade: B. Original deposit: 1500.00."
+  },
+  {
+    "ledger_id": "79",
+    "asset_id": "107",
+    "shipment_id": "107",
+    "transaction_type": "refund",
+    "amount": "1500.00",
+    "transaction_date": "2025-08-30 03:55:08",
+    "reference_code": "RMA-2025-000079",
+    "notes": "Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 1500.00."
+  },
+  {
+    "ledger_id": "80",
+    "asset_id": "234",
+    "shipment_id": "234",
+    "transaction_type": "refund",
+    "amount": "2250.00",
+    "transaction_date": "2025-09-20 11:00:13",
+    "reference_code": "RMA-2025-000080",
+    "notes": "Grade B: 10% cleaning fee deducted: 250.00. Inspection grade: B. Original deposit: 2500.00."
+  },
+  {
+    "ledger_id": "81",
+    "asset_id": "95",
+    "shipment_id": "95",
+    "transaction_type": "refund",
+    "amount": "5000.00",
+    "transaction_date": "2025-09-21 04:22:54",
+    "reference_code": "RMA-2025-000081",
+    "notes": "Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 5000.00."
+  },
+  {
+    "ledger_id": "82",
+    "asset_id": "136",
+    "shipment_id": "136",
+    "transaction_type": "refund",
+    "amount": "1350.00",
+    "transaction_date": "2025-09-30 04:31:24",
+    "reference_code": "RMA-2025-000082",
+    "notes": "Grade B: 10% cleaning fee deducted: 150.00. Inspection grade: B. Original deposit: 1500.00."
+  },
+  {
+    "ledger_id": "83",
+    "asset_id": "184",
+    "shipment_id": "184",
+    "transaction_type": "refund",
+    "amount": "2250.00",
+    "transaction_date": "2025-10-11 00:45:58",
+    "reference_code": "RMA-2025-000083",
+    "notes": "Grade B: 10% cleaning fee deducted: 250.00. Inspection grade: B. Original deposit: 2500.00."
+  },
+  {
+    "ledger_id": "84",
+    "asset_id": "97",
+    "shipment_id": "97",
+    "transaction_type": "refund",
+    "amount": "2250.00",
+    "transaction_date": "2025-10-10 00:29:43",
+    "reference_code": "RMA-2025-000084",
+    "notes": "Grade B: 10% cleaning fee deducted: 250.00. Inspection grade: B. Original deposit: 2500.00."
+  },
+  {
+    "ledger_id": "85",
+    "asset_id": "220",
+    "shipment_id": "220",
+    "transaction_type": "refund",
+    "amount": "800.00",
+    "transaction_date": "2025-10-10 23:27:54",
+    "reference_code": "RMA-2025-000085",
+    "notes": "Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 800.00."
+  },
+  {
+    "ledger_id": "86",
+    "asset_id": "24",
+    "shipment_id": "24",
+    "transaction_type": "refund",
+    "amount": "2500.00",
+    "transaction_date": "2025-10-23 19:23:06",
+    "reference_code": "RMA-2025-000086",
+    "notes": "Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 2500.00."
+  },
+  {
+    "ledger_id": "87",
+    "asset_id": "68",
+    "shipment_id": "68",
+    "transaction_type": "refund",
+    "amount": "5000.00",
+    "transaction_date": "2025-10-24 13:07:16",
+    "reference_code": "RMA-2025-000087",
+    "notes": "Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 5000.00."
+  },
+  {
+    "ledger_id": "88",
+    "asset_id": "159",
+    "shipment_id": "159",
+    "transaction_type": "refund",
+    "amount": "5000.00",
+    "transaction_date": "2025-10-22 21:15:49",
+    "reference_code": "RMA-2025-000088",
+    "notes": "Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 5000.00."
+  },
+  {
+    "ledger_id": "89",
+    "asset_id": "242",
+    "shipment_id": "242",
+    "transaction_type": "refund",
+    "amount": "150.00",
+    "transaction_date": "2025-10-26 13:27:24",
+    "reference_code": "RMA-2025-000089",
+    "notes": "Grade C: 50% refurbishment deduction: 150.00. Inspection grade: C. Original deposit: 300.00."
+  },
+  {
+    "ledger_id": "90",
+    "asset_id": "182",
+    "shipment_id": "182",
+    "transaction_type": "refund",
+    "amount": "5000.00",
+    "transaction_date": "2025-10-26 14:30:19",
+    "reference_code": "RMA-2025-000090",
+    "notes": "Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 5000.00."
+  },
+  {
+    "ledger_id": "91",
+    "asset_id": "191",
+    "shipment_id": "191",
+    "transaction_type": "refund",
+    "amount": "750.00",
+    "transaction_date": "2025-10-31 09:08:43",
+    "reference_code": "RMA-2025-000091",
+    "notes": "Grade C: 50% refurbishment deduction: 750.00. Inspection grade: C. Original deposit: 1500.00."
+  },
+  {
+    "ledger_id": "92",
+    "asset_id": "142",
+    "shipment_id": "142",
+    "transaction_type": "refund",
+    "amount": "150.00",
+    "transaction_date": "2025-11-11 22:12:40",
+    "reference_code": "RMA-2025-000092",
+    "notes": "Grade C: 50% refurbishment deduction: 150.00. Inspection grade: C. Original deposit: 300.00."
+  },
+  {
+    "ledger_id": "93",
+    "asset_id": "163",
+    "shipment_id": "163",
+    "transaction_type": "refund",
+    "amount": "800.00",
+    "transaction_date": "2025-11-16 14:47:07",
+    "reference_code": "RMA-2025-000093",
+    "notes": "Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 800.00."
+  },
+  {
+    "ledger_id": "94",
+    "asset_id": "200",
+    "shipment_id": "200",
+    "transaction_type": "refund",
+    "amount": "2500.00",
+    "transaction_date": "2025-11-20 06:09:11",
+    "reference_code": "RMA-2025-000094",
+    "notes": "Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 2500.00."
+  },
+  {
+    "ledger_id": "95",
+    "asset_id": "225",
+    "shipment_id": "225",
+    "transaction_type": "refund",
+    "amount": "5000.00",
+    "transaction_date": "2025-11-21 01:25:06",
+    "reference_code": "RMA-2025-000095",
+    "notes": "Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 5000.00."
+  },
+  {
+    "ledger_id": "96",
+    "asset_id": "187",
+    "shipment_id": "187",
+    "transaction_type": "refund",
+    "amount": "4500.00",
+    "transaction_date": "2025-12-04 12:14:56",
+    "reference_code": "RMA-2025-000096",
+    "notes": "Grade B: 10% cleaning fee deducted: 500.00. Inspection grade: B. Original deposit: 5000.00."
+  },
+  {
+    "ledger_id": "97",
+    "asset_id": "44",
+    "shipment_id": "44",
+    "transaction_type": "refund",
+    "amount": "2250.00",
+    "transaction_date": "2025-12-12 02:31:56",
+    "reference_code": "RMA-2025-000097",
+    "notes": "Grade B: 10% cleaning fee deducted: 250.00. Inspection grade: B. Original deposit: 2500.00."
+  },
+  {
+    "ledger_id": "98",
+    "asset_id": "132",
+    "shipment_id": "132",
+    "transaction_type": "refund",
+    "amount": "1500.00",
+    "transaction_date": "2025-12-11 12:32:13",
+    "reference_code": "RMA-2025-000098",
+    "notes": "Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 1500.00."
+  },
+  {
+    "ledger_id": "99",
+    "asset_id": "100",
+    "shipment_id": "100",
+    "transaction_type": "refund",
+    "amount": "300.00",
+    "transaction_date": "2025-12-20 14:28:25",
+    "reference_code": "RMA-2025-000099",
+    "notes": "Grade A: Full security deposit refunded. Inspection grade: A. Original deposit: 300.00."
+  },
+  {
+    "ledger_id": "100",
+    "asset_id": "101",
+    "shipment_id": "101",
+    "transaction_type": "refund",
+    "amount": "270.00",
+    "transaction_date": "2025-12-25 02:07:02",
+    "reference_code": "RMA-2025-000100",
+    "notes": "Grade B: 10% cleaning fee deducted: 30.00. Inspection grade: B. Original deposit: 300.00."
+  },
+  {
+    "ledger_id": "101",
+    "asset_id": "255",
+    "shipment_id": null,
+    "transaction_type": "charge",
+    "amount": "2500.00",
+    "transaction_date": "2026-10-17 10:00:00",
+    "reference_code": "CHG-STAGE6-ASSET-0000255",
+    "notes": "STAGE6: Initial security deposit charge"
+  },
+  {
+    "ledger_id": "102",
+    "asset_id": "255",
+    "shipment_id": null,
+    "transaction_type": "refund",
+    "amount": "1250.00",
+    "transaction_date": "2026-10-22 10:00:00",
+    "reference_code": "REF-STAGE6-A-ASSET-0000255",
+    "notes": "STAGE6:ANOM-03 first refund transaction"
+  },
+  {
+    "ledger_id": "103",
+    "asset_id": "255",
+    "shipment_id": null,
+    "transaction_type": "refund",
+    "amount": "1250.00",
+    "transaction_date": "2026-10-22 11:00:00",
+    "reference_code": "REF-STAGE6-B-ASSET-0000255",
+    "notes": "STAGE6:ANOM-03 duplicate refund transaction"
+  },
+  {
+    "ledger_id": "104",
+    "asset_id": "256",
+    "shipment_id": null,
+    "transaction_type": "charge",
+    "amount": "300.00",
+    "transaction_date": "2026-10-17 10:30:00",
+    "reference_code": "CHG-STAGE6-ASSET-0000256",
+    "notes": "STAGE6: Initial security deposit charge"
+  },
+  {
+    "ledger_id": "105",
+    "asset_id": "256",
+    "shipment_id": null,
+    "transaction_type": "refund",
+    "amount": "150.00",
+    "transaction_date": "2026-10-22 10:30:00",
+    "reference_code": "REF-STAGE6-A-ASSET-0000256",
+    "notes": "STAGE6:ANOM-03 first refund transaction"
+  },
+  {
+    "ledger_id": "106",
+    "asset_id": "256",
+    "shipment_id": null,
+    "transaction_type": "refund",
+    "amount": "150.00",
+    "transaction_date": "2026-10-22 11:30:00",
+    "reference_code": "REF-STAGE6-B-ASSET-0000256",
+    "notes": "STAGE6:ANOM-03 duplicate refund transaction"
+  }
+]

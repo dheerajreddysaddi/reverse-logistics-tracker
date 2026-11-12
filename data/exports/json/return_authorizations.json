@@ -1,0 +1,1022 @@
+[
+  {
+    "return_id": "1",
+    "return_code": "RMA-2023-000001",
+    "asset_id": "28",
+    "shipment_id": "28",
+    "requested_by": "Rahul Kumar",
+    "request_date": "2023-03-23 19:58:31",
+    "approved_date": "2023-03-24 19:58:31",
+    "return_status": "received"
+  },
+  {
+    "return_id": "2",
+    "return_code": "RMA-2023-000002",
+    "asset_id": "94",
+    "shipment_id": "94",
+    "requested_by": "Priya Sharma",
+    "request_date": "2023-04-22 21:26:37",
+    "approved_date": "2023-04-23 21:26:37",
+    "return_status": "received"
+  },
+  {
+    "return_id": "3",
+    "return_code": "RMA-2023-000003",
+    "asset_id": "249",
+    "shipment_id": "249",
+    "requested_by": "Priya Sharma",
+    "request_date": "2023-06-16 17:57:49",
+    "approved_date": "2023-06-17 17:57:49",
+    "return_status": "received"
+  },
+  {
+    "return_id": "4",
+    "return_code": "RMA-2023-000004",
+    "asset_id": "175",
+    "shipment_id": "175",
+    "requested_by": "Arjun Reddy",
+    "request_date": "2023-07-26 12:56:19",
+    "approved_date": "2023-07-27 12:56:19",
+    "return_status": "received"
+  },
+  {
+    "return_id": "5",
+    "return_code": "RMA-2023-000005",
+    "asset_id": "11",
+    "shipment_id": "11",
+    "requested_by": "Rahul Kumar",
+    "request_date": "2023-09-03 06:49:07",
+    "approved_date": "2023-09-04 06:49:07",
+    "return_status": "received"
+  },
+  {
+    "return_id": "6",
+    "return_code": "RMA-2023-000006",
+    "asset_id": "71",
+    "shipment_id": "71",
+    "requested_by": "Arjun Reddy",
+    "request_date": "2023-09-12 22:22:21",
+    "approved_date": "2023-09-13 22:22:21",
+    "return_status": "received"
+  },
+  {
+    "return_id": "7",
+    "return_code": "RMA-2023-000007",
+    "asset_id": "10",
+    "shipment_id": "10",
+    "requested_by": "Ananya Rao",
+    "request_date": "2023-10-31 16:18:28",
+    "approved_date": "2023-11-01 16:18:28",
+    "return_status": "received"
+  },
+  {
+    "return_id": "8",
+    "return_code": "RMA-2023-000008",
+    "asset_id": "19",
+    "shipment_id": "19",
+    "requested_by": "Arjun Reddy",
+    "request_date": "2023-11-03 15:59:20",
+    "approved_date": "2023-11-04 15:59:20",
+    "return_status": "received"
+  },
+  {
+    "return_id": "9",
+    "return_code": "RMA-2023-000009",
+    "asset_id": "185",
+    "shipment_id": "185",
+    "requested_by": "Rahul Kumar",
+    "request_date": "2023-12-09 08:56:16",
+    "approved_date": "2023-12-10 08:56:16",
+    "return_status": "received"
+  },
+  {
+    "return_id": "10",
+    "return_code": "RMA-2023-000010",
+    "asset_id": "6",
+    "shipment_id": "6",
+    "requested_by": "Ananya Rao",
+    "request_date": "2023-12-29 15:22:52",
+    "approved_date": "2023-12-30 15:22:52",
+    "return_status": "received"
+  },
+  {
+    "return_id": "11",
+    "return_code": "RMA-2024-000011",
+    "asset_id": "41",
+    "shipment_id": "41",
+    "requested_by": "Ananya Rao",
+    "request_date": "2024-01-02 05:38:08",
+    "approved_date": "2024-01-03 05:38:08",
+    "return_status": "received"
+  },
+  {
+    "return_id": "12",
+    "return_code": "RMA-2024-000012",
+    "asset_id": "104",
+    "shipment_id": "104",
+    "requested_by": "Priya Sharma",
+    "request_date": "2024-01-07 11:53:22",
+    "approved_date": "2024-01-08 11:53:22",
+    "return_status": "received"
+  },
+  {
+    "return_id": "13",
+    "return_code": "RMA-2024-000013",
+    "asset_id": "202",
+    "shipment_id": "202",
+    "requested_by": "Ananya Rao",
+    "request_date": "2024-02-01 10:13:55",
+    "approved_date": "2024-02-02 10:13:55",
+    "return_status": "received"
+  },
+  {
+    "return_id": "14",
+    "return_code": "RMA-2024-000014",
+    "asset_id": "177",
+    "shipment_id": "177",
+    "requested_by": "Arjun Reddy",
+    "request_date": "2024-02-16 08:49:18",
+    "approved_date": "2024-02-17 08:49:18",
+    "return_status": "received"
+  },
+  {
+    "return_id": "15",
+    "return_code": "RMA-2024-000015",
+    "asset_id": "12",
+    "shipment_id": "12",
+    "requested_by": "Rahul Kumar",
+    "request_date": "2024-02-19 21:55:18",
+    "approved_date": "2024-02-20 21:55:18",
+    "return_status": "received"
+  },
+  {
+    "return_id": "16",
+    "return_code": "RMA-2024-000016",
+    "asset_id": "1",
+    "shipment_id": "1",
+    "requested_by": "Rahul Kumar",
+    "request_date": "2024-03-08 16:47:58",
+    "approved_date": "2024-03-09 16:47:58",
+    "return_status": "received"
+  },
+  {
+    "return_id": "17",
+    "return_code": "RMA-2024-000017",
+    "asset_id": "148",
+    "shipment_id": "148",
+    "requested_by": "Priya Sharma",
+    "request_date": "2024-03-17 19:47:54",
+    "approved_date": "2024-03-18 19:47:54",
+    "return_status": "received"
+  },
+  {
+    "return_id": "18",
+    "return_code": "RMA-2024-000018",
+    "asset_id": "211",
+    "shipment_id": "211",
+    "requested_by": "Arjun Reddy",
+    "request_date": "2024-03-20 16:18:04",
+    "approved_date": "2024-03-21 16:18:04",
+    "return_status": "received"
+  },
+  {
+    "return_id": "19",
+    "return_code": "RMA-2024-000019",
+    "asset_id": "46",
+    "shipment_id": "46",
+    "requested_by": "Priya Sharma",
+    "request_date": "2024-04-21 15:19:42",
+    "approved_date": "2024-04-22 15:19:42",
+    "return_status": "received"
+  },
+  {
+    "return_id": "20",
+    "return_code": "RMA-2024-000020",
+    "asset_id": "87",
+    "shipment_id": "87",
+    "requested_by": "Priya Sharma",
+    "request_date": "2024-04-22 21:54:21",
+    "approved_date": "2024-04-23 21:54:21",
+    "return_status": "received"
+  },
+  {
+    "return_id": "21",
+    "return_code": "RMA-2024-000021",
+    "asset_id": "155",
+    "shipment_id": "155",
+    "requested_by": "Rahul Kumar",
+    "request_date": "2024-05-01 10:58:29",
+    "approved_date": "2024-05-02 10:58:29",
+    "return_status": "received"
+  },
+  {
+    "return_id": "22",
+    "return_code": "RMA-2024-000022",
+    "asset_id": "228",
+    "shipment_id": "228",
+    "requested_by": "Priya Sharma",
+    "request_date": "2024-05-03 03:31:57",
+    "approved_date": "2024-05-04 03:31:57",
+    "return_status": "received"
+  },
+  {
+    "return_id": "23",
+    "return_code": "RMA-2024-000023",
+    "asset_id": "170",
+    "shipment_id": "170",
+    "requested_by": "Ananya Rao",
+    "request_date": "2024-05-13 11:02:06",
+    "approved_date": "2024-05-14 11:02:06",
+    "return_status": "received"
+  },
+  {
+    "return_id": "24",
+    "return_code": "RMA-2024-000024",
+    "asset_id": "112",
+    "shipment_id": "112",
+    "requested_by": "Priya Sharma",
+    "request_date": "2024-05-14 08:34:45",
+    "approved_date": "2024-05-15 08:34:45",
+    "return_status": "received"
+  },
+  {
+    "return_id": "25",
+    "return_code": "RMA-2024-000025",
+    "asset_id": "63",
+    "shipment_id": "63",
+    "requested_by": "Priya Sharma",
+    "request_date": "2024-05-20 06:20:32",
+    "approved_date": "2024-05-21 06:20:32",
+    "return_status": "received"
+  },
+  {
+    "return_id": "26",
+    "return_code": "RMA-2024-000026",
+    "asset_id": "183",
+    "shipment_id": "183",
+    "requested_by": "Ananya Rao",
+    "request_date": "2024-05-28 02:35:07",
+    "approved_date": "2024-05-29 02:35:07",
+    "return_status": "received"
+  },
+  {
+    "return_id": "27",
+    "return_code": "RMA-2024-000027",
+    "asset_id": "208",
+    "shipment_id": "208",
+    "requested_by": "Priya Sharma",
+    "request_date": "2024-06-07 13:23:39",
+    "approved_date": "2024-06-08 13:23:39",
+    "return_status": "received"
+  },
+  {
+    "return_id": "28",
+    "return_code": "RMA-2024-000028",
+    "asset_id": "161",
+    "shipment_id": "161",
+    "requested_by": "Ananya Rao",
+    "request_date": "2024-06-12 17:35:15",
+    "approved_date": "2024-06-13 17:35:15",
+    "return_status": "received"
+  },
+  {
+    "return_id": "29",
+    "return_code": "RMA-2024-000029",
+    "asset_id": "151",
+    "shipment_id": "151",
+    "requested_by": "Priya Sharma",
+    "request_date": "2024-06-19 13:39:16",
+    "approved_date": "2024-06-20 13:39:16",
+    "return_status": "received"
+  },
+  {
+    "return_id": "30",
+    "return_code": "RMA-2024-000030",
+    "asset_id": "88",
+    "shipment_id": "88",
+    "requested_by": "Arjun Reddy",
+    "request_date": "2024-07-01 21:26:56",
+    "approved_date": "2024-07-02 21:26:56",
+    "return_status": "received"
+  },
+  {
+    "return_id": "31",
+    "return_code": "RMA-2024-000031",
+    "asset_id": "16",
+    "shipment_id": "16",
+    "requested_by": "Priya Sharma",
+    "request_date": "2024-06-30 16:00:11",
+    "approved_date": "2024-07-01 16:00:11",
+    "return_status": "received"
+  },
+  {
+    "return_id": "32",
+    "return_code": "RMA-2024-000032",
+    "asset_id": "129",
+    "shipment_id": "129",
+    "requested_by": "Rahul Kumar",
+    "request_date": "2024-07-10 02:48:34",
+    "approved_date": "2024-07-11 02:48:34",
+    "return_status": "received"
+  },
+  {
+    "return_id": "33",
+    "return_code": "RMA-2024-000033",
+    "asset_id": "110",
+    "shipment_id": "110",
+    "requested_by": "Arjun Reddy",
+    "request_date": "2024-07-16 04:49:45",
+    "approved_date": "2024-07-17 04:49:45",
+    "return_status": "received"
+  },
+  {
+    "return_id": "34",
+    "return_code": "RMA-2024-000034",
+    "asset_id": "90",
+    "shipment_id": "90",
+    "requested_by": "Rahul Kumar",
+    "request_date": "2024-07-26 05:09:28",
+    "approved_date": "2024-07-27 05:09:28",
+    "return_status": "received"
+  },
+  {
+    "return_id": "35",
+    "return_code": "RMA-2024-000035",
+    "asset_id": "169",
+    "shipment_id": "169",
+    "requested_by": "Priya Sharma",
+    "request_date": "2024-07-30 23:49:54",
+    "approved_date": "2024-07-31 23:49:54",
+    "return_status": "received"
+  },
+  {
+    "return_id": "36",
+    "return_code": "RMA-2024-000036",
+    "asset_id": "221",
+    "shipment_id": "221",
+    "requested_by": "Priya Sharma",
+    "request_date": "2024-08-30 03:35:12",
+    "approved_date": "2024-08-31 03:35:12",
+    "return_status": "received"
+  },
+  {
+    "return_id": "37",
+    "return_code": "RMA-2024-000037",
+    "asset_id": "33",
+    "shipment_id": "33",
+    "requested_by": "Rahul Kumar",
+    "request_date": "2024-09-02 22:30:13",
+    "approved_date": "2024-09-03 22:30:13",
+    "return_status": "received"
+  },
+  {
+    "return_id": "38",
+    "return_code": "RMA-2024-000038",
+    "asset_id": "76",
+    "shipment_id": "76",
+    "requested_by": "Priya Sharma",
+    "request_date": "2024-09-07 01:14:33",
+    "approved_date": "2024-09-08 01:14:33",
+    "return_status": "received"
+  },
+  {
+    "return_id": "39",
+    "return_code": "RMA-2024-000039",
+    "asset_id": "237",
+    "shipment_id": "237",
+    "requested_by": "Ananya Rao",
+    "request_date": "2024-09-10 15:32:10",
+    "approved_date": "2024-09-11 15:32:10",
+    "return_status": "received"
+  },
+  {
+    "return_id": "40",
+    "return_code": "RMA-2024-000040",
+    "asset_id": "116",
+    "shipment_id": "116",
+    "requested_by": "Rahul Kumar",
+    "request_date": "2024-09-30 02:38:45",
+    "approved_date": "2024-10-01 02:38:45",
+    "return_status": "received"
+  },
+  {
+    "return_id": "41",
+    "return_code": "RMA-2024-000041",
+    "asset_id": "244",
+    "shipment_id": "244",
+    "requested_by": "Rahul Kumar",
+    "request_date": "2024-10-05 19:20:19",
+    "approved_date": "2024-10-06 19:20:19",
+    "return_status": "received"
+  },
+  {
+    "return_id": "42",
+    "return_code": "RMA-2024-000042",
+    "asset_id": "91",
+    "shipment_id": "91",
+    "requested_by": "Arjun Reddy",
+    "request_date": "2024-10-24 13:44:47",
+    "approved_date": "2024-10-25 13:44:47",
+    "return_status": "received"
+  },
+  {
+    "return_id": "43",
+    "return_code": "RMA-2024-000043",
+    "asset_id": "139",
+    "shipment_id": "139",
+    "requested_by": "Priya Sharma",
+    "request_date": "2024-11-06 10:04:54",
+    "approved_date": "2024-11-07 10:04:54",
+    "return_status": "received"
+  },
+  {
+    "return_id": "44",
+    "return_code": "RMA-2024-000044",
+    "asset_id": "226",
+    "shipment_id": "226",
+    "requested_by": "Arjun Reddy",
+    "request_date": "2024-11-05 16:37:15",
+    "approved_date": "2024-11-06 16:37:15",
+    "return_status": "received"
+  },
+  {
+    "return_id": "45",
+    "return_code": "RMA-2025-000045",
+    "asset_id": "108",
+    "shipment_id": "108",
+    "requested_by": "Rahul Kumar",
+    "request_date": "2025-01-06 16:08:48",
+    "approved_date": "2025-01-07 16:08:48",
+    "return_status": "received"
+  },
+  {
+    "return_id": "46",
+    "return_code": "RMA-2025-000046",
+    "asset_id": "64",
+    "shipment_id": "64",
+    "requested_by": "Arjun Reddy",
+    "request_date": "2025-01-06 10:34:13",
+    "approved_date": "2025-01-07 10:34:13",
+    "return_status": "received"
+  },
+  {
+    "return_id": "47",
+    "return_code": "RMA-2025-000047",
+    "asset_id": "45",
+    "shipment_id": "45",
+    "requested_by": "Rahul Kumar",
+    "request_date": "2025-02-12 00:18:51",
+    "approved_date": "2025-02-13 00:18:51",
+    "return_status": "received"
+  },
+  {
+    "return_id": "48",
+    "return_code": "RMA-2025-000048",
+    "asset_id": "102",
+    "shipment_id": "102",
+    "requested_by": "Rahul Kumar",
+    "request_date": "2025-02-19 00:33:57",
+    "approved_date": "2025-02-20 00:33:57",
+    "return_status": "received"
+  },
+  {
+    "return_id": "49",
+    "return_code": "RMA-2025-000049",
+    "asset_id": "205",
+    "shipment_id": "205",
+    "requested_by": "Priya Sharma",
+    "request_date": "2025-02-27 18:53:47",
+    "approved_date": "2025-02-28 18:53:47",
+    "return_status": "received"
+  },
+  {
+    "return_id": "50",
+    "return_code": "RMA-2025-000050",
+    "asset_id": "77",
+    "shipment_id": "77",
+    "requested_by": "Ananya Rao",
+    "request_date": "2025-02-27 11:20:00",
+    "approved_date": "2025-02-28 11:20:00",
+    "return_status": "received"
+  },
+  {
+    "return_id": "51",
+    "return_code": "RMA-2025-000051",
+    "asset_id": "49",
+    "shipment_id": "49",
+    "requested_by": "Ananya Rao",
+    "request_date": "2025-03-09 11:41:45",
+    "approved_date": "2025-03-10 11:41:45",
+    "return_status": "received"
+  },
+  {
+    "return_id": "52",
+    "return_code": "RMA-2025-000052",
+    "asset_id": "60",
+    "shipment_id": "60",
+    "requested_by": "Ananya Rao",
+    "request_date": "2025-03-13 00:06:26",
+    "approved_date": "2025-03-14 00:06:26",
+    "return_status": "received"
+  },
+  {
+    "return_id": "53",
+    "return_code": "RMA-2025-000053",
+    "asset_id": "149",
+    "shipment_id": "149",
+    "requested_by": "Arjun Reddy",
+    "request_date": "2025-03-12 21:14:44",
+    "approved_date": "2025-03-13 21:14:44",
+    "return_status": "received"
+  },
+  {
+    "return_id": "54",
+    "return_code": "RMA-2025-000054",
+    "asset_id": "96",
+    "shipment_id": "96",
+    "requested_by": "Rahul Kumar",
+    "request_date": "2025-04-06 04:46:38",
+    "approved_date": "2025-04-07 04:46:38",
+    "return_status": "received"
+  },
+  {
+    "return_id": "55",
+    "return_code": "RMA-2025-000055",
+    "asset_id": "83",
+    "shipment_id": "83",
+    "requested_by": "Arjun Reddy",
+    "request_date": "2025-04-06 13:36:41",
+    "approved_date": "2025-04-07 13:36:41",
+    "return_status": "received"
+  },
+  {
+    "return_id": "56",
+    "return_code": "RMA-2025-000056",
+    "asset_id": "172",
+    "shipment_id": "172",
+    "requested_by": "Priya Sharma",
+    "request_date": "2025-05-08 17:52:47",
+    "approved_date": "2025-05-09 17:52:47",
+    "return_status": "received"
+  },
+  {
+    "return_id": "57",
+    "return_code": "RMA-2025-000057",
+    "asset_id": "143",
+    "shipment_id": "143",
+    "requested_by": "Ananya Rao",
+    "request_date": "2025-05-08 12:23:06",
+    "approved_date": "2025-05-09 12:23:06",
+    "return_status": "received"
+  },
+  {
+    "return_id": "58",
+    "return_code": "RMA-2025-000058",
+    "asset_id": "165",
+    "shipment_id": "165",
+    "requested_by": "Arjun Reddy",
+    "request_date": "2025-05-09 10:53:10",
+    "approved_date": "2025-05-10 10:53:10",
+    "return_status": "received"
+  },
+  {
+    "return_id": "59",
+    "return_code": "RMA-2025-000059",
+    "asset_id": "75",
+    "shipment_id": "75",
+    "requested_by": "Rahul Kumar",
+    "request_date": "2025-05-15 22:13:23",
+    "approved_date": "2025-05-16 22:13:23",
+    "return_status": "received"
+  },
+  {
+    "return_id": "60",
+    "return_code": "RMA-2025-000060",
+    "asset_id": "5",
+    "shipment_id": "5",
+    "requested_by": "Priya Sharma",
+    "request_date": "2025-05-24 02:09:32",
+    "approved_date": "2025-05-25 02:09:32",
+    "return_status": "received"
+  },
+  {
+    "return_id": "61",
+    "return_code": "RMA-2025-000061",
+    "asset_id": "180",
+    "shipment_id": "180",
+    "requested_by": "Ananya Rao",
+    "request_date": "2025-05-29 22:24:38",
+    "approved_date": "2025-05-30 22:24:38",
+    "return_status": "received"
+  },
+  {
+    "return_id": "62",
+    "return_code": "RMA-2025-000062",
+    "asset_id": "219",
+    "shipment_id": "219",
+    "requested_by": "Rahul Kumar",
+    "request_date": "2025-06-01 15:11:26",
+    "approved_date": "2025-06-02 15:11:26",
+    "return_status": "received"
+  },
+  {
+    "return_id": "63",
+    "return_code": "RMA-2025-000063",
+    "asset_id": "223",
+    "shipment_id": "223",
+    "requested_by": "Ananya Rao",
+    "request_date": "2025-06-03 16:39:11",
+    "approved_date": "2025-06-04 16:39:11",
+    "return_status": "received"
+  },
+  {
+    "return_id": "64",
+    "return_code": "RMA-2025-000064",
+    "asset_id": "231",
+    "shipment_id": "231",
+    "requested_by": "Priya Sharma",
+    "request_date": "2025-06-06 08:04:35",
+    "approved_date": "2025-06-07 08:04:35",
+    "return_status": "received"
+  },
+  {
+    "return_id": "65",
+    "return_code": "RMA-2025-000065",
+    "asset_id": "73",
+    "shipment_id": "73",
+    "requested_by": "Priya Sharma",
+    "request_date": "2025-06-18 03:58:39",
+    "approved_date": "2025-06-19 03:58:39",
+    "return_status": "received"
+  },
+  {
+    "return_id": "66",
+    "return_code": "RMA-2025-000066",
+    "asset_id": "204",
+    "shipment_id": "204",
+    "requested_by": "Ananya Rao",
+    "request_date": "2025-06-19 09:37:23",
+    "approved_date": "2025-06-20 09:37:23",
+    "return_status": "received"
+  },
+  {
+    "return_id": "67",
+    "return_code": "RMA-2025-000067",
+    "asset_id": "111",
+    "shipment_id": "111",
+    "requested_by": "Rahul Kumar",
+    "request_date": "2025-06-21 10:26:59",
+    "approved_date": "2025-06-22 10:26:59",
+    "return_status": "received"
+  },
+  {
+    "return_id": "68",
+    "return_code": "RMA-2025-000068",
+    "asset_id": "158",
+    "shipment_id": "158",
+    "requested_by": "Priya Sharma",
+    "request_date": "2025-06-30 19:14:34",
+    "approved_date": "2025-07-01 19:14:34",
+    "return_status": "received"
+  },
+  {
+    "return_id": "69",
+    "return_code": "RMA-2025-000069",
+    "asset_id": "160",
+    "shipment_id": "160",
+    "requested_by": "Ananya Rao",
+    "request_date": "2025-07-13 03:09:31",
+    "approved_date": "2025-07-14 03:09:31",
+    "return_status": "received"
+  },
+  {
+    "return_id": "70",
+    "return_code": "RMA-2025-000070",
+    "asset_id": "122",
+    "shipment_id": "122",
+    "requested_by": "Priya Sharma",
+    "request_date": "2025-07-23 06:27:49",
+    "approved_date": "2025-07-24 06:27:49",
+    "return_status": "received"
+  },
+  {
+    "return_id": "71",
+    "return_code": "RMA-2025-000071",
+    "asset_id": "38",
+    "shipment_id": "38",
+    "requested_by": "Rahul Kumar",
+    "request_date": "2025-07-26 02:17:48",
+    "approved_date": "2025-07-27 02:17:48",
+    "return_status": "received"
+  },
+  {
+    "return_id": "72",
+    "return_code": "RMA-2025-000072",
+    "asset_id": "51",
+    "shipment_id": "51",
+    "requested_by": "Priya Sharma",
+    "request_date": "2025-07-28 07:00:35",
+    "approved_date": "2025-07-29 07:00:35",
+    "return_status": "received"
+  },
+  {
+    "return_id": "73",
+    "return_code": "RMA-2025-000073",
+    "asset_id": "209",
+    "shipment_id": "209",
+    "requested_by": "Priya Sharma",
+    "request_date": "2025-07-29 03:08:52",
+    "approved_date": "2025-07-30 03:08:52",
+    "return_status": "received"
+  },
+  {
+    "return_id": "74",
+    "return_code": "RMA-2025-000074",
+    "asset_id": "92",
+    "shipment_id": "92",
+    "requested_by": "Rahul Kumar",
+    "request_date": "2025-08-15 00:56:11",
+    "approved_date": "2025-08-16 00:56:11",
+    "return_status": "received"
+  },
+  {
+    "return_id": "75",
+    "return_code": "RMA-2025-000075",
+    "asset_id": "86",
+    "shipment_id": "86",
+    "requested_by": "Arjun Reddy",
+    "request_date": "2025-08-14 09:11:29",
+    "approved_date": "2025-08-15 09:11:29",
+    "return_status": "received"
+  },
+  {
+    "return_id": "76",
+    "return_code": "RMA-2025-000076",
+    "asset_id": "54",
+    "shipment_id": "54",
+    "requested_by": "Arjun Reddy",
+    "request_date": "2025-08-17 21:10:22",
+    "approved_date": "2025-08-18 21:10:22",
+    "return_status": "received"
+  },
+  {
+    "return_id": "77",
+    "return_code": "RMA-2025-000077",
+    "asset_id": "197",
+    "shipment_id": "197",
+    "requested_by": "Ananya Rao",
+    "request_date": "2025-08-25 00:57:21",
+    "approved_date": "2025-08-26 00:57:21",
+    "return_status": "received"
+  },
+  {
+    "return_id": "78",
+    "return_code": "RMA-2025-000078",
+    "asset_id": "67",
+    "shipment_id": "67",
+    "requested_by": "Priya Sharma",
+    "request_date": "2025-08-23 05:24:05",
+    "approved_date": "2025-08-24 05:24:05",
+    "return_status": "received"
+  },
+  {
+    "return_id": "79",
+    "return_code": "RMA-2025-000079",
+    "asset_id": "107",
+    "shipment_id": "107",
+    "requested_by": "Priya Sharma",
+    "request_date": "2025-08-28 01:55:08",
+    "approved_date": "2025-08-29 01:55:08",
+    "return_status": "received"
+  },
+  {
+    "return_id": "80",
+    "return_code": "RMA-2025-000080",
+    "asset_id": "234",
+    "shipment_id": "234",
+    "requested_by": "Rahul Kumar",
+    "request_date": "2025-09-17 09:00:13",
+    "approved_date": "2025-09-18 09:00:13",
+    "return_status": "received"
+  },
+  {
+    "return_id": "81",
+    "return_code": "RMA-2025-000081",
+    "asset_id": "95",
+    "shipment_id": "95",
+    "requested_by": "Ananya Rao",
+    "request_date": "2025-09-18 02:22:54",
+    "approved_date": "2025-09-19 02:22:54",
+    "return_status": "received"
+  },
+  {
+    "return_id": "82",
+    "return_code": "RMA-2025-000082",
+    "asset_id": "136",
+    "shipment_id": "136",
+    "requested_by": "Priya Sharma",
+    "request_date": "2025-09-27 02:31:24",
+    "approved_date": "2025-09-28 02:31:24",
+    "return_status": "received"
+  },
+  {
+    "return_id": "83",
+    "return_code": "RMA-2025-000083",
+    "asset_id": "184",
+    "shipment_id": "184",
+    "requested_by": "Priya Sharma",
+    "request_date": "2025-10-06 22:45:58",
+    "approved_date": "2025-10-07 22:45:58",
+    "return_status": "received"
+  },
+  {
+    "return_id": "84",
+    "return_code": "RMA-2025-000084",
+    "asset_id": "97",
+    "shipment_id": "97",
+    "requested_by": "Arjun Reddy",
+    "request_date": "2025-10-06 22:29:43",
+    "approved_date": "2025-10-07 22:29:43",
+    "return_status": "received"
+  },
+  {
+    "return_id": "85",
+    "return_code": "RMA-2025-000085",
+    "asset_id": "220",
+    "shipment_id": "220",
+    "requested_by": "Arjun Reddy",
+    "request_date": "2025-10-07 21:27:54",
+    "approved_date": "2025-10-08 21:27:54",
+    "return_status": "received"
+  },
+  {
+    "return_id": "86",
+    "return_code": "RMA-2025-000086",
+    "asset_id": "24",
+    "shipment_id": "24",
+    "requested_by": "Arjun Reddy",
+    "request_date": "2025-10-19 17:23:06",
+    "approved_date": "2025-10-20 17:23:06",
+    "return_status": "received"
+  },
+  {
+    "return_id": "87",
+    "return_code": "RMA-2025-000087",
+    "asset_id": "68",
+    "shipment_id": "68",
+    "requested_by": "Rahul Kumar",
+    "request_date": "2025-10-21 11:07:16",
+    "approved_date": "2025-10-22 11:07:16",
+    "return_status": "received"
+  },
+  {
+    "return_id": "88",
+    "return_code": "RMA-2025-000088",
+    "asset_id": "159",
+    "shipment_id": "159",
+    "requested_by": "Priya Sharma",
+    "request_date": "2025-10-20 19:15:49",
+    "approved_date": "2025-10-21 19:15:49",
+    "return_status": "received"
+  },
+  {
+    "return_id": "89",
+    "return_code": "RMA-2025-000089",
+    "asset_id": "242",
+    "shipment_id": "242",
+    "requested_by": "Rahul Kumar",
+    "request_date": "2025-10-23 11:27:24",
+    "approved_date": "2025-10-24 11:27:24",
+    "return_status": "received"
+  },
+  {
+    "return_id": "90",
+    "return_code": "RMA-2025-000090",
+    "asset_id": "182",
+    "shipment_id": "182",
+    "requested_by": "Rahul Kumar",
+    "request_date": "2025-10-24 12:30:19",
+    "approved_date": "2025-10-25 12:30:19",
+    "return_status": "received"
+  },
+  {
+    "return_id": "91",
+    "return_code": "RMA-2025-000091",
+    "asset_id": "191",
+    "shipment_id": "191",
+    "requested_by": "Rahul Kumar",
+    "request_date": "2025-10-29 07:08:43",
+    "approved_date": "2025-10-30 07:08:43",
+    "return_status": "received"
+  },
+  {
+    "return_id": "92",
+    "return_code": "RMA-2025-000092",
+    "asset_id": "142",
+    "shipment_id": "142",
+    "requested_by": "Rahul Kumar",
+    "request_date": "2025-11-08 20:12:40",
+    "approved_date": "2025-11-09 20:12:40",
+    "return_status": "received"
+  },
+  {
+    "return_id": "93",
+    "return_code": "RMA-2025-000093",
+    "asset_id": "163",
+    "shipment_id": "163",
+    "requested_by": "Ananya Rao",
+    "request_date": "2025-11-11 12:47:07",
+    "approved_date": "2025-11-12 12:47:07",
+    "return_status": "received"
+  },
+  {
+    "return_id": "94",
+    "return_code": "RMA-2025-000094",
+    "asset_id": "200",
+    "shipment_id": "200",
+    "requested_by": "Priya Sharma",
+    "request_date": "2025-11-16 04:09:11",
+    "approved_date": "2025-11-17 04:09:11",
+    "return_status": "received"
+  },
+  {
+    "return_id": "95",
+    "return_code": "RMA-2025-000095",
+    "asset_id": "225",
+    "shipment_id": "225",
+    "requested_by": "Priya Sharma",
+    "request_date": "2025-11-18 23:25:06",
+    "approved_date": "2025-11-19 23:25:06",
+    "return_status": "received"
+  },
+  {
+    "return_id": "96",
+    "return_code": "RMA-2025-000096",
+    "asset_id": "187",
+    "shipment_id": "187",
+    "requested_by": "Ananya Rao",
+    "request_date": "2025-12-01 10:14:56",
+    "approved_date": "2025-12-02 10:14:56",
+    "return_status": "received"
+  },
+  {
+    "return_id": "97",
+    "return_code": "RMA-2025-000097",
+    "asset_id": "44",
+    "shipment_id": "44",
+    "requested_by": "Arjun Reddy",
+    "request_date": "2025-12-07 00:31:56",
+    "approved_date": "2025-12-08 00:31:56",
+    "return_status": "received"
+  },
+  {
+    "return_id": "98",
+    "return_code": "RMA-2025-000098",
+    "asset_id": "132",
+    "shipment_id": "132",
+    "requested_by": "Rahul Kumar",
+    "request_date": "2025-12-08 10:32:13",
+    "approved_date": "2025-12-09 10:32:13",
+    "return_status": "received"
+  },
+  {
+    "return_id": "99",
+    "return_code": "RMA-2025-000099",
+    "asset_id": "100",
+    "shipment_id": "100",
+    "requested_by": "Priya Sharma",
+    "request_date": "2025-12-17 12:28:25",
+    "approved_date": "2025-12-18 12:28:25",
+    "return_status": "received"
+  },
+  {
+    "return_id": "100",
+    "return_code": "RMA-2025-000100",
+    "asset_id": "101",
+    "shipment_id": "101",
+    "requested_by": "Ananya Rao",
+    "request_date": "2025-12-22 00:07:02",
+    "approved_date": "2025-12-23 00:07:02",
+    "return_status": "received"
+  },
+  {
+    "return_id": "101",
+    "return_code": "RMA-2026-STAGE6-ASSET-0000253",
+    "asset_id": "253",
+    "shipment_id": "251",
+    "requested_by": "Stage 6 Premature Receiver",
+    "request_date": "2026-10-21 15:00:00",
+    "approved_date": "2026-10-21 15:00:00",
+    "return_status": "requested"
+  },
+  {
+    "return_id": "102",
+    "return_code": "RMA-2026-STAGE6-ASSET-0000254",
+    "asset_id": "254",
+    "shipment_id": "252",
+    "requested_by": "Stage 6 Premature Receiver",
+    "request_date": "2026-10-21 15:00:00",
+    "approved_date": "2026-10-21 15:00:00",
+    "return_status": "requested"
+  }
+]

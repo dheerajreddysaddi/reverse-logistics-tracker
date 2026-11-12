@@ -1,0 +1,122 @@
+[
+  {
+    "exception_id": "EXC-2026-000001",
+    "issue_type": "MULTIPLE_ACTIVE_LOCATIONS",
+    "affected_entity": "ReusableAsset",
+    "affected_record_id": "ASSET-0000251",
+    "severity": "CRITICAL",
+    "detected_at": "2026-10-20 10:20:00",
+    "detection_result": "FLAGGED",
+    "resolution_status": "Open",
+    "resolution_notes": null,
+    "updated_at": "2026-11-12 14:01:43.849208"
+  },
+  {
+    "exception_id": "EXC-2026-000002",
+    "issue_type": "MULTIPLE_ACTIVE_LOCATIONS",
+    "affected_entity": "ReusableAsset",
+    "affected_record_id": "ASSET-0000252",
+    "severity": "CRITICAL",
+    "detected_at": "2026-10-20 11:20:00",
+    "detection_result": "FLAGGED",
+    "resolution_status": "Open",
+    "resolution_notes": null,
+    "updated_at": "2026-11-12 14:01:43.849265"
+  },
+  {
+    "exception_id": "EXC-2026-000003",
+    "issue_type": "RETURN_BEFORE_DISPATCH",
+    "affected_entity": "ReturnAuthorization",
+    "affected_record_id": "RMA-2026-STAGE6-ASSET-0000253",
+    "severity": "HIGH",
+    "detected_at": "2026-10-21 15:00:00",
+    "detection_result": "FLAGGED",
+    "resolution_status": "Open",
+    "resolution_notes": null,
+    "updated_at": "2026-11-12 14:01:43.849279"
+  },
+  {
+    "exception_id": "EXC-2026-000004",
+    "issue_type": "RETURN_BEFORE_DISPATCH",
+    "affected_entity": "ReturnAuthorization",
+    "affected_record_id": "RMA-2026-STAGE6-ASSET-0000254",
+    "severity": "HIGH",
+    "detected_at": "2026-10-21 15:00:00",
+    "detection_result": "FLAGGED",
+    "resolution_status": "Open",
+    "resolution_notes": null,
+    "updated_at": "2026-11-12 14:01:43.849290"
+  },
+  {
+    "exception_id": "EXC-2026-000005",
+    "issue_type": "DUPLICATE_REFUND",
+    "affected_entity": "DepositLedger",
+    "affected_record_id": "REF-STAGE6-A-ASSET-0000255",
+    "severity": "CRITICAL",
+    "detected_at": "2026-10-22 10:00:00",
+    "detection_result": "FLAGGED",
+    "resolution_status": "Open",
+    "resolution_notes": null,
+    "updated_at": "2026-11-12 14:01:43.849301"
+  },
+  {
+    "exception_id": "EXC-2026-000006",
+    "issue_type": "DUPLICATE_REFUND",
+    "affected_entity": "DepositLedger",
+    "affected_record_id": "REF-STAGE6-A-ASSET-0000256",
+    "severity": "CRITICAL",
+    "detected_at": "2026-10-22 10:30:00",
+    "detection_result": "FLAGGED",
+    "resolution_status": "Open",
+    "resolution_notes": null,
+    "updated_at": "2026-11-12 14:01:43.849311"
+  },
+  {
+    "exception_id": "EXC-2026-000007",
+    "issue_type": "REPAIR_WITHOUT_INSPECTION",
+    "affected_entity": "Repair",
+    "affected_record_id": "REP-2026-009000",
+    "severity": "CRITICAL",
+    "detected_at": "2026-10-23 10:00:00",
+    "detection_result": "FLAGGED",
+    "resolution_status": "Open",
+    "resolution_notes": null,
+    "updated_at": "2026-11-12 14:01:43.849321"
+  },
+  {
+    "exception_id": "EXC-2026-000008",
+    "issue_type": "REPAIR_WITHOUT_INSPECTION",
+    "affected_entity": "Repair",
+    "affected_record_id": "REP-2026-009001",
+    "severity": "CRITICAL",
+    "detected_at": "2026-10-23 11:00:00",
+    "detection_result": "FLAGGED",
+    "resolution_status": "Open",
+    "resolution_notes": null,
+    "updated_at": "2026-11-12 14:01:43.849333"
+  },
+  {
+    "exception_id": "EXC-2026-000009",
+    "issue_type": "MISSING_CUSTODY_ACTOR",
+    "affected_entity": "CustodyEvent",
+    "affected_record_id": "CUST-ASSET-0000259-000001",
+    "severity": "MEDIUM",
+    "detected_at": "2026-10-24 10:00:00",
+    "detection_result": "FLAGGED",
+    "resolution_status": "Open",
+    "resolution_notes": null,
+    "updated_at": "2026-11-12 14:01:43.849344"
+  },
+  {
+    "exception_id": "EXC-2026-000010",
+    "issue_type": "MISSING_CUSTODY_ACTOR",
+    "affected_entity": "CustodyEvent",
+    "affected_record_id": "CUST-ASSET-0000260-000001",
+    "severity": "MEDIUM",
+    "detected_at": "2026-10-24 10:45:00",
+    "detection_result": "FLAGGED",
+    "resolution_status": "Open",
+    "resolution_notes": null,
+    "updated_at": "2026-11-12 14:01:43.849353"
+  }
+]

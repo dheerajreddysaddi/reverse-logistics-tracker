@@ -1,0 +1,23 @@
+[
+  {
+    "owner_id": "1",
+    "owner_name": "ABC Logistics",
+    "owner_type": "internal",
+    "contact_email": "contact@abclogistics.example",
+    "is_active": "True"
+  },
+  {
+    "owner_id": "2",
+    "owner_name": "Global Packaging",
+    "owner_type": "supplier",
+    "contact_email": "contact@globalpackaging.example",
+    "is_active": "True"
+  },
+  {
+    "owner_id": "3",
+    "owner_name": "Reliable Supply Co",
+    "owner_type": "customer",
+    "contact_email": "contact@reliablesupply.example",
+    "is_active": "True"
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "asset_type_id": "1",
+    "type_name": "Reusable Plastic Pallet",
+    "description": "Heavy-duty reusable plastic transport pallet.",
+    "expected_return_days": "30",
+    "deposit_amount": "1500.00",
+    "is_active": "True"
+  },
+  {
+    "asset_type_id": "2",
+    "type_name": "Industrial Crate",
+    "description": "Reusable industrial goods transportation crate.",
+    "expected_return_days": "21",
+    "deposit_amount": "800.00",
+    "is_active": "True"
+  },
+  {
+    "asset_type_id": "3",
+    "type_name": "Reusable Shipping Box",
+    "description": "Reusable box for product distribution.",
+    "expected_return_days": "14",
+    "deposit_amount": "300.00",
+    "is_active": "True"
+  },
+  {
+    "asset_type_id": "4",
+    "type_name": "Logistics Container",
+    "description": "Reusable container for bulk material movement.",
+    "expected_return_days": "45",
+    "deposit_amount": "5000.00",
+    "is_active": "True"
+  },
+  {
+    "asset_type_id": "5",
+    "type_name": "Material Handling Equipment",
+    "description": "Reusable warehouse handling equipment.",
+    "expected_return_days": "30",
+    "deposit_amount": "2500.00",
+    "is_active": "True"
+  }
+]

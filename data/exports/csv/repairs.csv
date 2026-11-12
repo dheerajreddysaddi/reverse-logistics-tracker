@@ -1,0 +1,13 @@
+repair_id,repair_code,asset_id,inspection_id,repair_description,repair_cost,repair_status,opened_at,closed_at
+1,REP-2026-000001,6,10,Refurbishment completed: damaged components replaced and asset tested.,1231.27,completed,2024-01-04 15:22:52,2024-01-06 15:22:52
+2,REP-2026-000002,202,13,Refurbishment completed: damaged components replaced and asset tested.,2319.46,completed,2024-02-04 10:13:55,2024-02-06 10:13:55
+3,REP-2026-000003,63,25,Refurbishment completed: damaged components replaced and asset tested.,874.70,completed,2024-05-26 06:20:32,2024-05-30 06:20:32
+4,REP-2026-000004,183,26,Refurbishment completed: damaged components replaced and asset tested.,1807.30,completed,2024-05-31 02:35:07,2024-06-02 02:35:07
+5,REP-2026-000005,139,43,Refurbishment completed: damaged components replaced and asset tested.,1994.18,completed,2024-11-09 10:04:54,2024-11-11 10:04:54
+6,REP-2026-000006,77,50,Refurbishment completed: damaged components replaced and asset tested.,1131.89,completed,2025-03-02 11:20:00,2025-03-04 11:20:00
+7,REP-2026-000007,5,60,Refurbishment completed: damaged components replaced and asset tested.,927.16,completed,2025-05-27 02:09:32,2025-05-30 02:09:32
+8,REP-2026-000008,242,89,Refurbishment completed: damaged components replaced and asset tested.,2309.97,completed,2025-10-27 11:27:24,2025-10-29 11:27:24
+9,REP-2026-000009,191,91,Refurbishment completed: damaged components replaced and asset tested.,2001.07,completed,2025-11-01 07:08:43,2025-11-04 07:08:43
+10,REP-2026-000010,142,92,Refurbishment completed: damaged components replaced and asset tested.,1425.34,completed,2025-11-12 20:12:40,2025-11-17 20:12:40
+11,REP-2026-009000,257,,STAGE6:ANOM-04 repair without inspection: structural overhaul closed without diagnostic assessment,1850.00,completed,2026-10-23 10:00:00,2026-10-25 10:00:00
+12,REP-2026-009001,258,,STAGE6:ANOM-04 repair without inspection: structural overhaul closed without diagnostic assessment,1850.00,completed,2026-10-23 11:00:00,2026-10-25 11:00:00

@@ -1,0 +1,4 @@
+owner_id,owner_name,owner_type,contact_email,is_active
+1,ABC Logistics,internal,contact@abclogistics.example,True
+2,Global Packaging,supplier,contact@globalpackaging.example,True
+3,Reliable Supply Co,customer,contact@reliablesupply.example,True

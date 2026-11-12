@@ -9,6 +9,12 @@ or deletes the database.
 """
 
 import argparse
+import os
+import sys
+
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+if BASE_DIR not in sys.path:
+    sys.path.insert(0, BASE_DIR)
 
 from src.database.connection import SessionLocal
 from src.database.models import (
@@ -116,10 +122,10 @@ def reproduce_all(scale: str, seed: int) -> None:
     print("\n[5/6] Injecting and detecting anomalies...")
     run_anomalies.run()
 
-    print("\n[6/7] Evaluating anomaly detection against ground truth...")
+    print("\n[6/9] Evaluating anomaly detection against ground truth...")
     run_evaluation.run()
 
-    print("\n[7/7] Running 12 automated data validation checks...")
+    print("\n[7/9] Running 12 automated data validation checks...")
     from src.services.validation_engine import ValidationEngine
     v_db = SessionLocal()
     try:
@@ -127,6 +133,15 @@ def reproduce_all(scale: str, seed: int) -> None:
         print(f"[VALIDATION] Data Quality Score: {val_rep['data_quality_percentage']:.1f}% ({val_rep['passed_checks']}/{val_rep['total_checks']} checks passed)")
     finally:
         v_db.close()
+
+    print("\n[8/9] Exporting entity datasets to CSV, JSON, and SQL...")
+    from scripts.export_all import export_all
+    export_all()
+
+    print("\n[9/9] Running reproducibility verification against seed...")
+    from scripts.reproducibility import verify_reproducibility
+    repro_rep = verify_reproducibility(scale=scale, seed=seed)
+    print(f"[REPRODUCIBILITY] Verification Result: {repro_rep['overall_reproducibility_result']}")
 
     print_database_summary()
 

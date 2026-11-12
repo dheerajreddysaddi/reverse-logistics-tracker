@@ -1,0 +1,38 @@
+[
+  {
+    "location_id": "1",
+    "location_name": "Hyderabad Central Warehouse",
+    "location_type": "warehouse",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "country": "India",
+    "is_active": "True"
+  },
+  {
+    "location_id": "2",
+    "location_name": "Bengaluru Distribution Center",
+    "location_type": "distribution_center",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "country": "India",
+    "is_active": "True"
+  },
+  {
+    "location_id": "3",
+    "location_name": "Mumbai Supplier Hub",
+    "location_type": "supplier",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "country": "India",
+    "is_active": "True"
+  },
+  {
+    "location_id": "4",
+    "location_name": "Chennai Customer Facility",
+    "location_type": "customer",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "is_active": "True"
+  }
+]

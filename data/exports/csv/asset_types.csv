@@ -1,0 +1,6 @@
+asset_type_id,type_name,description,expected_return_days,deposit_amount,is_active
+1,Reusable Plastic Pallet,Heavy-duty reusable plastic transport pallet.,30,1500.00,True
+2,Industrial Crate,Reusable industrial goods transportation crate.,21,800.00,True
+3,Reusable Shipping Box,Reusable box for product distribution.,14,300.00,True
+4,Logistics Container,Reusable container for bulk material movement.,45,5000.00,True
+5,Material Handling Equipment,Reusable warehouse handling equipment.,30,2500.00,True

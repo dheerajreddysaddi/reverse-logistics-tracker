@@ -1,0 +1,5 @@
+location_id,location_name,location_type,city,state,country,is_active
+1,Hyderabad Central Warehouse,warehouse,Hyderabad,Telangana,India,True
+2,Bengaluru Distribution Center,distribution_center,Bengaluru,Karnataka,India,True
+3,Mumbai Supplier Hub,supplier,Mumbai,Maharashtra,India,True
+4,Chennai Customer Facility,customer,Chennai,Tamil Nadu,India,True
