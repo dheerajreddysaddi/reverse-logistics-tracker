@@ -1,163 +1,231 @@
 # Reverse Logistics & Asset Custody Control Tower
 
-> **Enterprise Operations Platform for Reusable Asset Custody, Reverse Logistics & Financial Reconciliation.**  
-> An end-to-end operational visibility platform to coordinate return merchandise, reusable containers, pallets, and equipment across multi-facility custody transitions.
+A working reverse logistics and asset custody control tower that tracks return merchandise, packaging, and custody transitions across locations; flags operational anomalies with explainable rules; and lets logistics operators record exception resolution decisions.
+
+A flagged anomaly means **review recommended**, never operational fraud or intentional negligence proven.
+
+All data is synthetic and generated locally using a fixed seed (`20261022`). No real commercial or personal data is used.
 
 ---
 
-## 🌟 Executive Overview & Capabilities
+## Live Demo
 
-The Reverse Logistics Control Tower is an enterprise three-tier operations platform engineered specifically for reusable assets (pallets, smart containers, specialized totes, server hardware, and return merchandise).
+**Live application:** [reverse-logistics-tracker.streamlit.app](https://reverse-logistics-tracker.streamlit.app/)
 
-| Domain | What the Platform Delivers |
-|---|---|
-| **Executive Control Tower** | 10 real-time operational KPIs, asset lifecycle distribution, condition breakdown, and deposit settlement trends. |
-| **Asset Custody & Trajectory** | Reconstructs point-in-time custody from append-only events, pinpoints current custodian, and plots interactive GIS transit routes. |
-| **Reverse Logistics & Triage** | Return Merchandise Authorizations (RMA), weighted diagnostic inspection grading (Grades A/B/C/F), repair tracking, and outstanding age calculations. |
-| **Exception Management Hub** | Detects the **5 Mandatory Reverse Logistics Edge Cases** with full root-cause analysis, operator review workflows, and immutable audit logs. |
-| **Automated Data Validation** | 12 automated checks verifying relational integrity, date ordering, foreign keys, lifecycle rules, and deposit reconciliation with a 100% Quality Score. |
-| **REST API & Interoperability** | Production-grade FastAPI endpoints with OpenAPI Swagger docs (`/docs`), pagination, and barcode/RFID custody scan ingestion. |
-| **Reproducibility & Provenance** | Seeded synthetic generation (`seed=20261022`) scaling from starter mode (500 assets) to full scale (20,000 assets, 10,000 shipments, 100,000 events). |
+The app runs on Streamlit Community Cloud with automatic database bootstrapping.
+
+### How to explore it
+
+1. Open the live application. If it was idle, Streamlit may show a wake-up screen; wait a moment for it to start.
+2. **Executive Control Tower:** see fleet-wide KPIs, active dispatches, asset condition breakdown, and deposit escrow balances.
+3. **Asset Trajectory & GIS Map:** search any asset (e.g. `ASSET-0000001` or `AST-000001`) to view its chronological custody timeline and interactive GIS map between logistics hubs.
+4. **Return & Repair Management:** review return authorizations (RMAs), turnaround aging, inspection grading (A/B/C/F), and repair cost telemetry.
+5. **Exception Management Hub:** review flagged anomalies across the 5 mandatory edge cases and test the operator status resolution workflow (`Open` $\rightarrow$ `Under Review` $\rightarrow$ `Resolved`).
+6. **Data Quality & Model Scorecard:** inspect the 12 automated integrity checks and benchmark detection against ground truth.
+7. **Reports & Data Exports:** generate filtered CSV and JSON downloads.
+
+### Demo notes
+
+- All records are synthetic; no real enterprise or customer data is processed.
+- Anomaly alerts indicate that operational triage is recommended.
+- Evaluation metrics measure detection performance against known injected patterns in the synthetic benchmark dataset, not real-world warehouse logistics.
+- If the hosted app is temporarily unavailable, follow the local setup instructions below.
 
 ---
 
-## 🏛️ Three-Tier Architecture
+## Features
+
+- **Deterministic data generator:** seed `20261022`; starter mode creates 500 assets, 250 shipments, and 2,500 custody events; full scale mode expands to 20,000 assets, 10,000 shipments, and 100,000 events.
+- **Normalized three-tier relational schema:** 10 core entities (`owners`, `locations`, `asset_types`, `reusable_assets`, `shipments`, `custody_events`, `return_authorizations`, `inspections`, `repairs`, `deposit_ledger`) plus `operational_exceptions`.
+- **Append-only custody reconstruction:** point-in-time custody is reconstructed dynamically from chronological events, preserving complete audit trails without overwriting location columns.
+- **Explainable operational anomaly rules:** detects the 5 mandatory reverse-logistics edge cases with structured root-cause evidence.
+- **Double-entry deposit ledger:** tracks security deposits charged, refunded, and forfeited, preventing duplicate or premature refunds.
+- **Diagnostic condition grading:** composite scoring evaluates cosmetic and functional inspection scores into Grades A, B, C, or F with automatic restock or repair dispatch.
+- **Automated data validation engine:** 12 automated integrity checks verifying referential integrity, date ordering, foreign keys, lifecycle rules, and ledger balance.
+- **Interactive operations dashboard:** 6 specialized operational workspaces with GIS route visualization.
+- **REST API:** FastAPI service with OpenAPI Swagger documentation (`/docs`) for warehouse scanning and external ERP/WMS integration.
+- **Automated test suite:** 20 unit and integration tests executing in under 1 second.
+
+---
+
+## Architecture
 
 ```mermaid
-flowchart TB
-  subgraph TIER1["Tier 1: Presentation Layer (Streamlit SaaS)"]
-    DASH["Executive Control Tower (10 KPIs & Charts)"]
-    TRAJ["Asset Trajectory & GIS Map Explorer"]
-    RMA_UI["Return Authorization & Repair Triage"]
-    EXC_UI["Exception Management & Resolution Hub"]
-    VAL_UI["Data Quality Scorecard & Benchmark"]
-    EXP_UI["One-Click CSV/JSON Reports & Exports"]
-  end
-
-  subgraph TIER2["Tier 2: Business & Application Logic (Python Services)"]
-    API["FastAPI REST API (/api/v1)"]
-    LIFE["Lifecycle Engine & State Machine"]
-    CUST["Custody Reconstruction Service"]
-    REV["Reverse Logistics & Deposit Service"]
-    ANOM["Anomaly Detection Engine (5 Mandatory Scenarios)"]
-    EVAL["Ground-Truth Evaluation Engine"]
-    VAL["Automated Validation Engine (12 Checks)"]
-  end
-
-  subgraph TIER3["Tier 3: Relational Persistence Layer (SQLite / SQLAlchemy)"]
-    DB[(Normalized Relational DB - 10 Core Entities + Exceptions)]
-    MASTER["Master Data: Owners, Locations, Asset Types"]
-    OPS["Operations: Reusable Assets, Shipments, Custody Events"]
-    FIN["Finance & Recovery: RMAs, Inspections, Repairs, Deposit Ledger, Exceptions"]
-  end
-
-  TIER1 --> TIER2
-  TIER2 --> TIER3
+flowchart LR
+    G[data_generator] --> DB[(SQLite Database)]
+    G --> GT[ground_truth JSON/CSV]
+    DB --> V[validation_engine]
+    DB --> L[lifecycle_engine]
+    DB --> A[anomaly_detector]
+    DB --> C[custody_service]
+    A --> OE[(operational_exceptions)]
+    OE --> UI[Streamlit Control Tower]
+    C --> UI
+    L --> UI
+    V --> UI
+    GT --> E[evaluation_engine]
+    E --> UI
+    DB --> API[FastAPI REST API]
+    API --> DOCS[OpenAPI Swagger]
 ```
 
----
-
-## 🗄️ Database Entities & Relational Schema
-
-The platform models the complete circular economy lifecycle across 10 core relational tables plus operational exceptions:
-
-1. **`owners`**: Internal operators, suppliers, and commercial customers.
-2. **`locations`**: Warehouses, distribution centers, transit hubs, and supplier docks.
-3. **`asset_types`**: Reusable asset categories, specifications, return thresholds, and base deposit amounts.
-4. **`reusable_assets`**: Individually barcoded/RFID-serialized physical assets with active lifecycle states.
-5. **`shipments`**: Origin-to-destination transit movements with carrier tracking and dispatch/delivery dates.
-6. **`custody_events`**: Immutable chronological audit log recording every transfer, dispatch, scan, or intake.
-7. **`return_authorizations`**: Return authorizations (RMAs) tracking return requests, approval, and outstanding days.
-8. **`inspections`**: Physical condition grading (Cosmetic 1-10, Functional 1-10) generating Grades A, B, C, or F.
-9. **`repairs`**: Refurbishment work orders tracking parts, labor, and completion dates.
-10. **`deposit_ledger`**: Double-entry financial audit trail recording deposits charged, refunded, or forfeited.
-11. **`operational_exceptions`**: Persistent anomaly audit registry supporting operator review and resolution tracking.
+The anomaly detector reads database tables and writes explainable findings to `operational_exceptions`. Only the evaluation module reads the ground-truth answer key, strictly after detection runs.
 
 ---
 
-## 🚨 The Five Mandatory Anomaly Scenarios
+## Entity Relationships
 
-The platform implements strict anomaly detection algorithms to catch high-impact logistics and financial discrepancies:
+```mermaid
+erDiagram
+    OWNER ||--o{ REUSABLE_ASSET : owns
+    ASSET_TYPE ||--o{ REUSABLE_ASSET : classifies
+    LOCATION ||--o{ SHIPMENT : origin
+    LOCATION ||--o{ SHIPMENT : destination
+    REUSABLE_ASSET ||--o{ CUSTODY_EVENT : records
+    SHIPMENT o|--o{ CUSTODY_EVENT : "associated with"
+    REUSABLE_ASSET ||--o{ RETURN_AUTHORIZATION : "returned under"
+    SHIPMENT o|--o{ RETURN_AUTHORIZATION : "associated with"
+    REUSABLE_ASSET ||--o{ INSPECTION : inspected
+    RETURN_AUTHORIZATION o|--o{ INSPECTION : "assessed for"
+    INSPECTION ||--o{ REPAIR : "may require"
+    REUSABLE_ASSET ||--o{ REPAIR : repaired
+    REUSABLE_ASSET ||--o{ DEPOSIT_LEDGER : "financial history"
+    SHIPMENT o|--o{ DEPOSIT_LEDGER : "associated with"
+    REUSABLE_ASSET ||--o{ OPERATIONAL_EXCEPTION : "flags"
+```
 
-| Scenario | Issue Type | Detection Logic | Expected Decision |
-|---|---|---|---|
-| **Case 1: Multiple Active Locations** | `MULTIPLE_ACTIVE_LOCATIONS` | Great-circle Haversine speed exceeding 600 mph between consecutive scans, or concurrent active in-transit shipments. | QUARANTINE_ASSET |
-| **Case 2: Return Before Dispatch** | `RETURN_BEFORE_DISPATCH` | Return authorization requested or intaken before the original shipment was dispatched. | HOLD_RETURN_INTAKE |
-| **Case 3: Duplicate Deposit Refund** | `DUPLICATE_REFUND` | Multiple refunds issued for the same deposit, refunds issued before inspection, or cumulative refunds exceeding deposit. | FREEZE_LEDGER_TRANSACTION |
-| **Case 4: Repair Without Inspection** | `REPAIR_WITHOUT_INSPECTION` | Hardware repair work order closed or completed without a preceding diagnostic intake inspection. | REOPEN_INSPECTION_WORKFLOW |
-| **Case 5: Missing Custody Actor** | `MISSING_CUSTODY_ACTOR` | Custody handoff or physical scan recorded without a verified operator or actor ID. | REASSIGN_CUSTODY_AUDITOR |
-
-Operators can review, update status (`Open` $\rightarrow$ `Under Review` $\rightarrow$ `Resolved`), and add audit resolution notes in the **Exception Management Hub** without deleting historical records.
-
----
-
-## 🎯 Ground-Truth Evaluation Metrics
-
-Measured against the separate ground-truth dataset (`data/processed/ground_truth.json` and `data/processed/ground_truth.csv`):
-
-- **Total Evaluated Assets:** 500
-- **Ground Truth Anomalies:** 10
-- **Clean Assets:** 490
-- **Confusion Matrix:** True Positives (TP): 10, False Positives (FP): 0, False Negatives (FN): 0, True Negatives (TN): 490
-- **Detection Accuracy:** **100.00%**
-- **Precision:** **100.00%**
-- **Recall:** **100.00%**
-- **F1-Score:** **1.000**
-- **Specificity:** **100.00%**
+Foreign keys are strictly enforced by the relational schema (`PRAGMA foreign_keys = ON;`). Detailed entity attributes, constraints, and lifecycle transitions are documented in [`docs/data_dictionary.md`](docs/data_dictionary.md) and [`docs/schema.md`](docs/schema.md).
 
 ---
 
-## 🚀 Quick Start Guide
+## Technology Stack
+
+- **Python 3.11:** runtime environment.
+- **Streamlit:** operations dashboard and presentation tier.
+- **FastAPI & Uvicorn:** high-performance asynchronous REST API.
+- **SQLAlchemy:** relational ORM and SQL expression engine.
+- **SQLite (WAL Mode):** local persistent transactional storage.
+- **Pydantic v2:** request/response schema validation.
+- **Folium & Plotly:** interactive GIS route mapping and metric charts.
+- **Pytest:** automated unit and integration testing suite.
+
+---
+
+## Operational Exception Rules
+
+The platform implements five explicit, explainable operational exception rules:
+
+| Rule ID | Issue Type | Category | Detection Logic | Severity | Expected Operator Action |
+|---|---|---|---|---|---|
+| **ANOM-01** | `MULTIPLE_ACTIVE_LOCATIONS` | Physical / Spatial | Haversine velocity $> 600\text{ mph}$ between consecutive scans, or concurrent active shipments. | `CRITICAL` | `QUARANTINE_ASSET` |
+| **ANOM-02** | `RETURN_BEFORE_DISPATCH` | Process / Ordering | RMA intake or request timestamp precedes the original shipment dispatch date. | `HIGH` | `HOLD_RETURN_INTAKE` |
+| **ANOM-03** | `DUPLICATE_REFUND` | Financial / Ledger | Multiple refunds issued for the same deposit, refund without inspection, or refund exceeding deposit. | `CRITICAL` | `FREEZE_LEDGER_TRANSACTION` |
+| **ANOM-04** | `REPAIR_WITHOUT_INSPECTION` | Compliance / Quality | Repair work order opened or completed without a preceding diagnostic intake inspection. | `MEDIUM` | `REOPEN_INSPECTION_WORKFLOW` |
+| **ANOM-05** | `MISSING_CUSTODY_ACTOR` | Audit / Accountability | Custody handoff or physical scan recorded without an authorized operator identifier. | `MEDIUM` | `REASSIGN_CUSTODY_AUDITOR` |
+
+Operators can review exceptions, update resolution status (`Open` $\rightarrow$ `Under Review` $\rightarrow$ `Resolved`), and append audit resolution notes directly within the **Exception Management Hub**.
+
+---
+
+## Evaluation & Benchmarks
+
+The evaluation unit is the physical asset (500 assets in starter mode, 20,000 in full scale).
+
+- **Precision** = $\frac{\text{TP}}{\text{TP} + \text{FP}}$
+- **Recall** = $\frac{\text{TP}}{\text{TP} + \text{FN}}$
+- **F1-Score** = $\frac{2 \times \text{Precision} \times \text{Recall}}{\text{Precision} + \text{Recall}}$
+- **Specificity** = $\frac{\text{TN}}{\text{TN} + \text{FP}}$
+
+### Benchmark Results (Seed: `20261022`, Starter Scale: 500 Assets)
+
+| Metric | Rule ANOM-01 | Rule ANOM-02 | Rule ANOM-03 | Rule ANOM-04 | Rule ANOM-05 | Overall System |
+|---|---:|---:|---:|---:|---:|---:|
+| **True Positives (TP)** | 2 | 2 | 2 | 2 | 2 | **10** |
+| **False Positives (FP)** | 0 | 0 | 0 | 0 | 0 | **0** |
+| **False Negatives (FN)** | 0 | 0 | 0 | 0 | 0 | **0** |
+| **True Negatives (TN)** | 498 | 498 | 498 | 498 | 498 | **490** |
+| **Precision** | 1.000 | 1.000 | 1.000 | 1.000 | 1.000 | **1.000** |
+| **Recall** | 1.000 | 1.000 | 1.000 | 1.000 | 1.000 | **1.000** |
+| **F1-Score** | 1.000 | 1.000 | 1.000 | 1.000 | 1.000 | **1.000** |
+| **Specificity** | 1.000 | 1.000 | 1.000 | 1.000 | 1.000 | **1.000** |
+
+*Note on Interpretation:* These results compare detection output with synthetic anomaly labels deliberately injected into generated records. They verify that the detection logic reliably identifies the target edge cases under controlled conditions; they do not establish detection performance on live, unstructured logistics telemetry.
+
+---
+
+## Known Limitations
+
+- **Heuristic Travel Thresholds:** The 600 mph velocity threshold detects impossible movement but does not account for specific airline hub schedules or regional road speed limits.
+- **Demo Identity Management:** The current implementation uses session-based operator names for audit logging. Enterprise deployment requires SSO integration (OAuth2/OIDC).
+- **Relational Storage:** SQLite in WAL mode is configured for lightweight, zero-dependency local evaluation. High-throughput production deployments require migration to a distributed relational database (e.g. PostgreSQL).
+- **Synthetic Ground Truth:** Synthetic anomaly labels reflect known injected patterns rather than messy, ambiguous real-world return discrepancies.
+
+---
+
+## AI Usage and Data Provenance
+
+- See [`AI_USAGE.md`](AI_USAGE.md) for transparent disclosure of AI assistance and prompt history.
+- See [`docs/source_manifest.md`](docs/source_manifest.md) for complete data provenance and software licensing.
+- See [`DESIGN_DECISIONS.md`](DESIGN_DECISIONS.md) for architectural trade-offs and rationale.
+
+AI tools supported parts of the development process. All architectural decisions, data models, business rules, validation checks, and test results were evaluated, implemented, and verified by the author.
+
+---
+
+## Quickstart & Local Setup
 
 ### 1. Environment Setup
 ```bash
-# Clone or navigate into repository
+# Clone repository
+git clone https://github.com/dheerajreddysaddi/reverse-logistics-tracker.git
 cd reverse-logistics-tracker
 
 # Create and activate virtual environment
-python3 -m venv .venv
+python3.11 -m venv .venv
 source .venv/bin/activate
 
-# Install pinned dependencies
+# Install dependencies
 python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
 ```
 
-### 2. Execute Deterministic Reproduction Pipeline
+### 2. Reproduce Deterministic Dataset & Run Benchmarks
 ```bash
-# Reproduce starter scale (500 assets, seed=20261022)
+# Starter mode (500 assets, seed=20261022)
 python -m scripts.reproduce_all --scale starter --seed 20261022
 
-# Optional: Reproduce full enterprise scale (20,000 assets, 10,000 shipments, 100,000 events)
+# Optional: Full enterprise scale (20,000 assets, 10,000 shipments, 100,000 events)
 python -m scripts.reproduce_all --scale full --seed 20261022
 ```
 
-### 3. Run Automated Pytest Suite
+### 3. Run Automated Tests
 ```bash
-pytest -v
+pytest tests/test_logistics.py -v
 ```
-*(All 20 unit and integration tests execute and pass in under 1 second).*
+All 20 unit and integration tests pass in under 1 second.
 
-### 4. Launch FastAPI Server
+### 4. Launch REST API
 ```bash
-uvicorn src.api.main:app --reload --port 8000
+uvicorn src.api.main:app --reload --host 127.0.0.1 --port 8000
 ```
 - Interactive Swagger UI: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
-- Health Check: [http://127.0.0.1:8000/api/v1/health](http://127.0.0.1:8000/api/v1/health)
+- Health check: [http://127.0.0.1:8000/api/v1/health](http://127.0.0.1:8000/api/v1/health)
 
-### 5. Launch Streamlit Operations Control Tower
+### 5. Launch Operations Control Tower
 ```bash
 streamlit run src/dashboard/app.py
 ```
-- Dashboard URL: [http://localhost:8501](http://localhost:8501)
+Opens in your browser at [http://localhost:8501](http://localhost:8501) (or `http://127.0.0.1:8501`).
 
 ---
 
-## 🎙️ Two-Minute Demonstration Script
+## Troubleshooting
 
-1. **Problem (15s):** Enterprises lose billions annually in circular supply chains due to misplaced packaging, ghost inventory, unauthorized returns, and duplicate deposit refunds.
-2. **Solution (20s):** The Reverse Logistics Control Tower delivers an intelligent platform that coordinates assets, shipments, custody handoffs, inspections, and deposit accounting in a unified three-tier architecture.
-3. **Custody & Trajectory (25s):** Using event-sourcing principles, the platform never overwrites location history. Instead, our Custody Reconstruction Service reconstructs the point-in-time journey, current custodian, and geographical route across transit hubs.
-4. **Triage & Finance (25s):** Intake inspections grade assets from Grade A to F, automatically dispatching damaged units to repairs and settling security deposits into an immutable double-entry ledger.
-5. **Anomaly Engine (25s):** Our rule engine catches all 5 mandatory supply chain edge cases—teleportation, return before dispatch, duplicate refunds, repairs without inspection, and missing actors—scoring 100% Precision and Recall against ground truth.
-6. **Impact (10s):** The platform increases asset recovery by 35%, eliminates deposit leakage, and provides complete audit compliance.
+| Problem | Root Cause | Solution |
+|---|---|---|
+| `Safari can't connect to server` | Safari defaults to `https://` or attempts IPv6 `::1` resolution on `localhost`. | Open `http://127.0.0.1:8501` directly with explicit `http://`, or use Google Chrome. |
+| `Port 8501 is busy` | A previous Streamlit process is still listening. | Run `lsof -i :8501` to find PID, then `kill -9 <PID>`. |
+| `Port 8000 is busy` | A previous FastAPI/Uvicorn process is listening. | Run `lsof -i :8000` to find PID, then `kill -9 <PID>`. |
+| `ModuleNotFoundError` | Virtual environment is not activated or packages are uninstalled. | Run `source .venv/bin/activate` followed by `pip install -r requirements.txt`. |
+| `pyarrow / NumPy warning` | Minor version mismatch between binary packages. | Dependencies are pinned in `requirements.txt`; run `pip install -r requirements.txt`. |
+| Hosted app waking up slowly | Streamlit Community Cloud spins down idle containers. | Wait 30 seconds for the container to initialize and refresh once. |
